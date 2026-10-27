@@ -799,7 +799,8 @@
             android:name=".webapp.InstallWebAppActivity"
             android:exported="false"
             android:excludeFromRecents="true"
-            android:theme="@style/Theme.Material3.DayNight.Dialog" />
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
 
         <activity
             android:name=".shortcuts.KeyboardShortcutsActivity"
