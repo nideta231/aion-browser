@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">ilo %s pi nasin len</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">ilo %s (nasin len)</string>
   <!--
     Home Fragment
@@ -51,8 +51,8 @@
   <string name="home_bookmarks_show_all_content_description">o lukin e lipu awen ale</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">o weka</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">kulupu Mozilla li pali e ilo %1$s.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">kulupu Nath li pali e ilo %1$s.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">o kama sona pona e nasin len</string>
   <!--
@@ -79,7 +79,7 @@
   <string name="tab_tray_inactive_auto_close_title">poki o weka ala weka lon tenpo mun wan?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">sina lukin ala e poki lon tenpo suli la ilo %1$s li ken weka e ona.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -180,12 +180,12 @@
   <string name="browser_menu_share">o pana</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">o open lon ilo %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">ilo %1$s li ken e mi</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -218,12 +218,12 @@
   <string name="browser_menu_print_2">o pana tawa lipu kasi</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">o weka tan ilo %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">o open e lipu ale kepeken ilo %1$s</string>
   <!--
@@ -279,26 +279,26 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">o pini</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">o pana e pona tawa ilo Firefox</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">o pana e pona tawa ilo Aion</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">o sona</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">pona</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">o kama pona tawa ilo Firefox</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">o kama pona tawa ilo Aion</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">sina kepeken ilo ni la %1$s li lawa e sina.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">nasin kepeken pi ilo Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">ilo Firefox li wile awen e len sina. o lukin e %1$s</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">nasin kepeken pi ilo Aion</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">ilo Aion li wile awen e len sina. o lukin e %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">toki lawa pi len sona</string>
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">o open e poki sin %1$s</string>
   <!-- Text preview for smaller sized widgets -->
@@ -325,15 +325,15 @@
   <string name="preferences_search">ilo alasa</string>
   <!-- Preference for settings related to Search engines -->
   <string name="preferences_search_engines">ilo alasa</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ilo Firefox Suggest la poki alasa</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">o sona e ilo Firefox Suggest</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ilo Aion Suggest la poki alasa</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">o sona e ilo Aion Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">o pana e pilin lon ilo Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">sona pi ilo %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -479,8 +479,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">ilo namako sin li lon</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">o alasa e ilo namako mute a. ona li ken nasin sina e ilo Firefox.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">o alasa e ilo namako mute a. ona li ken nasin sina e ilo Aion.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">o alasa e ilo namako</string>
   <!--
@@ -707,7 +707,7 @@
   <string name="collection_name_hint">nimi kulupu</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">o weka e ni tan lukin pini</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">ilo %1$s la nasin len</string>
   <!-- Label for adding to a new tab group. -->
   <string name="add_to_new_tab_group_title">kulupu poki sin</string>
@@ -819,7 +819,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">pakala la ilo %1$s li ken ala pana e lipu ni.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1001,14 +1001,14 @@
   <!-- Text displayed when sync is offline and cannot be accessed -->
   <string name="sync_offline">linja ala</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">pana lipu la o kama tawa ilo Firefox lon ilo ante</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">pana lipu la o kama tawa ilo Aion lon ilo ante</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">mi sona</string>
   <!-- Add new device screen title -->
   <string name="sync_add_new_device_title">o pana tawa ilo ante</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\nmi pana e ni tan ilo %2$s 🦊 o kepeken e ilo alasa ni: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\nmi toki e ni tan ilo %2$s 🦊 %3$s</string>
   <!--
     Notifications
@@ -1025,12 +1025,12 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">ilo Firefox li awen suli</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">ilo Aion li awen suli</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">o open e lipu ale kepeken ilo Firefox</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">o open e lipu ale kepeken ilo Aion</string>
   <!-- Preference for not taking the short survey. -->
   <string name="preferences_not_take_survey">mi wile ala</string>
   <!--
@@ -1047,7 +1047,7 @@
   <string name="snackbar_deleted_undo">O NI ALA</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">ilo %1$s li ken ala ken open e lipu %2$s?</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1091,8 +1091,8 @@
   <string name="sign_in_with_camera">o lon sijelo kepeken ilo lukin</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">o kepeken nimi nasin pi poki lipu</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[sina jo ala e sijelo anu seme? <u>o open e sijelo</u> tawa ni: sina ken sama e ilo sina lon nasin Firefox.]]></string>
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[sina jo ala e sijelo anu seme? <u>o open e sijelo</u> tawa ni: sina ken sama e ilo sina lon nasin Aion.]]></string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">o sona</string>
   <!-- Preference for enhanced tracking protection for the standard protection settings -->
@@ -1107,11 +1107,11 @@
     Preference for enhanced tracking protection for the custom protection settings for cookies
   -->
   <string name="preference_enhanced_tracking_protection_custom_cookies">ilo jo pi sona sina</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">ilo %s la seme li sin</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">ilo %s la ilo open pi sona nanpa</string>
   <!-- Text displayed for "Default provider" under "DNS over HTTPS" providers -->

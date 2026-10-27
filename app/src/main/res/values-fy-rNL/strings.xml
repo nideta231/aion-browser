@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Privee %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (Privee)</string>
   <!--
     Home Fragment
@@ -39,7 +39,7 @@
   <string name="application_search_hint">Fier syktermen yn</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">Priveenavigaasje</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s sil gjin skiednis of cookies ûnthâlde, mar nije blêdwizers sille bewarre wurde.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">Meitsje in nij ljepblêd oan om te begjinnen mei sykjen</string>
@@ -73,8 +73,8 @@
   <string name="home_bookmarks_show_all_content_description">Alle blêdwizers toane</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Fuortsmite</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s is makke troch Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s is makke troch Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Faaks hearde myten oer priveenavigaasje</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">Lit gjin spoaren efter op dit apparaat</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s smyt jo cookies, skiednis en websitegegevens fuort wannear’t jo al jo priveeljepblêden slute.</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Jo kinne %1$s ynstelle om keppelingen automatysk yn apps te iepenjen.</string>
   <!-- Text for the positive action button -->
@@ -126,7 +126,7 @@
   <string name="tab_tray_inactive_auto_close_title">Automatysk slute nei in moanne?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s kin ljepblêden dy\'t jo de ôfrûne moanne net besjoen hawwe slute.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -237,12 +237,12 @@
   <string name="browser_menu_homepage">Startside</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Iepenje yn %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Mooglik makke troch %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -303,12 +303,12 @@
   <string name="browser_menu_print_2">Ofdrukke</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s ôfslute</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">Meitsje %1$s jo standert</string>
   <!-- Label text within the set as default banner -->
@@ -355,7 +355,7 @@
     Title for the AI controls settings screen
   -->
   <string name="preferences_ai_controls">AI-betsjinningseleminten</string>
-  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_banner_headline">Jo hawwe altyd in kar yn %s</string>
   <!-- Supporting text for the AI controls banner. %s is a learn more link using ai_controls_learn_more as text. -->
   <string name="ai_controls_banner_supporting_text_2">Dat omfettet it al of net brûken fan mei AI ferbettere funksjes. %s</string>
@@ -363,7 +363,7 @@
   <string name="ai_controls_learn_more">Mear ynfo</string>
   <!-- Title for the block AI enhancements toggle -->
   <string name="ai_controls_block_ai_title">AI-ferbetteringen blokkearje</string>
-  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_ai_description">Blokkearjen betsjut dat jo gjin nije of aktuele AI-ferbetteringen sjen sille yn %s, of pop-ups deroer.</string>
   <!-- Link text to see what AI enhancements are and aren’t included -->
   <string name="ai_controls_see_whats_included">Besjoch wat wol en net ynbegrepen is</string>
@@ -385,7 +385,7 @@
   <string name="ai_controls_voice_search_description">Audio wurdt nei tekst omset troch Google Speech Services.</string>
   <!-- Title for the block AI enhancements confirmation dialog -->
   <string name="ai_controls_block_dialog_title">AI-ferbetteringen blokkearje?</string>
-  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_dialog_body">Jo sjogge gjin nije of aktuele AI-ferbetteringen yn %1$s, of pop-ups dêroer. Dêrnei kinne jo alles wat jo brûke bliuwe wolle deblokkearje.\n\nBlokkearjen hat ek ynfloed op útwreidingen dy’t AI troch %1$s brûke.</string>
   <!-- Label shown above the list of features that will be blocked in the block AI dialog -->
   <string name="ai_controls_block_dialog_what_will_be_blocked">Wat wurdt blokkearre:</string>
@@ -415,7 +415,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Net tastean</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Syksuggestjes tastean yn priveefinsters?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%1$s sil alles wat jo yn de adresbalke yntype mei jo standert sykmasine diele.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s trochsykje</string>
@@ -440,7 +440,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">%1$s út skiednis fuortsmite</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">Dizze skiednisfermelding fuortsmite</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">Yn %1$s bliuwe</string>
   <!--
     Home onboarding
@@ -448,42 +448,42 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">Slute</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Help ús Firefox te ferbetterjen</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Help ús Aion te ferbetterjen</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">Automatysk ûngelokrapporten ferstjoere</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">Mei ûngelokrapporten kinne wy problemen mei de browser analysearje en oplosse. Rapporten kinne persoanlike of gefoelige gegevens befetsje.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">Mear ynfo</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s moat opnij opstarte wurde</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">Der is in probleem bard by it iepenjen fan %s.\n\nIt ferstjoeren fan in ûngelokrapport helpe ús problemen mei de browser te analysearjen en op te lossen. Rapporten kinne persoanlike of gefoelige gegevens befetsje.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">Ungelokrapport ferstjoere</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">Nee, tankewol</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">%s opnij iepenje</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">Technyske en ynteraksjegegevens nei Mozilla ferstjoere</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Gegevens oer jo apparaat, hardwarekonfiguraasje, en hoe’t jo Firefox brûke, helpe by it ferbetterjen fan funksjes, prestaasjes en stabiliteit foar elkenien.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Gegevens oer jo apparaat, hardwarekonfiguraasje, en hoe’t jo Aion brûke, helpe by it ferbetterjen fan funksjes, prestaasjes en stabiliteit foar elkenien.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">Mear ynfo</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">Dien</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Wolkom by Firefox</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Wolkom by Aion</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">Troch fierder te gean, geane jo akkoard mei de %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Gebrûksbetingsten fan Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox jout om jo privacy. Mear ynfo yn ús %1$s.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Gebrûksbetingsten fan Aion</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion jout om jo privacy. Mear ynfo yn ús %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">Privacyferklearring</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Om de browser te helpen ferbetterjen, ferstjoert Firefox diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Om de browser te helpen ferbetterjen, ferstjoert Aion diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">Beheare</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -496,23 +496,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">Tûzenen oanpassingen</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">Troch fierder te gean, geane jo akkoard mei de %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Gebrûksbetingsten fan Firefox</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Gebrûksbetingsten fan Aion</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox jout om jo privacy. Mear ynfo yn ús %1$s.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion jout om jo privacy. Mear ynfo yn ús %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">Privacyferklearring</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Om de browser te helpen ferbetterjen, ferstjoert Firefox diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Om de browser te helpen ferbetterjen, ferstjoert Aion diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">Ynstellingen beheare</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -521,10 +521,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">Wêr wolle jo jo adresbalke hawwe?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">Trochgean</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Help ús Firefox groeie te litten</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Help ús Aion groeie te litten</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Firefox ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Aion ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">Hoe’t wy gegevens brûke</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -533,8 +533,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">Untfang standert automatyske beskerming tsjin folgjen</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">Mei ien tik foarkomme dat bedriuwen jo tikken bespionearje.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Syngronisearje oeral wêr’t jo Firefox brûke</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Syngronisearje oeral wêr’t jo Aion brûke</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">Untfang blêdwizers, ljepblêden en wachtwurden op elk apparaat. Alles befeilige mei fersifering.</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -543,8 +543,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">No net</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">Noch ien ding</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Firefox ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Aion ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">Akkoard en begjinne mei sneupen</string>
   <!-- "Continue" onboarding button. -->
@@ -561,23 +561,23 @@
   <string name="nova_onboarding_tou_subtitle">Fluch, feilich en ferriedt jo net.\nStrunen is no better wurden.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">Troch fierder te gean, geane jo akkoard mei de %1$s.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Gebrûksbetingsten fan Firefox</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Gebrûksbetingsten fan Aion</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox jout om jo privacy. Mear ynfo yn ús %1$s.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Aion jout om jo privacy. Mear ynfo yn ús %1$s.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">Privacyferklearring</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Om de browser te helpen ferbetterjen, ferstjoert Firefox diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Om de browser te helpen ferbetterjen, ferstjoert Aion diagnostyske en ynteraksjegegevens nei Mozilla. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">Ynstellingen beheare</string>
   <!-- "Set to default" onboarding title. -->
@@ -611,73 +611,73 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">Help ús in better ynternet te bouwen</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla’s marketingtechnologypartners hoe’t jo Firefox ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht. %1$s</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Firefox ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om de kanalen wêr’t wy Firefox promoatsje te ynformearjen dat jo in Firefox-brûker binne.</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla’s marketingtechnologypartners hoe’t jo Aion ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht. %1$s</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Aion ûntdutsen hawwe en dat jo it brûke. Dizze gegevens wurde nea ferkocht.</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om de kanalen wêr’t wy Aion promoatsje te ynformearjen dat jo in Aion-brûker binne.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Firefox brûke.</string>
+  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Aion brûke.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">Help ús om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Firefox brûke.</string>
+  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">Help ús om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Aion brûke.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">Help ús om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Firefox brûke. %1$s</string>
+  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">Help ús om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Aion brûke. %1$s</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text_1 as text (“Learn More”).
   -->
-  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Firefox brûke. %1$s</string>
-  <!-- Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Firefox is grutsk ûnôfhinklik en tawijd oan it ferdigenjen fan it iepen web tsjin technologyske monopoaljes.</string>
+  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">Jo kinne ús helpe om mear minsken te berikken troch Mozilla tastimming te jaan om it platfoarm wêr’t jo weikomme te ynformearjen dat jo Aion brûke. %1$s</string>
+  <!-- Marketing onboarding additional body text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Aion is grutsk ûnôfhinklik en tawijd oan it ferdigenjen fan it iepen web tsjin technologyske monopoaljes.</string>
   <!--
-    Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded.
+    Marketing onboarding additional body text. 'Aion' is intentionally hardcoded.
     “Allowing” refers to the main button “Allow and Continue”; the ask for the user is to allow communicating back to the platform.
   -->
-  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">Tink asjebleaft oer tastimming om Firefox te helpen winnen.</string>
+  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">Tink asjebleaft oer tastimming om Aion te helpen winnen.</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">Hoe’t wy gegevens brûke</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">Mear ynfo</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Firefox helpe</string>
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Aion helpe</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">Ja</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">Nee tanke</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">Nee</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Meldingen helpe jo feiliger te bliuwen mei Firefox</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Untdek de nijste privacyfunksjes yn Firefox, sadat jo altyd op de hichte binne fan hoe’t jo beskerme bliuwe kinne.</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Meldingen helpe jo feiliger te bliuwen mei Aion</string>
+  <!-- Notifications onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Untdek de nijste privacyfunksjes yn Aion, sadat jo altyd op de hichte binne fan hoe’t jo beskerme bliuwe kinne.</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">Notifikaasjes ynskeakelje</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">Meitsje elke sykopdracht mear privee</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Begjin elke sykopdracht fan it startskerm fan jo telefoan ôf en wit dat de automatyske beskermingen fan Firefox jo stypje.</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Firefox-widget tafoegje</string>
+  <!-- "Add search widget" onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Begjin elke sykopdracht fan it startskerm fan jo telefoan ôf en wit dat de automatyske beskermingen fan Aion jo stypje.</string>
+  <!-- "Add search widget" onboarding button. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Aion-widget tafoegje</string>
   <!-- Customize prompt onboarding title. -->
   <string name="nova_onboarding_customize_prompt_title" tools:ignore="UnusedResources">Ienfâldich oan te passen en mei elke tik mear privee</string>
   <plurals name="nova_onboarding_customize_prompt_body" tools:ignore="UnusedResources">
     <!--
       Customize prompt onboarding body.
-      %1$s is replaced by the product name (for example "Firefox"),
+      %1$s is replaced by the product name (for example "Aion"),
       %2$,d is replaced by the number of trackers blocked. The comma represents the thousand
       separator (e.g. 1,000 in English), and it will automatically use the correct character
       for your locale (don't change or remove it).
@@ -700,7 +700,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">In nij %1$s-ljepblêd iepenje</string>
   <!-- Text preview for smaller sized widgets -->
@@ -743,15 +743,15 @@
   <string name="preferences_search_engines_suggestions">Suggestjes fan sykmasinen</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Adresbalkefoarkarren</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Adresbalke – Firefox Suggestjes</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Mear ynfo oer Firefox Suggestes</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Adresbalke – Aion Suggestjes</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Mear ynfo oer Aion Suggestes</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Wurdearje op Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Oer %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -864,27 +864,27 @@
   <string name="preferences_account_settings">Accountynstellingen</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">URL’s automatysk oanfolje</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Suggestjes fan sponsors</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">Stypje %1$s mei sa no en dan sponsore suggestjes</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">Suggestjes fan %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">Krij suggestjes fan it web relatearre oan jo sykopdracht</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards" tools:ignore="BrandUsage">Suggestjes fan Mozilla ophelje wylst jo type</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">Keppelingen diele</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">Downloadkeppeling foar %1$s byfoegje by dielen op WhatsApp</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">Nûgje jo freonen út om rapper, feiliger blêdzjen te probearjen mei %1$s elke kear as jo in keppeling diele op WhatsApp.</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">Keppeling dield</string>
@@ -1017,7 +1017,7 @@
   <string name="wallpaper_select_error_snackbar_message">Kin eftergrûn net wizigje</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Mear ynfo</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">Klassike %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Keunstnersearje</string>
@@ -1065,11 +1065,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">Middernacht</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">Noarderljocht</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Piksels</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">Minimaal</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">Pride</string>
@@ -1079,9 +1079,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">Makke troch @heyheymomodraws</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">Oankrûpend</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">Flammend</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">Cool</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">Effen kleuren</string>
@@ -1091,9 +1091,9 @@
   <string name="alternative_app_icon_group_featured">Oanrekommandearre</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">App-piktogram wizigje?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">De app kin sluten wurde. Tik gewoan op jo kreaze nije piktogram om %1$s opnij te iepenjen.</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">Wiziging fan it piktogram smyt alle websites en fluchkeppelingen dy’t jo op jo startskerm bewarre hawwe fuort. \n\n%1$s kin sletten wurde. Tik op jo nije piktogram om it opnij te iepenjen.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">Piktogram wizigje</string>
@@ -1107,8 +1107,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">Nije útwreidingen no beskikber</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Besjoch mear as 100 nije útwreidingen wêrmei’t jo Firefox jo eigen meitsje kinne.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Besjoch mear as 100 nije útwreidingen wêrmei’t jo Aion jo eigen meitsje kinne.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Utwreidingen ferkenne</string>
   <!--
@@ -1120,7 +1120,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">Ien of mear útwreidingen wurkje net mear, wêrtroch jo systeem ynstabyl wurdt. It is %1$s net slagge om de add-on(s) opnij te starten.\n\nUtwreidingen sille net opnij starte wurden wylst jo aktuele sesje.\n\nIt fuortsmiten of útskeakeljen fan útwreidingen kin dit probleem oplosse.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1167,7 +1167,7 @@
   <string name="sync_never_synced_summary">Lêst syngronisearre: nea</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s op %2$s %3$s</string>
@@ -1182,7 +1182,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Untfongen ljepblêden</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Meldingen foar ljepblêden ûntfongen fan oare Firefox-apparaten.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Meldingen foar ljepblêden ûntfongen fan oare Aion-apparaten.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Ljepblêd ûntfongen</string>
   <!-- %s is the device name -->
@@ -1213,8 +1213,8 @@
   <string name="preference_usage_data_2">Technyske en ynteraksjegegevens ferstjoere</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">Mear ynfo oer technyske gegevens</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Gegevens oer jo apparaat, hardwarekonfiguraasje en gebrûk helpt ús de funksjes, prestaasjes en stabiliteit fan Firefox te ferbetterjen.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Gegevens oer jo apparaat, hardwarekonfiguraasje en gebrûk helpt ús de funksjes, prestaasjes en stabiliteit fan Aion te ferbetterjen.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">Ping foar deistich gebrûk</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">Dit helpt Mozilla om aktive brûkers te skatten.</string>
@@ -1235,9 +1235,9 @@
   <string name="preferences_marketing_data_2">Mjitgegevens fan kampanje</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Firefox ûntdutsen hawwe en dat jo it brûke.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Diel mei Mozilla\'s marketingtechnologypartners hoe’t jo Aion ûntdutsen hawwe en dat jo it brûke.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">Mear ynfo oer marketinggegevens</string>
   <!-- Title for studies preferences -->
@@ -1479,8 +1479,8 @@
   <string name="studies_remove">Fuortsmite</string>
   <!-- Title of the active section on the studies list -->
   <string name="studies_active">Aktyf</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Firefox selektearret willekeurich brûkers om funksjes te testen, wat de kwaliteit foar elkenien ferbetteret.</string>
+  <!-- Description for studies. Note: The word "Aion" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Aion selektearret willekeurich brûkers om funksjes te testen, wat de kwaliteit foar elkenien ferbetteret.</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title_2">Funksjeûndersiken tastean</string>
   <!-- Learn more link for studies, links to an article for more information about studies. -->
@@ -1491,8 +1491,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">Ferbetteringen op ôfstân tastean</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox ferbetteret funksjes, prestaasjes en stabiliteit tusken fernijingen. Wizigingen wurde op ôfstân tapast.</string>
+  <!-- Description for remote improvements. Note: The word "Aion" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Aion ferbetteret funksjes, prestaasjes en stabiliteit tusken fernijingen. Wizigingen wurde op ôfstân tapast.</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">Mear ynfo</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1592,7 +1592,7 @@
   <string name="remove_top_site">Fuortsmite</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Fuortsmite út skiednis</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (priveemodus)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">Ljepblêd sykje iepenje</string>
@@ -1953,7 +1953,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">Net-wurkjende website melde</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">Jo rapport helpt ús problemen yn %1$s te begripen en op te lossen, om it foar elkenien te ferbetterjen. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">Mear ynfo</string>
@@ -2018,7 +2018,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Sorry. %1$s kin dy side net lade.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -2027,11 +2027,11 @@
   <string name="tab_crash_close">Ljepblêd slute</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">Ljepblêd werombringe</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s is ferûngelokke. In rapport ferstjoere?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">Jo hawwe in net-ferstjoerde ûngelokrapport relatearre oan ûngelokken dy’t ûndersocht wurde. It ferstjoeren dêrfan sil ús helpe om %1$s te ferbetterjen. As jo dizze notifikaasje slute, wurdt dit rapport negearre.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">Jo hawwe net-ferstjoerde ûngelokrapporten (%1$d) relatearre oan ûngelokken dy’t ûndersocht wurde. It ferstjoeren dêrfan sil ús helpe %2$s te ferbetterjen. As jo dizze notifikaasje slute, wurdt dit rapport negearre.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">Automatysk ûngelokrapporten ferstjoere</string>
@@ -2380,7 +2380,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Noch in apparaat keppelje</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Meld jo oan by Firefox op op syn minst ien oar apparaat om in ljepblêd te ferstjoeren.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Meld jo oan by Aion op op syn minst ien oar apparaat om in ljepblêd te ferstjoeren.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Begrepen</string>
   <!-- Share error message -->
@@ -2393,9 +2393,9 @@
   <string name="sync_add_new_device_learn_button">Mear ynfo oer it ferstjoeren fan ljepblêden…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">In oar apparaat ferbine…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\nFerstjoerd fan %2$s 🦊 út. Probearje de mobile browser: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\nFerstjoerd fan %2$s 🦊 út %3$s</string>
   <!-- Send tab to synced devices: Authentication error title - Message asking the user to re-authenticate -->
   <string name="sync_send_tab_error_auth_title">Meld jo opnij oan om ljepblêden tusken apparaten te ferstjoeren</string>
@@ -2406,7 +2406,7 @@
   <!-- Send tab to synced devices: Empty state title - Displayed when the user has no synced devices -->
   <string name="sync_send_tab_empty_state_title">Gjin apparaten ferbûn</string>
   <!-- Send tab to synced devices: Empty state message - Displayed when the user has no synced devices -->
-  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">Meld jo oan by Firefox op op syn minst ien oar apparaat om in ljepblêd te ferstjoeren.</string>
+  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">Meld jo oan by Aion op op syn minst ien oar apparaat om in ljepblêd te ferstjoeren.</string>
   <!-- Send tab to synced devices: Connectivity Error title -->
   <string name="sync_send_tab_error_connection_title">Kontrolearje jo ynternetferbining</string>
   <!-- Send tab to synced devices: Connectivity Error message - Suggested user action after internet connection has been established -->
@@ -2426,23 +2426,23 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox is fluch en privee</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion is fluch en privee</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Firefox jo standertbrowser meitsje</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Aion jo standertbrowser meitsje</string>
   <!--
     Privacy report notification
 
     Name of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app.
   -->
   <string name="notification_privacy_report_channel_name">Privacyrapport</string>
-  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Firefox) -->
+  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_channel_description">%1$s toant hoefolle trackers der wylst it navigearjen blokkearre binne.</string>
-  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_body_has_trackers">Bliuw sneupe. %1$s bliuwt blokkearjen.</string>
-  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_headline_no_trackers">%1$s blokkearret trackers wylst jo sneupe. Jo sjogge se hjir.</string>
   <!--
     Survey
@@ -2450,7 +2450,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Help Firefox better te meitsjen troch in koarte enkête yn te foljen.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Help Aion better te meitsjen troch in koarte enkête yn te foljen.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">Enkête starte</string>
   <!-- Preference for not taking the short survey. -->
@@ -2475,7 +2475,7 @@
   <string name="snackbar_deleted_undo">ÛNGEDIEN MEITSJE</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%1$s tastean om %2$s te iepenjen</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2543,7 +2543,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Hjoed en juster</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Alles</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s smyt de selektearre navigaasjegegevens fuort.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Annulearje</string>
@@ -2582,16 +2582,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">De koade scanne</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Iepenje Firefox op jo kompjûter en gean nei <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Iepenje Aion op jo kompjûter en gean nei <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Ree om te scannen</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Meld jo oan mei jo kamera</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">E-mail brûke</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Gjin account? <u>Meitsje der ien oan</u> om Firefox tusken apparaten te syngronisearjen.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Gjin account? <u>Meitsje der ien oan</u> om Aion tusken apparaten te syngronisearjen.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s stoppet de syngronisaasje mei jo account, mar sil gjin sneupgegevens op dit apparaat fuortsmite.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Ferbining ferbrekke</string>
@@ -2607,7 +2607,7 @@
   <string name="preference_enhanced_tracking_protection">Ferbettere beskerming tsjin folgjen</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">No mei Totale cookiebeskerming, ús krêftichste barriêre oant no ta tsjin cross-sitetrackers.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s beskermet jo tsjin in protte fan de meast foarkommende trackers dy\\’t folgje wat jo online dogge.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Mear ynfo</string>
@@ -2723,11 +2723,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Werom blêdzje</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Wat is der nij yn %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | OSS-biblioteken</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2817,7 +2817,7 @@
   <string name="preference_doh_provider_custom_dialog_add">Tafoegje</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">Utsûnderingen</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">%1$s brûkt gjin befeilige DNS op dizze websites en harren subdomeinen.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">Website tafoegje</string>
@@ -2879,9 +2879,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Freegje om te bewarjen</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Nea bewarje</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Automatysk ynfolje yn %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Brûkersnammen en wachtwurden op websites ynfolje en bewarje wylst jo %1$s brûke.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Automatysk ynfolje yn oare apps</string>
@@ -2895,15 +2895,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">Wachtwurden syngronisearje tusken apparaten</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">Bewarre wachtwurden</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">De wachtwurden dy’t jo bewarje of syngronisearje mei %s sille hjir fermeld wurde. Alle wachtwurden dy’t jo bewarje binne fersifere.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Mear ynfo oer syngronisaasje</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">Utsûnderingen</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s sil gjin wachtwurden foar de hjir fermelde websites bewarje.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s sil gjin wachtwurden foar dizze websites bewarje.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Alle útsûnderingen fuortsmite</string>
@@ -2997,14 +2997,14 @@
   <string name="preferences_email_masks_suggest_summary">Ferbergje jo echte e-mailadres om jo Postfek YN te beskermjen tsjin spam. Guon websites stypje gjin e-mailmaskers.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">Mear ynfo</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">E-mailmaskers beheare</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">Jo hawwe jo fiif fergese e-mailmaskers brûkt, dus wy hawwe ien foar jo útsocht om opnij te brûken.</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">E-mailmaskers binne op dit stuit net beskikber. Probearje it oer in pear minuten opnij.</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -3017,7 +3017,7 @@
   <string name="ip_protection_toggle_label">VPN</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">Werom blêdzje</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">De ynboude VPN fan %s</string>
   <!-- Body text for the browser VPN settings header, shown when no promo is running. %s is a learn more link using ip_protection_learn_more as text. -->
   <string name="ip_protection_promo_body_2">Navigearje mei ekstra beskerming troch jo lokaasje te ferstopjen, sels op iepenbiere wifi. %s</string>
@@ -3076,11 +3076,11 @@
   <string name="ip_protection_get_started">Begjinne</string>
   <!-- Label for the "connecting" state of the button that starts the browser VPN authentication or authorization flow on the settings screen -->
   <string name="ip_protection_connecting">Ferbine…</string>
-  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_onboarding_card_headline">Probearje de ynboude VPN fan %s</string>
   <!--
     The body of the VPN onboarding card.
-    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Firefox.
+    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Aion.
     %2$d is the total monthly allowance in GB (for example "50").
   -->
   <string name="ip_protection_onboarding_body">%1$s troch jo lokaasje te ferstopjen, sels op iepenbiere wifi. Untfang elke moanne fergees %2$d GB.</string>
@@ -3089,7 +3089,7 @@
   <!--
     The body of the VPN onboarding card for a promotion that provides unlimited data bandwidth for a certain time.
     %1$s is a localized date (for example "Jun 9") indicating the end of the promotional period.
-    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Firefox.
+    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Aion.
   -->
   <string name="ip_protection_onboarding_body_promo">Skeakelje dit yn om jo navigaasje mear privee en dreger te folgjen te meitsjen. Probearje it no en ûntfang oant %1$s ûnbeheinde bânbreedte. %2$s</string>
   <!-- Used as text for a link in ip_protection_onboarding_body. Make sure to adapt capitalization if the link is in the middle of the sentence. -->
@@ -3122,7 +3122,7 @@
   <!-- Title for the browser VPN location picker screen. -->
   <string name="ip_protection_location_picker_title" tools:ignore="UnusedResources">VPN-lokaasje kieze</string>
   <!-- Description for what it means to use the Recommended setting and let the app automatically pick the best server location. -->
-  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Firefox fynt de rapste lokaasje</string>
+  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Aion fynt de rapste lokaasje</string>
   <!-- Description for an unavailable VPN location in the location list. -->
   <string name="ip_protection_location_unavailable_description">Net beskikber</string>
   <!-- Error message shown when the selected browser VPN location is unavailable. -->
@@ -3149,7 +3149,7 @@
   <string name="preferences_credit_cards_2">Betellingsmetoaden</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Betellingsmetoaden bewarje en ynfolje</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s fersiferet alle betellingsmetoaden dy’t jo bewarje</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Kaarten syngronisearje tusken apparaten</string>
@@ -3395,13 +3395,13 @@
   <string name="synced_tabs_connect_another_device">In oar apparaat ferbine.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Graach opnij autentisearje.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Skeakelje it syngronisearjen fan ljepblêden yn.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Jo hawwe gjin ljepblêden iepene yn Firefox op jo oare apparaten.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Jo hawwe gjin ljepblêden iepene yn Aion op jo oare apparaten.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Besjoch in list mei ljepblêden fan jo oare apparaten.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Oanmelde om te syngronisearjen</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Gjin iepen ljepblêden</string>
@@ -3496,7 +3496,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Automatysk slute nei in moanne?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox kin ljepblêden dy’t jo de ôfrûne moanne net besjoen hawwe slute.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion kin ljepblêden dy’t jo de ôfrûne moanne net besjoen hawwe slute.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">AUTOMATYSK SLUTE YNSKEAKELJE</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3504,9 +3504,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Suggestjes</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion Suggestjes</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3525,7 +3525,7 @@
   -->
   <string name="default_browser_experiment_card_title">Jo standertbrowser wikselje</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Keppelingen fan websites, e-mail en berjochten automatysk yn Firefox iepenje.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Keppelingen fan websites, e-mail en berjochten automatysk yn Aion iepenje.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Klik foar mear details</string>
   <!-- Content description for the action bar "up" button -->
@@ -3573,11 +3573,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Side oerset fan it %1$s nei it %2$s</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">Probearje priveeoersettingen yn %1$s</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Foar jo privacy ferlitte oersettingen jo apparaat nea. Nije talen en ferbetteringen komme gau! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Mear ynfo</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Oersette fanút it</string>
@@ -3638,7 +3638,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Negearret oersetoanbiedingen</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Oersetynstellingen</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">Oer oersettingen yn %1$s</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Blêd Oersettingen slute</string>
@@ -3684,15 +3684,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Oanbiede om oer te setten (standert)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s sil oanbiede om websites yn dizze taal oer te setten.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Altyd oersette</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s sil dizze taal automatysk oersette as de side laden wurdt.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Nea oersette</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s sil oanbiede om websites yn dizze taal oer te setten.</string>
   <!--
     Never translate site preference screen
@@ -3774,7 +3774,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) fuortsmite?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">As jo dizze taal fuortsmite, sil %1$s in part fan de talen nei jo buffer downloade wylst jo oersette.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3782,7 +3782,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">Alle talen (%1$s) fuortsmite?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">As jo dizze talen fuortsmite, sil %1$s in part fan de talen nei jo buffer downloade wylst jo oersette.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Fuortsmite</string>
@@ -3817,12 +3817,12 @@
   <string name="protection_panel_banner_not_protected_title">Jo hawwe beskermingen útskeakele</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">%s is bûten tsjinst. Wy riede jo oan beskermingen wer yn te skeakeljen.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">%s stiet op wacht</string>
   <plurals name="protection_panel_banner_protected_blocked_trackers_description">
@@ -3999,9 +3999,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Help ús Firefox better te meitsjen. It duorret mar in minút.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Help ús Aion better te meitsjen. It duorret mar in minút.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">Trochgean</string>
   <!--
@@ -4030,8 +4030,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">Hiel ûntefreden</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">Ik brûk it net</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Ik brûk de sykfunksje op Firefox net</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Ik brûk de sykfunksje op Aion net</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">Ik brûk gjin syngronisaasje</string>
   <!-- Option for likert scale -->
@@ -4042,24 +4042,24 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">It is betiizjend of lestich te brûken</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">It is oké, mar net better as oare browsers</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Ik bin fan plan om Firefox brûke te bliuwen</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Help it ôfdrukken yn Firefox better te meitsjen. It duorret mar in amerijke</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Help Firefox te ferbetterjen. It duorret mar in minút</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Help syngronisaasje yn Firefox better te meitsjen. It duorret mar in minút</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei it ôfdrukken yn Firefox?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei jo ûnderfining fan de Firefox-Startside?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei de sykûnderfining yn Firefox?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei de syngronisaasje-ûnderfining yn Firefox?</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Help ús Firefox te ferbetterjen. Wat beskriuwt jo ûnderfining oant no ta it bêste?</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Ik bin fan plan om Aion brûke te bliuwen</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Help it ôfdrukken yn Aion better te meitsjen. It duorret mar in amerijke</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Help Aion te ferbetterjen. It duorret mar in minút</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Help syngronisaasje yn Aion better te meitsjen. It duorret mar in minút</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei it ôfdrukken yn Aion?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei jo ûnderfining fan de Aion-Startside?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei de sykûnderfining yn Aion?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Hoe tefreden binne jo mei de syngronisaasje-ûnderfining yn Aion?</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Help ús Aion te ferbetterjen. Wat beskriuwt jo ûnderfining oant no ta it bêste?</string>
   <!--
     Uninstall Survey
 
@@ -4083,9 +4083,9 @@
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox-logo</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Aion-logo</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">Piktogram fan enkêtefunksje</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -4197,43 +4197,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">No bywurkje</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Wurkje jo Firefox-browser by</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Wurkje jo Aion-browser by</string>
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">In rootsertifikaat sil ferrinne, wêrtroch guon funksjes op 14 maart net mear wurkje.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">Wurkje by foar 14 maart</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">In rootsertifikaat sil ferrinne, wêrtroch jo ferzje fan Firefox net mear goed wurket.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">In rootsertifikaat sil ferrinne, wêrtroch jo ferzje fan Aion net mear goed wurket.</string>
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">Minder as 7 dagen om by te wurkjen</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">Op 14 maart sille add-ons en oare Firefox-funksjes net mear wurkje, omdat in rootsertifikaat ferrint.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Lêste kâns om jo Firefox te behâlden</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Jo ferzje fan Firefox sil op 14 maart net mear goed wurkje, omdat in rootsertifikaat ferrint.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">Op 14 maart sille add-ons en oare Aion-funksjes net mear wurkje, omdat in rootsertifikaat ferrint.</string>
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Lêste kâns om jo Aion te behâlden</string>
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Jo ferzje fan Aion sil op 14 maart net mear goed wurkje, omdat in rootsertifikaat ferrint.</string>
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">Bywurkjen oanrekommandearre</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">Add-ons en guon funksjes wurkje net mear op 14 maart.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Jo brûke in âldere ferzje fan Firefox</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Jo brûke in âldere ferzje fan Aion</string>
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">Wurkje by foar 14 maart om add-ons en oare funksjes brûke te bliuwen.</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">Guon funksjes sille moarn net mear wurkje.</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">%1$s ynstelle foltôgje</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -4241,19 +4241,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">Foltôgje dizze 3 stappen om %1$s yn te stellen foar de bêste sneupûnderfining.</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">Goed j! Jo hawwe 1 fan de 3 stappen foltôge.</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">Hast klear! Twa stappen foltôge en noch ien te gean.</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">Jo hawwe alle 3 stappen foltôge. Genietsje fan de snelheid, privacy en befeiliging fan %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">Foltôgje alle 6 stappen om %1$s yn te stellen foar de bêste sneupûnderfining.</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4266,12 +4266,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">Jo hawwe al 4 stappen set. Noch mar 2 te gean!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">Hast klear! Jo binne noch mar 1 stap wei fan de einstreek.</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">Jo hawwe alle 6 ynstallaasjestappen foltôge. Genietsje fan de snelheid, privacy en befeiliging fan %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">Foltôgje alle 5 stappen om %1$s yn te stellen foar de bêste sneupûnderfining.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4282,7 +4282,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">Jo binne healwei! Trije stappen foltôge en noch twa te gean.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">Hast klear! Jo binne noch mar 1 stap wei fan de einstreek.</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">Jo hawwe alle 5 ynstallaasjestappen foltôge. Genietsje fan de snelheid, privacy en befeiliging fan %1$s.</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4303,10 +4303,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">%1$s-essentials</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">Pas jo %1$s oan</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">Nuttich ark</string>
@@ -4349,18 +4349,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">Wat fine jo fan %1$s?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">Ik haw problemen</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">It is geweldich!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">Tank foar jo leafde foar %1$s. Hawwe jo in momint om de leafde te fersprieden mei in wurdearring?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">Beoardielje %1$s yn de Play Store</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">It spyt ús dat jo problemen hawwe. Lit ús witte hoe’t wy %1$s ferbetterje kinne.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">Kommentaar efterlitte</string>
@@ -4390,7 +4390,7 @@
   <string name="terms_of_use_prompt_title">Wy hawwe in update</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4414,7 +4414,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">Gebrûksbetingsten</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">In opmerking fan %1$s</string>
   <!--
@@ -4427,11 +4427,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Wy hawwe ús %1$s bywurke om de nijste funksjes yn Firefox te wer te jaan. %2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Wy hawwe ús %1$s bywurke om de nijste funksjes yn Aion te wer te jaan. %2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">Privacyferklearring</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->
@@ -4491,48 +4491,48 @@
   <!-- Button in the first-run Google Lens bottom sheet that leaves Google Lens without using it -->
   <string name="lens_opt_out_not_now_button">No net</string>
   <!--
-    Firefox Labs
+    Aion Labs
 
-    Firefox Labs is the name of a screen in Settings to allow users to learn about
+    Aion Labs is the name of a screen in Settings to allow users to learn about
     experimental and in-development features, and turn those features on and off.
-    The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+    The "Labs" portion can be localized, "Aion" must be treated as a brand and kept
     in English.
   -->
-  <string name="firefox_labs_title" tools:ignore="BrandUsage">Firefox Labs</string>
-  <!-- Banner title text on the Firefox Labs screen. -->
+  <string name="firefox_labs_title" tools:ignore="BrandUsage">Aion Labs</string>
+  <!-- Banner title text on the Aion Labs screen. -->
   <string name="firefox_labs_banner_title_2">Probearje ús eksperimintele funksjes!</string>
   <!--
-    Banner description text on the Firefox Labs screen. Provides information on what Firefox Labs does. %s is the name of the app (for example "Firefox Nightly").
-    Text will appear under the Firefox Labs banner title.
+    Banner description text on the Aion Labs screen. Provides information on what Aion Labs does. %s is the name of the app (for example "Aion Nightly").
+    Text will appear under the Aion Labs banner title.
   -->
   <string name="firefox_labs_experimental_description">Se binne yn ûntwikkeling en evoluearje, wat ynfloed hawwe kin op hoe’t %s wurket.</string>
-  <!-- The link text shown when a feedback URL for a Firefox Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
+  <!-- The link text shown when a feedback URL for a Aion Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
   <string name="firefox_labs_share_feedback">Kommentaar diele</string>
-  <!-- Content description for the share feedback link on a Firefox Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Firefox Labs feature. -->
+  <!-- Content description for the share feedback link on a Aion Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Aion Labs feature. -->
   <string name="firefox_labs_share_feedback_content_description">Kommentaar diele foar %s.</string>
-  <!-- Button text on the Firefox Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
+  <!-- Button text on the Aion Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
   <string name="firefox_labs_restore_default_button_text">Standertwearden werombringe</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
   <string name="firefox_labs_feature_dialog_title">Opnij starte fereaske</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
+  <!-- The text on the dialog on the Aion Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
   <string name="firefox_labs_dialog_restart_button">Opnij starte</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">Annulearje</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
   <string name="firefox_labs_restore_defaults_dialog_title">Opnij starte fereaske</string>
-  <!-- The description used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_restore_defaults_dialog_message">Om standertynstellingen te werstellen, start %s opnij.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">Start %s opnij om dizze funksje yn te skeakeljen.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_disable_dialog_message">Start %s opnij om dizze funksje út te skeakeljen.</string>
-  <!-- Helper text shown beneath a Firefox Labs item when it is blocked from being turned on. -->
+  <!-- Helper text shown beneath a Aion Labs item when it is blocked from being turned on. -->
   <string name="firefox_labs_feature_conflict">Funksje is net beskikber om te probearjen.</string>
-  <!-- Text displayed on the Firefox Labs screen when there are no Labs experimental features present. -->
+  <!-- Text displayed on the Aion Labs screen when there are no Labs experimental features present. -->
   <string name="firefox_labs_no_labs_available_description">No gjin eksperimintele funksjes om te probearjen</string>
-  <!-- Title of the Firefox Labs Sandboxing experiment. -->
+  <!-- Title of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_title" tools:ignore="UnusedResources">Website-isolaasje</string>
-  <!-- Description of the Firefox Labs Sandboxing experiment. -->
+  <!-- Description of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_description" tools:ignore="UnusedResources">In ekstra barriêre tusken websites dy’t helpt om jo gegevens tusken ferskate ljepblêden te beskermjen. Kin ynfloed hawwe op prestaasjes, stabiliteit, websitekompatibiliteit en hoe’t navigaasjeskiednis bewarre wurdt.</string>
   <!--
     PDF viewer toolbar and buttons

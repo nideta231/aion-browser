@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">خصوصی %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (خصوصی)</string>
   <!--
     Home Fragment
@@ -39,7 +39,7 @@
   <string name="application_search_hint">عبارت جست‌وجو را وارد کنید</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">مرور ناشناس</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">‏%1$s هیچ‌یک از تاریخچه یا کوکی‌های شما را به خاطر نخواهد سپرد، اما نشانک‌های جدید ذخیره خواهند شد.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">برای شروع جست‌وجو، یک زبانهٔ جدید ایجاد کنید</string>
@@ -73,7 +73,7 @@
   <string name="home_bookmarks_show_all_content_description">نمایش همهٔ نشانک‌ها</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">حذف</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
   <string name="about_content" tools:ignore="BrandUsage">%1$s توسط موزیلا تولید شده است.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">باورهای نادرست و رایج دربارهٔ مرور خصوصی</string>
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">هیچ اثری روی این دستگاه باقی نگذارید</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">‏%1$s هنگام بستن تمام زبانه‌های خصوصی، کوکی‌ها، تاریخچه و داده‌های وب‌سایت‌ها را حذف می‌کند.</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">می‌توانید %1$s را طوری تنظیم کنید که پیوندها را به‌طور خودکار در برنامه‌ها باز کند.</string>
   <!-- Text for the positive action button -->
@@ -126,7 +126,7 @@
   <string name="tab_tray_inactive_auto_close_title">بستن خودکار پس از یک ماه؟</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">‏%1$s می‌تواند زبانه‌هایی را که در ماه گذشته مشاهده نکرده‌اید ببندد.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -237,12 +237,12 @@
   <string name="browser_menu_homepage">صفحهٔ اصلی</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">باز کردن در %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">قدرت‌گرفته از %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -301,12 +301,12 @@
   <string name="browser_menu_print_2">چاپ</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">خروج از %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">‏%1$s را مرورگر پیش‌فرض خود کنید</string>
   <!-- Label text within the set as default banner -->
@@ -353,7 +353,7 @@
     Title for the AI controls settings screen
   -->
   <string name="preferences_ai_controls">کنترل‌های هوش مصنوعی</string>
-  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_banner_headline">در %s همیشه حق انتخاب دارید</string>
   <!-- Supporting text for the AI controls banner. %s is a learn more link using ai_controls_learn_more as text. -->
   <string name="ai_controls_banner_supporting_text_2">این شامل انتخاب برای استفاده یا عدم استفاده از ویژگی‌های مجهز به هوش مصنوعی نیز می‌شود. %s</string>
@@ -361,7 +361,7 @@
   <string name="ai_controls_learn_more">بیشتر بدانید</string>
   <!-- Title for the block AI enhancements toggle -->
   <string name="ai_controls_block_ai_title">مسدود کردن قابلیت‌های هوش مصنوعی</string>
-  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_ai_description">مسدودسازی به این معناست که قابلیت‌های جدید یا فعلیِ هوش مصنوعی یا پیام‌های بازشو دربارهٔ آن‌ها را در %s نخواهید دید.</string>
   <!-- Link text to see what AI enhancements are and aren’t included -->
   <string name="ai_controls_see_whats_included">مشاهدهٔ مواردی که شامل می‌شوند و نمی‌شوند</string>
@@ -383,7 +383,7 @@
   <string name="ai_controls_voice_search_description">تبدیل صوت به متن توسط خدمات گفتاری گوگل (Google Speech Services) انجام می‌شود.</string>
   <!-- Title for the block AI enhancements confirmation dialog -->
   <string name="ai_controls_block_dialog_title">قابلیت‌های هوش مصنوعی مسدود شوند؟</string>
-  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_dialog_body">شما قابلیت‌های جدید یا فعلی هوش مصنوعی در %1$s یا پنجره‌های بازشو دربارهٔ آن‌ها را نخواهید دید. پس از آن، می‌توانید هر موردی را که مایل به استفاده هستید رفع مسدودیت کنید.\n\nمسدودسازی بر افزونه‌هایی که از هوش مصنوعی ارائه‌شده توسط %1$s استفاده می‌کنند نیز تأثیر می‌گذارد.</string>
   <!-- Label shown above the list of features that will be blocked in the block AI dialog -->
   <string name="ai_controls_block_dialog_what_will_be_blocked">مواردی که مسدود خواهند شد:</string>
@@ -413,7 +413,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">غیرمجاز</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">پیشنهادهای جست‌وجو در نشست‌های خصوصی مجاز باشند؟</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">‏%s هر آنچه در نوار نشانی تایپ می‌کنید را با موتور جست‌وجوی پیش‌فرض شما به اشتراک خواهد گذاشت.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">جست‌وجو در %s</string>
@@ -438,7 +438,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">%1$s از تاریخچه حذف شد</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">حذف این مورد از تاریخچه</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">ماندن در %1$s</string>
   <!--
     Home onboarding
@@ -446,42 +446,42 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">بستن</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">به ما در بهبود Firefox کمک کنید</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">به ما در بهبود Aion کمک کنید</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">ارسال خودکار گزارش‌های خرابی</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">گزارش‌های خرابی به ما امکان تشخیص و رفع مشکلات مرورگر را می‌دهند. این گزارش‌ها ممکن است شامل داده‌های شخصی یا حساس باشند.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">بیشتر بدانید</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">‏%s نیاز به راه‌اندازی مجدد دارد</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">مشکلی در باز کردن %s رخ داد.\n\nارسال گزارش خرابی به ما کمک می‌کند تا مشکلات مرورگر را شناسایی و برطرف کنیم. گزارش‌ها ممکن است حاوی داده‌های شخصی یا حساس باشند.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">ارسال گزارش خرابی</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">خیر، متشکرم</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">باز کردن مجدد %s</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">ارسال داده‌های فنی و تعاملی به Mozilla</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">داده‌های مربوط به دستگاه، پیکربندی سخت‌افزاری و نحوهٔ استفادهٔ شما از Firefox به بهبود ویژگی‌ها، عملکرد و پایداری برای همه کمک می‌کند.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">داده‌های مربوط به دستگاه، پیکربندی سخت‌افزاری و نحوهٔ استفادهٔ شما از Aion به بهبود ویژگی‌ها، عملکرد و پایداری برای همه کمک می‌کند.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">بیشتر بدانید</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">انجام شد</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">به Firefox خوش‌آمدید</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">به Aion خوش‌آمدید</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">با ادامه دادن، با %1$s موافقت می‌کنید.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">شرایط استفاده از Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">‏Firefox به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">شرایط استفاده از Aion</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">‏Aion به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">اعلامیهٔ حریم خصوصی</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">برای کمک به بهبود مرورگر، Firefox داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">برای کمک به بهبود مرورگر، Aion داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">مدیریت</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -494,23 +494,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">هزاران قابلیت شخصی‌سازی</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">با ادامه دادن، با %1$s موافقت می‌کنید.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">شرایط استفاده از Firefox</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">شرایط استفاده از Aion</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">‏Firefox به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">‏Aion به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">اعلامیهٔ حریم خصوصی</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">برای کمک به بهبود مرورگر، Firefox داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">برای کمک به بهبود مرورگر، Aion داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">مدیریت تنظیمات</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -519,10 +519,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">نوار نشانی شما کجا باشد؟</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">ادامه</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">به رشد Firefox کمک کنید</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">به رشد Aion کمک کنید</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی خود با Firefox و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی خود با Aion و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">نحوهٔ استفاده از داده‌ها</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -531,8 +531,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">محافظت خودکار در برابر ردیابی به‌طور پیش‌فرض</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">تنها با یک ضربه، مانع از جاسوسی شرکت‌ها روی کلیک‌هایتان شوید.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">همگام‌سازی در هر جایی که از Firefox استفاده می‌کنید</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">همگام‌سازی در هر جایی که از Aion استفاده می‌کنید</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">دسترسی به نشانک‌ها، زبانه‌ها و گذرواژه‌ها روی هر دستگاهی؛ کاملاً محافظت‌شده با رمزگذاری.</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -541,8 +541,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">اکنون نه</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">یک نکتهٔ پایانی</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی خود با Firefox و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی خود با Aion و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">موافقم و شروع مرور</string>
   <!-- "Continue" onboarding button. -->
@@ -559,23 +559,23 @@
   <string name="nova_onboarding_tou_subtitle">سریع، امن و بدون فروش اطلاعات شما.\nوب‌گردی از همیشه بهتر شد.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">با ادامه دادن، با %1$s موافقت می‌کنید.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">شرایط استفاده از Firefox</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">شرایط استفاده از Aion</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">‏Firefox به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">‏Aion به حریم خصوصی شما اهمیت می‌دهد. در %1$s ما بیشتر بدانید.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">اعلامیهٔ حریم خصوصی</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">برای کمک به بهبود مرورگر، Firefox داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">برای کمک به بهبود مرورگر، Aion داده‌های تشخیصی و تعاملی را به Mozilla ارسال می‌کند. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">مدیریت تنظیمات</string>
   <!-- "Set to default" onboarding title. -->
@@ -609,73 +609,73 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">به ما در ساخت اینترنتی بهتر کمک کنید</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی با Firefox و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند. %1$s</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی با Firefox و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع‌رسانی به کانال‌های تبلیغاتی ما مبنی بر اینکه شما کاربر Firefox هستید، به ما کمک کنید تا به افراد بیشتری دسترسی پیدا کنیم.</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی با Aion و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند. %1$s</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">نحوهٔ آشنایی با Aion و استفاده از آن را با شرکای بازاریابی Mozilla به اشتراک بگذارید. این داده‌ها هرگز فروخته نمی‌شوند.</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع‌رسانی به کانال‌های تبلیغاتی ما مبنی بر اینکه شما کاربر Aion هستید، به ما کمک کنید تا به افراد بیشتری دسترسی پیدا کنیم.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن وارد شده‌اید مبنی بر اینکه از Firefox استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم.</string>
+  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن وارد شده‌اید مبنی بر اینکه از Aion استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن آمده‌اید مبنی بر اینکه از Firefox استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم.</string>
+  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن آمده‌اید مبنی بر اینکه از Aion استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن آمده‌اید مبنی بر اینکه از Firefox استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم. %1$s</string>
+  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">با اجازه دادن به Mozilla برای اطلاع به پلتفرمی که از آن آمده‌اید مبنی بر اینکه از Aion استفاده می‌کنید، به ما کمک کنید به افراد بیشتری دسترسی پیدا کنیم. %1$s</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text_1 as text (“Learn More”).
   -->
-  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">می‌توانید با اجازه دادن به Mozilla برای مطلع ساختن پلتفرمی که از آن آمده‌اید از اینکه از Firefox استفاده می‌کنید، به ما در جذب افراد بیشتر کمک کنید. %1$s</string>
-  <!-- Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">‏Firefox با افتخار مستقل است و به دفاع از وب آزاد در برابر انحصارهای دنیای فناوری اختصاص دارد.</string>
+  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">می‌توانید با اجازه دادن به Mozilla برای مطلع ساختن پلتفرمی که از آن آمده‌اید از اینکه از Aion استفاده می‌کنید، به ما در جذب افراد بیشتر کمک کنید. %1$s</string>
+  <!-- Marketing onboarding additional body text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">‏Aion با افتخار مستقل است و به دفاع از وب آزاد در برابر انحصارهای دنیای فناوری اختصاص دارد.</string>
   <!--
-    Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded.
+    Marketing onboarding additional body text. 'Aion' is intentionally hardcoded.
     “Allowing” refers to the main button “Allow and Continue”; the ask for the user is to allow communicating back to the platform.
   -->
-  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">لطفاً برای کمک به موفقیت Firefox، اجازه دادن به این درخواست را در نظر بگیرید.</string>
+  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">لطفاً برای کمک به موفقیت Aion، اجازه دادن به این درخواست را در نظر بگیرید.</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">نحوهٔ استفاده از داده‌ها</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">بیشتر بدانید</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">کمک به Firefox</string>
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">کمک به Aion</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">بله</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">خیر، متشکرم</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">خیر</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">اعلان‌ها به حفظ امنیت بیشتر شما با Firefox کمک می‌کنند</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">جدیدترین ویژگی‌های حریم خصوصی Firefox را کشف کنید تا همیشه از نحوهٔ محافظت از خود مطلع باشید.</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">اعلان‌ها به حفظ امنیت بیشتر شما با Aion کمک می‌کنند</string>
+  <!-- Notifications onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">جدیدترین ویژگی‌های حریم خصوصی Aion را کشف کنید تا همیشه از نحوهٔ محافظت از خود مطلع باشید.</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">روشن کردن اعلان‌ها</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">هر جست‌وجو را خصوصی‌تر کنید</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">هر جست‌وجو را از صفحهٔ اصلی گوشی خود آغاز کنید و مطمئن باشید تدابیر حفاظتی خودکار Firefox هوای شما را دارند.</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">افزودن ویجت Firefox</string>
+  <!-- "Add search widget" onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">هر جست‌وجو را از صفحهٔ اصلی گوشی خود آغاز کنید و مطمئن باشید تدابیر حفاظتی خودکار Aion هوای شما را دارند.</string>
+  <!-- "Add search widget" onboarding button. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">افزودن ویجت Aion</string>
   <!-- Customize prompt onboarding title. -->
   <string name="nova_onboarding_customize_prompt_title" tools:ignore="UnusedResources">شخصی‌سازی آسان و حریم خصوصی بیشتر با هر ضربه</string>
   <plurals name="nova_onboarding_customize_prompt_body" tools:ignore="UnusedResources">
     <!--
       Customize prompt onboarding body.
-      %1$s is replaced by the product name (for example "Firefox"),
+      %1$s is replaced by the product name (for example "Aion"),
       %2$,d is replaced by the number of trackers blocked. The comma represents the thousand
       separator (e.g. 1,000 in English), and it will automatically use the correct character
       for your locale (don't change or remove it).
@@ -698,7 +698,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">یک زبانهٔ جدید در %1$s باز کنید</string>
   <!-- Text preview for smaller sized widgets -->
@@ -741,15 +741,15 @@
   <string name="preferences_search_engines_suggestions">پیشنهادها از موتورهای جست‌وجو</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">ترجیحات نوار نشانی</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">نوار نشانی - پیشنهادهای Firefox</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">بیشتر دربارهٔ پیشنهادهای Firefox بدانید</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">نوار نشانی - پیشنهادهای Aion</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">بیشتر دربارهٔ پیشنهادهای Aion بدانید</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">امتیاز دادن در Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">دربارهٔ %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -866,27 +866,27 @@
   <string name="preferences_account_and_sync_settings">حساب کاربری و همگام‌سازی</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">تکمیل خودکار نشانی‌ها</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">پیشنهادهای حامیان</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">حمایت از %1$s با پیشنهادهای حامیان به‌صورت گاه‌به‌گاه</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">پیشنهادها از %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">دریافت پیشنهادهایی از وب مرتبط با جست‌وجوی شما</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards" tools:ignore="BrandUsage">دریافت پیشنهادها از Mozilla حین تایپ</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">اشتراک‌گذاری پیوند</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">گنجاندن پیوند دانلود %1$s در اشتراک‌گذاری‌های واتس‌اپ</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">هر بار که پیوندی را در واتس‌اپ به اشتراک می‌گذارید، دوستانتان را به تجربهٔ مرور سریع‌تر و امن‌تر با %1$s دعوت کنید.</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">پیوند به اشتراک گذاشته شد</string>
@@ -1019,7 +1019,7 @@
   <string name="wallpaper_select_error_snackbar_message">تغییر تصویر پس‌زمینه انجام نشد</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">بیشتر بدانید</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">%s کلاسیک</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">مجموعهٔ هنرمندان</string>
@@ -1067,11 +1067,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">نیمه‌شب</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">شفق قطبی</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">کلاسیک ۲۰۰۴</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">پیکسلی</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">مینیمال</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">پراید</string>
@@ -1081,9 +1081,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">طراحی‌شده توسط heyheymomodraws@</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">در آغوش کشیدن</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">شعله‌ور</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">جذاب</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">رنگ‌های یکدست</string>
@@ -1093,9 +1093,9 @@
   <string name="alternative_app_icon_group_featured">ویژه</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">نقشک برنامه تغییر کند؟</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">برنامه ممکن است بسته شود. برای باز کردن مجدد %1$s کافی است روی آیکون درخشان و جدید خود ضربه بزنید.</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">تغییر آیکون باعث حذف تمام سایت‌ها و میان‌برهایی می‌شود که در صفحهٔ اصلی خود ذخیره کرده‌اید.\n\n‏%1$s ممکن است بسته شود. برای باز کردن مجدد روی آیکون جدید ضربه بزنید.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">تغییر نقشک</string>
@@ -1109,8 +1109,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">افزونه‌های جدید اکنون در دسترس هستند</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">بیش از ۱۰۰ افزونهٔ جدید را بررسی کنید که به شما امکان می‌دهند Firefox را به دلخواه خود درآورید.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">بیش از ۱۰۰ افزونهٔ جدید را بررسی کنید که به شما امکان می‌دهند Aion را به دلخواه خود درآورید.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">کاوش افزونه‌ها</string>
   <!--
@@ -1122,7 +1122,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">یک یا چند افزونه متوقف شده‌اند و باعث ناپایداری سیستم شما شده‌اند. تلاش %1$s برای راه‌اندازی مجدد افزونه(ها) ناموفق بود.\n\nافزونه‌ها در این نشست مجدداً راه‌اندازی نخواهند شد.\n\nحذف یا غیرفعال کردن افزونه‌ها ممکن است این مشکل را حل کند.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1175,7 +1175,7 @@
   <string name="sync_never_synced_summary">آخرین همگام‌سازی: هرگز</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s روی %2$s %3$s</string>
@@ -1190,7 +1190,7 @@
   -->
   <string name="fxa_received_tab_channel_name">زبانه‌های دریافت‌شده</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">اعلان‌ها برای زبانه‌های دریافت‌شده از سایر دستگاه‌های Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">اعلان‌ها برای زبانه‌های دریافت‌شده از سایر دستگاه‌های Aion.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">زبانه دریافت شد</string>
   <!-- %s is the device name -->
@@ -1221,8 +1221,8 @@
   <string name="preference_usage_data_2">ارسال داده‌های فنی و تعاملی</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">دربارهٔ داده‌های فنی بیشتر بدانید</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">داده‌های مربوط به دستگاه، پیکربندی سخت‌افزاری و نحوهٔ استفادهٔ شما به ما کمک می‌کند تا ویژگی‌ها، عملکرد و پایداری Firefox را بهبود بخشیم.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">داده‌های مربوط به دستگاه، پیکربندی سخت‌افزاری و نحوهٔ استفادهٔ شما به ما کمک می‌کند تا ویژگی‌ها، عملکرد و پایداری Aion را بهبود بخشیم.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">پینگ استفادهٔ روزانه</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">این گزینه به Mozilla کمک می‌کند تا تعداد کاربران فعال را برآورد کند.</string>
@@ -1243,9 +1243,9 @@
   <string name="preferences_marketing_data_2">داده‌های سنجش کمپین</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">نحوهٔ آشنایی با Firefox و استفاده از آن را با شرکای فناوری بازاریابی Mozilla به اشتراک بگذارید.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">نحوهٔ آشنایی با Aion و استفاده از آن را با شرکای فناوری بازاریابی Mozilla به اشتراک بگذارید.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">دربارهٔ داده‌های بازاریابی بیشتر بدانید</string>
   <!-- Title for studies preferences -->
@@ -1487,8 +1487,8 @@
   <string name="studies_remove">حذف</string>
   <!-- Title of the active section on the studies list -->
   <string name="studies_active">فعال</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">‏Firefox برای بهبود کیفیت برای همه، کاربران را به‌صورت تصادفی جهت آزمایش ویژگی‌ها انتخاب می‌کند.</string>
+  <!-- Description for studies. Note: The word "Aion" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">‏Aion برای بهبود کیفیت برای همه، کاربران را به‌صورت تصادفی جهت آزمایش ویژگی‌ها انتخاب می‌کند.</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title_2">اجازه برای مطالعات و آزمایش ویژگی‌ها</string>
   <!-- Learn more link for studies, links to an article for more information about studies. -->
@@ -1499,8 +1499,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">اجازه برای بهبودهای از راه دور</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">‏Firefox ویژگی‌ها، عملکرد و پایداری را در فواصل میان به‌روزرسانی‌ها بهبود می‌بخشد. تغییرات از راه دور اعمال می‌شوند.</string>
+  <!-- Description for remote improvements. Note: The word "Aion" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">‏Aion ویژگی‌ها، عملکرد و پایداری را در فواصل میان به‌روزرسانی‌ها بهبود می‌بخشد. تغییرات از راه دور اعمال می‌شوند.</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">بیشتر بدانید</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1600,7 +1600,7 @@
   <string name="remove_top_site">حذف</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">حذف از تاریخچه</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (حالت خصوصی)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">باز کردن جست‌وجوی زبانه</string>
@@ -1961,7 +1961,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">گزارش خرابی سایت</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">گزارش شما به ما در درک و حل مشکلات در %1$s کمک می‌کند تا آن را برای همه بهتر سازیم. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">بیشتر بدانید</string>
@@ -2026,7 +2026,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">متأسفیم. %1$s نمی‌تواند این صفحه را بارگیری کند.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -2035,11 +2035,11 @@
   <string name="tab_crash_close">بستن زبانه</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">بازیابی زبانه</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">‏%s متوقف شد. گزارش ارسال شود؟</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">شما یک گزارش خرابی ارسال‌نشده مربوط به مشکلات در حال بررسی دارید. ارسال آن به ما در بهبود %1$s کمک خواهد کرد. بستن این اعلان، این گزارش را نادیده می‌گیرد.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">شما گزارش‌های خرابی ارسال‌نشده (%1$d مورد) مربوط به مشکلات در حال بررسی دارید. ارسال آن‌ها به ما در بهبود %2$s کمک خواهد کرد. بستن این اعلان، این گزارش‌ها را نادیده می‌گیرد.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">ارسال خودکار گزارش‌های خرابی</string>
@@ -2392,7 +2392,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">اتصال یک دستگاه دیگر</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">برای ارسال زبانه، حداقل در یک دستگاه دیگر وارد Firefox شوید.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">برای ارسال زبانه، حداقل در یک دستگاه دیگر وارد Aion شوید.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">متوجه شدم</string>
   <!-- Share error message -->
@@ -2405,9 +2405,9 @@
   <string name="sync_add_new_device_learn_button">دربارهٔ ارسال زبانه‌ها بیشتر بدانید…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">اتصال یک دستگاه دیگر…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\nارسال‌شده از %2$s 🦊 مرورگر تلفن همراه را امتحان کنید: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\nارسال‌شده از %2$s 🦊 %3$s</string>
   <!-- Send tab to synced devices: Authentication error title - Message asking the user to re-authenticate -->
   <string name="sync_send_tab_error_auth_title">برای ارسال زبانه‌ها بین دستگاه‌ها، دوباره وارد شوید</string>
@@ -2418,7 +2418,7 @@
   <!-- Send tab to synced devices: Empty state title - Displayed when the user has no synced devices -->
   <string name="sync_send_tab_empty_state_title">هیچ دستگاهی متصل نیست</string>
   <!-- Send tab to synced devices: Empty state message - Displayed when the user has no synced devices -->
-  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">برای ارسال زبانه، حداقل در یک دستگاه دیگر وارد Firefox شوید.</string>
+  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">برای ارسال زبانه، حداقل در یک دستگاه دیگر وارد Aion شوید.</string>
   <!-- Send tab to synced devices: Connectivity Error title -->
   <string name="sync_send_tab_error_connection_title">اتصال اینترنت خود را بررسی کنید</string>
   <!-- Send tab to synced devices: Connectivity Error message - Suggested user action after internet connection has been established -->
@@ -2440,23 +2440,23 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">‏Firefox سریع و امن است</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">‏Aion سریع و امن است</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">‏Firefox را مرورگر پیش‌فرض خود کنید</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">‏Aion را مرورگر پیش‌فرض خود کنید</string>
   <!--
     Privacy report notification
 
     Name of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app.
   -->
   <string name="notification_privacy_report_channel_name">گزارش حریم خصوصی</string>
-  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Firefox) -->
+  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_channel_description">%1$s نشان می‌دهد چه تعداد ردیاب در حین وب‌گردی شما مسدود شده‌اند.</string>
-  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_body_has_trackers">به مرور وب ادامه دهید؛ %1$s به مسدودسازی ادامه خواهد داد.</string>
-  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_headline_no_trackers">%1$s ردیاب‌ها را هنگام مرور مسدود می‌کند. آن‌ها را اینجا خواهید دید.</string>
   <!--
     Survey
@@ -2464,7 +2464,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">لطفاً با شرکت در یک نظرسنجی کوتاه، به بهتر شدن Firefox کمک کنید.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">لطفاً با شرکت در یک نظرسنجی کوتاه، به بهتر شدن Aion کمک کنید.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">شرکت در نظرسنجی</string>
   <!-- Preference for not taking the short survey. -->
@@ -2489,7 +2489,7 @@
   <string name="snackbar_deleted_undo">واگرد</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">به %1$s اجازه دهید %2$s را باز کند</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2557,7 +2557,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">امروز و دیروز</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">همه‌چیز</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">‏%s داده‌های وب‌گردیِ انتخاب‌شده را حذف خواهد کرد.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">لغو</string>
@@ -2596,16 +2596,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">اسکن کد</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[در رایانهٔ خود Firefox را باز کرده و به <b>https://firefox.com/pair</b> بروید]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[در رایانهٔ خود Aion را باز کرده و به <b>https://firefox.com/pair</b> بروید]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">آماده برای اسکن</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">ورود با دوربین</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">استفاده از ایمیل به جای آن</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[حساب کاربری ندارید؟ برای همگام‌سازی Firefox بین دستگاه‌ها <u>یکی ایجاد کنید</u>.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[حساب کاربری ندارید؟ برای همگام‌سازی Aion بین دستگاه‌ها <u>یکی ایجاد کنید</u>.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">‏%s همگام‌سازی با حساب شما را متوقف خواهد کرد، اما هیچ‌یک از داده‌های وب‌گردی شما در این دستگاه حذف نخواهد شد.</string>
   <!-- Title of the confirmation dialog shown when the user signs out of their account -->
   <string name="sign_out_dialog_title">از حساب کاربریتان خارج شوید؟</string>
@@ -2625,7 +2625,7 @@
   <string name="preference_enhanced_tracking_protection">محافظت پیشرفته در برابر ردیابی</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">اکنون مجهز به محافظت کامل در برابر کوکی‌ها (Total Cookie Protection) است؛ قدرتمندترین سد ما تاکنون بر ضد ردیاب‌های بین‌سایتی.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">‏%s از شما در برابر بسیاری از متداول‌ترین ردیاب‌هایی که فعالیت‌های آنلاین شما را دنبال می‌کنند محافظت می‌کند.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">بیشتر بدانید</string>
@@ -2741,11 +2741,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">بازگشت به عقب</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">تازه‌های %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | کتابخانه‌های متن‌باز</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2835,7 +2835,7 @@
   <string name="preference_doh_provider_custom_dialog_add">افزودن</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">استثناها</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">‏%1$s در این سایت‌ها و زیردامنه‌های آن‌ها از DNS امن استفاده نخواهد کرد.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">افزودن سایت</string>
@@ -2897,9 +2897,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">پرسش برای ذخیره‌سازی</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">هرگز ذخیره نشود</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">تکمیل خودکار در %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">پر کردن و ذخیرهٔ نام‌های کاربری و گذرواژه‌ها در وب‌سایت‌ها هنگام استفاده از %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">تکمیل خودکار در سایر برنامه‌ها</string>
@@ -2913,15 +2913,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">همگام‌سازی گذرواژه‌ها میان دستگاه‌ها</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">گذرواژه‌های ذخیره‌شده</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">گذرواژه‌هایی که در %s ذخیره یا همگام‌سازی می‌کنید در اینجا فهرست می‌شوند. تمام گذرواژه‌های ذخیره‌شده رمزگذاری می‌شوند.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">دربارهٔ همگام‌سازی بیشتر بدانید</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">استثناها</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">‏%s گذرواژه‌ها را برای سایت‌های فهرست‌شده در اینجا ذخیره نمی‌کند.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">‏%s گذرواژه‌ها را برای این سایت‌ها ذخیره نخواهد کرد.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">حذف تمام استثناها</string>
@@ -3015,14 +3015,14 @@
   <string name="preferences_email_masks_suggest_summary">پنهان کردن ایمیل واقعی برای محافظت از صندوق ورودی در برابر هرزنامه‌ها. برخی سایت‌ها از ماسک‌های ایمیل پشتیبانی نمی‌کنند.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">بیشتر بدانید</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">مدیریت ماسک‌های ایمیل</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">شما از هر ۵ ماسک رایگان ایمیل خود استفاده کرده‌اید، بنابراین یکی از آن‌ها را به‌صورت تصادفی برای استفادهٔ مجدد انتخاب کردیم.</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">ماسک‌های ایمیل در حال حاضر در دسترس نیستند. چند دقیقهٔ دیگر دوباره امتحان کنید.</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -3033,7 +3033,7 @@
   <string name="ip_protection_toggle_label">VPN</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">بازگشت به عقب</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">‏VPN توکار %s</string>
   <!-- Body text for the browser VPN settings header, shown when no promo is running. %s is a learn more link using ip_protection_learn_more as text. -->
   <string name="ip_protection_promo_body_2">با پنهان کردن موقعیت مکانی خود، حتی روی شبکه‌های Wi-Fi عمومی، با محافظت بیشتری وب‌گردی کنید. %s</string>
@@ -3092,11 +3092,11 @@
   <string name="ip_protection_get_started">شروع کنید</string>
   <!-- Label for the "connecting" state of the button that starts the browser VPN authentication or authorization flow on the settings screen -->
   <string name="ip_protection_connecting">در حال اتصال…</string>
-  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_onboarding_card_headline">‏VPN توکار %s را امتحان کنید</string>
   <!--
     The body of the VPN onboarding card.
-    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Firefox.
+    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Aion.
     %2$d is the total monthly allowance in GB (for example "50").
   -->
   <string name="ip_protection_onboarding_body">با پنهان کردن موقعیت مکانی‌تان، حتی روی Wi-Fi عمومی، %1$s را تجربه کنید. هر ماه %2$d گیگابایت سهمیهٔ رایگان دریافت نمایید.</string>
@@ -3105,7 +3105,7 @@
   <!--
     The body of the VPN onboarding card for a promotion that provides unlimited data bandwidth for a certain time.
     %1$s is a localized date (for example "Jun 9") indicating the end of the promotional period.
-    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Firefox.
+    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Aion.
   -->
   <string name="ip_protection_onboarding_body_promo">آن را روشن کنید تا وب‌گردی شما خصوصی‌تر و ردگیری‌اش سخت‌تر شود. اکنون امتحان کنید تا تا تاریخ %1$s از پهنای باند نامحدود بهره‌مند شوید. %2$s</string>
   <!-- Used as text for a link in ip_protection_onboarding_body. Make sure to adapt capitalization if the link is in the middle of the sentence. -->
@@ -3138,7 +3138,7 @@
   <!-- Title for the browser VPN location picker screen. -->
   <string name="ip_protection_location_picker_title" tools:ignore="UnusedResources">انتخاب موقعیت مکانی VPN</string>
   <!-- Description for what it means to use the Recommended setting and let the app automatically pick the best server location. -->
-  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">‏Firefox سریع‌ترین موقعیت مکانی را پیدا می‌کند</string>
+  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">‏Aion سریع‌ترین موقعیت مکانی را پیدا می‌کند</string>
   <!-- Description for an unavailable VPN location in the location list. -->
   <string name="ip_protection_location_unavailable_description">در دسترس نیست</string>
   <!-- Error message shown when the selected browser VPN location is unavailable. -->
@@ -3165,7 +3165,7 @@
   <string name="preferences_credit_cards_2">روش‌های پرداخت</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">ذخیره و پر کردن روش‌های پرداخت</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">‏%s تمام روش‌های پرداختی را که ذخیره می‌کنید رمزگذاری می‌نماید</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">همگام‌سازی کارت‌ها میان دستگاه‌ها</string>
@@ -3411,13 +3411,13 @@
   <string name="synced_tabs_connect_another_device">اتصال دستگاهی دیگر.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">لطفاً مجدداً هویت خود را تأیید کنید.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">لطفاً همگام‌سازی زبانه‌ها را فعال کنید.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">شما هیچ زبانهٔ باز دیگری در Firefox روی سایر دستگاه‌های خود ندارید.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">شما هیچ زبانهٔ باز دیگری در Aion روی سایر دستگاه‌های خود ندارید.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">مشاهدهٔ فهرستی از زبانه‌های سایر دستگاه‌های شما.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">ورود برای همگام‌سازی</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">بدون زبانهٔ باز</string>
@@ -3512,7 +3512,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">بستن خودکار پس از یک ماه؟</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">‏Firefox می‌تواند زبانه‌هایی را که در ماه گذشته مشاهده نکرده‌اید ببندد.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">‏Aion می‌تواند زبانه‌هایی را که در ماه گذشته مشاهده نکرده‌اید ببندد.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">فعال‌سازی بستن خودکار</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3520,9 +3520,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">پیشنهادهای Firefox</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">پیشنهادهای Aion</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3541,7 +3541,7 @@
   -->
   <string name="default_browser_experiment_card_title">تغییر مرورگر پیش‌فرض</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">تعیین کنید پیوندهای وب‌سایت‌ها، ایمیل‌ها و پیام‌ها به‌طور خودکار در Firefox باز شوند.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">تعیین کنید پیوندهای وب‌سایت‌ها، ایمیل‌ها و پیام‌ها به‌طور خودکار در Aion باز شوند.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">کلیک برای جزئیات بیشتر</string>
   <!-- Content description for the action bar "up" button -->
@@ -3589,11 +3589,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">صفحه از %1$s به %2$s ترجمه شد</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">ترجمهٔ محرمانه را در %1$s امتحان کنید</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">برای حفظ حریم خصوصی شما، داده‌های ترجمه هرگز از دستگاهتان خارج نمی‌شوند. زبان‌های جدید و بهبودهای بیشتر به‌زودی ارائه خواهند شد! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">بیشتر بدانید</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">ترجمه از</string>
@@ -3654,7 +3654,7 @@
   <string name="translation_option_bottom_sheet_switch_description">پیشنهادهای ترجمه را نادیده می‌گیرد</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">تنظیمات ترجمه</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">دربارهٔ ترجمه‌ها در %1$s</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">بستن برگهٔ ترجمه</string>
@@ -3700,15 +3700,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">پیشنهاد ترجمه (پیش‌فرض)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">‏%1$s ترجمهٔ سایت‌ها به این زبان را پیشنهاد خواهد داد.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">همیشه ترجمه شود</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">‏%1$s این زبان را هنگام بارگیری صفحه به‌طور خودکار ترجمه خواهد کرد.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">هرگز ترجمه نشود</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">‏%1$s هرگز ترجمهٔ سایت‌ها به این زبان را پیشنهاد نخواهد داد.</string>
   <!--
     Never translate site preference screen
@@ -3790,7 +3790,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) حذف شود؟</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">در صورت حذف این زبان، %1$s هنگام ترجمه بخش‌هایی از زبان را به‌طور موقت در کَش دانلود می‌کند.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3798,7 +3798,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">تمام زبان‌ها (%1$s) حذف شوند؟</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">در صورت حذف تمام زبانه‌ها، %1$s هنگام ترجمه بخش‌هایی از زبان را به‌طور موقت در کَش دانلود خواهد کرد.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">حذف</string>
@@ -3833,12 +3833,12 @@
   <string name="protection_panel_banner_not_protected_title">شما محافظت‌ها را خاموش کرده‌اید</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">‏%s در حال حاضر غیرفعال است. پیشنهاد می‌کنیم محافظت‌ها را مجدداً روشن کنید.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">‏%s در حال محافظت است</string>
   <plurals name="protection_panel_banner_protected_blocked_trackers_description">
@@ -4015,9 +4015,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">به ما در بهبود Firefox کمک کنید. فقط یک دقیقه زمان می‌برد.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">به ما در بهبود Aion کمک کنید. فقط یک دقیقه زمان می‌برد.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">ادامه</string>
   <!--
@@ -4046,8 +4046,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">بسیار ناراضی</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">از آن استفاده نمی‌کنم</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">از جست‌وجو در Firefox استفاده نمی‌کنم</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">از جست‌وجو در Aion استفاده نمی‌کنم</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">از همگام‌سازی استفاده نمی‌کنم</string>
   <!-- Option for likert scale -->
@@ -4058,24 +4058,24 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">گیج‌کننده است یا استفاده از آن دشوار است</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">خوب است، اما بهتر از سایر مرورگرها نیست</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">قصد دارم به استفاده از Firefox ادامه دهم</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">به بهبود چاپ در Firefox کمک کنید. فقط چند ثانیه زمان می‌برد</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">به بهبود جست‌وجو در Firefox کمک کنید. فقط یک دقیقه زمان می‌برد</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">به بهبود همگام‌سازی در Firefox کمک کنید. فقط یک دقیقه زمان می‌برد</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">چقدر از عملکرد چاپ در Firefox رضایت دارید؟</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">چقدر از صفحهٔ اصلی Firefox خود رضایت دارید؟</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">چقدر از تجربهٔ جست‌وجو در Firefox رضایت دارید؟</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">چقدر از تجربهٔ همگام‌سازی در Firefox رضایت دارید؟</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">به ما در بهبود Firefox کمک کنید. کدام گزینه تجربهٔ شما را تا کنون بهتر توصیف می‌کند؟</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">قصد دارم به استفاده از Aion ادامه دهم</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">به بهبود چاپ در Aion کمک کنید. فقط چند ثانیه زمان می‌برد</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">به بهبود جست‌وجو در Aion کمک کنید. فقط یک دقیقه زمان می‌برد</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">به بهبود همگام‌سازی در Aion کمک کنید. فقط یک دقیقه زمان می‌برد</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">چقدر از عملکرد چاپ در Aion رضایت دارید؟</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">چقدر از صفحهٔ اصلی Aion خود رضایت دارید؟</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">چقدر از تجربهٔ جست‌وجو در Aion رضایت دارید؟</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">چقدر از تجربهٔ همگام‌سازی در Aion رضایت دارید؟</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">به ما در بهبود Aion کمک کنید. کدام گزینه تجربهٔ شما را تا کنون بهتر توصیف می‌کند؟</string>
   <!--
     Uninstall Survey
 
@@ -4099,9 +4099,9 @@
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">لوگوی Firefox</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">لوگوی Aion</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">آیکون قابلیت نظرسنجی</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -4213,43 +4213,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">به‌روزرسانی در همین لحظه</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">مرورگر Firefox خود را به‌روزرسانی کنید</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">مرورگر Aion خود را به‌روزرسانی کنید</string>
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">یک گواهی ریشه منقضی خواهد شد که باعث می‌شود برخی ویژگی‌ها در ۱۴ مارس از کار بیفتند.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">قبل از ۱۴ مارس به‌روزرسانی کنید</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">یک گواهی ریشه منقضی خواهد شد که باعث می‌شود نسخهٔ Firefox شما به‌درستی کار نکند.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">یک گواهی ریشه منقضی خواهد شد که باعث می‌شود نسخهٔ Aion شما به‌درستی کار نکند.</string>
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">کمتر از ۷ روز تا پایان مهلت به‌روزرسانی باقی مانده است</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">در ۱۴ مارس، افزونه‌ها و سایر ویژگی‌های Firefox از کار خواهند افتاد، زیرا یک گواهی ریشه در حال انقضا است.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">آخرین فرصت برای حفظ کارکرد Firefox شما</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">نسخهٔ Firefox شما در ۱۴ مارس به دلیل انقضای یک گواهی ریشه دیگر به‌درستی کار نخواهد کرد.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">در ۱۴ مارس، افزونه‌ها و سایر ویژگی‌های Aion از کار خواهند افتاد، زیرا یک گواهی ریشه در حال انقضا است.</string>
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">آخرین فرصت برای حفظ کارکرد Aion شما</string>
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">نسخهٔ Aion شما در ۱۴ مارس به دلیل انقضای یک گواهی ریشه دیگر به‌درستی کار نخواهد کرد.</string>
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">به‌روزرسانی پیشنهاد می‌شود</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">افزونه‌ها و برخی ویژگی‌ها در ۱۴ مارس از کار خواهند افتاد.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">شما از نسخهٔ قدیمی‌تر Firefox استفاده می‌کنید</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">شما از نسخهٔ قدیمی‌تر Aion استفاده می‌کنید</string>
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">برای ادامهٔ استفاده از افزونه‌ها و سایر قابلیت‌ها، قبل از ۱۴ مارس به‌روزرسانی کنید.</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">برخی ویژگی‌ها فردا از کار خواهند افتاد.</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">تکمیل راه‌اندازی %1$s</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -4257,19 +4257,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">این ۳ مرحله را کامل کنید تا %1$s برای بهترین تجربهٔ وب‌گردی آماده شود.</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">شروع عالی بود! ۱ مرحله از ۳ مرحله را به پایان رساندید.</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">چیزی نمانده! ۲ مرحله تمام شده و ۱ مرحله باقی مانده است.</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">تمام ۳ مرحله را کامل کردید. از سرعت، حریم خصوصی و امنیت %1$s لذت ببرید.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">تمام ۶ مرحله را برای راه‌اندازی %1$s جهت بهترین تجربهٔ وب‌گردی کامل کنید.</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4282,12 +4282,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">۴ مرحله را پشت سر گذاشتید. فقط ۲ مرحلهٔ دیگر باقی است!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">تقریباً تمام است! تنها ۱ مرحله با خط پایان فاصله دارید.</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">تمام ۶ مرحلهٔ راه‌اندازی را کامل کردید. از سرعت، حریم خصوصی و امنیت %1$s لذت ببرید.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">تمام ۵ مرحله را کامل کنید تا %1$s برای بهترین تجربهٔ وب‌گردی تنظیم شود.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4298,7 +4298,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">نیمی از مسیر را پیمودید! ۳ مرحله تمام شده و ۲ مرحله باقی مانده است.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">تقریباً تمام است! تنها ۱ مرحله تا خط پایان مانده است.</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">تمام ۵ مرحلهٔ راه‌اندازی را کامل کردید. از سرعت، حریم خصوصی و امنیت %1$s لذت ببرید.</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4319,10 +4319,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">ضروریات %1$s</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">شخصی‌سازی %1$s شما</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">ابزارهای کاربردی</string>
@@ -4365,18 +4365,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">نظرتان دربارهٔ %1$s چیست؟</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">مشکلاتی دارم</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">عالی است!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">از اینکه %1$s را دوست دارید متشکریم. یک لحظه وقت دارید با ثبت امتیاز از ما حمایت کنید؟</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">امتیازدهی به %1$s در فروشگاه Play</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">متأسفیم که با مشکل مواجه شدید. به ما بگویید چگونه می‌توانیم %1$s را بهتر کنیم.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">ارسال بازخورد</string>
@@ -4406,7 +4406,7 @@
   <string name="terms_of_use_prompt_title">ما یک به‌روزرسانی داریم</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4430,7 +4430,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">شرایط استفاده</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">پیامی از طرف %1$s</string>
   <!--
@@ -4443,11 +4443,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">ما %1$s خود را برای مطابقت با جدیدترین قابلیت‌های موجود در Firefox به‌روزرسانی کرده‌ایم. %2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">ما %1$s خود را برای مطابقت با جدیدترین قابلیت‌های موجود در Aion به‌روزرسانی کرده‌ایم. %2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">اعلامیهٔ حریم خصوصی</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->
@@ -4507,48 +4507,48 @@
   <!-- Button in the first-run Google Lens bottom sheet that leaves Google Lens without using it -->
   <string name="lens_opt_out_not_now_button">اکنون نه</string>
   <!--
-    Firefox Labs
+    Aion Labs
 
-    Firefox Labs is the name of a screen in Settings to allow users to learn about
+    Aion Labs is the name of a screen in Settings to allow users to learn about
     experimental and in-development features, and turn those features on and off.
-    The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+    The "Labs" portion can be localized, "Aion" must be treated as a brand and kept
     in English.
   -->
-  <string name="firefox_labs_title" tools:ignore="BrandUsage">‏آزمایشگاه Firefox (Firefox Labs)</string>
-  <!-- Banner title text on the Firefox Labs screen. -->
+  <string name="firefox_labs_title" tools:ignore="BrandUsage">‏آزمایشگاه Aion (Aion Labs)</string>
+  <!-- Banner title text on the Aion Labs screen. -->
   <string name="firefox_labs_banner_title_2">ویژگی‌های آزمایشی ما را امتحان کنید!</string>
   <!--
-    Banner description text on the Firefox Labs screen. Provides information on what Firefox Labs does. %s is the name of the app (for example "Firefox Nightly").
-    Text will appear under the Firefox Labs banner title.
+    Banner description text on the Aion Labs screen. Provides information on what Aion Labs does. %s is the name of the app (for example "Aion Nightly").
+    Text will appear under the Aion Labs banner title.
   -->
   <string name="firefox_labs_experimental_description">این قابلیت‌ها در حال توسعه و تغییر هستند که می‌تواند بر نحوهٔ عملکرد %s تأثیر بگذارد.</string>
-  <!-- The link text shown when a feedback URL for a Firefox Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
+  <!-- The link text shown when a feedback URL for a Aion Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
   <string name="firefox_labs_share_feedback">اشتراک‌گذاری بازخورد</string>
-  <!-- Content description for the share feedback link on a Firefox Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Firefox Labs feature. -->
+  <!-- Content description for the share feedback link on a Aion Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Aion Labs feature. -->
   <string name="firefox_labs_share_feedback_content_description">اشتراک‌گذاری بازخورد برای %s.</string>
-  <!-- Button text on the Firefox Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
+  <!-- Button text on the Aion Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
   <string name="firefox_labs_restore_default_button_text">بازنشانی به پیش‌فرض‌ها</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
   <string name="firefox_labs_feature_dialog_title">نیاز به راه‌اندازی مجدد</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
+  <!-- The text on the dialog on the Aion Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
   <string name="firefox_labs_dialog_restart_button">راه‌اندازی مجدد</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">لغو</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
   <string name="firefox_labs_restore_defaults_dialog_title">نیاز به راه‌اندازی مجدد</string>
-  <!-- The description used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_restore_defaults_dialog_message">برای بازنشانی به پیش‌فرض‌ها، %s را دوباره راه‌اندازی کنید.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">برای روشن کردن این ویژگی، %s را مجدداً راه‌اندازی کنید.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_disable_dialog_message">برای خاموش کردن این ویژگی، %s را مجدداً راه‌اندازی کنید.</string>
-  <!-- Helper text shown beneath a Firefox Labs item when it is blocked from being turned on. -->
+  <!-- Helper text shown beneath a Aion Labs item when it is blocked from being turned on. -->
   <string name="firefox_labs_feature_conflict">این قابلیت برای آزمایش در دسترس نیست.</string>
-  <!-- Text displayed on the Firefox Labs screen when there are no Labs experimental features present. -->
+  <!-- Text displayed on the Aion Labs screen when there are no Labs experimental features present. -->
   <string name="firefox_labs_no_labs_available_description">در حال حاضر هیچ قابلیت آزمایشی برای امتحان کردن وجود ندارد</string>
-  <!-- Title of the Firefox Labs Sandboxing experiment. -->
+  <!-- Title of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_title" tools:ignore="UnusedResources">جداسازی وب‌سایت‌ها</string>
-  <!-- Description of the Firefox Labs Sandboxing experiment. -->
+  <!-- Description of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_description" tools:ignore="UnusedResources">یک سد محافظتی اضافی میان وب‌سایت‌ها که به محافظت از داده‌های شما در میان زبانه‌ها کمک می‌کند. ممکن است بر عملکرد، پایداری، سازگاری وب‌سایت‌ها و نحوهٔ ذخیرهٔ تاریخچهٔ وب‌گردی تأثیر بگذارد.</string>
   <!--
     PDF viewer toolbar and buttons

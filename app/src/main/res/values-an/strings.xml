@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">%s privau</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (nav. privada)</string>
   <!--
     Home Fragment
@@ -29,14 +29,14 @@
   <string name="tab_tray_select_collection">Triar la colección</string>
   <!-- Content description for close button while in multiselect mode in tab tray -->
   <string name="tab_tray_close_multiselect_content_description">Salir d\'o modo de selección multiple</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s ye produciu per Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s ye produciu per Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Mitos comuns sobre la navegación privada</string>
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Puez configurar %1$s pa que ubra automaticament los vinclos en as aplicacions.</string>
   <!-- Text for the positive action button -->
@@ -63,7 +63,7 @@
   <string name="tab_tray_inactive_auto_close_title">Tancar automaticament dimpués d\'un mes?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s puet tancar pestanyas que no haigas ubierto en un mes.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -129,12 +129,12 @@
   <string name="browser_menu_share">Compartir</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Ubrir en %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Funciona con %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -165,7 +165,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">No permitir</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Permitir sucherencias de busqueda en sesions privadas?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s compartirá tot lo que escribas en a barra d’adrezas con o tuyo buscador predeterminau.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Mirar %s</string>
@@ -174,7 +174,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Ubrir una nueva pestanya %1$s</string>
   <!-- Text preview for smaller sized widgets -->
@@ -201,7 +201,7 @@
   <string name="preferences_rate">Qualificar en Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Sobre %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -305,7 +305,7 @@
   <string name="sync_never_synced_summary">Zaguera sincronización: nunca</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s en %2$s %3$s</string>
@@ -318,7 +318,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Pestanyas recebidas</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notificacions pa pestanyas recibidas d’atros dispositivos Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notificacions pa pestanyas recibidas d’atros dispositivos Aion.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Pestanya recebida</string>
   <!-- %s is the device name -->
@@ -503,7 +503,7 @@
   <string name="remove_top_site">Borrar</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Borrar de l\'historial</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (modo privau)</string>
   <!--
     History
@@ -532,7 +532,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Lo sentimos. %1$s no puede cargar ixa pachina.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -705,7 +705,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Connectar belatro dispositivo</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Pa ninviar una pestanya, inicia sesión en Firefox a lo menos en unatro dispositivo.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Pa ninviar una pestanya, inicia sesión en Aion a lo menos en unatro dispositivo.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Entendiu</string>
   <!-- Share error message -->
@@ -736,7 +736,7 @@
   <string name="snackbar_deleted_undo">DESFER</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Permitir que %1$s ubra %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -792,7 +792,7 @@
   <string name="preferences_delete_browsing_data_on_quit">Borrar datos de navegación en salir</string>
   <!-- Summary for the Delete browsing data on quit preference. "Quit" translation should match delete_browsing_data_on_quit_action translation. -->
   <string name="preference_summary_delete_browsing_data_on_quit_2">Borrar automaticament los datos de navegación quan seleccions \"Salir\" en o menú prencipal</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s borrará los datos de navegación triaus.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Cancelar</string>
@@ -815,14 +815,14 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Escaniar lo codigo</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[En o tuyo equipo, ubre Firefox y ves ta <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[En o tuyo equipo, ubre Aion y ves ta <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Listo pa escaniar</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Inicia sesión con a tuya camara</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Usa lo correu electronico</string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s deixará de sincronizar-se con a tuya cuenta, pero no se borrarán los datos de navegación d’este dispositivo.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Desconnectar</string>
@@ -899,11 +899,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Ir a la pachina anterior</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Novedatz de %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | Bibliotecas OSS</string>
   <!-- About page link text to open support link -->
@@ -1040,13 +1040,13 @@
   <string name="synced_tabs_connect_another_device">Connectar unatro dispositivo.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Per favor, torna a autentificar-te.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Per favor, activa la sincronización de pestanyas.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">No tiens garra pestanya ubierta en Firefox en as tuyas atros dispositivos.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">No tiens garra pestanya ubierta en Aion en as tuyas atros dispositivos.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Veyer una lista de pestanyas d’as tuyas atros dispositivos.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Inicia sesión pa sincronizar</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">No i hai garra pestanya ubierta</string>

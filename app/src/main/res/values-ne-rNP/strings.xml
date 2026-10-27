@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">निजी %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (निजी)</string>
   <!--
     Home Fragment
@@ -29,8 +29,8 @@
   <string name="tab_tray_select_collection">सङ्कलन छनौट गर्नुहोस्</string>
   <!-- Content description for close button while in multiselect mode in tab tray -->
   <string name="tab_tray_close_multiselect_content_description">बहुछनौट मोडबाट बाहिर निस्कनुहोस्</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s Mozilla द्वारा निर्माण गरिएको हो।</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s Nath द्वारा निर्माण गरिएको हो।</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">निजी ब्राउजिङ्ग बारे सामान्य मिथकहरू</string>
   <!-- Text for the positive action button -->
@@ -88,7 +88,7 @@
   <string name="browser_menu_share">सेयर</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">%1$s मा खोल्नुहोस्</string>
   <!--
@@ -113,7 +113,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">अनुमति नदिनुहोस्</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">निजी सत्रहरूमा खोजी सुझावहरूलाई अनुमति दिन चाहानुहुन्छ?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s ले तपाईले ठेगाना पट्टीमा टाइप गर्नुहुने सबै कुरा तपाईको पूर्व-निर्धारित खोज इन्जिन सङ्ग साझेदारी गर्नेछ।</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s खोज्नुहोस्</string>
@@ -143,7 +143,7 @@
   <string name="preferences_rate">गुगल प्ले मा मुल्याङ्कन गर्नुहोस्</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">%1$s बारेमा</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -245,7 +245,7 @@
   <string name="sync_never_synced_summary">अन्तिम पटक सिङ्क गरिएको: कहिल्यै गरिएन</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%2$s %3$s मा %1$s</string>

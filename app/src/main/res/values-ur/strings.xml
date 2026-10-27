@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">نجی %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (نجی)</string>
   <!--
     Home Fragment
@@ -29,8 +29,8 @@
   <string name="tab_tray_select_collection">مجموعہ منتخب کریں</string>
   <!-- Content description for close button while in multiselect mode in tab tray -->
   <string name="tab_tray_close_multiselect_content_description">ملٹی سکرین موڈ سے نکلیں</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s ءMozilla کے ذریعہ تیار کیا گیا ہے۔</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s ءNath کے ذریعہ تیار کیا گیا ہے۔</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">نجی براؤزنگ کے بارے میں عمومی فرضی داستان</string>
   <!-- Text for the positive action button -->
@@ -112,12 +112,12 @@
   <string name="browser_menu_share">شیئر کریں</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">ان میں کھولیں%1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">ان کے ذریعہ %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -148,7 +148,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">اجازت مت دیں</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">نجی سیشنوں میں تلاش کی تجاویز کی اجازت دیں؟</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s آپ کے ذریعہ پتہ بار میں ٹائپ کی گئی سبھی چیزوں کو آپ کے طے شدہ تلاش انجن کے ساتھ شیئر کرے گا</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s تلاش کریں</string>
@@ -178,7 +178,7 @@
   <string name="preferences_rate">Google Play پر شرح کاری کریں</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">۔%1$s کے بارے میں</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -282,7 +282,7 @@
   <string name="sync_never_synced_summary">آخری بار سینک کیا گیا: کبھی نہیں</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%3$s %2$s پر %1$s</string>
@@ -295,7 +295,7 @@
   -->
   <string name="fxa_received_tab_channel_name">موصول شدہ ٹیب</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">دوسرے Firefox آلات سے موصول ہونے والے ٹیب کے بارے میں اطلاعات۔</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">دوسرے Aion آلات سے موصول ہونے والے ٹیب کے بارے میں اطلاعات۔</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">ٹیب حاصل ہوا</string>
   <!-- %s is the device name -->
@@ -488,7 +488,7 @@
   <string name="remove_top_site">ہٹائیں</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">سابقات سے حذف کریں</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (نجی موڈ)</string>
   <!-- Text for the button to clear all history -->
   <string name="history_delete_all">سابقات حذف کریں</string>
@@ -511,7 +511,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">معاف کریں۔ %1$s اس صفحہ کو لوڈ نہیں کر سکتا ہے۔</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -686,7 +686,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">ایک اور آلہ جوڑیں</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">کسی ٹیب کو بھیجنے کے لئے، کم سے کم ایک اور آلہ پر Firefox میں سائن ان کریں۔</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">کسی ٹیب کو بھیجنے کے لئے، کم سے کم ایک اور آلہ پر Aion میں سائن ان کریں۔</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">ٹھیک ہے!</string>
   <!-- Share error message -->
@@ -719,7 +719,7 @@
   <string name="snackbar_deleted_undo">کالعدم</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%1$s کو %2$s کھولنے کی اجازت دیں</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -767,7 +767,7 @@
   <string name="preferences_delete_browsing_data_on_quit">بند کرنے پر براؤزنگ کا ڈیٹا مٹائیں</string>
   <!-- Summary for the Delete browsing data on quit preference. "Quit" translation should match delete_browsing_data_on_quit_action translation. -->
   <string name="preference_summary_delete_browsing_data_on_quit_2">جب آپ مین مینو سے \"چھوڑیں\" کو منتخب کرتے ہیں تو براؤزنگ کا ڈیٹا خودبخود حذف ہو جاتا ہے</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s منتخب شدہ براؤزنگ کے کوائف کو حذف کر دے گا۔</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">منسوخ کریں</string>
@@ -790,7 +790,7 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">کوڈ کو اسکین کریں</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[اپنے کمپیوٹر پر Firefox کھولیں اور <b>https://firefox.com/pair</b> پر جائیں]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[اپنے کمپیوٹر پر Aion کھولیں اور <b>https://firefox.com/pair</b> پر جائیں]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">سکین کرنے کے لئے تیار</string>
   <!-- Text shown for settings option for sign with pairing -->
@@ -868,11 +868,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">واپس جائیں</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">%s میں نیا کیا ہے</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">OSS | %s لائبریریاں</string>
   <!-- About page link text to open support link -->
@@ -912,9 +912,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">محفوظ کرنے کے لئے پوچھیں</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">کبھِی بھی محفوظ مت کریں</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">%1$s میں آٹو فل</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$s استعمال کرتے ہوئے ویب سائٹس میں صارف نام اور پاس ورڈ بھریں اور محفوظ کریں۔</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">دیگر ایپس میں آٹو فل کریں ۔</string>
@@ -1054,13 +1054,13 @@
   <string name="synced_tabs_connect_another_device">ایک اور آلہ جوڑیں۔</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">برائے مہربانی دوبارہ توثیق کریں۔</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">براہ کرم ٹیب sync کو فعال کریں۔</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">آپ کے دوسرے آلات پر Firefox میں کوئی ٹیب نہیں کھلے ہوئِے ہیں۔</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">آپ کے دوسرے آلات پر Aion میں کوئی ٹیب نہیں کھلے ہوئِے ہیں۔</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">دیگر آلات سے ٹیبیں کی فہرست دیکھیں۔</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">sync کے لئے سائن ان کریں</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">کوئی کھلے ٹیب نہیں</string>

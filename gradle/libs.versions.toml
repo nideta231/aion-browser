@@ -328,5 +328,5 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 protobuf-plugin = { id = "com.google.protobuf", version.ref = "protobuf-plugin" }
 # Only the vendored app-services component builds still apply this.
-python-envs-plugin = { id = "com.jetbrains.python.envs", version.ref = "python-envs-plugin" }
+python-envs-plugin = { id = "com.jetbrains.python.envs" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }

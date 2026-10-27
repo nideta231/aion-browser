@@ -39,7 +39,7 @@
   <string name="browser_menu_find_in_page">ପୃଷ୍ଠାରେ ଖୋଜି ପାଆନ୍ତୁ</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">%1$sରେ ଖୋଲନ୍ତୁ</string>
   <!--
@@ -53,7 +53,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">ଗୋଟିଏ ନୂଆ %1$s ଟ୍ୟାବ୍ ଖୋଲନ୍ତୁ</string>
   <!--

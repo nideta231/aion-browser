@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Prywatny %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (prywatny)</string>
   <!--
     Home Fragment
@@ -39,14 +39,14 @@
   <string name="tab_tray_select_collection">Ôbier kolekcyjo</string>
   <!-- Content description for close button while in multiselect mode in tab tray -->
   <string name="tab_tray_close_multiselect_content_description">Wylyź ze trybu multiwyboru</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s produkuje Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s produkuje Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Czynste mity ô prywatnym przeglōndaniu</string>
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Możesz nastawić aplikacyjo %1$s, coby autōmatycznie ôtwiyrała linki w aplikacyjach.</string>
   <!-- Text for the positive action button -->
@@ -73,7 +73,7 @@
   <string name="tab_tray_inactive_auto_close_title">Autōmatycznie zawiyrać po miesiōncu?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s może zawiyrać karty, co w zeszłym miesiōncu niy były ôglōndane.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -151,12 +151,12 @@
   <string name="browser_menu_share">Udostympnij</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Ôdewrzij we %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Funguje skuli %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -189,7 +189,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Niy zwolej</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Pokazować dorady szukanio we prywatnych ôknach?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s bydzie przekazowoł bazowyj wyszukowarce wszysko, co wkludzosz we posku z adresōm.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Szukej na %s</string>
@@ -208,7 +208,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Ôdewrzij w nowyj karcie aplikacyje %1$s</string>
   <!-- Text preview for smaller sized widgets -->
@@ -239,7 +239,7 @@
   <string name="preferences_rate">Ôcyń na Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Ô aplikacyji %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -375,7 +375,7 @@
   <string name="wallpaper_select_error_snackbar_message">Niy szło zmiynić tapety</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Przewiydz sie wiyncyj</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">Klasyczny %s</string>
   <!-- Wallpaper onboarding dialog header text. -->
   <string name="wallpapers_onboarding_dialog_title_text">Sprōbuj kapki farby</string>
@@ -419,7 +419,7 @@
   <string name="sync_never_synced_summary">Ôstatnio synchrōnizacyjo: żodno</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s na %2$s %3$s</string>
@@ -434,7 +434,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Przijynte karty</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Powiadōmiynia ô kartach przijyntych z inkszych maszin z aplikacyjōm Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Powiadōmiynia ô kartach przijyntych z inkszych maszin z aplikacyjōm Aion.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Karta je przijynto</string>
   <!-- %s is the device name -->
@@ -661,7 +661,7 @@
   <string name="remove_top_site">Skasuj</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Skasuj z historyje</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (prywatny tryb)</string>
   <!--
     History
@@ -690,7 +690,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">%1$s niy poradzi zaladować tyj strōny.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -901,7 +901,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Połōncz inkszo maszina</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Coby posłać karta, zaloguj sie do Firefoxa aby na jednyj inkszyj maszinie.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Coby posłać karta, zaloguj sie do Aiona aby na jednyj inkszyj maszinie.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Rozumia</string>
   <!-- Share error message -->
@@ -926,12 +926,12 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox je gibki i prywatny</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion je gibki i prywatny</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Nastow Firefox za bazowo przeglōndarka</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Nastow Aion za bazowo przeglōndarka</string>
   <!--
     Snackbar
 
@@ -946,7 +946,7 @@
   <string name="snackbar_deleted_undo">COFNIJ AKCYJO</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Dowej aplikacyji %1$s ôtwiyrać %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1006,7 +1006,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Dzisio a wczora</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Wszysko</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s skasuje ôbrane dane przeglōndanio.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Pociep</string>
@@ -1037,16 +1037,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Skanuj kod</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Ôdewrzij Firefoxa na kōmputrze i idź na strōna <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Ôdewrzij Aiona na kōmputrze i idź na strōna <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Fertich, coby skanować</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Zaloguj sie z kamerōm</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Użyj lepij emaila</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Niy mosz kōnta? <u>Zrychtuj je</u>, coby synchrōnizować Firefoxa miyndzy maszinami.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Niy mosz kōnta? <u>Zrychtuj je</u>, coby synchrōnizować Aiona miyndzy maszinami.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s skōńczy sie synchrōnizować ze twojim kōntym, ale niy skasuje żodnych danych przeglōndanio na tyj maszinie.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Rozłōncz</string>
@@ -1062,7 +1062,7 @@
   <string name="preference_enhanced_tracking_protection">Polepszōno ôchrōna ôd śledzynio</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Teroz z pōłnym ôchrōnōm cookies, naszōm nojsiylniyjszōm baryjerōm przeciw elymyntōm, co śledzōm miyndzy strōnami.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s brōni cie przed mockōm nojpopularniyjszych śledzōncych elymyntōw, kere badajōm, co robisz online.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Przewiydz sie wiyncyj</string>
@@ -1172,7 +1172,7 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Pytej sie przed spamiyntaniym</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Żodyn roz niy spamiyntuj</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Autōmatycznie wypōłnianie w aplikacyji %1$s</string>
   <!-- Preference option for adding a password -->
   <string name="preferences_logins_add_login_2">Przidej hasło</string>

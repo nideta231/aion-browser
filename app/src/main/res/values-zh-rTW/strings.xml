@@ -43,9 +43,9 @@
   <string name="preferences_custom_homepage">自訂首頁</string>
 
 
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">隱私 %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s（隱私）</string>
   <!--
     Home Fragment
@@ -75,7 +75,7 @@
   <string name="application_search_hint">輸入搜尋詞彙</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">隱私瀏覽模式</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s 不會留下瀏覽紀錄或 Cookie，但會保留建立的書籤。</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">開新分頁進行搜尋</string>
@@ -109,8 +109,8 @@
   <string name="home_bookmarks_show_all_content_description">顯示所有書籤</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">刪除</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s 是由 Mozilla 所打造。</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s 是由 Nath 所打造。</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">隱私瀏覽功能的常見迷思</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -123,7 +123,7 @@
   <string name="felt_privacy_desc_card_title">在此裝置不留下任何痕跡</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s 會在您關閉所有隱私瀏覽分頁後，清除您的 Cookie、瀏覽紀錄、網站資料。</string>
   <!--
@@ -135,7 +135,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">您可以設定使用 %1$s 自動開啟各應用程式當中的鏈結。</string>
   <!-- Text for the positive action button -->
@@ -162,7 +162,7 @@
   <string name="tab_tray_inactive_auto_close_title">等一個月後再自動關閉？</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s 可自動關閉您超過一個月未檢視的分頁。</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -273,12 +273,12 @@
   <string name="browser_menu_homepage">首頁</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">使用 %1$s 開啟</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Powered by %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -339,12 +339,12 @@
   <string name="browser_menu_print_2">列印</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">離開 %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">將 %1$s 設為您的預設瀏覽器</string>
   <!-- Label text within the set as default banner -->
@@ -391,7 +391,7 @@
     Title for the AI controls settings screen
   -->
   <string name="preferences_ai_controls">AI 控制</string>
-  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_banner_headline">使用 %s，您隨時都可以自行選擇</string>
   <!-- Supporting text for the AI controls banner. %s is a learn more link using ai_controls_learn_more as text. -->
   <string name="ai_controls_banner_supporting_text_2">包含是否使用以 AI 加強的功能。%s</string>
@@ -399,7 +399,7 @@
   <string name="ai_controls_learn_more">更多資訊</string>
   <!-- Title for the block AI enhancements toggle -->
   <string name="ai_controls_block_ai_title">封鎖 AI 強化功能</string>
-  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_ai_description">封鎖的話，代表您不會在 %s 看到目前已有，或新推出的 AI 強化功能，或是任何有關這些功能的彈出提示。</string>
   <!-- Link text to see what AI enhancements are and aren’t included -->
   <string name="ai_controls_see_whats_included">看看包含哪些項目，又不含哪些項目</string>
@@ -421,7 +421,7 @@
   <string name="ai_controls_voice_search_description">語音內容會透過 Google Speech Services 轉換為文字。</string>
   <!-- Title for the block AI enhancements confirmation dialog -->
   <string name="ai_controls_block_dialog_title">要封鎖 AI 強化功能嗎？</string>
-  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_dialog_body">您不會在 %1$s 看到目前已有，或新推出的 AI 強化功能，或是任何有關這些功能的彈出提示。但之後還是可以解除封鎖任何想要使用的功能。\n\n封鎖也會影響使用到 %1$s 提供的 AI 的擴充套件。</string>
   <!-- Label shown above the list of features that will be blocked in the block AI dialog -->
   <string name="ai_controls_block_dialog_what_will_be_blocked">會封鎖哪些功能：</string>
@@ -451,7 +451,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">不允許</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">要允許在隱私瀏覽階段中顯示搜尋建議嗎？</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s 將與預設搜尋引擎分享您在網址列輸入的任何內容。</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">搜尋 %s</string>
@@ -476,7 +476,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">已從瀏覽紀錄刪除 %1$s</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">刪除這筆瀏覽紀錄</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">維持使用 %1$s</string>
   <!--
     Home onboarding
@@ -484,42 +484,42 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">關閉</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">幫助我們讓 Firefox 變得更好</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">幫助我們讓 Aion 變得更好</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">自動傳送錯誤報告</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">錯誤報告可幫助我們找出瀏覽器的問題並進行修正。報告內容可能會包含私人或敏感資料。</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">更多資訊</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s 需要重新啟動</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">開啟 %s 時發生問題。\n\n傳送錯誤報告可幫助我們找出瀏覽器的問題並進行修正。報告內容可能會包含私人或敏感資料。</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">傳送錯誤報表</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">不要，謝謝</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">重新開啟 %s</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">傳送技術與互動資料給 Mozilla</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">關於您的裝置、硬體設定，以及您如何使用 Firefox 的方式，可幫助我們為所有使用者改進功能、效能與穩定度。</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">關於您的裝置、硬體設定，以及您如何使用 Aion 的方式，可幫助我們為所有使用者改進功能、效能與穩定度。</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">更多資訊</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">完成</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">歡迎使用 Firefox</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">歡迎使用 Aion</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">若繼續，代表您同意 %1$s。</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Firefox 的使用條款</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Aion 的使用條款</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">隱私權公告</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">為了幫助改善瀏覽器，Firefox 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">為了幫助改善瀏覽器，Aion 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">管理</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -532,23 +532,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">數以千計的客製化功能</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">若繼續，代表您同意 %1$s。</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Firefox 的使用條款</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Aion 的使用條款</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">隱私權公告</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">為了幫助改善瀏覽器，Firefox 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">為了幫助改善瀏覽器，Aion 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">管理設定</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -557,10 +557,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">您想將網址列放在哪裡？</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">繼續</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">協助我們讓 Firefox 成長</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">協助我們讓 Aion 成長</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Firefox 以及是如何使用的，我們絕不會販售此資料。</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Aion 以及是如何使用的，我們絕不會販售此資料。</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">我們會如何使用該資料</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -569,8 +569,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">預設開啟自動追蹤保護</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">只要輕鬆一點，就可以幫助防止大企業追蹤您在網路上的點擊。</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">同步所有使用 Firefox 的裝置</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">同步所有使用 Aion 的裝置</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">在任何裝置中都能有相同的書籤、分頁與密碼，全部都經加密保護。</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -579,8 +579,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">現在不要</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">還有一件事</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Firefox 以及是如何使用的，我們絕不會販售此資料。</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Aion 以及是如何使用的，我們絕不會販售此資料。</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">同意並開始上網</string>
   <!-- "Continue" onboarding button. -->
@@ -597,23 +597,23 @@
   <string name="nova_onboarding_tou_subtitle">快速、安全、絕不把您賣掉。\n上網功能變得更棒了。</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">若繼續，代表您同意 %1$s。</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Firefox 的使用條款</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Aion 的使用條款</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Aion 關心您的隱私。到我們的%1$s閱讀更多資訊。</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">隱私權公告</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">為了幫助改善瀏覽器，Firefox 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">為了幫助改善瀏覽器，Aion 會將除錯與互動資料傳送回 Mozilla。%1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">管理設定</string>
   <!-- "Set to default" onboarding title. -->
@@ -647,73 +647,73 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">幫助我們打造更好的網路環境</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Firefox 以及是如何使用的，我們絕不會販售此資料。%1$s</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Firefox 以及是如何使用的，我們絕不會販售此資料。</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">您可以透過讓 Mozilla 告知我們用來宣傳 Firefox 的平台您是 Firefox 使用者，幫助我們接觸更多人。</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Aion 以及是如何使用的，我們絕不會販售此資料。%1$s</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">與 Mozilla 的行銷夥伴分享您如何發現 Aion 以及是如何使用的，我們絕不會販售此資料。</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">您可以透過讓 Mozilla 告知我們用來宣傳 Aion 的平台您是 Aion 使用者，幫助我們接觸更多人。</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">您可以透過讓 Mozilla 知道您是從哪個平台下載 Firefox 的，幫助我們接觸更多人。</string>
+  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">您可以透過讓 Mozilla 知道您是從哪個平台下載 Aion 的，幫助我們接觸更多人。</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">讓 Mozilla 知道您是從哪個平台下載 Firefox 的，幫助我們接觸更多人。</string>
+  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">讓 Mozilla 知道您是從哪個平台下載 Aion 的，幫助我們接觸更多人。</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">讓 Mozilla 知道您是從哪個平台下載 Firefox 的，幫助我們接觸更多人。%1$s</string>
+  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">讓 Mozilla 知道您是從哪個平台下載 Aion 的，幫助我們接觸更多人。%1$s</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text_1 as text (“Learn More”).
   -->
-  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">您可以透過讓 Mozilla 知道您是從哪個平台下載 Firefox 的，幫助我們接觸更多人。%1$s</string>
-  <!-- Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Firefox 以獨立為榮，也致力於保護開放網路不受科技壟斷。</string>
+  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">您可以透過讓 Mozilla 知道您是從哪個平台下載 Aion 的，幫助我們接觸更多人。%1$s</string>
+  <!-- Marketing onboarding additional body text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Aion 以獨立為榮，也致力於保護開放網路不受科技壟斷。</string>
   <!--
-    Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded.
+    Marketing onboarding additional body text. 'Aion' is intentionally hardcoded.
     “Allowing” refers to the main button “Allow and Continue”; the ask for the user is to allow communicating back to the platform.
   -->
-  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">請考慮協助 Firefox 取得成功。</string>
+  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">請考慮協助 Aion 取得成功。</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">我們會如何使用該資料</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">更多資訊</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">幫助 Firefox</string>
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">幫助 Aion</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">是</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">不要，謝謝</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">否</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">透過通知功能，讓您使用 Firefox 更安全</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">探索 Firefox 最新的隱私保護功能，這樣就可以掌握要如何受到保護的最新資訊。</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">透過通知功能，讓您使用 Aion 更安全</string>
+  <!-- Notifications onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">探索 Aion 最新的隱私保護功能，這樣就可以掌握要如何受到保護的最新資訊。</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">開啟通知</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">讓每次搜尋都更有隱私</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">每次都從手機主畫面開始搜尋，讓 Firefox 的自動保護功能全程挺你。</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">新增 Firefox 小工具</string>
+  <!-- "Add search widget" onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">每次都從手機主畫面開始搜尋，讓 Aion 的自動保護功能全程挺你。</string>
+  <!-- "Add search widget" onboarding button. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">新增 Aion 小工具</string>
   <!-- Customize prompt onboarding title. -->
   <string name="nova_onboarding_customize_prompt_title" tools:ignore="UnusedResources">輕鬆自訂，每次點擊都更有隱私</string>
   <plurals name="nova_onboarding_customize_prompt_body" tools:ignore="UnusedResources">
     <!--
       Customize prompt onboarding body.
-      %1$s is replaced by the product name (for example "Firefox"),
+      %1$s is replaced by the product name (for example "Aion"),
       %2$,d is replaced by the number of trackers blocked. The comma represents the thousand
       separator (e.g. 1,000 in English), and it will automatically use the correct character
       for your locale (don't change or remove it).
@@ -736,7 +736,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">開啟新 %1$s 分頁</string>
   <!-- Text preview for smaller sized widgets -->
@@ -779,15 +779,15 @@
   <string name="preferences_search_engines_suggestions">來自其他搜尋引擎的建議</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">網址列偏好設定</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">網址列 - Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">了解 Firefox Suggest 的相關資訊</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">網址列 - Aion Suggest</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">了解 Aion Suggest 的相關資訊</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">到 Google Play 打分數</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">關於 %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -904,27 +904,27 @@
   <string name="preferences_account_and_sync_settings">帳號與同步</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">自動完成網址</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">來自贊助商的建議</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">允許贊助商偶爾顯示廣告，支持 %1$s 的發展</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">來自 %1$s 的建議</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">取得您搜尋內容的相關建議</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards" tools:ignore="BrandUsage">一邊打字，一邊從 Mozilla 取得建議</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">鏈結分享</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">在 WhatsApp 分享內容中加入 %1$s 的下載鏈結</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">當您每次在 WhatsApp 分享鏈結時，都邀請朋友使用 %1$s 更快、更安全地上網。</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">已分享鏈結</string>
@@ -1057,7 +1057,7 @@
   <string name="wallpaper_select_error_snackbar_message">無法變更背景圖</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">了解更多</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">經典 %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">藝術家系列</string>
@@ -1105,11 +1105,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">午夜</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">北極光</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">2004 懷舊版</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">像素化</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">極簡</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">彩虹驕傲</string>
@@ -1119,9 +1119,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">由 @heyheymomodraws 繪製</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">擁抱</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">燃燒</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">酷臉</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">純色</string>
@@ -1131,9 +1131,9 @@
   <string name="alternative_app_icon_group_featured">精選</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">要更改應用程式圖示嗎？</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">應用程式可能需要關閉，再次點擊閃亮的新圖示即可重新開啟 %1$s。</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">更改圖示將移除在裝置主畫面新增的所有網站與捷徑。\n\n%1$s 可能會關閉，點擊新圖示即可重新開啟。</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">更改圖示</string>
@@ -1147,8 +1147,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">已推出新的擴充套件</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">看看超過 100 套能讓 Firefox 有您的風格的全新擴充套件。</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">看看超過 100 套能讓 Aion 有您的風格的全新擴充套件。</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">探索擴充套件</string>
   <!--
@@ -1160,7 +1160,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">有一套以上的擴充套件停止運作，造成您的系統不穩定。%1$s 嘗試重新啟動這些擴充套件卻失敗了。\n\n將不會再於目前的使用階段重新啟動擴充套件。\n\n移除或停用造成問題的擴充套件，可能可以解決此問題。</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1217,7 +1217,7 @@
   <string name="sync_never_synced_summary">上次同步: 從未</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">在 %2$s %3$s 上的 %1$s</string>
@@ -1232,7 +1232,7 @@
   -->
   <string name="fxa_received_tab_channel_name">收到分頁</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">收到來自其他 Firefox 裝置的分頁通知。</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">收到來自其他 Aion 裝置的分頁通知。</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">收到分頁</string>
   <!-- %s is the device name -->
@@ -1263,8 +1263,8 @@
   <string name="preference_usage_data_2">傳送技術與互動資料</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">了解有關技術資料的更多資訊</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">關於您的裝置、硬體設定，以及您的使用方式，可幫助我們為所有使用者改進 Firefox 功能、效能與穩定度。</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">關於您的裝置、硬體設定，以及您的使用方式，可幫助我們為所有使用者改進 Aion 功能、效能與穩定度。</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">每日使用情況回報</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">此資訊可幫助 Mozilla 估算活躍使用者數。</string>
@@ -1285,9 +1285,9 @@
   <string name="preferences_marketing_data_2">活動測量資料</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">與 Mozilla 的行銷技術夥伴分享您如何發現 Firefox 以及是如何使用。</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">與 Mozilla 的行銷技術夥伴分享您如何發現 Aion 以及是如何使用。</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">了解行銷資料的更多資訊</string>
   <!-- Title for studies preferences -->
@@ -1543,8 +1543,8 @@
   <string name="studies_remove">移除</string>
   <!-- Title of the active section on the studies list -->
   <string name="studies_active">進行中</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Firefox 會隨機選擇使用者來測試功能，為每個人改進品質。</string>
+  <!-- Description for studies. Note: The word "Aion" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Aion 會隨機選擇使用者來測試功能，為每個人改進品質。</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title_2">允許進行功能研究</string>
   <!-- Learn more link for studies, links to an article for more information about studies. -->
@@ -1555,8 +1555,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">允許遠端改善</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox 將在新版本推出前，從遠端套用變更，以改進功能、效能與穩定性。</string>
+  <!-- Description for remote improvements. Note: The word "Aion" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Aion 將在新版本推出前，從遠端套用變更，以改進功能、效能與穩定性。</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">更多資訊</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1655,7 +1655,7 @@
   <string name="remove_top_site">移除</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">從瀏覽紀錄刪除</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s（隱私瀏覽模式）</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">開啟分頁搜尋</string>
@@ -2013,7 +2013,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">回報網站問題</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">您的回報內容可幫助我們了解與修正 %1$s 的問題，讓所有使用者都能獲得改進。%2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">更多資訊</string>
@@ -2078,7 +2078,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">很抱歉，%1$s 無法載入該頁面。</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -2087,11 +2087,11 @@
   <string name="tab_crash_close">關閉分頁</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">還原分頁</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s 發生錯誤。要回報這個錯誤嗎？</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">您的裝置上有與目前正在調查中的錯誤相關的錯誤報告。傳送給我們，可幫助改進 %1$s。關閉此通知則可忽略此報告。</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">您的裝置上有與目前正在調查中的錯誤相關的 %1$d 則錯誤報告。傳送給我們，可幫助改進 %2$s。關閉此通知則可忽略這些報告。</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">自動傳送錯誤報告</string>
@@ -2444,7 +2444,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">連結其他裝置</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">請在至少另一台裝置上的 Firefox 登入才能傳送分頁。</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">請在至少另一台裝置上的 Aion 登入才能傳送分頁。</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">知道了</string>
   <!-- Share error message -->
@@ -2457,9 +2457,9 @@
   <string name="sync_add_new_device_learn_button">了解傳送分頁…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">連結其他裝置…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\n此訊息是使用 %2$s 🦊傳送。來試用行動瀏覽器：%3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\n此訊息是使用 %2$s 🦊傳送 %3$s</string>
   <!-- Send tab to synced devices: Authentication error title - Message asking the user to re-authenticate -->
   <string name="sync_send_tab_error_auth_title">再次登入，即可在裝置間傳送分頁</string>
@@ -2470,7 +2470,7 @@
   <!-- Send tab to synced devices: Empty state title - Displayed when the user has no synced devices -->
   <string name="sync_send_tab_empty_state_title">沒有已連結的裝置</string>
   <!-- Send tab to synced devices: Empty state message - Displayed when the user has no synced devices -->
-  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">請在至少另一台裝置上的 Firefox 登入才能傳送分頁。</string>
+  <string name="sync_send_tab_empty_state_description" tools:ignore="BrandUsage">請在至少另一台裝置上的 Aion 登入才能傳送分頁。</string>
   <!-- Send tab to synced devices: Connectivity Error title -->
   <string name="sync_send_tab_error_connection_title">請檢查您的網際網路連線是否正常</string>
   <!-- Send tab to synced devices: Connectivity Error message - Suggested user action after internet connection has been established -->
@@ -2492,23 +2492,23 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox 又快、又有隱私</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion 又快、又有隱私</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">將 Firefox 設成您的預設瀏覽器</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">將 Aion 設成您的預設瀏覽器</string>
   <!--
     Privacy report notification
 
     Name of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app.
   -->
   <string name="notification_privacy_report_channel_name">隱私權報告</string>
-  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Firefox) -->
+  <!-- Description of the weekly privacy report notification channel. Displayed in the "App notifications" system settings for the app. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_channel_description">%1$s 會顯示在您上網過程中，封鎖了多少追蹤器。</string>
-  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Body text for the weekly privacy report notification for when trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_body_has_trackers">請繼續上網，%1$s 將持續封鎖追蹤器。</string>
-  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Firefox) -->
+  <!-- Headline text of the weekly privacy report notification for when no trackers have been blocked. %1$s is the app name (e.g. Aion) -->
   <string name="notification_privacy_report_headline_no_trackers">隨您上網，%1$s 會自動封鎖追蹤器。您會在此處看到封鎖資訊。</string>
   <!--
     Survey
@@ -2516,7 +2516,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">請協助填寫簡短問卷，讓 Firefox 得更好。</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">請協助填寫簡短問卷，讓 Aion 得更好。</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">填寫問卷</string>
   <!-- Preference for not taking the short survey. -->
@@ -2541,7 +2541,7 @@
   <string name="snackbar_deleted_undo">還原</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">允許 %1$s 開啟 %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2609,7 +2609,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">今天和昨天</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">所有歷史記錄</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s 將刪除選擇的瀏覽資料。</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">取消</string>
@@ -2648,16 +2648,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">掃描 QR Code</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[在電腦上使用 Firefox 開啟 <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[在電腦上使用 Aion 開啟 <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">準備好了，開始掃描！</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">使用攝影機登入</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">改用電子郵件</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[沒有帳號嗎？<u>註冊一組</u>就能在不同裝置間同步 Firefox。]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[沒有帳號嗎？<u>註冊一組</u>就能在不同裝置間同步 Aion。]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s 將會停止與您帳號間的同步，但不會刪除此裝置上的任何瀏覽資料。</string>
   <!-- Title of the confirmation dialog shown when the user signs out of their account -->
   <string name="sign_out_dialog_title">要登出帳號嗎？</string>
@@ -2679,7 +2679,7 @@
   <string name="preference_enhanced_tracking_protection">加強型追蹤保護</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">現在提供 Total Cookie Protection 功能，這是我們針對跨網站追蹤器迄今最強大的屏障。</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s 不讓常見的追蹤器記錄您的上網行為。</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">了解更多</string>
@@ -2794,11 +2794,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">瀏覽上一頁</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">%s 有什麼新鮮事</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | 開放原始碼程式庫</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2888,7 +2888,7 @@
   <string name="preference_doh_provider_custom_dialog_add">新增</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">例外網站</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">%1$s 不會對下列網站與子網域網站，使用安全 DNS 進行查詢。</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">新增網站</string>
@@ -2950,9 +2950,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">詢問我是否儲存</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">永不儲存</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">自動填入 %1$s 欄位</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">使用 %1$s 時自動填寫並儲存網站使用者名稱與密碼。</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">在其他應用程式中也自動填寫</string>
@@ -2966,15 +2966,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">在不同裝置間同步密碼</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">已儲存的密碼</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">您儲存或同步到 %s 的密碼將顯示於此處，所有儲存的密碼資訊都會被加密。</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">瞭解同步功能的更多資訊</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">例外網站</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s 不會儲存下列網站的密碼。</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s 不會儲存下列網站的密碼。</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">刪除所有例外</string>
@@ -3068,14 +3068,14 @@
   <string name="preferences_email_masks_suggest_summary">隱藏您的實際電子郵件地址，以避免您的信箱收到垃圾信。某些網站不支援轉寄信箱功能。</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">更多資訊</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">管理轉寄信箱</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">您已用完 5 組免費轉寄信箱，我們從中挑選一組讓您重複使用。</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">目前無法使用轉寄信箱服務，請稍候幾分鐘再試一次。</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -3088,7 +3088,7 @@
   <string name="ip_protection_toggle_label">VPN</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">瀏覽上一頁</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">%s 內建的 VPN</string>
   <!-- Body text for the browser VPN settings header, shown when no promo is running. %s is a learn more link using ip_protection_learn_more as text. -->
   <string name="ip_protection_promo_body_2">隱藏您的實際所在位置，就算是使用公共 Wi-Fi 也能獲得額外保護。%s</string>
@@ -3147,11 +3147,11 @@
   <string name="ip_protection_get_started">開始使用</string>
   <!-- Label for the "connecting" state of the button that starts the browser VPN authentication or authorization flow on the settings screen -->
   <string name="ip_protection_connecting">連線中…</string>
-  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_onboarding_card_headline">試用 %s 內建的 VPN</string>
   <!--
     The body of the VPN onboarding card.
-    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Firefox.
+    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Aion.
     %2$d is the total monthly allowance in GB (for example "50").
   -->
   <string name="ip_protection_onboarding_body">透過隱藏您的實際所在位置，%1$s。就算使用公共 Wi-Fi 也沒問題。每月有 %2$d GB 免費流量。</string>
@@ -3160,7 +3160,7 @@
   <!--
     The body of the VPN onboarding card for a promotion that provides unlimited data bandwidth for a certain time.
     %1$s is a localized date (for example "Jun 9") indicating the end of the promotional period.
-    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Firefox.
+    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Aion.
   -->
   <string name="ip_protection_onboarding_body_promo">開啟此功能即可讓您的上網過程更有隱私、更難被追蹤。立即試用，即可在 %1$s 前享用無限頻寬。%2$s</string>
   <!-- Used as text for a link in ip_protection_onboarding_body. Make sure to adapt capitalization if the link is in the middle of the sentence. -->
@@ -3188,7 +3188,7 @@
   <!-- Title for the browser VPN location picker screen. -->
   <string name="ip_protection_location_picker_title" tools:ignore="UnusedResources">選擇 VPN 連線位置</string>
   <!-- Description for what it means to use the Recommended setting and let the app automatically pick the best server location. -->
-  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Firefox 會自動尋找最快位置</string>
+  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Aion 會自動尋找最快位置</string>
   <!-- Description for an unavailable VPN location in the location list. -->
   <string name="ip_protection_location_unavailable_description">無法使用</string>
   <!-- Error message shown when the selected browser VPN location is unavailable. -->
@@ -3215,7 +3215,7 @@
   <string name="preferences_credit_cards_2">付款方式</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">儲存並自動填寫付款方式</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s 會加密您儲存的所有付款方式資料</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">在不同裝置間同步卡片資料</string>
@@ -3461,13 +3461,13 @@
   <string name="synced_tabs_connect_another_device">連結另一部裝置。</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">請重新登入。</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">請開啟分頁同步。</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">您其他裝置上的 Firefox 沒有任何開啟的分頁。</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">您其他裝置上的 Aion 沒有任何開啟的分頁。</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">檢視您其他裝置中的分頁清單。</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">登入 Sync</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">無已開啟的分頁</string>
@@ -3562,7 +3562,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">等一個月後再自動關閉？</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox 可自動關閉您超過一個月未檢視的分頁。</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion 可自動關閉您超過一個月未檢視的分頁。</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">開啟自動關閉分頁功能</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3570,9 +3570,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox 建議</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion 建議</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3591,7 +3591,7 @@
   -->
   <string name="default_browser_experiment_card_title">切換您的預設瀏覽器</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">設定使用 Firefox 自動開啟網站、郵件、簡訊當中的鏈結。</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">設定使用 Aion 自動開啟網站、郵件、簡訊當中的鏈結。</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">點這裡取得詳細資訊</string>
   <!-- Content description for the action bar "up" button -->
@@ -3639,11 +3639,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">已將頁面從 %1$s 翻譯為 %2$s</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">在 %1$s 試用保護隱私的翻譯功能</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">為了保護您的隱私，要翻譯的內容不會離開您的裝置。未來將持續支援更多語言並改善功能！%1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">更多資訊</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">原始語言：</string>
@@ -3704,7 +3704,7 @@
   <string name="translation_option_bottom_sheet_switch_description">蓋過翻譯功能提示</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">翻譯設定</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">關於 %1$s 的翻譯功能</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">關閉翻譯表單</string>
@@ -3750,15 +3750,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">提供翻譯（預設）</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s 將提示是否要翻譯此語言的網站內容</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">總是翻譯</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s 將在載入此語言網站時，自動進行翻譯</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">永不翻譯</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s 不會提示此語言的網站翻譯功能</string>
   <!--
     Never translate site preference screen
@@ -3840,7 +3840,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">要刪除%1$s（%2$s）嗎？</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">若您刪除此語言，%1$s 將在翻譯時下載部分語言檔到您的快取空間。</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3848,7 +3848,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">要刪除所有語言（%1$s）嗎？</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">若您刪除所有語言，%1$s 將在翻譯時下載部分語言檔到您的快取空間。</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">刪除</string>
@@ -3883,12 +3883,12 @@
   <string name="protection_panel_banner_not_protected_title">您已關閉保護</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">已關閉 %s 的追蹤保護，建議您重新開啟。</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">已開啟 %s 追蹤保護</string>
   <plurals name="protection_panel_banner_protected_blocked_trackers_description">
@@ -4057,9 +4057,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Firefox 變得更好，僅需一分鐘即可完成問卷。</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Aion 變得更好，僅需一分鐘即可完成問卷。</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">繼續</string>
   <!--
@@ -4088,8 +4088,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">非常不滿意</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">我沒有使用</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">我不使用 Firefox 的搜尋功能</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">我不使用 Aion 的搜尋功能</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">我沒有使用 Sync</string>
   <!-- Option for likert scale -->
@@ -4100,24 +4100,24 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">讓人困惑，或者很難使用</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">還可以，但沒有比其他瀏覽器好</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">我會繼續使用 Firefox</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">幫助讓 Firefox 的列印功能變得更棒，只需幾秒鐘</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Firefox 的搜尋功能變得更好，僅需一分鐘即可完成問卷</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Firefox 的同步功能變得更好，僅需一分鐘即可完成問卷</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">請問您對 Firefox 的列印功能有多滿意？</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">您對 Firefox 首頁有多滿意？</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">您對 Firefox 的搜尋體驗滿意嗎？</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">您對 Firefox 的同步功能使用體驗滿意嗎？</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們改進 Firefox。下列選項當中哪一項最符合您目前為止的使用體驗？</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">我會繼續使用 Aion</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">幫助讓 Aion 的列印功能變得更棒，只需幾秒鐘</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Aion 的搜尋功能變得更好，僅需一分鐘即可完成問卷</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們讓 Aion 的同步功能變得更好，僅需一分鐘即可完成問卷</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">請問您對 Aion 的列印功能有多滿意？</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">您對 Aion 首頁有多滿意？</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">您對 Aion 的搜尋體驗滿意嗎？</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">您對 Aion 的同步功能使用體驗滿意嗎？</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">請幫助我們改進 Aion。下列選項當中哪一項最符合您目前為止的使用體驗？</string>
   <!--
     Uninstall Survey
 
@@ -4141,9 +4141,9 @@
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox 圖示</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Aion 圖示</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">問卷功能圖示</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -4255,43 +4255,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">立即更新</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">更新 Firefox 瀏覽器</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">更新 Aion 瀏覽器</string>
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">有一張根憑證即將過期，將導致某些功能於 3 月 14 日後無法運作。</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">請於 3 月 14 日前更新</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">有一張根憑證即將過期，將導致您的 Firefox 於 3 月 14 日後無法正常運作。</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">有一張根憑證即將過期，將導致您的 Aion 於 3 月 14 日後無法正常運作。</string>
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">更新時間剩下不到 7 天</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">由於根憑證即將失效，3 月 14 日起，附加元件與其他 Firefox 功能將停止運作。</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">保留 Firefox 的最後機會</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">因為根憑證即將失效，3 月 14 日後，您的 Firefox 版本將無法再正常運作。</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">由於根憑證即將失效，3 月 14 日起，附加元件與其他 Aion 功能將停止運作。</string>
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">保留 Aion 的最後機會</string>
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">因為根憑證即將失效，3 月 14 日後，您的 Aion 版本將無法再正常運作。</string>
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">建議更新</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">附加元件與部分其他功能，將於 3 月 14 日起停止運作。</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">您使用的是舊版的 Firefox</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">您使用的是舊版的 Aion</string>
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">請於 3 月 14 日前更新，以繼續使用附加元件與其他功能。</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">某些功能將於明天失效。</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">完成 %1$s 設定</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -4299,19 +4299,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">完成下列 3 步驟，即可設定 %1$s 獲得最完整的的上網體驗。</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">好的開始！您完成全部 3 步當中的第 1 步了！</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">快完成了！您已完成 2 步，還剩 1 步。</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">您已完成全部 3 個步驟。享用 %1$s 的速度、隱私保護與安全性。</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">完成全部 6 個步驟，即可設定 %1$s 獲得最完整的的上網體驗。</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4324,12 +4324,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">已經完成 4 步，只剩下 2 步了！</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">快完成了！只差 1 步就能抵達終點！</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">您已完成全部 6 個步驟。享用 %1$s 的速度、隱私保護與安全性。</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">完成全部 5 個步驟，即可設定 %1$s 獲得最完整的的上網體驗。</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4340,7 +4340,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">完成一半了！您已完成 3 步，剩下 2 步。</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">快完成了！只差 1 步就能抵達終點！</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">您已完成全部 5 個步驟。享用 %1$s 的速度、隱私保護與安全性。</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4361,10 +4361,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">%1$s 基本設定</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">自訂您的 %1$s</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">有用工具</string>
@@ -4407,18 +4407,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">您覺得 %1$s 如何？</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">我遇到問題</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">很棒！</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">感謝您喜愛 %1$s，可以花一點點時間幫我們打分數，來分享您的愛嗎？</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">到 Play 商店為 %1$s 打分數</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">很抱歉讓您遇到問題，請讓我們知道還可以如何改善 %1$s。</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">留下意見回饋</string>
@@ -4448,7 +4448,7 @@
   <string name="terms_of_use_prompt_title">這裡有點新鮮事</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4472,7 +4472,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">使用條款</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">來自 %1$s 的留言</string>
   <!--
@@ -4485,11 +4485,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">為了配合 Firefox 推出的最新功能，我們已更新%1$s。%2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">為了配合 Aion 推出的最新功能，我們已更新%1$s。%2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">隱私權公告</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->
@@ -4549,48 +4549,48 @@
   <!-- Button in the first-run Google Lens bottom sheet that leaves Google Lens without using it -->
   <string name="lens_opt_out_not_now_button">現在不要</string>
   <!--
-    Firefox Labs
+    Aion Labs
 
-    Firefox Labs is the name of a screen in Settings to allow users to learn about
+    Aion Labs is the name of a screen in Settings to allow users to learn about
     experimental and in-development features, and turn those features on and off.
-    The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+    The "Labs" portion can be localized, "Aion" must be treated as a brand and kept
     in English.
   -->
-  <string name="firefox_labs_title" tools:ignore="BrandUsage">Firefox 實驗室</string>
-  <!-- Banner title text on the Firefox Labs screen. -->
+  <string name="firefox_labs_title" tools:ignore="BrandUsage">Aion 實驗室</string>
+  <!-- Banner title text on the Aion Labs screen. -->
   <string name="firefox_labs_banner_title_2">請試用我們實驗中的功能！</string>
   <!--
-    Banner description text on the Firefox Labs screen. Provides information on what Firefox Labs does. %s is the name of the app (for example "Firefox Nightly").
-    Text will appear under the Firefox Labs banner title.
+    Banner description text on the Aion Labs screen. Provides information on what Aion Labs does. %s is the name of the app (for example "Aion Nightly").
+    Text will appear under the Aion Labs banner title.
   -->
   <string name="firefox_labs_experimental_description">這些功能仍在開發與發展中，可能會影響 %s 的運作方式。</string>
-  <!-- The link text shown when a feedback URL for a Firefox Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
+  <!-- The link text shown when a feedback URL for a Aion Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
   <string name="firefox_labs_share_feedback">分享意見回饋</string>
-  <!-- Content description for the share feedback link on a Firefox Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Firefox Labs feature. -->
+  <!-- Content description for the share feedback link on a Aion Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Aion Labs feature. -->
   <string name="firefox_labs_share_feedback_content_description">分享對 %s 的意見回饋。</string>
-  <!-- Button text on the Firefox Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
+  <!-- Button text on the Aion Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
   <string name="firefox_labs_restore_default_button_text">還原預設值</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
   <string name="firefox_labs_feature_dialog_title">需要重新啟動</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
+  <!-- The text on the dialog on the Aion Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
   <string name="firefox_labs_dialog_restart_button">重新啟動</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">取消</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
   <string name="firefox_labs_restore_defaults_dialog_title">需要重新啟動</string>
-  <!-- The description used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_restore_defaults_dialog_message">若要還原預設值，請重新啟動 %s。</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">重新啟動 %s 才能開啟此功能。</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_disable_dialog_message">重新啟動 %s 才能關閉此功能。</string>
-  <!-- Helper text shown beneath a Firefox Labs item when it is blocked from being turned on. -->
+  <!-- Helper text shown beneath a Aion Labs item when it is blocked from being turned on. -->
   <string name="firefox_labs_feature_conflict">無法試用此功能。</string>
-  <!-- Text displayed on the Firefox Labs screen when there are no Labs experimental features present. -->
+  <!-- Text displayed on the Aion Labs screen when there are no Labs experimental features present. -->
   <string name="firefox_labs_no_labs_available_description">目前沒有可以嘗試的實驗性功能</string>
-  <!-- Title of the Firefox Labs Sandboxing experiment. -->
+  <!-- Title of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_title" tools:ignore="UnusedResources">網站隔離</string>
-  <!-- Description of the Firefox Labs Sandboxing experiment. -->
+  <!-- Description of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_description" tools:ignore="UnusedResources">在不同網站間再加入一道屏障，幫助保護您跨分頁間的資料。可能會影響效能、穩定性、網站相容性以及瀏覽紀錄的儲存方式。</string>
   <!--
     PDF viewer toolbar and buttons

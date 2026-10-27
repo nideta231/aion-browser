@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">ສ່ວນຕົວ %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (ສ່ວນຕົວ)</string>
   <!--
     Home Fragment
@@ -33,7 +33,7 @@
   <string name="application_search_hint">ປ້ອນຄຳທີ່ຕ້ອງການຄົ້ນຫາ</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">ການທ່ອງເວັບແບບສ່ວນຕົວ</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s ຈະບໍ່ຈື່ປະຫວັດ ຫຼື ຄຸກກີ້ໃດໆຂອງທ່ານ, ແຕ່ບຸກມາກໃໝ່ຈະຖືກບັນທຶກໄວ້.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">ສ້າງແຖບໃຫມ່ເພື່ອເລີ່ມຕົ້ນການຄົ້ນຫາ</string>
@@ -67,8 +67,8 @@
   <string name="home_bookmarks_show_all_content_description">ສະແດງບຸກມາກທັງໝົດ</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">ເອົາອອກ</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s ແມ່ນຜະລິດຂື້ນໂດຍ Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s ແມ່ນຜະລິດຂື້ນໂດຍ Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">ຄວາມເຂົ້າໃຈຜິດທີ່ມັກພົບຕະລອດກ່ຽວກັບການທ່ອງເວັບແບບສ່ວນຕົວ</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -81,7 +81,7 @@
   <string name="felt_privacy_desc_card_title">ບໍ່​ປະ​ໃຫ້​ມີ​ການ​ຕິດ​ຕາມໃນ​ອຸ​ປະ​ກອນ​ນີ້​</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s ລຶບຄຸກກີ້, ປະຫວັດ, ແລະ ຂໍ້ມູນເວັບໄຊຂອງທ່ານ ເມື່ອທ່ານປິດແຖບສ່ວນຕົວທັງໝົດຂອງທ່ານ.</string>
   <!--
@@ -93,7 +93,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">ທ່ານສາມາດຕັ້ງ %1$s ໃຫ້ເປີດລິ້ງໃນແອັບໂດຍອັດຕະໂນມັດ.</string>
   <!-- Text for the positive action button -->
@@ -120,7 +120,7 @@
   <string name="tab_tray_inactive_auto_close_title">ປິດອັດຕະໂນມັດຫລັງຈາກຫນຶ່ງເດືອນ?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s ສາມາດປິດແທັບທີ່ທ່ານບໍ່ໄດ້ເຂົ້າໄປເບິງໃນຊ່ວງເດືອນທີ່ຜ່ານມາ.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -223,12 +223,12 @@
   <string name="browser_menu_homepage">ໜ້າຫຼັກ</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">ເປີດໃນ %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">ຂັບເຄື່ອນໂດຍ %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -277,12 +277,12 @@
   <string name="browser_menu_print_2">ພິມ</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">ອອກຈາກ %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">ເຮັດໃຫ້ %1$s ເປັນຄ່າເລີ່ມຕົ້ນຂອງທ່ານ</string>
   <!-- Label text within the set as default banner -->
@@ -337,7 +337,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">ບໍ່ອະນຸຍາດ</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">ອະນຸຍາດໃຫ້ມີຄຳແນະນຳການຄົ້ນຫາໃນແຊັສຊັນສ່ວນໂຕຫລືບໍ່?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s ຈະແຊລທຸກຢ່າງທີ່ທ່ານພິມໃນແທັບທີ່ຢູ່ກັບເຄືອງມືການຄົ້ນຫາພື້ນຖານຂອງທ່ານ.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">ຄົ້ນຫາ %s</string>
@@ -368,42 +368,42 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">ປິດ</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">ຊ່ວຍພວກເຮົາເຮັດໃຫ້ Firefox ດີຂຶ້ນ</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">ຊ່ວຍພວກເຮົາເຮັດໃຫ້ Aion ດີຂຶ້ນ</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">ສົ່ງລາຍງານການຂັດຂ້ອງໂດຍອັດຕະໂນມັດ</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">ບົດລາຍງານການຂັດຂ້ອງອະນຸຍາດໃຫ້ພວກເຮົາວິນິດໄສ ແລະ ແກ້ໄຂບັນຫາກັບຕົວທ່ອງເວັບ. ບົດລາຍງານອາດຈະປະກອບມີຂໍ້ມູນສ່ວນຕົວ ຫຼື ຂໍ້ມູນທີ່ລະອຽດອ່ອນ.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">ຮຽນຮູ້ເພີ່ມຕື່ມ</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s ຕ້ອງການຣີສະຕາດ</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">ເກີດບັນຫາໃນການເປີດ %s.\n\nການສົ່ງລາຍງານການຂັດຂ້ອງຊ່ວຍພວກເຮົາວິນິດໄສ ແລະ ແກ້ໄຂບັນຫາກັບຕົວທ່ອງເວັບ. ບົດລາຍງານອາດຈະປະກອບມີຂໍ້ມູນສ່ວນຕົວ ຫຼື ຂໍ້ມູນທີ່ລະອຽດອ່ອນ.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">ສົ່ງລາຍງານຂໍ້ຜິດພາດ</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">ບໍ່, ຂອບໃຈ</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">ເປີດ %s ຄືນໃໝ່</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">ສົ່ງຂໍ້ມູນດ້ານເຕັກນິກ ແລະ ການໂຕ້ຕອບກັບ Mozilla</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">ຂໍ້​ມູນ​ກ່ຽວ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ, ການ​ຕັ້ງ​ຄ່າ​ຮາດ​ແວ, ແລະ​ ວິ​ທີ​ທີ່​ທ່ານ​ນໍາ​ໃຊ້ Firefox ຊ່ວຍ​ປັບ​ປຸງ​ຄຸນ​ສົມ​ບັດ, ປະ​ສິດ​ທິ​ພາບ, ແລະ ​ຄວາມ​ສະຖຽນສໍາ​ລັບ​ທຸກ​ຄົນ.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">ຂໍ້​ມູນ​ກ່ຽວ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ, ການ​ຕັ້ງ​ຄ່າ​ຮາດ​ແວ, ແລະ​ ວິ​ທີ​ທີ່​ທ່ານ​ນໍາ​ໃຊ້ Aion ຊ່ວຍ​ປັບ​ປຸງ​ຄຸນ​ສົມ​ບັດ, ປະ​ສິດ​ທິ​ພາບ, ແລະ ​ຄວາມ​ສະຖຽນສໍາ​ລັບ​ທຸກ​ຄົນ.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">ສຳເລັດ</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">ຍິນດີຕ້ອນຮັບສູ່ Firefox</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">ຍິນດີຕ້ອນຮັບສູ່ Aion</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">ໂດຍການດຳເນີນການຕໍ່, ທ່ານເຫັນດີນຳ %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">ເງື່ອນໄຂການນໍາໃຊ້ Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox ເປັນຫ່ວງກ່ຽວກັບຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ສຶກສາເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">ເງື່ອນໄຂການນໍາໃຊ້ Aion</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion ເປັນຫ່ວງກ່ຽວກັບຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ສຶກສາເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ເພື່ອຊ່ວຍປັບປຸງຕົວທ່ອງເວັບ, Firefox ສົ່ງຂໍ້ມູນການວິເຄາະ ແລະ ການໂຕ້ຕອບກັບ Mozilla. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ເພື່ອຊ່ວຍປັບປຸງຕົວທ່ອງເວັບ, Aion ສົ່ງຂໍ້ມູນການວິເຄາະ ແລະ ການໂຕ້ຕອບກັບ Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">ຈັດການ</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -416,23 +416,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">ຫລາຍພັນການປັບແຕ່ງ</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">ໂດຍການດຳເນີນການຕໍ່, ທ່ານເຫັນດີນຳ %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">ເງື່ອນໄຂການນໍາໃຊ້ Firefox</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">ເງື່ອນໄຂການນໍາໃຊ້ Aion</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox ເປັນຫ່ວງກ່ຽວກັບຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ສຶກສາເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion ເປັນຫ່ວງກ່ຽວກັບຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ສຶກສາເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">ປະກາດຄວາມເປັນສ່ວນຕົວ</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ເພື່ອຊ່ວຍປັບປຸງຕົວທ່ອງເວັບ, Firefox ສົ່ງຂໍ້ມູນການວິເຄາະ ແລະ ການໂຕ້ຕອບກັບ Mozilla. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ເພື່ອຊ່ວຍປັບປຸງຕົວທ່ອງເວັບ, Aion ສົ່ງຂໍ້ມູນການວິເຄາະ ແລະ ການໂຕ້ຕອບກັບ Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">ຈັດການການຕັ້ງຄ່າ</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -441,10 +441,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">ທ່ານຕ້ອງການແຖບທີ່ຢູ່ຂອງທ່ານຢູ່ໃສ?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">ສືບຕໍ່</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">ຊ່ວຍພວກເຮົາພັດທະນາ Firefox</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">ຊ່ວຍພວກເຮົາພັດທະນາ Aion</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Firefox, ແລະ ທີ່ທ່ານໃຊ້ມັນ, ກັບຄູ່ຮ່ວມການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Aion, ແລະ ທີ່ທ່ານໃຊ້ມັນ, ກັບຄູ່ຮ່ວມການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">ພວກເຮົາໃຊ້ຂໍ້ມູນແນວໃດ</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -453,8 +453,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">ໄດ້ຮັບການປົກປ້ອງການຕິດຕາມອັດຕະໂນມັດໂດຍຄ່າເລີ່ມຕົ້ນ</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">ທໍ່ດຽວຊ່ວຍຢຸດບໍລິສັດທີ່ສອດແນມກ່ຽວກັບການຄລິກຂອງທ່ານ.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">ຊິ້ງຢູ່ທຸກບ່ອນທີ່ທ່ານໃຊ້ Firefox</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">ຊິ້ງຢູ່ທຸກບ່ອນທີ່ທ່ານໃຊ້ Aion</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">ເອົາບຸກມາກ, ແຖບ ແລະ ລະຫັດຜ່ານຢູ່ໃນອຸປະກອນໃດກໍໄດ້. ທັງໝົດຖືກປ້ອງກັນດ້ວຍການເຂົ້າລະຫັດ.</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -463,8 +463,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">ບໍ່ແມ່ນດຽວນີ້</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">ຂັ້ນຕອນສຸດທ້າຍ</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Firefox, ແລະ ທີ່ທ່ານໃຊ້ມັນ, ກັບຄູ່ຮ່ວມການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ.</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Aion, ແລະ ທີ່ທ່ານໃຊ້ມັນ, ກັບຄູ່ຮ່ວມການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">ຕົກລົງເຫັນດີ ແລະ ເລີ່ມຊອກຫາ</string>
   <!-- "Continue" onboarding button. -->
@@ -477,23 +477,23 @@
   <string name="nova_onboarding_tou_subtitle">ວ່ອງໄວ, ປອດໄພ, ແລະ ຈະບໍ່ເຮັດໃຫ້ທ່ານຜິດຫວັງ.\nການຊອກຫາເວັບໄຊທ໌ດີຂຶ້ນເລື້ອຍໆ.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">ໂດຍການດຳເນີນການຕໍ່, ທ່ານຕົກລົງເຫັນດີກັບ %1$s.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">ເງື່ອນໄຂການນຳໃຊ້ Firefox</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">ເງື່ອນໄຂການນຳໃຊ້ Aion</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox ເອົາໃຈໃສ່ຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ຮຽນຮູ້ເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Aion ເອົາໃຈໃສ່ຄວາມເປັນສ່ວນຕົວຂອງທ່ານ. ຮຽນຮູ້ເພີ່ມເຕີມໃນ %1$s ຂອງພວກເຮົາ.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">ແຈ້ງການຄວາມເປັນສ່ວນຕົວ</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ເພື່ອຊ່ວຍປັບປຸງໂປຣແກຣມທ່ອງເວັບ, Firefox ສົ່ງຂໍ້ມູນການວິນິດໄສ ແລະ ຂໍ້ມູນການໂຕ້ຕອບໄປຫາ Mozilla. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ເພື່ອຊ່ວຍປັບປຸງໂປຣແກຣມທ່ອງເວັບ, Aion ສົ່ງຂໍ້ມູນການວິນິດໄສ ແລະ ຂໍ້ມູນການໂຕ້ຕອບໄປຫາ Mozilla. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">ຈັດການການຕັ້ງຄ່າ</string>
   <!-- "Set to default" onboarding title. -->
@@ -527,10 +527,10 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">ຊ່ວຍພວກເຮົາສ້າງອິນເຕີເນັດທີ່ດີຂຶ້ນ</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ເຈົ້າຄົ້ນພົບ Firefox ແລະ ວິທີທີ່ເຈົ້າໃຊ້ມັນກັບຄູ່ຮ່ວມງານດ້ານການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ. %1$s</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">ແບ່ງປັນວິທີທີ່ເຈົ້າຄົ້ນພົບ Aion ແລະ ວິທີທີ່ເຈົ້າໃຊ້ມັນກັບຄູ່ຮ່ວມງານດ້ານການຕະຫຼາດຂອງ Mozilla. ຂໍ້ມູນນີ້ບໍ່ເຄີຍຖືກຂາຍ. %1$s</string>
   <!--
     Widget Picker
 
@@ -540,7 +540,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">ເປີດແຖບ %1$s ໃໝ່</string>
   <!-- Text preview for smaller sized widgets -->
@@ -575,15 +575,15 @@
   <string name="preferences_search_engines_suggestions">ຄໍາແນະນໍາຈາກເຄື່ອງມືຄົ້ນຫາ</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">ການຕັ້ງຄ່າແຖບທີ່ຢູ່</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ແຖບທີ່ຢູ່ - Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການ Firefox Suggest</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ແຖບທີ່ຢູ່ - Aion Suggest</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການ Aion Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">ໃຫ້ຄະແນນໃນ Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">ກ່ຽວກັບ %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -694,25 +694,25 @@
   <string name="preferences_account_settings">ການຕັ້ງ​ຄ່າ​ບັນ​ຊີ</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">ເຕີມ URLs ແບບອັດຕະໂນມັດ</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">ຄໍາແນະນໍາຈາກຜູ້ສະຫນັບສະຫນູນ</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">ສະໜັບສະໜູນ %1$s ດ້ວຍການແນະນຳເປັນບາງໂອກາດ</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">ຄຳແນະນຳຈາກ %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">ຮັບຄຳແນະນຳຈາກເວັບທີ່ກ່ຽວຂ້ອງກັບການຄົ້ນຫາຂອງທ່ານ</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">ການແບ່ງປັນລິ້ງ</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">ລວມເອົາລິ້ງດາວໂຫຼດ %1$s ຢູ່ໃນການແບ່ງປັນ WhatsApp</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">ເຊີນຊວນໝູ່ຂອງທ່ານເພື່ອລອງຊອກຫາໄວ, ປອດໄພກວ່າກັບ %1$s ທຸກໆຄັ້ງທີ່ທ່ານແບ່ງປັນລິ້ງໃນ WhatsApp.</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">ແບ່ງປັນລິ້ງແລ້ວ</string>
@@ -809,7 +809,7 @@
   <string name="wallpaper_select_error_snackbar_message">ບໍ່ສາມາດປ່ຽນຮູບພື້ນຫຼັງໄດ້</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">ຄລາດສິກ %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">ຊຸດສິນລະປິນ</string>
@@ -857,11 +857,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">ກາງຄືນ</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">ສີເຫຼືອງແສງເໜືອ</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">pixelated</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">ໜ້ອຍທີ່ສຸດ</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">ຄວາມພາກພູມໃຈ</string>
@@ -871,9 +871,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">ສ້າງໂດຍ @heyheymomodraws</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">ກອດ</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">ແປວໄຟ</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">ເຢັນ</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">ສີແຂງ</string>
@@ -881,7 +881,7 @@
   <string name="alternative_app_icon_group_gradients">ຊັ້ນສີ</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">ປ່ຽນໄອຄອນແອັບບໍ?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">ແອັບອາດຈະປິດ. ພຽງແຕ່ແຕະໃສ່ໄອຄອນໃໝ່ທີ່ເງົາງາມຂອງທ່ານເພື່ອເປີດ %1$s ຄືນໃໝ່.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">ປ່ຽນໄອຄອນ</string>
@@ -893,8 +893,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">ສ່ວນຂະຫຍາຍໃໝ່ມີໃຫ້ແລ້ວ</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">ກວດເບິ່ງ 100+ ສ່ວນຂະຫຍາຍໃຫມ່ທີ່ຊ່ວຍໃຫ້ທ່ານສ້າງ Firefox ຂອງທ່ານເອງ.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">ກວດເບິ່ງ 100+ ສ່ວນຂະຫຍາຍໃຫມ່ທີ່ຊ່ວຍໃຫ້ທ່ານສ້າງ Aion ຂອງທ່ານເອງ.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">ສຳຫຼວດສ່ວນຂະຫຍາຍ</string>
   <!--
@@ -906,7 +906,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">ນຶ່ງ ຫຼື ຫຼາຍສ່ວນຂະຫຍາຍຢຸດເຮັດວຽກ, ເຮັດໃຫ້ລະບົບຂອງທ່ານບໍ່ສະຖຽນ. %1$s ພະຍາຍາມປິດເປີດສ່ວນຂະຫຍາຍຄືນໃໝ່ບໍ່ສຳເລັດ.\n\nສ່ວນຂະຫຍາຍຈະບໍ່ຖືກຣີສະຕາດໃນລະຫວ່າງເຊສຊັນປັດຈຸບັນຂອງທ່ານ.\n\nການລຶບ ຫຼື ປິດນຳໃຊ້ສ່ວນຂະຫຍາຍອາດຈະແກ້ໄຂບັນຫານີ້ໄດ້.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -951,7 +951,7 @@
   <string name="sync_never_synced_summary">Sync ຄັ້ງຫລ່າສຸດ: ບໍ່ເຄີຍ</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s ໃນ %2$s %3$s</string>
@@ -966,7 +966,7 @@
   -->
   <string name="fxa_received_tab_channel_name">ແຖບທີ່ໄດ້ຮັບ</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">ການແຈ້ງເຕືອນສຳລັບແທັບທີ່ໄດ້ຮັບຈາກ Firefox ໃນເຄື່ອງອື່ນ.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">ການແຈ້ງເຕືອນສຳລັບແທັບທີ່ໄດ້ຮັບຈາກ Aion ໃນເຄື່ອງອື່ນ.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">ແທັບທີ່ໄດ້ຮັບ</string>
   <!-- %s is the device name -->
@@ -997,8 +997,8 @@
   <string name="preference_usage_data_2">ສົ່ງຂໍ້ມູນດ້ານເຕັກນິກ ແລະ ການໂຕ້ຕອບ</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບຂໍ້ມູນດ້ານເຕັກນິກ</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">ຂໍ້​ມູນ​ກ່ຽວ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ, ການ​ຕັ້ງ​ຄ່າ​ຮາດ​ແວ, ແລະ​ ການ​ນໍາ​ໃຊ້​ຊ່ວຍ​ໃຫ້​ພວກ​ເຮົາ​ປັບ​ປຸງ​ຄຸນ​ສົມ​ບັດ Firefox, ປະ​ສິດ​ທິ​ພາບ, ແລະ ​ຄວາມ​ຫມັ້ນ​ຄົງ.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">ຂໍ້​ມູນ​ກ່ຽວ​ກັບ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ, ການ​ຕັ້ງ​ຄ່າ​ຮາດ​ແວ, ແລະ​ ການ​ນໍາ​ໃຊ້​ຊ່ວຍ​ໃຫ້​ພວກ​ເຮົາ​ປັບ​ປຸງ​ຄຸນ​ສົມ​ບັດ Aion, ປະ​ສິດ​ທິ​ພາບ, ແລະ ​ຄວາມ​ຫມັ້ນ​ຄົງ.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">ping ການນໍາໃຊ້ປະຈໍາວັນ</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">ນີ້ຊ່ວຍໃຫ້ Mozilla ຄາດຄະເນຜູ້ໃຊ້ງານທີ່ມີການເຄື່ອນໄຫວ.</string>
@@ -1019,9 +1019,9 @@
   <string name="preferences_marketing_data_2">ຂໍ້ມູນການວັດແທກແຄມເປນ</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Firefox ແລະ ທີ່ທ່ານໃຊ້ມັນກັບຄູ່ຄ້າດ້ານເຕັກໂນໂລຢີການຕະຫຼາດຂອງ Mozilla.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">ແບ່ງປັນວິທີທີ່ທ່ານຄົ້ນພົບ Aion ແລະ ທີ່ທ່ານໃຊ້ມັນກັບຄູ່ຄ້າດ້ານເຕັກໂນໂລຢີການຕະຫຼາດຂອງ Mozilla.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບຂໍ້ມູນການຕະຫຼາດ</string>
   <!-- Title for studies preferences -->
@@ -1289,7 +1289,7 @@
   <string name="remove_top_site">ລຶບ</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">ລຶບອອກຈາກປະຫວັດການນຳໃຊ້</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (ໂຫມດສ່ວນຕົວ)</string>
   <!--
     History
@@ -1461,7 +1461,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">ລາຍງານເວັບໄຊທີ່ມີບັນຫາ</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">ບົດລາຍງານຂອງທ່ານຊ່ວຍໃຫ້ພວກເຮົາເຂົ້າໃຈ ແລະ ແກ້ໄຂບັນຫາໃນ %1$s ເພື່ອເຮັດໃຫ້ມັນດີຂຶ້ນສໍາລັບທຸກຄົນ. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
@@ -1496,7 +1496,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">ຂໍ​ອະໄພ. %1$s ບໍ່ສາມາດໂຫລດໜ້າເວັບນັ້ນໄດ້.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1505,11 +1505,11 @@
   <string name="tab_crash_close">ປິດແທັບ</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">ກູ້ຄືນແທັບ</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s ຂັດຂ້ອງ. ສົ່ງລາຍງານບໍ?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">ທ່ານມີລາຍງານການຂັດຂ້ອງທີ່ຍັງບໍ່ໄດ້ສົ່ງທີ່ກ່ຽວຂ້ອງກັບການຂັດຂ້ອງທີ່ຖືກສືບສວນ. ການສົ່ງມັນຈະຊ່ວຍໃຫ້ພວກເຮົາປັບປຸງ %1$s. ການປິດການແຈ້ງເຕືອນນີ້ຈະບໍ່ສົນໃຈລາຍງານນີ້.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">ທ່ານມີລາຍງານການຂັດຂ້ອງທີ່ຍັງບໍ່ໄດ້ສົ່ງ (%1$d) ທີ່ກ່ຽວຂ້ອງກັບການຂັດຂ້ອງທີ່ກຳລັງຖືກກວດສອບ. ການສົ່ງພວກມັນຈະຊ່ວຍໃຫ້ພວກເຮົາປັບປຸງ %2$s. ການປິດການແຈ້ງເຕືອນນີ້ຈະບໍ່ສົນໃຈລາຍງານເຫຼົ່ານີ້.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">ສົ່ງລາຍງານການຂັດຂ້ອງໂດຍອັດຕະໂນມັດ</string>
@@ -1816,7 +1816,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">ເຊື່ອມຕໍ່ກັບອຸປະກອນອື່ນ</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">ລົງຊື່ເຂົ້າໃຊ້ Firefox ຢ່າງນ້ອຍໃນ 1 ເຄື່ອງເພື່ອສົ່ງແທັບ</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">ລົງຊື່ເຂົ້າໃຊ້ Aion ຢ່າງນ້ອຍໃນ 1 ເຄື່ອງເພື່ອສົ່ງແທັບ</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">ເຂົ້າໃຈແລ້ວ!</string>
   <!-- Share error message -->
@@ -1829,9 +1829,9 @@
   <string name="sync_add_new_device_learn_button">ຮຽນຮູ້ກ່ຽວກັບການສົ່ງແທັບ…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">ເຊື່ອມຕໍ່ກັບອຸປະກອນອື່ນ…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\nສົ່ງມາຈາກ %2$s 🦊 ລອງໃຊ້ໂປຣແກຣມທ່ອງເວັບມືຖື: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\nສົ່ງມາຈາກ %2$s 🦊 %3$s</string>
   <!--
     Notifications
@@ -1848,19 +1848,19 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox ແມ່ນໄວ ແລະ ເປັນສ່ວນຕົວ</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion ແມ່ນໄວ ແລະ ເປັນສ່ວນຕົວ</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">ຕັ້ງ Firefox ໃຫ້ເປັນຕົວທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">ຕັ້ງ Aion ໃຫ້ເປັນຕົວທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ</string>
   <!--
     Survey
 
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">ກະລຸນາຊ່ວຍເຮັດໃຫ້ Firefox ດີຂຶ້ນໂດຍການເຮັດແບບສຳຫຼວດສັ້ນໆ.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">ກະລຸນາຊ່ວຍເຮັດໃຫ້ Aion ດີຂຶ້ນໂດຍການເຮັດແບບສຳຫຼວດສັ້ນໆ.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">ເຮັດແບບສຳຫຼວດ</string>
   <!-- Preference for not taking the short survey. -->
@@ -1883,7 +1883,7 @@
   <string name="snackbar_deleted_undo">ເອົາກັບຄືນ</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">ອະນຸຍາດໃຫ້ %1$s ເພື່ອເປີດ %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1951,7 +1951,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">ມື້ນີ້ ແລະ ມື້ວານນີ້</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">ທັງຫມົດ</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s ຈະລຶບຂໍ້ມູນການທ່ອງເວັບທີ່ທ່ານເລືອກ.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">ຍົກເລີກ</string>
@@ -1988,16 +1988,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">ສະແກນລະຫັດ</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[ໃນຄອມພິວເຕີຂອງທ່ານເປີດ Firefox ແລະ ເຂົ້າໄປທີ່ <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[ໃນຄອມພິວເຕີຂອງທ່ານເປີດ Aion ແລະ ເຂົ້າໄປທີ່ <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">ກຽມພ້ອມທີ່ຈະສະແກນ</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">ເຂົ້າສູ່ລະບົບດ້ວຍກ້ອງຂອງທ່ານ</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">ໃຊ້ອີເມວແທນ</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[ບໍ່ມີບັນຊີ? <u>ສ້າງອັນໜຶ່ງ</u> ເພື່ອຊິງຄ໌ Firefox ລະຫວ່າງອຸປະກອນ.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[ບໍ່ມີບັນຊີ? <u>ສ້າງອັນໜຶ່ງ</u> ເພື່ອຊິງຄ໌ Aion ລະຫວ່າງອຸປະກອນ.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s ຈະຢຸດການ Sync ກັບບັນຊີຂອງທ່ານ ແຕວ່າຈະບໍ່ລຶບຂໍ້ມູນປະຫວັດການຄົ້ນຫາຂອງທ່ານໃນອຸປະກອນນີ້.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">ຕັດການເຊື່ອມຕໍ່</string>
@@ -2013,7 +2013,7 @@
   <string name="preference_enhanced_tracking_protection">ເພີ່ມການປ້ອງກັນການຕິດຕາມ</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">ຕອນນີ້ມີການປົກປ້ອງຄຸກກີ້ທັງໝົດ, ເປັນອຸປະສັກທີ່ມີປະສິດທິພາບທີ່ສຸດຂອງພວກເຮົາຕໍ່ກັບຕົວຕິດຕາມຂ້າມເວັບໄຊ.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s ປົກປ້ອງທ່ານຈາກຫຼາຍຕົວຕິດຕາມທົ່ວໄປທີ່ສຸດທີ່ຕິດຕາມສິ່ງທີ່ທ່ານເຮັດອອນໄລນ໌.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
@@ -2094,11 +2094,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">ນຳທາງຍ້ອນກັບ</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">ສິ່ງໃໝ່ໆໃນ %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | ໄລບຣາລີ OSS</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2234,9 +2234,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">ຖາມເພື່ອບັນທຶກ</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">ບໍ່ຕ້ອງບັນທຶກ</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">ຕື່ມຂໍ້ມູນອັດຕະໂນມັດໃນ %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">ຕື່ມຂໍ້ມູນໃສ່ ແລະບັນທຶກຊື່ຜູ້ໃຊ້ ແລະລະຫັດຜ່ານຢູ່ໃນເວັບໄຊທ໌ໃນຂະນະທີ່ໃຊ້ %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">ຕື່ມຂໍ້ມູນອັດຕະໂນມັດໃນແອັບຯອື່ນ</string>
@@ -2250,15 +2250,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">ຊິ້ງຂໍ້ມູນລະຫັດຜ່ານໃນທົ່ວອຸປະກອນ</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">ລະຫັດຜ່ານທີ່ບັນທຶກໄວ້</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">ລະ​ຫັດ​ຜ່ານ​ທີ່​ທ່ານ​ບັນ​ທຶກ​ ຫຼື sync ກັບ %s ຈະ​ມີ​ລາຍ​ການ​ຢູ່​ທີ່​ນີ້​. ລະຫັດຜ່ານທັງໝົດທີ່ທ່ານບັນທຶກໄວ້ແມ່ນຖືກເຂົ້າລະຫັດໄວ້.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການຊິ້ງ</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">ຍົກເວັ້ນ</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s ຈະບໍ່ບັນທຶກລະຫັດຜ່ານສໍາລັບເວັບໄຊທທີ່ມີລາຍຊື່ຢູ່ທີ່ນີ້.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s ຈະບໍ່ບັນທຶກລະຫັດຜ່ານສໍາລັບເວັບໄຊທເຫຼົ່ານີ້.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">ລຶບທຸກຂໍ້ຍົກເວັ້ນ</string>
@@ -2320,7 +2320,7 @@
   <string name="preferences_autofill">ຕື່ມຂໍ້ມູນອັດຕະໂນມັດ</string>
   <!-- Preference and title for managing the settings for addresses -->
   <string name="preferences_addresses">ທີ່ຢູ່</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s ເຂົ້າລະຫັດທຸກວິທີການຈ່າຍເງິນທີ່ທ່ານບັນທຶກໄວ້</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Sync ຂໍ້ມູນບັດລະຫວ່າງອຸປະກອນຕ່າງໆ</string>
@@ -2484,13 +2484,13 @@
   <string name="synced_tabs_connect_another_device">ເຊື່ອມຕໍ່ອຸປະກອນອື່ນ.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">ກະລຸນາຮັບຮອງຄວາມຖືກຕ້ອງອີກຄັ້ງຫນຶ່ງ.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">ກະລຸນາເປີດນຳໃຊ້ການ sync ແທັບ</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">ທ່ານບໍ່ໄດ້ເປີດຈັກແທັບຢູ່ Firefox ໃນອຸປະກອນອື່ນໆຂອງທ່ານ.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">ທ່ານບໍ່ໄດ້ເປີດຈັກແທັບຢູ່ Aion ໃນອຸປະກອນອື່ນໆຂອງທ່ານ.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">ເບິງລາຍຊື່ແທັບຈາກອຸປະກອນອື່ນໆຂອງທ່ານ</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">ເຂົ້າສູ່ລະບົບເພື່ອ Sync</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">ບໍ່ມີແທັບທີ່ເປີດຢູ່</string>
@@ -2547,7 +2547,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">ປິດອັດຕະໂນມັດຫຼັງຈາກຫນຶ່ງເດືອນບໍ?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox ສາມາດປິດແຖບທີ່ທ່ານບໍ່ໄດ້ເບິ່ງໃນເດືອນທີ່ຜ່ານມາ.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion ສາມາດປິດແຖບທີ່ທ່ານບໍ່ໄດ້ເບິ່ງໃນເດືອນທີ່ຜ່ານມາ.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ເປີດປິດອັດຕະໂນມັດ</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -2555,9 +2555,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox ແນະນໍາ</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion ແນະນໍາ</string>
   <!-- Title for search suggestions when Google is the default search suggestion engine. -->
   <string name="google_search_engine_suggestion_header">ຄົ້ນ​ຫາ Google</string>
   <!-- Title for search suggestions when the default search suggestion engine is anything other than Google. %s is default search engine name. -->
@@ -2565,7 +2565,7 @@
   <!-- Title for recent search suggestions. -->
   <string name="recent_searches_header">ການຄົ້ນຫາຫຼ້າສຸດ</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">ຕັ້ງລິ້ງຈາກເວັບໄຊທ໌, ອີເມວ ແລະຂໍ້ຄວາມໃຫ້ເປີດໂດຍອັດຕະໂນມັດໃນ Firefox.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">ຕັ້ງລິ້ງຈາກເວັບໄຊທ໌, ອີເມວ ແລະຂໍ້ຄວາມໃຫ້ເປີດໂດຍອັດຕະໂນມັດໃນ Aion.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">ຄຣິກສຳລັບລາຍລະອຽດເພີ່ມເຕີມ</string>
   <!-- Content description for the action bar "up" button -->
@@ -2586,7 +2586,7 @@
   <string name="a11y_action_label_expand">ຂະຫຍາຍອອກ</string>
   <!-- Action label for links to a website containing documentation about a wallpaper collection. Talkback will append this to say "Double tap to open link to learn more about this collection". -->
   <string name="a11y_action_label_wallpaper_collection_learn_more">ເປີດລິ້ງເພື່ອສຶກສາເພີ່ມເຕີມກ່ຽວກັບຄໍເລັກຊັນນີ້</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
   <!-- Button text on the translations dialog to dismiss the dialog and return to the browser. -->
   <string name="translations_bottom_sheet_negative_button">ບໍ່ແມ່ນຕອນນີ້</string>
@@ -2596,7 +2596,7 @@
   <string name="translation_option_bottom_sheet_translation_settings">ການຕັ້ງຄ່າການແປ</string>
   <!-- The title of the warning card informs the user that an error has occurred at page settings. -->
   <string name="translation_option_bottom_sheet_error_warning_text">ບາງການຕັ້ງຄ່າບໍ່ສາມາດໃຊ້ໄດ້ຊົ່ວຄາວ.</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s ຈະແປພາສານີ້ໂດຍອັດຕະໂນມັດເມື່ອໜ້າໂຫຼດ.</string>
   <!-- Clickable text from the screen header that links to a website. -->
   <string name="download_languages_header_learn_more_preference">ຮຽນຮູ້ເພີ່ມເຕີມ</string>
@@ -2610,7 +2610,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">ລຶບທຸກພາສາ (%1$s) ບໍ?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">ຖ້າທ່ານລຶບທຸກພາສາ, %1$s ຈະດາວໂຫຼດບາງພາສາໃສ່ແຄດຂອງທ່ານເມື່ອທ່ານແປ.</string>
   <!--
     Text for displaying the total number of trackers blocked in the protection panel.
@@ -2639,9 +2639,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">ຊ່ວຍພວກເຮົາເຮັດໃຫ້ Firefox ດີຂຶ້ນ. ມັນໃຊ້ເວລາພຽງແຕ່ນາທີ.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">ຊ່ວຍພວກເຮົາເຮັດໃຫ້ Aion ດີຂຶ້ນ. ມັນໃຊ້ເວລາພຽງແຕ່ນາທີ.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">ສືບຕໍ່</string>
   <!--
@@ -2670,12 +2670,12 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">ບໍ່ພໍໃຈຫຼາຍ</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">ຂ້ອຍບໍ່ໃຊ້ມັນ</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">ຂ້ອຍບໍ່ໃຊ້ການຄົ້ນຫາໃນ Firefox</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">ຊ່ວຍເຮັດໃຫ້ການຄົ້ນຫາໃນ Firefox ດີຂຶ້ນ. ມັນໃຊ້ເວລາພຽງແຕ່ນາທີດຽວ</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">ທ່ານພໍໃຈກັບປະສົບການການຄົ້ນຫາໃນ Firefox ຫຼາຍປານໃດ?</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">ຂ້ອຍບໍ່ໃຊ້ການຄົ້ນຫາໃນ Aion</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">ຊ່ວຍເຮັດໃຫ້ການຄົ້ນຫາໃນ Aion ດີຂຶ້ນ. ມັນໃຊ້ເວລາພຽງແຕ່ນາທີດຽວ</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">ທ່ານພໍໃຈກັບປະສົບການການຄົ້ນຫາໃນ Aion ຫຼາຍປານໃດ?</string>
   <!-- The title of the button for deleting in the debug drawer all addresses. -->
   <string name="debug_drawer_delete_all_addresses">ລຶບທີ່ຢູ່ທັງໝົດ</string>
   <!-- The title of the search widget task for the setup checklist -->

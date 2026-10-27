@@ -44,7 +44,7 @@ android {
             arg("room.schemaLocation", "$projectDir/schemas".toString())
         }
 
-        applicationId "io.github.forkmaintainers"
+        applicationId "com.nath"
         minSdk config.minSdkVersion
         targetSdk config.targetSdkVersion
         versionCode 1
@@ -176,11 +176,11 @@ android {
         }
         forkRelease releaseTemplate >> {
             buildConfigField "boolean", "USE_RELEASE_VERSIONING", "true"
-            applicationIdSuffix ".iceraven"
-            def deepLinkSchemeValue = "iceraven"
+            applicationIdSuffix ".aion"
+            def deepLinkSchemeValue = "aion"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders.putAll([
-                    "sharedUserId": "io.github.forkmaintainers.iceraven.sharedID",
+                    "sharedUserId": "com.nath.aion.sharedID",
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
@@ -262,7 +262,7 @@ android {
             if (project.hasProperty("benchmarkTest")) {
                 include "arm64-v8a"
             } else {
-                include "armeabi-v7a", "arm64-v8a", "x86_64"
+                include "arm64-v8a"
                 if (gradle.mozconfig.substs.MOZILLA_OFFICIAL || System.getenv("MOZ_BUILD_CONFIG_LINT") == "1") {
                     universalApk true
                 }

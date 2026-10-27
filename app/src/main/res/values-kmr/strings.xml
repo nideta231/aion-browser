@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">%s’a veşartî</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (Veşartî)</string>
   <!--
     Home Fragment
@@ -53,8 +53,8 @@
   <string name="home_bookmarks_show_all_content_description">Hemû bijareyan nîşan bide</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Rake</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s berhemeke Mozillayê ye.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s berhemeke Nathyê ye.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Efsaneyên berbelav ên têkildarî gerîna veşartî</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -74,7 +74,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Tu dikarî %1$s`ê wisa eyar bikî ku girêdank xweber di appan de vebin.</string>
   <!-- Text for the positive action button -->
@@ -101,7 +101,7 @@
   <string name="tab_tray_inactive_auto_close_title">Bila piştî mehekê xweber bigire?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s dikare hilpekînên te di meha borî de venekirine bigire.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -200,12 +200,12 @@
   <string name="browser_menu_share">Parve bike</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Di %1$s de veke</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Bihêzkirin ji aliyê %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -246,7 +246,7 @@
   <string name="browser_menu_summarize_page_badge">Nû</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">Ji %1$s`ê derkeve</string>
   <!-- Content description (not visible, for screen readers etc.) for recommended extensions in main menu -->
@@ -285,7 +285,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Destûrê nede</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Bila pêşniyarên lêgerînê di rûniştina veşartî de werin pêş te?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s dê hemû tiştên tu li darika navnîşanan binivîsî bi motora te ya lêgerînê ya derbasdar re parve bike.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Bi %s bigere</string>
@@ -312,8 +312,8 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">Bigire</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Alîkariya me bike ku em Firefoxê çêtir bikin</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Alîkariya me bike ku em Aionê çêtir bikin</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">Raporên têkçûnê bixweber bişîne</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
@@ -321,23 +321,23 @@
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">Zêdetir bizane</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">Qediya</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Bi xêr hatî Firefox`ê</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Bi xêr hatî Aion`ê</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">Bi berdewamkirinê, tu %1$s qebûl dikî.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Mercên Bikaranînê Firefoxê</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox girîngiyê dide nepeniya we. Di %1$s-ên me de bêtir fêr bibin.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Mercên Bikaranînê Aionê</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion girîngiyê dide nepeniya we. Di %1$s-ên me de bêtir fêr bibin.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">Danezana Nihêniyê</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">Birêvebirin</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox girîngiyê dide nepeniya te. Di %1$s-ên me de bêtir fêr bibe.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion girîngiyê dide nepeniya te. Di %1$s-ên me de bêtir fêr bibe.</string>
   <!-- Set to default browser onboarding redesign title. -->
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">Parastina şopandina otomatîk bi awayê standard bistîne</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
@@ -353,7 +353,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Hilpekînek nû ya %1$s `ê veke</string>
   <!-- Text preview for smaller sized widgets -->
@@ -388,15 +388,15 @@
   <string name="preferences_search_engines_suggestions">Pêşniyarên ji motorên lêgerînê</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Tercîhên darikê navnîşanan</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Darikê navnîşanan - Pêşniyara Firefoxê</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Zêdetir li ser Pêşniyara Firefoxê fêr bibe</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Darikê navnîşanan - Pêşniyara Aionê</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Zêdetir li ser Pêşniyara Aionê fêr bibe</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Li ser Google Playê puan bide</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Derbarê %1$s de</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -485,7 +485,7 @@
   <string name="preferences_account_settings">Sazkariyên hesêb</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">Navnîşanan bixweber dagire</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Pêşniyarên ji sponsoran</string>
   <!-- Preference for open links in third party apps -->
   <string name="preferences_open_links_in_apps">Girêdanan di sepanan de veke</string>
@@ -544,7 +544,7 @@
   <string name="wallpaper_select_error_snackbar_message">Wêneyê dîwêr nehat guhertin</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Zêdetir bizane</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">Klasîk %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Seriyên hunermendan</string>
@@ -588,11 +588,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">Nîvşev</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">Ronahiyên Bakur</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Pîkselkirî</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">Mînîmal</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">Heftreng</string>
@@ -608,8 +608,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">Niha pêvekên nû berdest in</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">100+ pêvekên nû yên ji bo taybetkirina Firefox`ê bibîne.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">100+ pêvekên nû yên ji bo taybetkirina Aion`ê bibîne.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Li pêvekan bigere</string>
   <!--
@@ -621,7 +621,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">Pêvekek yan jî zêdetir pêvek naxebitin û ev pergala te dike bêbiryar. %1$s kir ku dîsa dest pê bikin lê bi ser neketin.\n\nDi vê danişîna te de pêvek dê dîsa neyên destpêkirin.\n\nDibe ku rakirin yan jî neçalakkirina pêvekan problemê çareser bike.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -666,7 +666,7 @@
   <string name="sync_never_synced_summary">Senkronîzekirina dawî: tune</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s - %2$s %3$s</string>
@@ -681,7 +681,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Hilpekînên hatine stendin</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Danezanên hilpekînan ên ji cîhazên Firefoxê tên stendin.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Danezanên hilpekînan ên ji cîhazên Aionê tên stendin.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Hilpekîn hate stendin</string>
   <!-- %s is the device name -->
@@ -908,7 +908,7 @@
   <string name="remove_top_site">Rake</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Ji raboriyê rake</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (Moda Veşartî)</string>
   <!--
     History
@@ -996,7 +996,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Bibore. %1$s, nikare vê rûpelê bar bike.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1245,7 +1245,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Cîhazeke din girê bide</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Ji bo şandina hilpekînekê, herî kêm ji cîhazeke din têkeve Firefoxê.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Ji bo şandina hilpekînekê, herî kêm ji cîhazeke din têkeve Aionê.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Min fêm kir</string>
   <!-- Share error message -->
@@ -1275,7 +1275,7 @@
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Firefoxê bike geroka xwe ya standard</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Aionê bike geroka xwe ya standard</string>
   <!--
     Survey
 
@@ -1301,7 +1301,7 @@
   <string name="snackbar_deleted_undo">VEGERÎNE</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Destûrê bide %1$s’ê ku %2$s’ê veke</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1367,7 +1367,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Îro û do</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Her tiştî</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s dê daneyên gerînê yên hilbijartî jê bibe.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Betal bike</string>
@@ -1398,16 +1398,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Kodê bide xwendin</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Firefoxê ji ser kombersa xwe veke û here ser rûpela <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Aionê ji ser kombersa xwe veke û here ser rûpela <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Aniha kodê bide xwendin</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Bi kameraya xwe têkeve</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Bi emaîlê têkeve</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Hesabê te tune ye? Ji bo ku Firefoxê di navbera cîhazan de senkronîze bikî <u>Hesêb veke</u>.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Hesabê te tune ye? Ji bo ku Aionê di navbera cîhazan de senkronîze bikî <u>Hesêb veke</u>.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s ew ê bi hesabê te re senkronîzekirinê rawestîne, lê ti daneyên te yên gerînê yên di vê cîhazê de nayên jêbirin.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Girêdanê qut bike</string>
@@ -1423,7 +1423,7 @@
   <string name="preference_enhanced_tracking_protection">Parastina ji şopandinê ya pêşketî</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Niha taybetiya Parastina Tevahî ya Çerezan li dijî kodên şopandina navmalperî bariyera me ya herî xurt e.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s te li hemberî piraniya şopgerên naskirî yên tevgerên te yên li ser înternetê dişopînin, diparêze.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Zêdetir bizane</string>
@@ -1498,11 +1498,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Paşve here</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Di %s’ê de çi tiştên nû hene?</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | Pirtûkxaneyên OSS’ê</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -1568,9 +1568,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Ji bo tomarkirinê, bipirse</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Qet tomar neke</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Di %1$s de bixweber dagire</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Navên bikarhêneriyê û şîfreyên malperan di dema bikaranîna %1$s`ê de tomar bike.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Di sepanên din de bixweber dagire</string>
@@ -1642,7 +1642,7 @@
   <string name="preferences_credit_cards_2">Rêbazên peredanê</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Rêbazên peredanû qeyd bike û dagire</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s hemû rêbazên peredenanê yên te qeydkirine şîfre dike</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Kartan di navbera amûran de senkronîze bike</string>
@@ -1800,13 +1800,13 @@
   <string name="synced_tabs_connect_another_device">Cîhazeke din girê bide.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Ji kerema xwe, ji nû ve têkeve.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Ji kerema xwe, senkronîzekirina hilpekînê veke.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Di Firefoxên li ser cîhazên te yên din de ti hilpekîneke vekirî tune ye.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Di Aionên li ser cîhazên te yên din de ti hilpekîneke vekirî tune ye.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Lîsteyeke hilpekînan a ji cîhazên xwe yên din bibîne.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Têkeve Sync’ê</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Hilpekînên vekirî tune</string>
@@ -1853,7 +1853,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Bila piştî mehekê bixweber bên girtin?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox dikare hilpekînên ku te mehekê venekirine bigire.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion dikare hilpekînên ku te mehekê venekirine bigire.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">GIRTINA BIXWEBER VEKE</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -1861,15 +1861,15 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Pêşniyara Firefoxê</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Pêşniyara Aionê</string>
   <!-- Title for search suggestions when Google is the default search suggestion engine. -->
   <string name="google_search_engine_suggestion_header">Lêgerîna Googleê</string>
   <!-- Title for search suggestions when the default search suggestion engine is anything other than Google. %s is default search engine name. -->
   <string name="other_default_search_engine_suggestion_header">Lêgerîna %sê</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Bila lînkên ji malperan, e-posteyan û peyaman xweber di Firefoxê de bên vekirin.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Bila lînkên ji malperan, e-posteyan û peyaman xweber di Aionê de bên vekirin.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Ji bo agahiyên zêdetir, bitikîne</string>
   <!-- Content description for the action bar "up" button -->
@@ -1902,11 +1902,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Rûpel ji %1$s li %2$s hat wergerandin</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">Wergerandina nepen di %1$s de biceribîne</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Ji bo nepeniya te, werger dê ji cîhaza te dernekevin. Zimanên nû û pêşvebirin di nêzîk de tên! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Zêdetir bizane</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Wergerîne ji</string>
@@ -1965,7 +1965,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Pêşniyarên wergerandinê bêbandor dike</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Eyarên wergerandinê</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">Derbarê wergerên %1$s de</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Rûpela wergerandinan bigire</string>
@@ -2005,15 +2005,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Wergerandinê pêşniyar bike (standard)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s dê pêşniyar bike ku rûpelên bi vî zimanî wergerîne.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Timî wergerîne</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">Gava rûpel bê barkirin %1$s dê vî zimanî xweber wergerîne.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Qet wernegerîne</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s dê qet pêşniyar neke ku rûpelên bi vî zimanî wergerîne.</string>
   <!--
     Never translate site preference screen
@@ -2095,7 +2095,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s jê bibe (%2$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">Heke tu vî zimanî jê bibî, %1$s dê di dema wergerandinê de hin beşên zimanan li pêşbîrê bar bike.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -2103,7 +2103,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">Hemû zimanan jê bibe (%1$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">Heke tu hemû zimanan jê bibî, %1$s dê di dema wergerandinê de hin beşên zimanan li pêşbîrê bar bike.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Jê bibe</string>

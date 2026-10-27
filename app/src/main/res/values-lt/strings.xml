@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Privačioji „%s“</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">„%s“ (privačioji)</string>
   <!--
     Home Fragment
@@ -51,13 +51,13 @@
   <string name="home_bookmarks_show_all_content_description">Rodyti visą adresyną</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Pašalinti</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">„%1$s“ kūrėjai yra „Mozilla“.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">„%1$s“ kūrėjai yra „Nath“.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Dažni mitai apie privatųjį naršymą</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">„%1$s“ pašalina jūsų slapukus, istoriją bei svetainių duomenis, kuomet uždarote privačiąsias korteles.</string>
   <!--
@@ -69,7 +69,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Galite nustatyti, kad „%1$s“ automatiškai atidarytų nuorodas programose.</string>
   <!-- Text for the positive action button -->
@@ -96,7 +96,7 @@
   <string name="tab_tray_inactive_auto_close_title">Užverti automatiškai po mėnesio?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">„%1$s“ gali užverti korteles, kuriomis paskutinį mėnesį nesinaudojote.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -187,12 +187,12 @@
   <string name="browser_menu_homepage">Pradinis puslapis</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Atverti naudojant „%1$s“</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Veikia su „%1$s“</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -263,7 +263,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Neleisti</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Leisti paieškos siūlymus privačiojo naršymo seansuose?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">„%s“ perduos jūsų numatytajai ieškyklei viską, ką rašote adreso lauke.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Ieškoti „%s“</string>
@@ -310,7 +310,7 @@
   <string name="preferences_rate">Įvertinti per „Google Play“</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Apie „%1$s“</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -424,7 +424,7 @@
   <string name="sync_never_synced_summary">Paskiausiai sinchronizuota: niekada</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">„%1$s“, esanti „%2$s%3$s“</string>
@@ -437,7 +437,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Gautos kortelės</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Pranešimai apie korteles, gautas iš kitų „Firefox“ įrenginių.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Pranešimai apie korteles, gautas iš kitų „Aion“ įrenginių.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Gauta kortelė</string>
   <!-- %s is the device name -->
@@ -634,7 +634,7 @@
   <string name="remove_top_site">Pašalinti</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Pašalinti iš žurnalo</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">„%1$s“ (privačioji veiksena)</string>
   <!--
     History
@@ -663,7 +663,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Atsiprašome. „%1$s“ nepavyko įkelti šio tinklalapio.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -840,7 +840,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Susieti kitą įrenginį</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Norėdami persiųsti kortelę, turite prisijungti prie „Firefox“ bent viename kitame įrenginyje.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Norėdami persiųsti kortelę, turite prisijungti prie „Aion“ bent viename kitame įrenginyje.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Supratau</string>
   <!-- Share error message -->
@@ -873,7 +873,7 @@
   <string name="snackbar_deleted_undo">Atšaukti</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Leisti „%1$s“ atverti %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -923,7 +923,7 @@
   <string name="preferences_delete_browsing_data_on_quit">Pašalinti naršymo duomenis išjungiant</string>
   <!-- Summary for the Delete browsing data on quit preference. "Quit" translation should match delete_browsing_data_on_quit_action translation. -->
   <string name="preference_summary_delete_browsing_data_on_quit_2">Naršymo duomenys bus pašalinami automatiškai, pagrindiniame meniu pasirinkus „Išeiti“</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">„%s“ pašalins pasirinktus naršymo duomenis.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Atsisakyti</string>
@@ -946,16 +946,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Nuskaityti kodą</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Atverkite „Firefox“ savo kompiuteryje, ir eikite į <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Atverkite „Aion“ savo kompiuteryje, ir eikite į <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Pasiruošti nuskaitymui</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Prisijunkite su savo kamera</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Naudoti el. paštą</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Neturite paskyros? <u>Susikurkite</u>, norėdami sinchronizuoti „Firefox“ tarp įrenginių.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Neturite paskyros? <u>Susikurkite</u>, norėdami sinchronizuoti „Aion“ tarp įrenginių.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">„%s“ nebesinchronizuos duomenų su jūsų paskyra, tačiau šiame įrenginyje esančių naršymo duomenų nepašalins.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Atsijungti</string>
@@ -1032,11 +1032,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Grįžti atgal</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Kas naujo „%s“</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">„%s“ | Atvirosios bibliotekos</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -1085,9 +1085,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Pasiūlyti įrašyti</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Niekada neįrašyti</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Automatinis užpildymas per „%1$s“</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Užpildyti ir įsiminti prisijungimus svetainėse, naudojantis „%1$s“.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Automatinis užpildymas kitose programose</string>
@@ -1233,13 +1233,13 @@
   <string name="synced_tabs_connect_another_device">Susiekite kitą įrenginį.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Prisijunkite iš naujo.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Įjunkite kortelių sinchronizavimą.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Kituose savo įrenginiuose su „Firefox“ neturite atvertų kortelių.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Kituose savo įrenginiuose su „Aion“ neturite atvertų kortelių.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Peržiūrėkite kituose įrenginiuose esančias korteles.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Prisijungti prie „Sync“</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Nėra atvertų kortelių</string>
@@ -1272,13 +1272,13 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Užverti automatiškai po mėnesio?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">„Firefox“ gali užverti korteles, kuriomis paskutinį mėnesį nesinaudojote.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">„Aion“ gali užverti korteles, kuriomis paskutinį mėnesį nesinaudojote.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ĮJUNGTI AUTOMATINĮ UŽVĖRIMĄ</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
   <string name="inactive_tabs_auto_close_message_snackbar">Automatinis užvėrimas įjungtas</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Leiskite saitams iš svetainių, el. laiškų, ir žinučių būti automatiškai atvertiems per „Firefox“.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Leiskite saitams iš svetainių, el. laiškų, ir žinučių būti automatiškai atvertiems per „Aion“.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Spustelėkite čia, jeigu norite daugiau informacijos</string>
   <!-- Content description for the action bar "up" button -->

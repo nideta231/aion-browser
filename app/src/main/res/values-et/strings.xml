@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Privaatne %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (privaatne)</string>
   <!--
     Home Fragment
@@ -33,7 +33,7 @@
   <string name="application_search_hint">Sisesta otsitav fraas</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">Privaatne veebilehitsemine</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s ei mäleta ajalugu ega küpsiseid, aga uued järjehoidjad salvestatakse.</string>
   <!-- Tab tray multi select title in app bar. %1$d is the number of tabs selected -->
   <string name="tab_tray_multi_select_title">%1$d kaarti valitud</string>
@@ -55,8 +55,8 @@
   <string name="home_bookmarks_show_all_content_description">Kuva kõik järjehoidjad</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Eemalda</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s on Mozilla poolt toodetud.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s on Nath poolt toodetud.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Levinumad müüdid privaatse veebilehitsemise kohta</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -76,7 +76,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Saad seadistada %1$si linke automaatselt avama teistes äppides.</string>
   <!-- Text for the positive action button -->
@@ -103,7 +103,7 @@
   <string name="tab_tray_inactive_auto_close_title">Kas sulgeda automaatselt kuu aja pärast?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s saab sulgeda kaardid, mida sa pole viimase kuu jooksul vaadanud.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -190,12 +190,12 @@
   <string name="browser_menu_share">Jaga</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Ava %1$sis</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">%1$si kaart</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -246,7 +246,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Ära luba</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Kas lubada privaatse veebilehitsemise režiimis otsingusoovitusi?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s jagab vaikeotsingumootoriga kõike, mida aadressiribale sisestad.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Otsi otsingumootoriga %s</string>
@@ -283,7 +283,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Ava uus kaart %1$sis</string>
   <!-- Text preview for smaller sized widgets -->
@@ -316,13 +316,13 @@
   <string name="preferences_search_engines_suggestions">Otsingumootorite soovitused</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Aadressiriba eelistused</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Aadressiriba - Firefox Suggest</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Aadressiriba - Aion Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Hinda Google Plays</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">%1$sist</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -492,7 +492,7 @@
   <string name="sync_never_synced_summary">Viimane sünkroniseerimine: mitte kunagi</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s seadmes %2$s %3$s</string>
@@ -507,7 +507,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Vastuvõetud kaardid</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Teavitused teistest Firefoxi seadmetest vastu võetud kaartide kohta.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Teavitused teistest Aioni seadmetest vastu võetud kaartide kohta.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Kaart on vastu võetud</string>
   <!-- %s is the device name -->
@@ -526,8 +526,8 @@
   <string name="exceptions_empty_message_learn_more_link">Rohkem teavet</string>
   <!-- Preference switch for usage and technical data collection -->
   <string name="preference_usage_data_2">Saadetakse tehnilisi ja interaktsiooniandmeid</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Andmed sinu seadme, riistvara konfiguratsiooni ja kasutuse kohta aitavad meil Firefoxi funktsioone, jõudlust ja stabiilsust täiustada.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Andmed sinu seadme, riistvara konfiguratsiooni ja kasutuse kohta aitavad meil Aioni funktsioone, jõudlust ja stabiilsust täiustada.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">Igapäevane kasutusping</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">See aitab Mozillal aktiivsete kasutajate arvu \u0020hinnata.</string>
@@ -724,7 +724,7 @@
   <string name="remove_top_site">Eemalda</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Kustuta ajaloost</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (privaatne režiim)</string>
   <!--
     History
@@ -818,7 +818,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Vabandust. %1$sil pole selle lehe laadimine võimalik.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1047,7 +1047,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Ühenda teine seade</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Kaardi edastamiseks logi Firefoxi sisse vähemalt ühel seadmel veel.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Kaardi edastamiseks logi Aioni sisse vähemalt ühel seadmel veel.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Sain aru</string>
   <!-- Share error message -->
@@ -1087,7 +1087,7 @@
   <string name="snackbar_deleted_undo">VÕTA TAGASI</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Luba %1$sil avada %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1151,7 +1151,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Tänane ja eilne</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Kõik</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s kustutab valitud lehitsemise andmed.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Loobu</string>
@@ -1180,16 +1180,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Koodi skannimine</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Ava Firefox oma arvutis ja mine aadressile <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Ava Aion oma arvutis ja mine aadressile <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Skannimiseks valmis</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Logi sisse oma kaameraga</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Kasuta selle asemel e-posti aadressi</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Pole kontot? <u>Loo üks</u>, et sünkroniseerida Firefoxi seadmete vahel.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Pole kontot? <u>Loo üks</u>, et sünkroniseerida Aioni seadmete vahel.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s lõpetab sinu kontoga sünkroniseerimise, aga ei kustuta lehitsemise andmeid sellest seadmest.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Ühenda lahti</string>
@@ -1205,7 +1205,7 @@
   <string name="preference_enhanced_tracking_protection">Täiustatud jälitamisvastane kaitse</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Nüüd täieliku küpsiste kaitsega – meie seni võimsaim tõke saitideüleste jälitajate vastu.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s kaitseb sind paljude tuntud jälitajate eest, kes jälgivad, mida sa võrgus olles teed.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Rohkem teavet</string>
@@ -1291,11 +1291,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Liigu tagasi</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Mis on uut %sis</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | avatud lähtekoodiga teegid</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -1338,7 +1338,7 @@
   <string name="preference_doh_provider_custom_dialog_add">Lisa</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">Erandid</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">%1$s ei kasuta nendel saitidel ja nende alamdomeenidel turvalist DNS-i.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">Lisa sait</string>
@@ -1396,9 +1396,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Pakutakse salvestamist</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Ei salvestata kunagi</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Täidetakse automaatselt %1$sis</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$si kasutamisel täidetakse ja salvestatakse saitide kasutajanimesid ja paroole.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Täidetakse automaatselt teistes äppides</string>
@@ -1412,7 +1412,7 @@
   <string name="preferences_passwords_saved_logins_2">Salvestatud paroolid</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">Erandid</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s ei salvesta nende saitide paroole.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Kustuta kõik erandid</string>
@@ -1478,7 +1478,7 @@
   <string name="preferences_addresses">Aadressid</string>
   <!-- Preference and title for managing the settings for payment methods -->
   <string name="preferences_credit_cards_2">Makseviisid</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s krüpteerib kõik salvestatud makseviisid</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Sünkroniseeri kaardid seadmete vahel</string>
@@ -1664,13 +1664,13 @@
   <string name="synced_tabs_connect_another_device">Ühenda teine seade.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Palun autendi uuesti.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Palun luba kaartide sünkroniseerimine.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Sul pole teistes seadmetes olevates Firefoxides kaarte avatud.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Sul pole teistes seadmetes olevates Aionides kaarte avatud.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Vaata teistes seadmetes avatud kaartide nimekirja.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Sünkroniseerimiseks logi sisse</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Avatud kaarte pole</string>
@@ -1725,7 +1725,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Kas sulgeda automaatselt kuu aja pärast?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox saab sulgeda kaardid, mida sa pole viimase kuu jooksul vaadanud.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion saab sulgeda kaardid, mida sa pole viimase kuu jooksul vaadanud.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">LÜLITA SISSE AUTOMAATNE SULGEMINE</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -1733,7 +1733,7 @@
   <!-- Title for search suggestions when Google is the default search suggestion engine. -->
   <string name="google_search_engine_suggestion_header">Google\'i otsing</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Määra Firefox automaatselt avama linke, e-posti ja sõnumeid.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Määra Aion automaatselt avama linke, e-posti ja sõnumeid.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Rohkema teabe jaoks puuduta</string>
   <!-- Content description for the action bar "up" button -->
@@ -1756,7 +1756,7 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Leht tõlgiti %1$s keelest %2$s keelde</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Rohkem teavet</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Tõlgitakse keelest</string>
@@ -1822,15 +1822,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Pakutakse tõlkimist (vaikimisi)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s pakub selle keele saitide tõlkimist.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Tõlgitakse alati</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s tõlgib selle keele lehe laadimisel automaatselt.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Ei tõlgita kunagi</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s ei paku kunagi selle keele saitide tõlkimist.</string>
   <!--
     Never translate site preference screen
@@ -1905,18 +1905,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">Mida sa %1$sist arvad?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">Mul on probleeme</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">See on suurepärane!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">Täname, et armastad %1$s\'i. Kas sul on hetk aega, et jagada armastust hinnanguga?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">Hinda %1$si Play poes</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">Meil on kahju, et sul on probleeme. Anna meile teada, kuidas saaksime %1$si paremaks muuta.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">Anna tagasisidet</string>

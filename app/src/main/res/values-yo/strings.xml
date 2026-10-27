@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Ìkọ̀kọ̀ %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s(Ìkọ̀kọ̀)</string>
   <!--
     Home Fragment
@@ -31,14 +31,14 @@
   <string name="tab_tray_select_collection">Yan àkójọpọ̀</string>
   <!-- Content description for close button while in multiselect mode in tab tray -->
   <string name="tab_tray_close_multiselect_content_description">Kúrò ní móòdù aláṣàyàn púpọ̀</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s Jẹ́ ṣíṣẹ̀dá látọwọ́ọ Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s Jẹ́ ṣíṣẹ̀dá látọwọ́ọ Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Àwọn àròsọ tó wọ́pọ̀ nípa ìlọkiri-oníwẹ́ẹ̀bù ìkọ̀kọ̀</string>
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">O lè ṣètò %1$s láti ṣi àwọn líìnkì inú àwọn áàpù láì-fọwọ́kan.</string>
   <!-- Text for the positive action button -->
@@ -65,7 +65,7 @@
   <string name="tab_tray_inactive_auto_close_title">Títì-fún-ra-ẹ̀ lẹ́yìn oṣù kan?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s lè ti àwọn táàbù tí o kò tíì wò ní oṣù tó kọjá.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -137,12 +137,12 @@
   <string name="browser_menu_share">Pín</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Ṣí i ní %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Olùgbọ̀wọ́ jẹ́ %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -173,7 +173,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Má fàyègbàá</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Gba àwọn ìmọ̀ràn ìwádìí láàyè ní àwọn àsìkò ìkọ̀kọ̀ bí?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s yóó pín gbogbo ohun to bá tẹ̀ sí ààyè ìfi-àdírẹ̀sì-sí pẹ̀lú ẹ̀rọ ìwádìí rẹ gangan.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Wádìí %s</string>
@@ -184,7 +184,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Ṣí táàbù tuntun %1$s</string>
   <!-- Text preview for smaller sized widgets -->
@@ -211,7 +211,7 @@
   <string name="preferences_rate">Ṣe òṣùwọ̀n lórí Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Nípa %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -345,7 +345,7 @@
   <string name="sync_never_synced_summary">Ìṣepọ̀ ìkẹhìn: láíláí</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s lórí %2$s %3$s</string>
@@ -358,7 +358,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Àwọn táàbù tí a gbà</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Àwọn ìfitónilétí fún àwọn táàbù tí a gbà láti àwọn Firefox mìíràn.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Àwọn ìfitónilétí fún àwọn táàbù tí a gbà láti àwọn Aion mìíràn.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">T́áàbù tí a gbà</string>
   <!-- %s is the device name -->
@@ -555,7 +555,7 @@
   <string name="remove_top_site">Yọ kúrò</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Parẹ́ kúrò nínú ìtan</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (Móòdù ìkọ̀kọ̀)</string>
   <!--
     History
@@ -584,7 +584,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Má bínú. %1$s kò le ṣàkójọpọ̀ ojú-ìwé yẹn.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -779,7 +779,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Ṣe ìsopọ̀ àwọn ẹ̀rọ mìíràn</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Láti fi táàbù kan ráńṣẹ́, wọlé sí Firefox lóri ó kéré jù, ẹ̀rọ míràn kan.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Láti fi táàbù kan ráńṣẹ́, wọlé sí Aion lóri ó kéré jù, ẹ̀rọ míràn kan.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Gbà á</string>
   <!-- Share error message -->
@@ -814,7 +814,7 @@
   <string name="snackbar_deleted_undo">MÁṢÈÉ</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Fàyègbàá %1$s láti ṣí %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -872,7 +872,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Òní àti àná</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Gbogbogbò</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s yóò pa àwọn dátà bíráwúsìnnì tí a yàn rẹ́.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Parẹ́</string>
@@ -903,16 +903,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Síkáànì kóòdù náà</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Lóri kọ̀m̀pútà rẹ ṣí Firefox ko sì lọ sí <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Lóri kọ̀m̀pútà rẹ ṣí Aion ko sì lọ sí <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Gbaradì láti síkáànì</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Wọlé pẹ̀lú kámẹ́rà rẹ</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Lo ímeelì dípò</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Kò sí àkáǹtì? <u> Ṣẹ̀dá ọ̀kan</u>láti jẹ́ kí Firefox ṣiṣẹ́pọ̀ láàárín àwọn ẹ̀rọ.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Kò sí àkáǹtì? <u> Ṣẹ̀dá ọ̀kan</u>láti jẹ́ kí Aion ṣiṣẹ́pọ̀ láàárín àwọn ẹ̀rọ.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s yóò dá ìṣiṣẹ́pọ̀ dúrọ́ pẹ̀lú àkáńtì rẹ, àmọ́ ò ní pa dátà bíráwúsìnnì kankan rẹ́ lóri ẹ̀rọ yìí.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Gé ìsopọ̀ kúrò</string>
@@ -995,11 +995,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Pípadà ṣẹ́yìn</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Kíni ó jẹ́ tuntun ní %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | Àwọn ilé-ìkàwé OSS</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -1048,9 +1048,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Bèrè láti fipamọ́</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Máṣe fipamọ́</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Àìfọwọ́yí sí %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Fọwọ́sí kí o sì ṣe ìfipamọ́ orúkọ ìgbàwọlé àti àwọn ọ̀rọ̀ ìpamọ́ nínú àwọn ojú ọ̀pọ́ wẹ́ẹ̀bù lásìkò líló %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Àìfọwọ́yí nínú àwọn áàpù mìíràn</string>
@@ -1250,13 +1250,13 @@
   <string name="synced_tabs_connect_another_device">Ṣe àsopọ̀ ẹ̀rọ míràn.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Jọ̀wọ́ tún fi ìdí ẹ̀ múlẹ̀.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Jọ̀wọ́ gba ìṣepọ̀ táàbù láyè.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">O ò ní àwọn táàbù tí ó wà ní ṣíṣí ní Firefox lórí àwọn ẹ̀rọ rẹ tó kù.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">O ò ní àwọn táàbù tí ó wà ní ṣíṣí ní Aion lórí àwọn ẹ̀rọ rẹ tó kù.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Ṣe àfihàn àtòjọ àwọn táàbù láti àwọn ẹ̀rọ̀ rẹ̀ tó kù.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Ṣe ìforúkọsílẹ̀ láti wọ ìṣepọ̀ náà</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Kò sí àwọn táàbù ní ṣíṣí</string>
@@ -1303,7 +1303,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Tì-fúnra-ẹ̀ lẹ́yìn oṣù kan?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox lè ti àwọn táàbù tí oò tíì yẹ̀wò ní oṣù tó kọjá.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion lè ti àwọn táàbù tí oò tíì yẹ̀wò ní oṣù tó kọjá.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">TAN TÌ-FÚNRA-Ẹ̀</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -1311,11 +1311,11 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Dábàá</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion Dábàá</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Ṣètò àwọn líǹkì láti àwọn wẹ́íbúsaìtì, íméèlì àti àwọn ìfiráńṣẹ láti ṣí fún ra wọn ní Firefox.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Ṣètò àwọn líǹkì láti àwọn wẹ́íbúsaìtì, íméèlì àti àwọn ìfiráńṣẹ láti ṣí fún ra wọn ní Aion.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Tẹ̀ẹ́ fún àlàyé nípa kókó díẹ̀ si</string>
   <!-- Content description for the action bar "up" button -->

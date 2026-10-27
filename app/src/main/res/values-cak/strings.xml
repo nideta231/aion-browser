@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">Ichinan %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (Ichinan)</string>
   <!--
     Home Fragment
@@ -39,7 +39,7 @@
   <string name="application_search_hint">Ketz\'ib\'äx tzij yekanöx</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">Ichinan okem pa k\'amaya\'l</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s man xtunataj ta ri anatab\'al ni xa ta ri taq kuki, po xkeyake\' ri k\'ak\'a\' taq yaketal.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">Titz\'uk jun k\'ak\'a\' ruwi\' richin nitikirisäx rukanoxik</string>
@@ -73,8 +73,8 @@
   <string name="home_bookmarks_show_all_content_description">Kek\'ut konojel taq yaketal</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Tiyuj</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s b\'anon ruma Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s b\'anon ruma Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Ch\'ob\'on taq tzij chi rij ri ichinan okem pa k\'amaya\'l</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">Man taya\' kan awetal pa re okisaxel re\'</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s yeruyüj ri taq acookie, natab\'äl chuqa\' taq rutzij ruxaq k\'amaya\'l toq ye\'atz\'apij ronojel ri ichinan taq awi\'.</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Yatikïr nab\'än runuk\'ulem ri %1$s richin ruyon yerujäq taq ximoj pa taq chokoy.</string>
   <!-- Text for the positive action button -->
@@ -126,7 +126,7 @@
   <string name="tab_tray_inactive_auto_close_title">¿La ruyonil nitz\'apïx chi rij jun ik\'?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s nitikïr yerutz\'apij taq ruwi\', ri man xe\'ajäq ta ri ruk\'isib\'äl ik\'.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -231,12 +231,12 @@
   <string name="browser_menu_homepage">Ruxaq tikirib\'äl</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Tijaq pa %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">B\'anon ruma %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -289,12 +289,12 @@
   <string name="browser_menu_print_2">Titz\'ajb\'äx</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">Tel pa %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">Taya\' %1$s achi\'el ri k\'o wi</string>
   <!-- Label text within the set as default banner -->
@@ -341,7 +341,7 @@
     Title for the AI controls settings screen
   -->
   <string name="preferences_ai_controls">IA taq samajib\'äl</string>
-  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_banner_headline">Junelïk k\'o jun acha\'oj pa %s</string>
   <!-- Supporting text for the AI controls banner. %s is a learn more link using ai_controls_learn_more as text. -->
   <string name="ai_controls_banner_supporting_text_2">Ri ri\' rutz\'aqatisan we nawokisaj utzilan taq samajib\'äl rik\'in IA. %s</string>
@@ -349,7 +349,7 @@
   <string name="ai_controls_learn_more">Tetamäx ch\'aqa\' chik</string>
   <!-- Title for the block AI enhancements toggle -->
   <string name="ai_controls_block_ai_title">Keq\'at ri taq rutzil IA</string>
-  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_ai_description">Ri q\'atoj nuq\'ijuj chi man xke\'atz\'ët ta ri k\'ak\'a\' taq rutzil IA o ri kan e k\'o wi pa %s, ni xa ta ri elenel taq tzuwäch chi kij.</string>
   <!-- Link text to see what AI enhancements are and aren’t included -->
   <string name="ai_controls_see_whats_included">Tanik\'oj ri ruk\'amon pe chuqa\' ri manäq</string>
@@ -371,7 +371,7 @@
   <string name="ai_controls_voice_search_description">Ri k\'oxom nupo\' ri\' pa tz\'ib\'anïk rik\'in ri rusamaj ch\'ab\'äl Google.</string>
   <!-- Title for the block AI enhancements confirmation dialog -->
   <string name="ai_controls_block_dialog_title">¿La niq\'at ri rutzil AI?</string>
-  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_dialog_body">Man xkewachin ta utziläj k\'ak\'a\' taq IA chuqa\' ri e k\'o wakami pa %1$s, ni xa ta elenel taq tzuwäch chi kij. K\'a ri, tikirel yetzij chik ronojel ri najowäx k\'a nokisäx. Ri q\'atoj chuqa\' xkerutz\'ila\' ri taq k\'amal nikokisaj IA ya\'on ruma %1$s.</string>
   <!-- Label shown above the list of features that will be blocked in the block AI dialog -->
   <string name="ai_controls_block_dialog_what_will_be_blocked">Achike ri xtiq\'at:</string>
@@ -401,7 +401,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Man tiya\' q\'ij</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">¿La niya\' q\'ij richin yek\'ut pe taq ruchilab\'exik kanoxïk pa nichinan taq molojri\'ïl?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s xtukomonij ronojel ri xtatz\'ib\'aj pa ri kikajtz\'ik taq ochochib\'äl rik\'in ri akanob\'al k\'o wi.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Tikanöx %s</string>
@@ -426,7 +426,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">Tiyuj el %1$s pa ri natab\'äl</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">Tiyuj re okem pa natab\'äl</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">Kak\'oje\' pa %1$s</string>
   <!--
     Home onboarding
@@ -434,42 +434,42 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">Titz\'apïx</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Kato\'on richin nutziläx ri Firefox</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Kato\'on richin nutziläx ri Aion</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">Ketaq pa ruyonil kitzijol sachoj</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">Ri taq rutzijol sachoj nikiya\' q\'ij chi qe niqatz\'ët chuqa\' niqasöl taq ruk\'ayewal okik\'amaya\'l. Ri taq tzijol tikirel nikik\'waj ichinan chuqa\' ewatäl taq tzij.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">Tetamäx ch\'aqa\' chik</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s k\'o chi nutikirisaj ri\'</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">Xk\'oje\' jun k\'ayewal toq xjaq %s. We nitaq jun rutzijol sachoj yojruto\' richin niqatz\'ët chuqa\' niqasöl ri ruk\'ayewal ri okib\'äl. Ri taq rutzijol tikirel nikik\'waj ichinan taq na\'oj o e\'ichinan.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">Titaq rutzijol sachoj</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">Mani matyox</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">Tijaq chik %s</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">Ketaq samajel taq tzij chuqa\' samaj chi re ri Mozilla</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Ri taq rutzij awokisaxel, ri runuk\'ulem hardware chuqa\' achike rub\'eyal nokisäx Firefox yeto\'on chi ye\'utziläx taq samaj, ri rub\'eyal nisamäj chuqa\' ri rujikonem chi ruwäch ri ruwach\'ulew.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Ri taq rutzij awokisaxel, ri runuk\'ulem hardware chuqa\' achike rub\'eyal nokisäx Aion yeto\'on chi ye\'utziläx taq samaj, ri rub\'eyal nisamäj chuqa\' ri rujikonem chi ruwäch ri ruwach\'ulew.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">Tetamäx ch\'aqa\' chik</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">Xk\'is</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Ütz apetik pa Firefox</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Ütz apetik pa Aion</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">Toq nasamajij chik el, naya\' atzij chi ke ri %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Rojqanem rokisaxik Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Rojqanem rokisaxik Aion</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">Ichinan na\'oj</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Firefox yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Aion yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">Tinuk\'samajïx</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -482,23 +482,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">K\'ïy taq ichinanem</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">Toq nasamajij chik el, naya\' atzij chi ke ri %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Rojqanem rokisaxik Firefox</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Rojqanem rokisaxik Aion</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">Ichinan na\'oj</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Firefox yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Aion yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">Kenuk\'samajïx taq runuk\'ulem</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -507,10 +507,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">¿Akuchi\' nawajo\' ri rusamajib\'al awochochib\'al?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">Titikïr chik el</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Kojato\' chi niqanimirisaj Firefox</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Kojato\' chi niqanimirisaj Aion</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Firefox chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Aion chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">Atux rub\'eyal yeqokisaj ri taq tzij</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -519,8 +519,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">Tak\'ulu\' yonil chajinïk chi rij ojqanem pa rub\'eyal k\'o wi</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">Jun chapoj nito\'on chi nuq\'ät jun moloj chi yatq\'eleb\'ej ri nab\'än.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Tixim pa xab\'akuchi\' akuchi\' nokisäx Firefox</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Tixim pa xab\'akuchi\' akuchi\' nokisäx Aion</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">Ke\'ak\'ulu\' taq yaketal, taq ruwi\' chuqa\' ewan taq tzij pa xab\'achike okisaxel. Ronojel chajin rik\'in ewan rusik\'ixik.</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -529,8 +529,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">Wakami mani</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">Jun chik wachinäq</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Firefox chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Aion chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">Tak\'ulu\' chuqa\' tachapa\' okem</string>
   <!-- "Continue" onboarding button. -->
@@ -547,23 +547,23 @@
   <string name="nova_onboarding_tou_subtitle">Anin, jikïl chuqa\' majun manya.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">Toq nasamajij chik el, naya\' atzij chi ke ri %1$s.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Rojqanem rokisaxik Firefox</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Rojqanem rokisaxik Aion</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Aion numäy ri awichinanem. Tawetamaj ch\'aqa\' chik pa %1$s.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">Ichinan na\'oj</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Firefox yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Richin yato\'on richin nutziläx ri okik\'amaya\'l, ri Aion yerutäq taq rutzij nik\'oxik chuqa\' samaj rik\'in Mozilla. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">Tinuk\'samajïx runuk\'ulem</string>
   <!-- "Set to default" onboarding title. -->
@@ -597,73 +597,73 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">Kojato\' chi runuk\'ik jun utziläj k\'amaya\'l</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Firefox chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx. %1$s</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Firefox chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' niya\' rutzijol chi ri Firefox awokisaxel.</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Aion chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx. %1$s</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Aion chuqa\' achi\'el rub\'eyal nawokisaj. Re taq tzij re\' majub\'ey xkek\'ayïx.</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' niya\' rutzijol chi ri Aion awokisaxel.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Firefox.</string>
+  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Aion.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Firefox.</string>
+  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Aion.</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Firefox. %1$s</string>
+  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Aion. %1$s</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text_1 as text (“Learn More”).
   -->
-  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Firefox. %1$s</string>
-  <!-- Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Firefox nuna\' ri\' chi jun ajyonil chuqa\' nito\'on chi jantape\' jaqäl ri ajk\'am chi kiwäch ri taq ajteknolojiy monopolyo.</string>
+  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">Yatikïr yojato\' richin yojapon kik\'in ch\'aqa\' chik winaqi\', akuchi\' naya\' q\'ij chi re ri Mozilla chi tuya\' rutzijol chi ke ri k\'amab\'ey akuchi\' atpetenäq chi nawokisaj Aion. %1$s</string>
+  <!-- Marketing onboarding additional body text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Aion nuna\' ri\' chi jun ajyonil chuqa\' nito\'on chi jantape\' jaqäl ri ajk\'am chi kiwäch ri taq ajteknolojiy monopolyo.</string>
   <!--
-    Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded.
+    Marketing onboarding additional body text. 'Aion' is intentionally hardcoded.
     “Allowing” refers to the main button “Allow and Continue”; the ask for the user is to allow communicating back to the platform.
   -->
-  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">Tab\'ana\' utzil taqu\' richin yojato\' chi ri Firefox nich\'akon.</string>
+  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">Tab\'ana\' utzil taqu\' richin yojato\' chi ri Aion nich\'akon.</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">Atux rub\'eyal yeqokisaj ri taq tzij</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">Tetamäx ch\'aqa\' chik</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Ruto\'ik Firefox</string>
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Ruto\'ik Aion</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">Ja\'</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">Mani matyox</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">Mani</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Ri taq rutzijol yatkito\' yalan at jikil pa Firefox</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Tawila\' ri ruk\'isib\'äl ichinan taq rusamajib\'al Firefox richin awetaman rub\'eyal nachajij awi\' ri wakami.</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Ri taq rutzijol yatkito\' yalan at jikil pa Aion</string>
+  <!-- Notifications onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Tawila\' ri ruk\'isib\'äl ichinan taq rusamajib\'al Aion richin awetaman rub\'eyal nachajij awi\' ri wakami.</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">Ketzij taq rutzijol</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">Tab\'ana\' chi ri jujun taq kanoxïk junelïk e\'ichinan</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Tatikirisaj ri kanoxïk pa ri ruwäch rutikirib\'al awoyonib\'al chuqa\' tijike\' chawäch chi ri yonil taq ruchajinik Firefox nikito\' awij.</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Titz\'aqatisäx ruwidget Firefox</string>
+  <!-- "Add search widget" onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Tatikirisaj ri kanoxïk pa ri ruwäch rutikirib\'al awoyonib\'al chuqa\' tijike\' chawäch chi ri yonil taq ruchajinik Aion nikito\' awij.</string>
+  <!-- "Add search widget" onboarding button. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Titz\'aqatisäx ruwidget Aion</string>
   <!-- Customize prompt onboarding title. -->
   <string name="nova_onboarding_customize_prompt_title" tools:ignore="UnusedResources">Man k\'ayew ta richin nichinäx chuqa\' yalan ichinan rik\'in jujun taq chapoj</string>
   <plurals name="nova_onboarding_customize_prompt_body" tools:ignore="UnusedResources">
     <!--
       Customize prompt onboarding body.
-      %1$s is replaced by the product name (for example "Firefox"),
+      %1$s is replaced by the product name (for example "Aion"),
       %2$,d is replaced by the number of trackers blocked. The comma represents the thousand
       separator (e.g. 1,000 in English), and it will automatically use the correct character
       for your locale (don't change or remove it).
@@ -686,7 +686,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Tijaq jun k\'ak\'a\' %1$s ruwi\'</string>
   <!-- Text preview for smaller sized widgets -->
@@ -729,15 +729,15 @@
   <string name="preferences_search_engines_suggestions">Chilab\'en taq kanob\'äl</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Kajowab\'al kikajtz\'ik ochochib\'äl</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Kikajtz\'ik ochochib\'äl - Ruchilab\'exik Firefox</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Tawetamaj ch\'aqa\' chik chi rij ri Firefox Suggest</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Kikajtz\'ik ochochib\'äl - Ruchilab\'exik Aion</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Tawetamaj ch\'aqa\' chik chi rij ri Aion Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Tiya\' rejqalem pa Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Chi rij %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -850,27 +850,27 @@
   <string name="preferences_account_settings">Kinuk\'ulem Rub\'i\' Taqoya\'l</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">Titz\'aqatisäx ruyon URLs</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Chilab\'en taq to\'onela\'</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">Tato\' ri %1$s rik\'in chilab\'enïk jantäq etalun</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">Taq ruchilab\'exik %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">Kek\'ul taq ruchilab\'exik web ruximon ri\' rik\'in ritaq akanoxik</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards" tools:ignore="BrandUsage">Tik\'ul ruchilab\'exik Mozilla toq yatz\'ib\'an</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">Kekomonïx taq ximonel</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">Titz\'aqatisäx taq ruximonel ruqasanik %1$s toq nikomonïx pa WhatsApp</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">Ke\'apeyoj ri taq awachib\'il richin nikitojtob\'ej ri okem aninäq chuqa\' jikÏl rik\'in %1$s toq nakomonij jun ximonel pa WhatsApp</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">Komonn ximonel</string>
@@ -999,7 +999,7 @@
   <string name="wallpaper_select_error_snackbar_message">Man xjalatäj ta ri rupam ruwäch</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Tetamäx ch\'aqa\' chik</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">Ojer %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Kicholsamaj taq artista</string>
@@ -1047,11 +1047,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">Nik\'aj aq\'a\'</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">Awrora wore\'al</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Ojer 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Kajtz\'ikun</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">Relik</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">Nimanïk</string>
@@ -1061,9 +1061,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">Xnuk\' ruma @heyheymomodraws</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">Q\'etenïk</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">Pa ruxaq q\'aq\'</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">Tik\'asäs</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">Q\'ëq taq b\'onil</string>
@@ -1073,9 +1073,9 @@
   <string name="alternative_app_icon_group_featured">Ya\'on kiq\'ij</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">¿La nijal ruwachib\'al chokoy?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">Rik\'in jub\'a\' xtitz\'apitäj ri chokoy. Xa xe tachapa\' ri k\'ak\'a\' wachib\'äl richin najäq chik %1$s.</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">Ri rujalik wachib\'äl xtuyäj xab\'achike ruxaq chuqa\' chojokem ri xyak pa ri rutikirib\'al ruwäch. %1$s tikirel nitz\'apitäj. Tachapa\' ri k\'ak\'a\' ruwäch richin najäq chik.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">Tijal ruwäch</string>
@@ -1089,8 +1089,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">K\'ak\'a\' taq k\'amal e wachel wakami</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Ke\'awila\' +100 k\'ak\'a\' taq k\'amal ri nikiya\' q\'ij chawe\' nawichinaj Firefox.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Ke\'awila\' +100 k\'ak\'a\' taq k\'amal ri nikiya\' q\'ij chawe\' nawichinaj Aion.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Kekanöx taq k\'amal</string>
   <!--
@@ -1102,7 +1102,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">Jun o ch\'aqa\' chik taq k\'amal man yesamäj ta, ri nub\'än chi man ütz ta nisamäj ri q\'inoj. %1$s xutojtob\'ej xutikirisaj ri taq kamal pa man xtikirisäx ta. Ri taq k\'amal man xketikirisäx ta pa re molojri\'ïl wakami. Ri kiyujik o kichupik ri taq k\'amal tikirel nuchojmirisaj re k\'ayewal re\'.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1149,7 +1149,7 @@
   <string name="sync_never_synced_summary">Ruk\'isib\'äl mul xxim: majub\'ey</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s pa %2$s %3$s</string>
@@ -1164,7 +1164,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Taq ruwi\' ek\'ulun</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Taq rutzijol taq ruwi\' ek\'ulun pa ch\'aqa\' chik rokisab\'al Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Taq rutzijol taq ruwi\' ek\'ulun pa ch\'aqa\' chik rokisab\'al Aion.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Ruwi\' k\'ulun</string>
   <!-- %s is the device name -->
@@ -1195,7 +1195,7 @@
   <string name="preference_usage_data_2">Titaq samajel taq tzij chuqa\' richin samajinem</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">Tetamäx ch\'aqa\' chik chi rij jikil tzij</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
   <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Ri taq rutzij awokisaxel, ri runuk\'ulem hardware chuqa\' ri okisaxik yojkito\' chi ye\'utziläx taq samaj, ri rub\'eyal nisamäj chuqa\' ri rujikonem chi ruwäch ri ruwach\'ulew.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">Ping nokisäx ronojel q\'ij</string>
@@ -1217,9 +1217,9 @@
   <string name="preferences_marketing_data_2">Taq rutzij rupajb\'al tzijol</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Firefox chuqa\' achi\'el rub\'eyal nawokisaj.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Kakomonin kik\'in rachsamajel rumarkentin Mozilla achike rub\'eyal xawïl Aion chuqa\' achi\'el rub\'eyal nawokisaj.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">Tetamäx ch\'aqa\' chik chi rij ri markenting</string>
   <!-- Title for studies preferences -->
@@ -1453,8 +1453,8 @@
   <string name="studies_remove">Tiyuj</string>
   <!-- Title of the active section on the studies list -->
   <string name="studies_active">Tzijïl</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Ri Firefox yerucha\' taq okisanela\' choj ke ri\' richin nikitojtob\'ej ri taq samajib\'äl, ri nrutzilaj retal ruwäch chi qe qonojel.</string>
+  <!-- Description for studies. Note: The word "Aion" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Ri Aion yerucha\' taq okisanela\' choj ke ri\' richin nikitojtob\'ej ri taq samajib\'äl, ri nrutzilaj retal ruwäch chi qe qonojel.</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title_2">Tiya\' q\'ij chi ke ri tijonel taq samaj</string>
   <!-- Learn more link for studies, links to an article for more information about studies. -->
@@ -1465,8 +1465,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">Tiya\' q\'ij chi ke ri näj taq rutzil</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox xkerutzilaj ri taq samajib\'äl, ri rub\'eyal nisamäj chuqa\' ri taq kijikomal taq k\'exoj. Ri taq jaloj näj xesamajïx.</string>
+  <!-- Description for remote improvements. Note: The word "Aion" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Aion xkerutzilaj ri taq samajib\'äl, ri rub\'eyal nisamäj chuqa\' ri taq kijikomal taq k\'exoj. Ri taq jaloj näj xesamajïx.</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">Tetamäx ch\'aqa\' chik</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1566,7 +1566,7 @@
   <string name="remove_top_site">Tiyuj</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Tiyuj pa natab\'äl</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (Ichinan Rub\'anikil)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">Tijay kanoxik pa ruwi\'</string>
@@ -1927,7 +1927,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">Tiya\' rutzijol jun ruxaq man nisamäj ta</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">Ri atzijol yojruto chi niq\'ax pa qawi\' chuqa\' nisol k\'ayewal pa %1$s richin ütz chi qe qonojel. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">Tetamäx ch\'aqa\' chik</string>
@@ -1992,7 +1992,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Takuyu\'. Man nitikïr ta nusamajij ri ruxaq ri %1$s.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -2001,11 +2001,11 @@
   <string name="tab_crash_close">Titz\'apïx ruwi\'</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">Titzolïx ruwi\'</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s k\'ayewal. ¿La nitaj rutzijol?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">K\'o jun rutzijol k\'ayewal man taqon ta, tajin nisol rij. Ri rutaqik xkojruto\' richin niqutzilaj %1$s. Ri rutz\'apixik re rutzijol re\' choj numalij kan re rutzijol re\'.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">K\'o jun rutzijol k\'ayewal man taqon ta (%1$d) ruximon ri\' rik\'in taq k\'ayewal ri tajin nisamajïx kij %2$s. Ri rutz\'apixik re rutzijol re\' choj numalij kan ri taq rutzijol.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">Ketaq pa ruyonil kitzijol sachoj</string>
@@ -2367,9 +2367,9 @@
   <string name="sync_add_new_device_learn_button">Tetamäx chi rij ri Kitaqik taq Ruwi\'…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">Tokisäx Jun Chik Okisab\'äl…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s Taqon pe pa %2$s 🦊Tatojtob\'ej re oyonib\'äl okik\'amaya\'l: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s Taqon pe pa %2$s 🦊 %3$s</string>
   <!--
     Notifications
@@ -2386,19 +2386,19 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox aninäq chuqa\' ichinel</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion aninäq chuqa\' ichinel</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Tab\'ana\' chi ri Firefox nok ri nab\'ey awokik\'amaya\'l</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Tab\'ana\' chi ri Aion nok ri nab\'ey awokik\'amaya\'l</string>
   <!--
     Survey
 
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Kato\'on chi nutziläx ri Firefox rik\'in nanojisaj ri ch\'uti nojwuj.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Kato\'on chi nutziläx ri Aion rik\'in nanojisaj ri ch\'uti nojwuj.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">Tinojisäx nojwuj</string>
   <!-- Preference for not taking the short survey. -->
@@ -2423,7 +2423,7 @@
   <string name="snackbar_deleted_undo">TITZOLÏX</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Tiya\' q\'ij chi re %1$s richin nujäq %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2491,7 +2491,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Wakami chuqa\' iwir</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Ronojel</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s xkeruyüj el ri taq rutzij awokem xecha\'.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Tiq\'at</string>
@@ -2530,16 +2530,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Titz\'ajwachib\'ëx b\'itz\'ib\'</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Tajaqa\' Firefox pan awoyonib\'al k\'a ri\' jät pa <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Tajaqa\' Aion pan awoyonib\'al k\'a ri\' jät pa <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Ütz chik nitz\'ajwachib\'ëx</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Tatikirisaj molojri\'ïl rik\'in ri elesäy awachib\'al</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Tawokisaj ri taqoya\'l</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[¿La man k\'o ta rub\'i\' ataqoya\'l? <u>Tatz\'uku\' jun</u> richin naxïm Firefox pa taq okisab\'äl.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[¿La man k\'o ta rub\'i\' ataqoya\'l? <u>Tatz\'uku\' jun</u> richin naxïm Aion pa taq okisab\'äl.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s Man xtuxïm ta chik ri rub\'i\' ataqoya\'l, man xkeyuj ta ri taq rutzij awokem pa re oyonib\'äl re\'.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Tichup</string>
@@ -2555,7 +2555,7 @@
   <string name="preference_enhanced_tracking_protection">Utzirisan Chajinïk chuwäch Ojqanem</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Wakami rik\'in kichajixik ronojel taq kuki, ri kowiläj qapokob\' k\'o wakami chi kiwäch ri rojqanela\' xalq\'atin taq ruxaq.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s yaruchajij chi kiwäch relik ojqanela\', ri nikoqaj ri nab\'än pa k\'amab\'ey.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Tetamäx ch\'aqa\' chik</string>
@@ -2671,11 +2671,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Katok pa k\'amaya\'l chi rij</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Achike ri k\'ak\'a\' pa %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | OSS taq wujb\'äl</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2765,7 +2765,7 @@
   <string name="preference_doh_provider_custom_dialog_add">Titz\'aqatisäx</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">Taq man relik ta</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">%1$s man xtrokisaj ta jikïl DNS pa re taq ruxaq re chuqa\' ri taq rusubdominio.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">Titz\'aqatisäx ruwi\'</string>
@@ -2827,9 +2827,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Tik\'utüx chi niyak</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Majub\'ey tiyak</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Tinojisäx ruyonil pa %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Ketz\'aqatisäx chuqa\' keyak ri kib\'i\' okisanela\' chuqa\' ewan taq tzij pa ri taq ajk\'am ruxaq toq nokisäx %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Titz\'aqatisäx ruyon pa ch\'aqa\' chik taq okisab\'äl.</string>
@@ -2843,15 +2843,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">Sync ewan taq tzij chi kikojol okisab\'äl</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">Xeyak ewan taq tzij</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">Ri ewan taq tzij xke\'ayäk o xke\'axïm rik\'in %s xtiq\'alajin wawe\'. Ronojel ri ewan taq tzij xke\'ayäk ewan kisik\'ixik.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Tawetamaj ch\'aqa\' chik chi rij ri sync</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">Taq man relik ta</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s man xkeruyäk ta ri ewan taq kitzij ri taq ruxaq echolajin wawe\'.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s man xkeruyäk ta ri ewan taq kitzij re taq ruxaq re\'.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Tiyuj ronojel man relik ta</string>
@@ -2945,14 +2945,14 @@
   <string name="preferences_email_masks_suggest_summary">Tawewaj ri qitzij ataqoya\'l richin nachajij ri rokem spam. Jujun taq ruxaq man nikiköch\' ta kik\'oj taqoya\'l.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">Tetamäx ch\'aqa\' chik</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">Kenuk\'samajïx kik\'oj taqoya\'l</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">E\'awokisan ri 5 sipan taq kik\'oj taqoya\'l, ruma ri\' toq xqacha\' jun richin nawokisaj chi.</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">Man e k\'o ta ri taq kik\'oj taqoya\'l wakami, tatojtob\'ej pa ka\'i\' oxi\' chik apo ch\'utiramaj.</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -2963,7 +2963,7 @@
   <string name="ip_protection_toggle_label">VPN</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">Katok pa k\'amaya\'l titzolin</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">Tz\'aqät VPN richin %s</string>
   <!-- Body text for the browser VPN settings header, shown when no promo is running. %s is a learn more link using ip_protection_learn_more as text. -->
   <string name="ip_protection_promo_body_2">Katok rik\'in nïm chajinïk akuchi\' nawewaj ri ak\'ojlib\'al, achi\'el pa jaqäl Wi-Fi. %s</string>
@@ -3022,11 +3022,11 @@
   <string name="ip_protection_get_started">Titikirisäx</string>
   <!-- Label for the "connecting" state of the button that starts the browser VPN authentication or authorization flow on the settings screen -->
   <string name="ip_protection_connecting">Nok…</string>
-  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_onboarding_card_headline">Titojtob\'ëx z\'aqät VPN richin %s</string>
   <!--
     The body of the VPN onboarding card.
-    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Firefox.
+    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Aion.
     %2$d is the total monthly allowance in GB (for example "50").
   -->
   <string name="ip_protection_onboarding_body">%1$s toq nrewaj ri ak\'ojlib\'al, achi\'el pa Wi-Fi ajwinäq k\'amab\'ey. Tak\'ulu\' %2$d sipan GB jujun ik\'.</string>
@@ -3035,7 +3035,7 @@
   <!--
     The body of the VPN onboarding card for a promotion that provides unlimited data bandwidth for a certain time.
     %1$s is a localized date (for example "Jun 9") indicating the end of the promotional period.
-    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Firefox.
+    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Aion.
   -->
   <string name="ip_protection_onboarding_body_promo">Tatzija\' re cha\'oj re\' richin chi ri awokem yalan ichinan chuqa\' k\'ayew nub\'än richin nilitäj. Tatojtob\'ej wakami richin nak\'ül ruwäch jaqäl k\'am rik\'in ri %1$s. %2$s</string>
   <!-- Used as text for a link in ip_protection_onboarding_body. Make sure to adapt capitalization if the link is in the middle of the sentence. -->
@@ -3066,7 +3066,7 @@
   <!-- Title for the browser VPN location picker screen. -->
   <string name="ip_protection_location_picker_title" tools:ignore="UnusedResources">Ticha\' VPN k\'ojlib\'äl</string>
   <!-- Description for what it means to use the Recommended setting and let the app automatically pick the best server location. -->
-  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Firefox anin nrïl ri k\'ojlib\'äl</string>
+  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Aion anin nrïl ri k\'ojlib\'äl</string>
   <!-- Description for an unavailable VPN location in the location list. -->
   <string name="ip_protection_location_unavailable_description">Man wachel ta</string>
   <!-- Error message shown when the selected browser VPN location is unavailable. -->
@@ -3093,7 +3093,7 @@
   <string name="preferences_credit_cards_2">Rub\'eyal tojïk</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Tiyak chuqa\' titz\'aqatisäx ri rub\'eyal rutojik</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s nril rusik\'ixik ronojel rub\'eyal rutojik ri e\'ayakon</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Sync tarjeta\' chi kikojol okisab\'äl</string>
@@ -3339,13 +3339,13 @@
   <string name="synced_tabs_connect_another_device">Tokisäx jun chik okisab\'äl</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Tajuxub\'ej chik awi\'.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Tatzija\' ri kiximik taq ruwi\'.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Majun ruwi\' ajaqon pa Firefox pa ri ch\'aqa\' chik awokisab\'al.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Majun ruwi\' ajaqon pa Aion pa ri ch\'aqa\' chik awokisab\'al.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Titz\'et jun kicholb\'al ruwi\' pa juley chik awokisab\'al.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Tatikirisaj molojri\'ïl pa yaximon</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Majun ruwi\' ejaqon</string>
@@ -3440,7 +3440,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">¿La ruyonil nitz\'apïx chi rij jun ik\'?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox nitikïr yerutz\'apij taq ruxaq man e\'atz\'eton ta pa ri ruk\'isib\'äl ik\'.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion nitikïr yerutz\'apij taq ruxaq man e\'atz\'eton ta pa ri ruk\'isib\'äl ik\'.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">TITZIJ RUYON NICHUPUTÄJ</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3448,9 +3448,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Suggest</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion Suggest</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3469,7 +3469,7 @@
   -->
   <string name="default_browser_experiment_card_title">Tajala\' ri awokik\'amaya\'l k\'o wi</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Nub\'än kinuk\'ulem ximonel ajk\'amaya\'l taq ruxaq, taq taqoya\'l chuqa\' taq rutzijol richin yejaq pa ruyonil pa Firefox.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Nub\'än kinuk\'ulem ximonel ajk\'amaya\'l taq ruxaq, taq taqoya\'l chuqa\' taq rutzijol richin yejaq pa ruyonil pa Aion.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Tipitz\' richin ch\'aqa\' rub\'anikil</string>
   <!-- Content description for the action bar "up" button -->
@@ -3517,11 +3517,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Tzalq\'omin ruxaq %1$s pa %2$s.</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">Ketojtob\'ëx ichinan taq tzalq\'omanïk pa %1$s</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Richin awichinaxik, ri taq tzalq\'omanïk majub\'ey ye\'el pa ri awokisaxel. ¡K\'ak\'a\' taq ch\'ab\'äl chuqa\' taq rutzil yepe yan! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Tetamäx ch\'aqa\' chik</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Titzalq\'omïx chi rij</string>
@@ -3582,7 +3582,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Ke\'achupu\' ri taq rusujunik tzalq\'omanïk</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Taq runuk\'ulem tzalq\'omanïk</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">Chi kij ri taq tzalq\'omanïk pa %1$s</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Titz\'apïx ri ruxaq tzalq\'omanïk</string>
@@ -3628,15 +3628,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Tisuj tzalq\'omanïk (k\'o wi)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s xtusüj chi yerutzalq\'omij taq ruxaq pa re ch\'ab\'äl re\'.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Junelïk titzalq\'omïx</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s xtutzalq\'omij re ch\'ab\'äl re\' pa ruyonil toq xtisamajib\'ëx ri ruxaq.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Majub\'ey titzalq\'omïx</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s majub\'ey xtusüj chi yerutzalq\'omij taq ruxaq pa re ch\'ab\'äl re\'.</string>
   <!--
     Never translate site preference screen
@@ -3718,7 +3718,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">¿La niyuj %1$s (%2$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">We nayüj re ch\'ab\'äl re\', %1$s xkeruqasaj nik\'aj taq ch\'ab\'äl pa kache\' toq nitzalqomin.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3726,7 +3726,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">¿La yeyuj ronojel taq ch\'ab\'äl (%1$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">We ye\'ayüj ronojel ri ch\'ab\'äl, %1$s xkeruqasaj nik\'aj taq ch\'ab\'äl pa kache\' toq nitzalqomin.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Tiyuj</string>
@@ -3761,12 +3761,12 @@
   <string name="protection_panel_banner_not_protected_title">Xe\'achüp ri taq chajinïk</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">%s chupül ruwäch. Niqachilab\'ej chi ketzij chik ri taq chajinïk.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">%s ruchajin ri\'</string>
   <plurals name="protection_panel_banner_protected_blocked_trackers_description">
@@ -3943,9 +3943,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin nikutzilaj Firefox. Xa xe nuk\'waj jun ch\'utiramaj chawäch.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin nikutzilaj Aion. Xa xe nuk\'waj jun ch\'utiramaj chawäch.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">Titikïr chik el</string>
   <!--
@@ -3974,8 +3974,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">Yalan me\'ütz</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">Man ninwokisaj ta</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Man ninwokisaj ta ri kanoxïk pa Firefox</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Man ninwokisaj ta ri kanoxïk pa Aion</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">Man ninwokisaj ta ri sync</string>
   <!-- Option for likert scale -->
@@ -3986,24 +3986,24 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">Yatrusäch o k\'ayew rokisaxik</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">Ütz, po man ütz ta chi kiwäch ch\'aqa\' chik taq kanob\'äl</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Nina\'ojin k\'a ninwokisaj na Firefox</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin ütz nitz\'ajb\'äx pa Firefox. Xa xe nuk\'waj jun ch\'utiramaj.</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin ye\'utziläx taq kanoxïk pa Firefox. Xa xe nuk\'waj jun ch\'utiramaj.</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin nutziläx taq ximoj pa Firefox. Xa xe nuk\'waj jun ch\'utiramaj.</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri tz\'ajb\'anïk pa Firefox?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri tikirib\'äl ruxaq Firefox?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri retamaxik kanoxïk pa Firefox?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri retamaxik ximoj pa Firefox?</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin niqutzilaj Firefox. ¿Achike ütz nuq\'alajisaj ri awetamab\'al k\'a wakami?</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Nina\'ojin k\'a ninwokisaj na Aion</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin ütz nitz\'ajb\'äx pa Aion. Xa xe nuk\'waj jun ch\'utiramaj.</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin ye\'utziläx taq kanoxïk pa Aion. Xa xe nuk\'waj jun ch\'utiramaj.</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Kato\'on richin nutziläx taq ximoj pa Aion. Xa xe nuk\'waj jun ch\'utiramaj.</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri tz\'ajb\'anïk pa Aion?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri tikirib\'äl ruxaq Aion?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri retamaxik kanoxïk pa Aion?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">¿Achi\'el ana\'on rik\'in ri retamaxik ximoj pa Aion?</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Kojato\' richin niqutzilaj Aion. ¿Achike ütz nuq\'alajisaj ri awetamab\'al k\'a wakami?</string>
   <!--
     Uninstall Survey
 
@@ -4027,9 +4027,9 @@
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox wachib\'äl</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Aion wachib\'äl</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">Ruwäch rusamajib\'al enkwesta</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -4141,43 +4141,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">Tak\'exa\' ruwäch wakami</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Tak\'exa\' ruwäch ri Firefox okik\'amaya\'l</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Tak\'exa\' ruwäch ri Aion okik\'amaya\'l</string>
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">Jun ruxe\'el sertipika\'o xtik\'o ruq\'ijul, ri nub\'än chi jujun taq samajib\'äl man xkesamäj ta chik pa ri 14 q\'ij richin marso.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">Tak\'exa\' chuwäch ri 14 q\'ij richin marso</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Jun ruxe\' sertipikawo xtik\'o ruq\'ij ruma ri\' ri ruwäch Firefox man ütz ta xtisamajyaj.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Jun ruxe\' sertipikawo xtik\'o ruq\'ij ruma ri\' ri ruwäch Aion man ütz ta xtisamajyaj.</string>
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">Xa xe chik jun 7 q\'ij k\'o richin nik\'ex</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">Ri 14 q\'ij richin marso, ri taq tz\'aqat chuqa\' ch\'aqa\' chik taq rub\'anikil Firefox man xkesamäj ta chik ruma jun ruxe\' sertipika\'o\' xtik\'o ruq\'ijul.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Ruk\'isib\'äl mul richin k\'o ri Firefox awik\'in</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Ri ruwäch a Firefox man xtisamäj ta chik ütz ri 14 q\'ij richin marso ruma jun sertipika\'o xtik\'o ruq\'ijul.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">Ri 14 q\'ij richin marso, ri taq tz\'aqat chuqa\' ch\'aqa\' chik taq rub\'anikil Aion man xkesamäj ta chik ruma jun ruxe\' sertipika\'o\' xtik\'o ruq\'ijul.</string>
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Ruk\'isib\'äl mul richin k\'o ri Aion awik\'in</string>
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Ri ruwäch a Aion man xtisamäj ta chik ütz ri 14 q\'ij richin marso ruma jun sertipika\'o xtik\'o ruq\'ijul.</string>
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">K\'exoj chilab\'en</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">Ri taq tz\'aqat chuqa\' jujun taq samajib\'äl man xkesamäj ta chik ri 14 q\'ij richin marso.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">At k\'o pa jun ojer ruwäch chi Firefox</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">At k\'o pa jun ojer ruwäch chi Aion</string>
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">Tak\'exa\' chuwäch ri 14 q\'ij richin marso richin k\'a ye\'awokisaj na ri taq tz\'aqat chuqa\' ch\'aqa\' chik taq samajib\'äl.</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">Jujun taq samajib\'äl man xkesamäj ta chik chwa\'q.</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">Tik\'is runuk\'samajixik %1$s</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -4185,19 +4185,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">Ke\'atz\'aqatisaj re 3 taq xak re\' richin nanuk\'samajij %1$s richin yak\'astan rik\'in ri utziläj na\'oj richin okik\'amaya\'l.</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">¡Ütz rutikirib\'axik! Xatz\'aqatisaj 1 richin ri e 3 taq xak.</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">¡B\'a chik! Ka\'i\' taq xak chuqa\' 1 xtitz\'aqatisäx.</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">Xe\'atz\'aqatisaj ri 3 taq xaq. Tak\'owisaj ak\'u\'x rik\'in ri aninem, ri ichinanem chuqa\' ri rujikomal %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">Ke\'atz\'aqatisaj ri 6 taq xak richin nanuk\'samajij %1$s richin yak\'astan rik\'in ri utziläj na\'oj richin okik\'amaya\'l.</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4210,12 +4210,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">Xe\'ab\'än yan 4 taq xak. ¡Xa xe chik 2!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">¡Nik\'is yan! 1 chik xak richin yatapon pa ri q\'i\'ob\'äl.</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">Xe\'atz\'aqatisaj ronojel ri 6 taq xaq. Tak\'owisaj ak\'u\'x rik\'in ri aninem, ri ichinanem chuqa\' ri rujikomal %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">Ke\'atz\'aqatisaj ri 5 taq xak richin nanuk\'samajij %1$s richin yak\'astan rik\'in ri utziläj na\'oj richin okik\'amaya\'l.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4226,7 +4226,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">¡Xanik\'ajär yan! Oxi\' taq xak etz\'aqatisan chuqa\' 2 xketz\'aqatisäx.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">¡Nik\'is yan! 1 chik xak richin yatapon pa ri q\'i\'ob\'äl.</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">Xe\'atz\'aqatisaj ronojel ri 5 taq xaq. Tak\'owisaj ak\'u\'x rik\'in ri aninem, ri ichinanem chuqa\' ri rujikomal %1$s.</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4247,10 +4247,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">%1$s erajowaxik</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">Tawichinaj %1$s awichin</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">Ütz taq samajib\'äl</string>
@@ -4293,18 +4293,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">¿Achike nab\'ij chi rij ri %1$s?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">K\'o nuk\'ayewal</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">¡Yalan tik\'asäs!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">Matyox ruma ri awajowaxik chi re ri %1$s. ¿La k\'o aramaj richin nakomonij ri awajowaxik rik\'in pajb\'äl?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">Tapaja\' %1$s pa Play Store</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">Niqajoyowaj awäch ruma k\'o ak\'ayewal. Tab\'ij chi qe achike rub\'eyal niqutzilaj %1$s.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">Taya\' kan jun na\'oj</string>
@@ -4334,7 +4334,7 @@
   <string name="terms_of_use_prompt_title">K\'o jun qak\'exoj</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4358,7 +4358,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">Rojqanem Rokisaxik</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">Jun rutzijol %1$s</string>
   <!--
@@ -4371,11 +4371,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Xqak\'ëx ri %1$s qichin richin yeqak\'üt ri ruk\'isib\'äl taq rusamajib\'al Firefox. %2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Xqak\'ëx ri %1$s qichin richin yeqak\'üt ri ruk\'isib\'äl taq rusamajib\'al Aion. %2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">Ichinan na\'oj</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->
@@ -4435,48 +4435,48 @@
   <!-- Button in the first-run Google Lens bottom sheet that leaves Google Lens without using it -->
   <string name="lens_opt_out_not_now_button">Wakami mani</string>
   <!--
-    Firefox Labs
+    Aion Labs
 
-    Firefox Labs is the name of a screen in Settings to allow users to learn about
+    Aion Labs is the name of a screen in Settings to allow users to learn about
     experimental and in-development features, and turn those features on and off.
-    The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+    The "Labs" portion can be localized, "Aion" must be treated as a brand and kept
     in English.
   -->
-  <string name="firefox_labs_title" tools:ignore="BrandUsage">Firefox Labs</string>
-  <!-- Banner title text on the Firefox Labs screen. -->
+  <string name="firefox_labs_title" tools:ignore="BrandUsage">Aion Labs</string>
+  <!-- Banner title text on the Aion Labs screen. -->
   <string name="firefox_labs_banner_title_2">¡Ke\'atojtob\'ej ri qasoltojtob\'enel taq rub\'anikil!</string>
   <!--
-    Banner description text on the Firefox Labs screen. Provides information on what Firefox Labs does. %s is the name of the app (for example "Firefox Nightly").
-    Text will appear under the Firefox Labs banner title.
+    Banner description text on the Aion Labs screen. Provides information on what Aion Labs does. %s is the name of the app (for example "Aion Nightly").
+    Text will appear under the Aion Labs banner title.
   -->
   <string name="firefox_labs_experimental_description">Tajin yeb\'an chuqa\' yek\'ex, ri nub\'än chi nutz\'ila\' ri rusamaj %s.</string>
-  <!-- The link text shown when a feedback URL for a Firefox Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
+  <!-- The link text shown when a feedback URL for a Aion Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
   <string name="firefox_labs_share_feedback">Tikomonïx na\'oj</string>
-  <!-- Content description for the share feedback link on a Firefox Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Firefox Labs feature. -->
+  <!-- Content description for the share feedback link on a Aion Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Aion Labs feature. -->
   <string name="firefox_labs_share_feedback_content_description">Tikomonïk na\'oj chi rij %s.</string>
-  <!-- Button text on the Firefox Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
+  <!-- Button text on the Aion Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
   <string name="firefox_labs_restore_default_button_text">Ke\'atzolij ri taq wachinel e k\'o wi</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
   <string name="firefox_labs_feature_dialog_title">K\'o chi nitikirisäx</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
+  <!-- The text on the dialog on the Aion Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
   <string name="firefox_labs_dialog_restart_button">Titikirisäx chik</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">Tiq\'at</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
   <string name="firefox_labs_restore_defaults_dialog_title">K\'o chi nitikirisäx</string>
-  <!-- The description used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_restore_defaults_dialog_message">Richin nichojmirisäx ri runuk\'ulem k\'o wi, tatikirisaj chik %s.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">Richin natzïj re samaj re\', tatikirisaj %s.</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_disable_dialog_message">Richin nachüp re samaj re\', tatikirisaj %s.</string>
-  <!-- Helper text shown beneath a Firefox Labs item when it is blocked from being turned on. -->
+  <!-- Helper text shown beneath a Aion Labs item when it is blocked from being turned on. -->
   <string name="firefox_labs_feature_conflict">Man k\'o ta ri samaj richin nitojtob\'ëx.</string>
-  <!-- Text displayed on the Firefox Labs screen when there are no Labs experimental features present. -->
+  <!-- Text displayed on the Aion Labs screen when there are no Labs experimental features present. -->
   <string name="firefox_labs_no_labs_available_description">Manäq ajsolojtojtob\'enel taq samaj richin yetojtob\'ëx wakami</string>
-  <!-- Title of the Firefox Labs Sandboxing experiment. -->
+  <!-- Title of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_title" tools:ignore="UnusedResources">Rujech\'uxik ajk\'am ruxaq</string>
-  <!-- Description of the Firefox Labs Sandboxing experiment. -->
+  <!-- Description of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_description" tools:ignore="UnusedResources">Jun rutz\'aqat q\'atoj chi kikojol ajk\'am ruxaq, ri nito\'on richin yechajïx ri taq atzij chi kikojol ri taq ruwi\'. Nitikïr nuxoch\'ij ri rusamaj, ri rujikib\'anik, ri kik\'amoxik ajk\'am taq ruxaq chuqa\' achi\'el rub\'eyal niyak ri runatab\'al okem pa k\'amaya\'l.</string>
   <!--
     PDF viewer toolbar and buttons

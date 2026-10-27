@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">%s nyamuni</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (Nyamuni)</string>
   <!--
     Home Fragment
@@ -49,8 +49,8 @@
   <string name="home_bookmarks_show_all_content_description">Témbongkeun kabéh markah</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Piceun</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content" tools:ignore="BrandUsage">%1$s dihasilkeun ku Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
+  <string name="about_content" tools:ignore="BrandUsage">%1$s dihasilkeun ku Nath.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Mitos umum ngeunaan langlangan nyamuni</string>
   <!--
@@ -68,7 +68,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">Anjeun bisa nyetél %1$s pikeun otomatis muka tutumbu dina aplikasi.</string>
   <!-- Text for the positive action button -->
@@ -95,7 +95,7 @@
   <string name="tab_tray_inactive_auto_close_title">Tutup langsung sanggeus sabulan?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s bisa nutup tab anu ku anjeun teu dibuka leuwih ti sabulan.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -183,12 +183,12 @@
   <string name="browser_menu_share">Bagikeun</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">Buka di %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">Dijalankeun ku %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -213,7 +213,7 @@
   <string name="browser_menu_edit_bookmark">Édit markah</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">Eureun %1$s</string>
   <!--
@@ -250,7 +250,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Hulag</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Idinan saran pamaluruhan dina sési nyamuni?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">%s bakal ngabagi sagala anu diketikkeun dina palang alamat kana mesin pamaluruh baku anjeun.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Paluruh %s</string>
@@ -269,7 +269,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">Buka dina tab %1$s anyar</string>
   <!-- Text preview for smaller sized widgets -->
@@ -304,15 +304,15 @@
   <string name="preferences_search_engines_suggestions">Usulan ti mesin pamaluruh</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Préperénsi palang alamat</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Palang alamat - Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Leuwih teleb ngeunaan Firefox Suggest</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Palang alamat - Aion Suggest</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Leuwih teleb ngeunaan Aion Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Peunteun dina Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">Ngeunaan %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -401,19 +401,19 @@
   <string name="preferences_account_settings">Setélan akun</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">Otokumplit URLs</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Saran ti sponsor</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">Pangrojong %1$s kalawan saran anu disponsoran</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">Saran ti %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">Pundut saran tina wéb patali jeung panyungsian anjeun</string>
   <!-- Preference for open links in third party apps -->
   <string name="preferences_open_links_in_apps">Buka tutumbu dina aplikasi</string>
@@ -490,7 +490,7 @@
   <string name="wallpaper_select_error_snackbar_message">Teu bisa ngarobah latar</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Leuwih teleb</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">%s klasik</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Séri artis</string>
@@ -510,8 +510,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">Aya add-on anyar yeuh</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Pariksa 100+ pangémboh anyar anu ngamungkinkeun anjeun ngajadikeun Firefox sorangan.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Pariksa 100+ pangémboh anyar anu ngamungkinkeun anjeun ngajadikeun Aion sorangan.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Paluruh pangémboh</string>
   <!--
@@ -523,7 +523,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">Aya émbohan anu mugen, matak teu stabil kana sistem. %1$s gagal nyobaan malikan deui émbohanana.\n\nÉmbohan moal dimimitian deui dina rintakan anu ayeuna.\n\nMiceun atawa numpurkeun émbohan bisa jadi menerkeun ieu masalah.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -568,7 +568,7 @@
   <string name="sync_never_synced_summary">Singkronan panungtung: acan pernah</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s dina %2$s %3$s</string>
@@ -583,7 +583,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Tab nu katampa</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Iber pikeun tab anu katampa ti séjén piranti Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Iber pikeun tab anu katampa ti séjén piranti Aion.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Tab Katampa</string>
   <!-- %s is the device name -->
@@ -822,7 +822,7 @@
   <string name="remove_top_site">Piceun</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Pupus tina jujutan</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (Mode Nyamuni)</string>
   <!--
     History
@@ -851,7 +851,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">Hampura. %1$s teu tiasa nyungsi ieu kaca.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1096,7 +1096,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Sambungkeun parangkat séjén</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Pikeun ngirim tab, asup ka Firefox sahanteuna sakali di piranti nu séjén.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Pikeun ngirim tab, asup ka Aion sahanteuna sakali di piranti nu séjén.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Ngarti</string>
   <!-- Share error message -->
@@ -1124,19 +1124,19 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox gancang jeung rikip</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion gancang jeung rikip</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Jadikeun Firefox panyungsi baku</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Jadikeun Aion panyungsi baku</string>
   <!--
     Survey
 
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Bantuan Firefox sangkan leuwih hadé ku miluan surpéy pondok.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Bantuan Aion sangkan leuwih hadé ku miluan surpéy pondok.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">Eusi Surpéy</string>
   <!-- Preference for not taking the short survey. -->
@@ -1157,7 +1157,7 @@
   <string name="snackbar_deleted_undo">BEDO</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Idinan %1$s muka %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -1225,7 +1225,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Poé ieu jeung kamari</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Sagalana</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s bakal mupus data nyungsi anu dipilih.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Bolay</string>
@@ -1256,16 +1256,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Pinday sandi</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Dina komputer anjeun buka Firefox terus buka <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Dina komputer anjeun buka Aion terus buka <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Siap mindai</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Asup maké kaméra anjeun</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Maké surél wéh</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Teu boga akun? <u>Jieun</u> pikeun nyingkronkeun Firefox dina sakabéh parabot.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Teu boga akun? <u>Jieun</u> pikeun nyingkronkeun Aion dina sakabéh parabot.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s bakal eureun nyingkronkeun jeung akun anjeun, ngan moal mupus sakur data langlangan anjeun dina ieu parangkat.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Pegatkeun</string>
@@ -1281,7 +1281,7 @@
   <string name="preference_enhanced_tracking_protection">Kilung Palacakan anu Dironjatkeun</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Ayeuna mituran Kilung Réréméh Total, bénténg pangwedelna tur ngahalangan palacak meuntas-loka.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s ngajaga anjeun ti kalolobaan palacak anu nunutur lalampahan anjeun jero jaringan.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Lenyepan</string>
@@ -1362,11 +1362,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Mundur</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">Nu anyar di %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | Pabukon OSS</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -1430,9 +1430,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Naros keur neundeun</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Ulah diteundeun</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Otoeusi dina %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Eusian jeung simpen sandiasma jeung kecap sandi dina raramatloka nalika maké %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Otoeusi di séjén aplikasi</string>
@@ -1446,15 +1446,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">Singkronkeun sandi dina sakabéh parabot</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">Sandi nu disimpen</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">Sandi anu anjeun simpen atawa disingkronkeun kana %s bakal didaptarkeun di dieu. Sakumna kecap sandi anu disimpen ku anjeun téh diénkripsi.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Lenyepan ngeunaan singkronisasi</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">Iwal</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s moal nyimpen sandi pikeun situs anu didaptarkeun di dieu.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s moal nyimpen sandi pikeun situs-situs ieu.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Hapus sadaya pengecualian</string>
@@ -1520,7 +1520,7 @@
   <string name="preferences_credit_cards_2">Cara mayar</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Simpen jeung eusian cara mayar</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s énkripsi kabéh cara mayar anu disimpen ku anjeun</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Singkronkeun kartu di sakabeh parabot</string>
@@ -1718,13 +1718,13 @@
   <string name="synced_tabs_connect_another_device">Sambungkeun séjén paranti.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Mangga oténtikasi ulang.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Mangga hurungkeun singkronan tab.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Anjeun teu miboga tab anu muka dina Firefox di séjén paranti anjeun.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Anjeun teu miboga tab anu muka dina Aion di séjén paranti anjeun.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Témbongkeun béréndélan tab ti séjén paranti anjeun.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">Asup pikeun nyingkronkeun</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Taya tab muka</string>
@@ -1783,7 +1783,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Oto-tutup sanggeus sabulan?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox bisa nutup tab anu ku anjeun teu dibuka leuwih ti sabulan.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Aion bisa nutup tab anu ku anjeun teu dibuka leuwih ti sabulan.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">HURUNGKEUN OTO-TUTUP</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -1791,9 +1791,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Suggest</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion Suggest</string>
   <!-- Title for search suggestions when Google is the default search suggestion engine. -->
   <string name="google_search_engine_suggestion_header">Pamaluruhan Google</string>
   <!-- Title for search suggestions when the default search suggestion engine is anything other than Google. %s is default search engine name. -->
@@ -1805,7 +1805,7 @@
   -->
   <string name="default_browser_experiment_card_title">Alihkeun panyungsi baku anjeun</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Setél tutumbu ti raramatloka, surélék, jeung surat pikeun muka otomatis dina Firefox.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Setél tutumbu ti raramatloka, surélék, jeung surat pikeun muka otomatis dina Aion.</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">Pencét sangkan leuwih écés</string>
   <!-- Content description for the action bar "up" button -->
@@ -1838,11 +1838,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Kaca ditarjamahkeun tina %1$s ka %2$s</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">Coba tarjamahan pribadi dina %1$s</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Pikeun privasi anjeun, tarjamahan moal kungsi ninggalkeun alat anjeun. Basa anyar jeung panghadéan sakeudeung deui datang! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Lenyepan</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Tarjamahkeun tina</string>
@@ -1901,7 +1901,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Timpah tawaran pikeun narjamahkeun</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Setélan tarjamahan</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">Ngeunaan tarjamahan dina %1$s</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Tutup lambaran Tarjamahan</string>
@@ -1941,15 +1941,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Tawarkeun pikeun narjamahkeun (standar)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s bakal nawarkeun narjamahkeun situs dina basa ieu.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Salawasna tarjamahkeun</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s bakal narjamahkeun basa ieu sacara otomatis nalika kaca dimuat.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Ulah narjamahkeun deui</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s moal pernah nawarkeun narjamahkeun situs dina basa ieu.</string>
   <!--
     Never translate site preference screen
@@ -2031,7 +2031,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">Pupus %1$s (%2$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">Lamun anjeun mupus basa ieu, %1$s bakal ngundeur sawaréh basa kana cache anjeun nalika anjeun narjamahkeun.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -2039,7 +2039,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">Pupus sadaya basa (%1$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">Lamun anjeun mupus sakabéh basa, %1$s bakal ngundeur sawaréh basa kana cache anjeun nalika anjeun narjamahkeun.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Pupus</string>
@@ -2117,7 +2117,7 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
   <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Bantuan urang ngoméan Firebox sangkan leuwih hadé. Cukup ngan samenit baé.</string>
   <!-- The continue button label -->
@@ -2148,30 +2148,30 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">Kacida teu sugema</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">Kuring teu maké éta</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Kuring teu maké panyungsi dina Firefox</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Kuring teu maké panyungsi dina Aion</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">Kuring teu maké singkronisasi</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan Firefox bisa nyitak leuwih hadé. Ngan perlu sakolépat</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan panyungsi Firefox leuwih hadé. Ngan perlu samenit baé.</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan singkronisasi Firefox leuwih hadé. Ngan perlu samenit baé</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana panyitakan dina Firefox?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Kumaha kasugemaan anjeun kana kaca utama Firefox?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana pangalaman panyungsian dina Firefox?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana pangalaman singkronisasi dina Firefox?</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan Aion bisa nyitak leuwih hadé. Ngan perlu sakolépat</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan panyungsi Aion leuwih hadé. Ngan perlu samenit baé.</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Bantuan sangkan singkronisasi Aion leuwih hadé. Ngan perlu samenit baé</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana panyitakan dina Aion?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Kumaha kasugemaan anjeun kana kaca utama Aion?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana pangalaman panyungsian dina Aion?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Sakumaha puasna anjeun kana pangalaman singkronisasi dina Aion?</string>
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Logo Firefox</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Logo Aion</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">Ikon fitur survéy</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->

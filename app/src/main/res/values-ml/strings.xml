@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">സ്വകാര്യം %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s(സ്വകാര്യം)</string>
   <!--
     Home Fragment
@@ -69,7 +69,7 @@
   <string name="home_bookmarks_show_all_content_description">എല്ലാ അടയാളകുറിപ്പുകൾ കാണിക്കുക</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">മാറ്റുക</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
   <string name="about_content" tools:ignore="BrandUsage">%1$s നിർമ്മിച്ചത് മോസില്ലയാണ്.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">സ്വകാര്യ തിരച്ചിലിനെക്കുറിച്ചുള്ള പൊതുവായ തെറ്റിദ്ധാരണങ്ങൾ</string>
@@ -83,7 +83,7 @@
   <string name="felt_privacy_desc_card_title">ഈ ഉപകരണത്തിൽ ലക്ഷണമെങ്കിലും വിടരുതു്</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">സ്വകാര്യ ടാബു് അടക്കുമ്പോൾ %1$s താങ്ങളുടെ കുക്കീകളും നാൾവഴിയും എന്നിവ മായ്ക്കും.</string>
   <!--
@@ -95,7 +95,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">ഉപയോഗങ്ങളിലെ കണ്ണികൾ തന്നെതാനെ തുറക്കാൻ താങ്ങൾക്കു് %1$s സജ്ജീകരിക്കാം.</string>
   <!-- Text for the positive action button -->
@@ -122,7 +122,7 @@
   <string name="tab_tray_inactive_auto_close_title">ഒരു മാസത്തിന് ശേഷം തനതാനെ അടയ്ക്കണോ?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">കഴിഞ്ഞ ഒരു മാസമായി താങ്ങൾ കാണാത്ത ടാബുകൾ %1$s-ന് അടയ്ക്കാനാവും.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -225,12 +225,12 @@
   <string name="browser_menu_homepage">പൂമുറ്റം</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">%1$s ൽ തുറക്കുക</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">%1$s ലഭ്യമാക്കുന്നത്</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -283,12 +283,12 @@
   <string name="browser_menu_print_2">അച്ചടിപ്പിക്കുക</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s-ൽ നിന്നു് പുറത്തുകടക്കുക</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">%1$s-നെ തനിമട്ടാക്കുക</string>
   <!-- Label text within the set as default banner -->
@@ -365,7 +365,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">അനുവദിക്കരുത്</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">സ്വകാര്യ സെഷനുകളിൽ തിരയൽ നിർദ്ദേശങ്ങൾ അനുവദിക്കണോ?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">നിങ്ങളുടെ സ്ഥിരസ്ഥിതി സെര്‍ച്ച് എഞ്ചിനുമായി വിലാസ ബാറിൽ നിങ്ങൾ എഴുതുന്നതെല്ലാം %s ആയി പങ്കിടും</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s അന്വേഷിക്കുക</string>
@@ -390,7 +390,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">നാൾവഴിയിൽ നിന്നു %1$s-നെ മായിച്ചു</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">ഈ നാൾവഴിയിനം മായ്ക്കുക</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">%1$s-ൽ തന്നെ ഇരിക്കുക</string>
   <!--
     Home onboarding
@@ -398,7 +398,7 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">അടയ്ക്കുക</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">ഫയർഫോക്സു് മെച്ചപ്പെടുത്താൻ ഞങ്ങളെ സഹായിക്കുക</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">തകർച്ച വിവരങ്ങൾ തന്നെതാന്നെ അയയ്ക്കുക</string>
@@ -406,30 +406,30 @@
   <string name="onboarding_preferences_dialog_crash_reporting_description">തകർച്ച റിപ്പോർട്ടുകൾ ഞങ്ങൾക്കു് അന്വേഷിയന്ത്രത്തിന്റെ കൂടെയുള്ള എല്ലാ പ്രശ്നങ്ങളെ കണ്ടുപ്പിടിക്കാനും പരിഹരിക്കാനും സഹായിക്കുന്നു. റിപ്പോർട്ടുകളിൽ തനതായ അല്ലെങ്കിൽ സൂക്ഷിച്ചുവയ്ക്കാനുള്ള ദത്തയും ഉൾപ്പെടാം.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">കൂടുതല്‍ അറിയുക</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s-നു വീണ്ടും തുടങ്ങണ്ടി വരും</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">തകരാറിനെപ്പറ്റിയുള്ള അറിയിപ്പ് അയയ്ക്കുക</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">വേണ്ട, നന്ദി</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">%s വീണ്ടും തുറക്കുക</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">സാങ്കേതികയും ഇടപാടുനീയ ദത്ത മോസില്ലയ്ക്കു അയക്കുക</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">കൂടുതല്‍ അറിയുക</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">ചെയ്തു</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
   <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">ഫയര്‍ഫോക്സിലേക്കു് സ്വാഗതം</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">തുടരുന്നതിലൂടെ, താങ്ങൾ %1$s അംഗീകരിക്കുന്നു.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Firefox ഉപയോഗനിബന്ധനകൾ</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Aion ഉപയോഗനിബന്ധനകൾ</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
   <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">താങ്ങളുടെ സ്വകാര്യതക്കു് ഫയർഫോക്സു് ശ്രദ്ധിക്കാരുണ്ടു്. ഞങ്ങളുടെ %1$s-ൽ കൂടുതൽ അറിയുക.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">സ്വകാര്യതാ അറിയിപ്പ്</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
   <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">അന്വേഷിയന്ത്രത്തിനെ മെച്ചപ്പെുടത്താൻ ഫയർഫോക്സു് മോസില്ലക്കു് നിദാനനിർണയനീയും ഇടപാടുനീയ ദത്ത അയയ്ക്കാരുണ്ടു്. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">കൈകാര്യം ചെയ്യുക</string>
@@ -439,11 +439,11 @@
   <string name="onboarding_redesign_tou_subheader_two" tools:ignore="UnusedResources">താനെ പിന്തുടൎച്ച പരിരക്ഷണം</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">തുടരുന്നതിലൂടെ, താങ്ങൾ %1$s അംഗീകരിക്കുന്നു.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Firefox ഉപയോഗനിബന്ധനകൾ</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Aion ഉപയോഗനിബന്ധനകൾ</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">സ്വകാര്യത അറിയിപ്പു്</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
@@ -454,7 +454,7 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">താങ്ങൾക്കു വിലാസപ്പട്ട എവിടെയാണു വേണ്ടതു് ?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">തുടരുക</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
   <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">ഫയൎഫോക്സിനെ ഉയൎത്താൻ ഞങ്ങളെ സഹായിക്കുക</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">എങ്ങനെയാണു് ഞങ്ങൾ ദത്തയെ ഉപയോഗിക്കുന്നതു്</string>
@@ -462,7 +462,7 @@
   <string name="onboarding_marketing_redesign_positive_button" tools:ignore="UnusedResources">തീൎച്ചപ്പെടുത്തുക</string>
   <!-- Set to default browser onboarding redesign title. -->
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">താനെ പിന്തുടൎച്ച പരിരക്ഷണം തനിമട്ടായി നേടൂ.\u0020</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
   <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">ഫയൎഫോക്സ് ഉപയോഗിക്കുന്നയെല്ലായിടത്തും സമന്വയിപ്പിക്കുക</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">ഏതുപകരണത്തിലും അടയാളക്കുറിപ്പുകളും ടാബുകളും ഒളിവാക്കുകളും നേടുക. എല്ലാം രൂപമാറ്റത്തിലൂടെ പരിരക്ഷിച്ചിരിക്കുന്നതു്.\u0020</string>
@@ -484,20 +484,20 @@
   <string name="nova_onboarding_skip_button" tools:ignore="UnusedResources">ഒഴിവാക്കുക</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">തുടരുന്നതിലൂടെ, താങ്ങൾ %1$s അംഗീകരിക്കുന്നു.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Firefox ഉപയോഗനിബന്ധനകൾ</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Aion ഉപയോഗനിബന്ധനകൾ</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
   <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">താങ്ങളുടെ സ്വകാര്യതക്കു ഫയർഫോക്സു് ശ്രദ്ധിക്കാരുണ്ടു്. ഞങ്ങളുടെ %1$s-ൽ കൂടുതലറിയുക.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">സ്വകാര്യത അറിയിപ്പു്</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
   <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">അന്വേഷിയന്ത്രത്തിനെ മെച്ചപ്പെുടത്താൻ ഫയർഫോക്സു് മോസില്ലക്കു് നിദാനനിർണയനീയും ഇടപാടുനീയ ദത്ത അയയ്ക്കാറുണ്ടു്. %1$s</string>
@@ -535,7 +535,7 @@
   <string name="nova_onboarding_marketing_body_link_text">എങ്ങനെയാണു ഞങ്ങൾ ദത്തയെ ഉപയോഗിക്കുന്നതു്</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">കൂടുതല്‍ അറിയുക</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
   <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിനെ പിന്തുണയ്ക്കുക</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">അതെ</string>
@@ -543,8 +543,8 @@
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">വേണ്ട, നന്ദി</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">ഇല്ല</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Firefox-ൽ സുരക്ഷിതമായി തുടരാൻ അറിയിപ്പുകൾ താങ്ങളെ സഹായിക്കുന്നു</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Aion-ൽ സുരക്ഷിതമായി തുടരാൻ അറിയിപ്പുകൾ താങ്ങളെ സഹായിക്കുന്നു</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">അറിയിപ്പുകൾ തുടങ്ങിവയ്ക്കുക</string>
   <!-- "Add search widget" onboarding title. -->
@@ -562,7 +562,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">പുതിയ %1$s ടാബില്‍ തുറക്കുക</string>
   <!-- Text preview for smaller sized widgets -->
@@ -599,15 +599,15 @@
   <string name="preferences_search_engines_suggestions">തിരയൽ യന്ത്രങ്ങളിൽ നിന്നുള്ള നിർദ്ദേശങ്ങൾ</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">വിലാസപ്പട്ട മുൻഗണനകൾ</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
+  <!-- Preference Category for settings to Aion Suggest -->
   <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">വിലാസ പട്ട - ഫയർഫോക്സ് നിർദ്ദേശം</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
+  <!-- Preference link to Learn more about Aion Suggest -->
   <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">ഫയര്‍ഫോക്സ് സചസ്റ്റിനെപറ്റി കൂടുതലറിയുക</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">ഗൂഗിൾ പ്ലേയിൽ വിലയിരുത്തുക</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">%1$s നെ കുറിച്ച്</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -711,13 +711,13 @@
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">URLs തനിയേ പൂർത്തിയാക്കുക</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">%1$s-ൽ നിന്നുള്ള നിർദ്ദേശങ്ങൾ</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">കണ്ണി പങ്കിടൽ</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">വാറ്റ്സാപ്പിൽ പങ്കിടുമ്പോഴു് %1$s ഇറക്കിവയ്ക്കാനുള്ള കണ്ണിയും ഉൾപ്പെടുത്തുക</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">കണ്ണി പങ്കിട്ടു</string>
@@ -832,7 +832,7 @@
   <string name="wallpaper_select_error_snackbar_message">ചുവർകടലാസു് മാറ്റാൻ പറ്റിയില്ല</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">കൂടുതലറിയുക</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">ക്ലാസിക് %s</string>
   <!-- Wallpaper onboarding dialog header text. -->
   <string name="wallpapers_onboarding_dialog_title_text">നിറത്തിന്റെ നീർത്തെറിപ്പ് ഉരച്ചുനോക്കുക</string>
@@ -874,11 +874,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">പാതിരാത്രി</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">വടക്കൻ വെളിവു്</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">റെട്രോ 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">ചിത്രമാത്രപ്പെടുത്തിയ</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">കുറച്ചു്</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">അഭിമാനം</string>
@@ -888,9 +888,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">ഇതു് @heyheymomodraws ആണു് ഉണ്ടാക്കിയതു്</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">തഴുകൽ</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">തഴൽ</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">കുളിർ</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">കടും നിറങ്ങൾ</string>
@@ -910,7 +910,7 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">പുതിയ വിപുലീകരണങ്ങൾ ഇപ്പോൾ ലഭ്യമാണ്</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
   <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">ഫയൎഫോക്സു് ഇഷ്ടാനുസൃതമാക്കാൻ ഉപയോഗിക്കാവുന്ന 100+ പുതിയ വിപുലീകരണങ്ങൾ ആരായുക.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">വിപുലീകരണങ്ങൾ കാണുക</string>
@@ -962,7 +962,7 @@
   <string name="sync_never_synced_summary">അവസാനം സമന്വയിപ്പിച്ചത്: ഒരിക്കലുമില്ല</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%2$s %3$s ‍ൽ %1$s</string>
@@ -1343,7 +1343,7 @@
   <string name="remove_top_site">നീക്കം ചെയ്യുക</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">നാള്‍വഴിയിൽ നിന്ന് മായ്ക്കുക</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (സ്വകാര്യ രീതി)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">ടാബുതിരയൽ തുറക്കുക</string>
@@ -1682,7 +1682,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">പൊറുക്കണം. %1$s ന് ആ താൾ ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1691,7 +1691,7 @@
   <string name="tab_crash_close">ടാബ് അടയ്ക്കുക</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">ടാബ് പുനസ്ഥാപിക്കുക</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s തകൎന്നു. ഇതിന്റെ വിവരം അറിയിക്കണോ?</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">തകർച്ച വിവരങ്ങൾ തന്നെതാന്നെ അയയ്ക്കുക</string>
@@ -2037,9 +2037,9 @@
   <string name="sync_add_new_device_learn_button">ടാബുകൾ അയയ്ക്കുന്നതിനെക്കുറിച്ച് അറിയുക…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">മറ്റൊരു ഉപകരണം ബന്ധിപ്പിക്കുക…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\n%2$s-ൽ നിന്നു് അയച്ചു 🦊മൊബൈൽ അന്വേഷിയന്ത്രം ഉപയോഗിച്ചു നോക്കുക: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\n%2$s ൽ നിന്ന് അയച്ചു 🦊 %3$s</string>
   <!--
     Notifications
@@ -2091,7 +2091,7 @@
   <string name="snackbar_deleted_undo">തിരിച്ചാക്കുക</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%2$s തുറക്കാൻ %1$s നെ അനുവദിക്കുക</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2159,7 +2159,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">ഇന്നലെയും ഇന്നും</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">എല്ലാം</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s തിരഞ്ഞെടുത്ത തിരയൽദത്ത മായ്ക്കും.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">റദ്ദാക്കുക</string>
@@ -2205,9 +2205,9 @@
   <string name="sign_in_with_camera">താങ്കളുടെ ക്യാമറ ഉപയോഗിച്ച് പ്രവേശിക്കുക</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">പകരം ഇമെയിൽ ഉപയോഗിക്കുക</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
   <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[അക്കൗണ്ടില്ലേ? <u> ഉപകരണങ്ങൾക്കിടയിൽ ഫയർഫോക്സ് സമന്വയിപ്പിക്കുന്നതിന് ഒരെണ്ണം ഉണ്ടാക്കുക </u>.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">താങ്കളുടെ അക്കൗണ്ടുമായി സമന്വയിപ്പിക്കുന്നത് %s നിർത്തും പക്ഷേ ഈ ഉപകരണത്തിലുള്ള താങ്കളുടെ തിരയൽദത്തയൊന്നും മായ്ക്കത്തില്ല.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">വിച്ഛേദിക്കുക</string>
@@ -2333,11 +2333,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">പുറകോട്ട് പോവുക</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">%s- ൽ പുതിയതെന്താണ്</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s| സ്വതന്ത്ര ലൈബ്രറികൾ</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2465,9 +2465,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">സൂക്ഷിക്കാൻ ആവശ്യപ്പെടുക</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">ഒരിക്കലും സൂക്ഷിക്കേണ്ട</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">%1$s-ൽ തന്നെതാന്നെ പൂരിപ്പിക്കുക</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$s ഉപയോഗിക്കുമ്പോഴു് ഒളിവാക്കുകളും ഉപയോക്തൃപ്പേരുകളും പൂരിപ്പിച്ചിട്ടു് കരുതിവയ്ക്കുക.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">മറ്റു് പ്രയോഗങ്ങളിൽ തന്നെതാനെ പൂരിപ്പിക്കുക</string>
@@ -2481,15 +2481,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">ഉപകരണങ്ങൾ കുറുകെ ഒളിവാക്കുകൾ സമന്വയിപ്പിക്കുക</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">കരുതിവച്ച ഒളിവാക്കുകൾ</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">താങ്ങൾ കരുതിവയ്ക്കുന്ന അല്ലെങ്കിൽ %s-ലേക്ക് സമന്വയിപ്പിക്കുന്ന ഒളിവാക്കുകൾ ഇവിടെ പട്ടികപ്പെടും. താങ്ങൾ കരുതിവയ്ക്കുന്ന എല്ലാ ഒളിവാക്കുകളും രൂപമാറ്റം ചെയ്തിട്ടേ വയ്ക്കും.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">സമന്വയത്തെപറ്റി കൂടുതലറിയുക</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">വിട്ടുവീഴ്ചകള്‍</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">ഇവിടെ കൊടുത്തിരിക്കുന്ന സൈറ്റുകളുടെ ഒളിവാക്കുകൾ %s കരുതിവയ്ക്കത്തില്ല.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">ഇവിടെ കൊടുത്തിരിക്കുന്ന സൈറ്റുകളുടെ ഒളിവാക്കുകൾ %s കരുതിവയ്ക്കത്തില്ല.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">എല്ലാ ഒഴിവാക്കലുകളും മായ്ക്കുക</string>
@@ -2581,12 +2581,12 @@
   <string name="preferences_email_masks_suggest_summary">പാഴ്ത്തപാലിൽ നിന്നു സംരക്ഷിക്കാൻ താങ്ങളുടെ ശരിക്കുള്ള ഇതപാൽ മറയ്ക്കുക. ചില വെബ്ബിടങ്ങളിൽ ഇതപാൽ പൊയ്മുഖങ്ങൾ ഉപയോഗിക്കാൻ ഒക്കാതാവുമെന്നുണ്ടാവാം.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">കൂടുതല്‍ അറിയുക</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">ഇതപാൽ പൊയ്മുഖങ്ങൾ കൈകാര്യം ചെയ്യുക</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">ഇ-തപാൽ പൊയ്മുഖങ്ങൾ നിലവിൽ ലഭ്യമല്ല. കുറച്ചു മിനിറ്റുകൾക്കുള്ളിൽ വീണ്ടും ശ്രമിക്കുക.</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -2597,7 +2597,7 @@
   <string name="ip_protection_toggle_label">വി.പി.എൻ</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">തിരിച്ചു്</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">%s-യുടെ ഉൾപ്പണിഞ്ഞ വി.പി.എൻ</string>
   <!-- Link text that opens additional information about the browser VPN -->
   <string name="ip_protection_learn_more">കൂടുതലറിയുക</string>
@@ -2659,7 +2659,7 @@
   <string name="preferences_credit_cards_2">പണമടക്കൽ മുറകൾ</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">പണമടക്കൽ രീതികൾ കരുതിവച്ചു് പൂരിപ്പിക്കുക</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s താങ്ങൾ കരുതിവയ്ക്കുന്ന എല്ലാ പണമടക്കൽ മുറകളിൽ രൂപമാറ്റം വരുത്താരുണ്ടു്</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">ഉപകരണങ്ങളിലുടനീളം ചീട്ടുകൾ സമന്വയിപ്പിക്കുക</string>
@@ -2901,13 +2901,13 @@
   <string name="synced_tabs_connect_another_device">മറ്റൊരു ഉപകരണം ബന്ധിപ്പിക്കുക.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">ദയവായി പുനഃപ്രമാണീകരിക്കുക</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">ടാബ് സമന്വയിപ്പിക്കൽ പ്രാപ്തമാക്കുക.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
   <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">താങ്കളുടെ മറ്റ് ഉപകരണങ്ങളിൽ ഫയർഫോക്സിൽ ടാബുകളൊന്നും തുറന്നതായിട്ടില്ല.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">നിങ്ങളുടെ മറ്റ് ഉപകരണങ്ങളിൽ നിന്നുള്ള ടാബുകളുടെ ഒരു ലിസ്റ്റ് കാണുക.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">ടാബൊന്നും തുറന്നിരിക്കുന്നില്ല</string>
@@ -3000,7 +3000,7 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
   <string name="firefox_suggest_header" tools:ignore="BrandUsage">ഫയർഫോക്സ് നിർദ്ദേശം</string>
   <!-- Title for search suggestions when Google is the default search suggestion engine. -->
@@ -3062,11 +3062,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">%1$s നിന്നു് %2$s-ലേക്കു് വിവർത്തനം ചെയ്തു</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">%1$s-ൽ സ്വകാര്യ വിവർത്തനങ്ങൾ പരിശോധിച്ചു് നോക്കൂ</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">താങ്ങളുടെ സ്വകാര്യതയ്ക്കു് വേണ്ടി വിവൎത്തനങ്ങൾ ഒരിക്കലും താങ്ങളുടെ ഉപകരണത്തിൽ നിന്നു് പുറത്തുപോകത്തില്ല. പുതിയ ഭാഷകളും പുതുമകളും ഉടൻ വരുന്നു! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">കൂടുതല്‍ അറിയുക</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">ഇതിൽ നിന്നു് വിവർത്തനം ചെയ്യുക</string>
@@ -3127,7 +3127,7 @@
   <string name="translation_option_bottom_sheet_switch_description">വിവൎത്തനം ചെയ്യാനുള്ള വാഗ്ദാനങ്ങളെയെല്ലാം തള്ളും</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">വിവർത്തന ക്രമീകരണങ്ങൾ</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">%1$s-ലെ വിവർത്തനങ്ങളെക്കുറിച്ച്</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">വിവർത്തനതാളു് അടയ്ക്കുക</string>
@@ -3173,15 +3173,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">വിവർത്തനം ചെയ്യാൻ വാഗ്ദാനം നല്കുക (എപ്പോഴും)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">ഈ ഭാഷായിൽ എഴുതിയ വെബ്സ്ഥാനങ്ങളിൽ വിവർത്തനം ചെയ്യാൻ %1$s ചോദിക്കും.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">എപ്പോഴും വിവർത്തനം ചെയ്യുക</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">താൾ ലഭ്യമാവുമ്പോൾ %1$s ഉടനെ ഈ ഭാഷയിന്റെ തന്നെതാനെ വിവർത്തനം ചെയ്യും.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">ഒരിക്കലും വിവർത്തനം ചെയ്യരുതു്</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">ഈ ഭാഷായിൽ എഴുതിയ വെബ്സ്ഥാനങ്ങളിൽ വിവർത്തനം ചെയ്യാൻ %1$s ഒരിക്കലും വാഗ്ദാനം ചെയ്യില്ല.</string>
   <!--
     Never translate site preference screen
@@ -3261,7 +3261,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) മായ്ക്കണോ?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">താങ്ങൾ ഭാഷയെ മായച്ചാൽ താങ്ങൾ വിവൎത്തനം ചെയ്യുമ്പോഴു് %1$s ഭാഗികമായി ഭാഷയെ താങ്ങളുടെ ഗണനികയതിവേഗോൎമ്മയിലോട്ടു് ഇറക്കിവയ്ക്കും.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3269,7 +3269,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">എല്ലാ ഭാഷാകൾ (%1$s) മായ്ക്കണോ?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">താങ്ങൾ എല്ലാ ഭാഷകളെ മായച്ചാൽ താങ്ങൾ വിവൎത്തനം ചെയ്യുമ്പോഴു് %1$s ഭാഗികമായി ഭാഷകളെ താങ്ങളുടെ ഗണനികയതിവേഗോൎമ്മയിലോട്ടു് ഇറക്കിവയ്ക്കും.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">മായ്ക്കുക</string>
@@ -3304,12 +3304,12 @@
   <string name="protection_panel_banner_not_protected_title">താങ്ങൾ പരിരക്ഷകൾ അണച്ചു</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">%s കാവൽ വിട്ടു. പരിരക്ഷകൾ വീണ്ടും തുടങ്ങിവയ്ക്കാനാണു് നല്ലതു്.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">%s കാവൽ നിൽക്കുന്നു</string>
   <!--
@@ -3459,7 +3459,7 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
   <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിനു് മെച്ചപെടുത്താൻ സഹായിക്കുക. ഇതു് ചെയ്യാൻ വെറും ഒരു നിമിഷം എടുക്കും</string>
   <!-- The continue button label -->
@@ -3490,28 +3490,28 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">തീരെ സന്തുഷ്ടമായില്ല</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">ഞാൻ ഉപയോഗിക്കാരില്ല</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
   <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">ഞാൻ ഫൈയർഫോക്സിൽ തിരയൽ ഉപയോഗിക്കാരില്ല</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">ഞാൻ സമന്വയം ഉപയോഗിക്കാരില്ല</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിൽ അച്ചടിപ്പു് മെച്ചപെടുത്താൻ സഹായിക്കുക. ഇതു് ചെയ്യാൻ വെറും ഒരു നിമിഷം എടുക്കും</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിൽ തിരച്ചിൽ മെച്ചപെടുത്താൻ സഹായിക്കുക. ഇതു് ചെയ്യാൻ വെറും ഒരു നിമിഷം എടുക്കും</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിൽ സമന്വയം മെച്ചപെടുത്താൻ സഹായിക്കുക. ഇതു് ചെയ്യാൻ വെറും ഒരു നിമിഷം എടുക്കും</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സിൽ അച്ചടിപ്പുക്കൂടെ താങ്ങൾക്കു് എത്രത്തോളം സംതൃപ്തിയുണ്ട്?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സു് ആമുഖതാൾ കൊണ്ടു് താങ്ങൾക്കു് എത്രത്തോളം സംതൃപ്തിയുണ്ട്?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സു് തിരച്ചിൽ അനുഭവം കൊണ്ടു് താങ്ങൾക്കു് എത്രത്തോളം സംതൃപ്തിയുണ്ട്?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
   <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">ഫയർഫോക്സു് സമന്വയ അനുഭവം കൊണ്ടു് താങ്ങൾക്കു് എത്രത്തോളം സംതൃപ്തിയുണ്ട്?</string>
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
   <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">ഫയർഫോക്സു് അടയാളം</string>
   <!-- Content description for the survey feature icon. -->
@@ -3605,43 +3605,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">ഉടന്‍ പുതുക്കുക</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">താങ്ങളുടെ ഫയർഫോക്സു് അന്വേഷിയേ പുതുക്കുക</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">ഒരു മൂലപ്രമാണുപത്രം കാലഹരണപ്പെടും, അതുക്കൊണ്ടു് മാർച്ച് 14-ന് ചില സവിശേഷതകൾ പ്രവർത്തിക്കുന്നത് നിർത്തും.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">മാർച്ച് 14-ന് മുമ്പ് പുതുക്കുക</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">ഒരു മൂലപ്രമാണുപത്രം കാലഹരണപ്പെടും, അതുക്കൊണ്ടു് താങ്ങളുടെ ഫയർഫോക്സു് പതിപ്പു് പ്രവർത്തിക്കുന്നത് നിർത്തും.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">പുതുക്കാൻ ഇനി 7 ദിവസങ്ങൾ പോലും ഇല്ല</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">വേർപ്രമാണപത്രം കാലഹരണപ്പെടുന്നതിനാൽ മാർച്ച് 14-ന്, ആഡ്-ഓണുകളും മറ്റ് സവിഷേതകളും ഫീച്ചറുകളും പ്രവർത്തിക്കുന്നത് നിർത്തും.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">താങ്ങളുടെ ഫയർഫോക്സു് നിലനിർത്താനുള്ള അവസാന അവസരം</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">വേർപ്രമാണപത്രം കാലഹരണപ്പെടുന്നതിനാൽ താങ്ങളുടെ ഫയർഫോക്സു് പതിപ്പ് മാർച്ച് 14-ന് ശരിയായി പ്രവർത്തിക്കുന്നത് നിർത്തും.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">പുതുക്കൽ ചെയ്താൽ നല്ലതായിരുന്നു</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">ആഡ്-ഓണുകളും മറ്റു് ചില വിശേഷതൾ 14-൹ മാർച്ചിനു് പ്രവർത്തിക്കുന്നത് നിർത്തും.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
   <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">താങ്ങൾ ഫയർഫോക്സിന്റെ ഒരു പഴയ പതിപ്പിലാണു്</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">ആഡ് ഓണുകളും മറ്റു് സവിശേഷതളും ഉപയോഗിച്ചതിരിക്കാൻ 14-൹ മാർച്ചിന്റെ മുമ്പു് പുതുക്കൽ ചെയ്യുക</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">ചില സവിശേഷതകൾ നാളെ പ്രവർത്തിക്കാൻ നിർത്തും.</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">%1$s സജ്ജീകരിക്കുന്നതു് തീൎക്കുക</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -3681,10 +3681,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">%1$s ആവശ്യസാധനങ്ങൾ</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">%1$s ഇഷ്ടാനുസൃതമാക്കുക</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">തുണയ്ക്കുന്ന കരുകൾ</string>
@@ -3727,14 +3727,14 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">%1$s-നെ പറ്റി താങ്ങൾക്കു് എന്തഭിപ്രായമുണ്ടു് ?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">ഇതിൽ എന്തോ കുഴപ്പവുണ്ടു്</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">ഇതു അടിപൊളിയാണു്</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">താങ്ങൾക്കു് കുഴപ്പങ്ങൾ നേരിടുന്നതിലു് ഞങ്ങളെ പൊറുക്കണം. %1$s എങ്ങനെ മെച്ചപ്പെടുത്താമെന്നു് ഞങ്ങളെ അറിയിച്ചാൽ വളരെ നന്ദി.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">പ്രതികരണം നൽകുക</string>
@@ -3781,7 +3781,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">ഉപയോഗനിബന്ധനകള്‍</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">%1$s-ൽ നിന്നൊരു കുറിപ്പു്</string>
   <!--
@@ -3805,8 +3805,8 @@
   <string name="context_menu_open_image_with_google_lens">ഗൂഗിൾ ലെൻസ് ഉപയോഗിച്ചു തിരയുക</string>
   <!-- Toast shown when the user denies the camera permission requested by the Lens camera screen -->
   <string name="lens_camera_permission_denied">അനുമതി നല്കിയില്ല</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">റദ്ദാക്കുക</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">ഈ സവിശേഷത തുടങ്ങാൻ %s-നെ പുനരാരംഭിക്കുക.</string>
 </resources>

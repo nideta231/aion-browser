@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">نجی %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (نجی)</string>
   <!--
     Home Fragment
@@ -49,7 +49,7 @@
   <string name="home_bookmarks_show_all_content_description">سبھناں اتیاں پتیاں نوں ویکھو</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">ہٹاؤ</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
   <string name="about_content" tools:ignore="BrandUsage">%1$s ایپ موزلے ولوں تیار کیتی اے۔</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">نجی ورتوں بارے عام فرضی گلاں</string>
@@ -68,7 +68,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">تسیں ایپاں وچ پتے آپݨے آپ کھولھݨ لئی %1$s پا لا سکدے او۔</string>
   <!-- Text for the positive action button -->
@@ -95,7 +95,7 @@
   <string name="tab_tray_inactive_auto_close_title">اک مہینے بعد آپے بند کرنا اے؟</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">جو تسیں پچھلے مہینے توں ودھ دوران ٹیباں نہیں ویکھیاں تاں %1$s اوہناں نوں بند کر سکدا اے۔</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -179,12 +179,12 @@
   <string name="browser_menu_share">سانجھا کرو</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">%1$s نال کھولھو</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">%1$s دی طاقت نال چل رہا</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -209,7 +209,7 @@
   <string name="browser_menu_edit_bookmark">بک‌مارک نوں سودھو</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s نوں بند کرو</string>
   <!--
@@ -246,7 +246,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">اجازت نہ دیو</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">نجی سشناں وچ کھوجݨ والی تجویز دیو؟</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">تہاڈے ولوں سرناواں پٹی وچ لکھی ہر چیز نوں %s تہاڈے مول کھوج انجݨ نال سانجھا کرےگا۔</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s کھوج</string>
@@ -265,7 +265,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">%1$s نال نویں ٹیب کھولھو</string>
   <!-- Text preview for smaller sized widgets -->
@@ -300,15 +300,15 @@
   <string name="preferences_search_engines_suggestions">کھوجݨ والیاں انجݨاں توں سجھاؤ</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">سرناواں پٹی لئی ترجیحاں</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
+  <!-- Preference Category for settings to Aion Suggest -->
   <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">سرناواں پٹی – فائرفاکس سجھاؤ</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
+  <!-- Preference link to Learn more about Aion Suggest -->
   <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">فائرفاکس سجھاؤ بارے پور جاݨو</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">ایپ دکان تے درجہ دیو</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">%1$s بارے</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -397,19 +397,19 @@
   <string name="preferences_account_settings">کھاتے دیاں سیٹنگاں</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">آپے پورن URL</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">حمایت کرن والیاں ولوں تجویزاں</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">کدے کدائی حمایت کرن والیاں ولوں تجویزاں راہیں %1$s دی مدد کرو</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">%1$s ولوں تجویزاں</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">آپݨی کھوج نال متعلق ویب توں تجویز لوو</string>
   <!-- Preference for open links in third party apps -->
   <string name="preferences_open_links_in_apps">لنک ایپاں چ کھولو</string>
@@ -486,7 +486,7 @@
   <string name="wallpaper_select_error_snackbar_message">وال‌پیپر بدلیا نہیں جا سکیا</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">ہور جاݨو</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">کلاسیکی %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">کلا کار لڑی</string>
@@ -506,7 +506,7 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">نویاں پھیلاواں ہݨ موجود ہن</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
   <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">100 توں ودھ پھیلاواں نوں ویکھو، جو فائرفاکس نوں تہاڈا آکھݨا بݨاوݨ لئی سہائک ہوݨ‌گیاں۔</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">پھیلاواں دی پڑچول کرو</string>
@@ -519,7 +519,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">اک جاں ودھ پھیلاواں کم نہیں کر رہیاں، جس نال تہاڈا سسٹم استھر ہو رہا اے۔ %1$s نے پھیلاواں نوں مڑ چالو کرن دی اسپھل کوشش کیتی سی۔ \n\nتہاڈے موجودہ سیشن دے دوران پھیلاؤ مڑ شروع نہیں ہووےگی۔ \n\nپھیلاواں نوں ہٹاوݨ جاں اسمرتھ کرن نال ایہہ مسئلہ ٹھیک ہو سکدا اے۔</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -564,7 +564,7 @@
   <string name="sync_never_synced_summary">آخری وار کیتا ہم وقت: کدے وی نہیں</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%2$s %3$s تے %1$s</string>
@@ -818,7 +818,7 @@
   <string name="remove_top_site">ہٹاؤ</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">تاریخ چوں ہٹاؤ</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (نجی موڈ)</string>
   <!--
     History
@@ -847,7 +847,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">افسوس۔ %1$s اوس صفحے نوں لوڈ نہیں کر سکدا اے۔</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1170,9 +1170,9 @@
   <string name="sign_in_with_camera">آپݨے کیمرے نال سائین ان کرو</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">ایس دی بجائے ای‌میل ورتوں</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
   <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[کھاتا نہیں اے؟ <u>ڈوائیساں وچالے</u> فائرفاکس ہم وقت کرن لئی بݨاؤ۔]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s تہاڈے کھاتے نال ہم وقت کرن روک دیوےگا، پر ایس ڈوائیس تے تہاڈے براؤز کیتے ڈیٹے نوں ہٹائےگا نہیں۔</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">ڈس‌کنیکٹ کرو</string>
@@ -1188,7 +1188,7 @@
   <string name="preference_enhanced_tracking_protection">بہتر حفاظت والا</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">نویں آئی کُل کوکی سرکھیا، انتر سائیٹ ٹریکراں خلاف ساڈی سبھ توں مظبوط ڈھال اے۔</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s تہانوں بہتے عام ٹریکراں توں سرکھیت کردا اے، جو کہ آن‌لائین تہاڈا پچھا کردے ہن۔</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">ہور جاݨو</string>

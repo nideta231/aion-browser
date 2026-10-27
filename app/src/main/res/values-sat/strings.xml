@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">ᱯᱨᱟᱭᱣᱮᱴ %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (ᱯᱨᱟᱭᱣᱮᱴ)</string>
   <!--
     Home Fragment
@@ -39,7 +39,7 @@
   <string name="application_search_hint">ᱥᱮᱸᱫᱽᱨᱟ ᱚᱞ ᱠᱚ ᱟᱫᱮᱨ ᱢᱮ</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">ᱱᱤᱡᱮᱨᱟᱜ ᱵᱽᱨᱟᱣᱡᱤᱝ</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s ᱫᱚ ᱟᱢᱟᱜ ᱦᱤᱛᱟᱹᱞ ᱟᱨ ᱠᱩᱠᱤ ᱠᱚ ᱵᱟᱭ ᱩᱭᱦᱟᱹᱨ ᱟᱭ, ᱦᱮᱞᱮ ᱱᱟᱶᱟ ᱵᱩᱠᱢᱟᱨᱠ ᱫᱚ ᱥᱟᱧᱪᱟᱣ ᱜᱮᱭᱟ ᱾</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">ᱥᱮᱸᱫᱽᱨᱟ ᱮᱦᱚᱵ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱱᱟᱶᱟ ᱴᱮᱵᱽ ᱵᱮᱱᱟᱣ ᱢᱮ</string>
@@ -73,7 +73,7 @@
   <string name="home_bookmarks_show_all_content_description">ᱡᱷᱚᱛᱚ ᱵᱩᱠᱢᱟᱨᱠᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">ᱚᱪᱚᱜᱽ ᱢᱮ</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
   <string name="about_content" tools:ignore="BrandUsage">%1$s ᱛᱮᱭᱟᱨ ᱦᱩᱭ ᱠᱟᱱᱟ ᱢᱳᱡᱤᱞᱟ ᱫᱟᱨᱟᱭᱛᱮ ᱾</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">ᱱᱤᱡᱮᱨᱟᱜ ᱵᱽᱨᱟᱣᱡᱤᱝ ᱵᱟᱵᱚᱛ ᱥᱚᱢᱟᱱ ᱮᱰᱮ ᱠᱚ</string>
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">ᱱᱚᱶᱟ ᱥᱟᱫᱷᱚᱱ ᱨᱮ ᱡᱟᱦᱟᱱ ᱪᱤᱱᱦᱟᱹ ᱟᱞᱚᱢ ᱫᱚᱦᱚᱭᱟ ᱾</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s ᱟᱢᱟᱜ ᱠᱩᱠᱤ, ᱱᱟᱜᱟᱢ, ᱟᱨ ᱥᱟᱭᱤᱴ ᱰᱟᱴᱟ ᱢᱮᱴᱟᱣ ᱟ, ᱡᱟᱦᱟᱸ ᱛᱤᱱ ᱨᱮ ᱟᱢ ᱟᱢᱟᱜ ᱡᱷᱚᱛᱚ ᱯᱨᱟᱭᱣᱮᱴ ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱟ ᱾</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Aion").
   -->
   <string name="open_in_app_cfr_info_message_2">ᱟᱢ ᱮᱯ ᱠᱚ ᱮᱢᱟᱱ ᱨᱮ ᱟᱡ ᱛᱮᱜᱮ ᱞᱤᱝᱠ ᱠᱚ ᱮᱢᱟᱱ ᱚᱰᱚᱠ ᱨᱮᱭᱟᱜ %1$s ᱨᱮ ᱥᱮᱴ ᱫᱟᱲᱮᱟᱜᱼᱟᱢ ᱾</string>
   <!-- Text for the positive action button -->
@@ -126,7 +126,7 @@
   <string name="tab_tray_inactive_auto_close_title">ᱢᱤᱫ ᱪᱟᱸᱫᱚ ᱛᱟᱭᱚᱢ ᱟᱡ ᱛᱮ ᱵᱚᱸᱫᱽ ᱟᱢ ᱥᱮ?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱪᱟᱸᱫᱚ ᱨᱮ ᱵᱟᱝ ᱠᱷᱩᱞᱟᱹ ᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ %1$s ᱵᱚᱸᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ ᱾</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -237,12 +237,12 @@
   <string name="browser_menu_homepage">ᱚᱲᱟᱜ ᱥᱟᱦᱴᱟ</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_open_in_fenix">%1$s ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_powered_by2">%1$s ᱫᱟᱨᱟᱭ ᱛᱮ ᱫᱟᱲᱮ ᱮᱢ</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -299,12 +299,12 @@
   <string name="browser_menu_print_2">ᱪᱷᱟᱯᱟ</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s ᱵᱟᱹᱜᱤ ᱢᱮ</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="browser_menu_default_banner_title">%1$s ᱟᱢᱟᱜ ᱢᱩᱞ ᱞᱮᱠᱷᱟᱛᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
   <!-- Label text within the set as default banner -->
@@ -351,7 +351,7 @@
     Title for the AI controls settings screen
   -->
   <string name="preferences_ai_controls">AI ᱠᱟᱵᱚᱡᱽ</string>
-  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline text for the AI controls banner. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_banner_headline">ᱟᱢ ᱴᱷᱮᱱ ᱥᱟᱨᱟ ᱜᱷᱟᱹᱲᱤᱡ %s ᱨᱮᱭᱟᱜ ᱵᱟᱪᱷᱟᱣ ᱛᱟᱦᱮᱱᱟ</string>
   <!-- Supporting text for the AI controls banner. %s is a learn more link using ai_controls_learn_more as text. -->
   <string name="ai_controls_banner_supporting_text_2">ᱚᱱᱟ ᱥᱟᱶᱛᱮ ᱥᱮᱞᱮᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱡᱮ AI ᱥᱟᱶ ᱵᱟᱹᱲᱛᱤ ᱜᱩᱱ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱦᱩᱭᱩᱜᱼᱟ ᱥᱮ ᱵᱟᱝᱟ ᱾ %s</string>
@@ -359,7 +359,7 @@
   <string name="ai_controls_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
   <!-- Title for the block AI enhancements toggle -->
   <string name="ai_controls_block_ai_title">AI ᱥᱩᱫᱷᱟᱨ ᱠᱚ ᱟᱠᱚᱴ ᱢᱮ</string>
-  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description for the block AI enhancements toggle. %s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_ai_description">ᱟᱠᱚᱴ ᱨᱮᱭᱟᱜ ᱢᱮᱱᱮᱛ ᱫᱚ ᱟᱢ %s ᱨᱮ ᱱᱟᱶᱟ ᱥᱮ ᱱᱤᱛᱚᱜ AI ᱵᱚᱰᱷᱟᱣ ᱵᱟᱝ ᱧᱮᱞ ᱧᱟᱢᱟ, ᱵᱟᱝᱠᱷᱟᱱ ᱚᱱᱟ ᱵᱟᱨᱮᱛᱮ ᱯᱚᱯ-ᱟᱯ ᱵᱟᱝ ᱧᱮᱞᱚᱜᱼᱟ ᱾</string>
   <!-- Link text to see what AI enhancements are and aren’t included -->
   <string name="ai_controls_see_whats_included">ᱧᱮᱞ ᱢᱮ ᱪᱮᱫ ᱥᱮᱞᱮᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱟᱨ ᱵᱟᱝ ᱥᱮᱞᱮᱫ ᱢᱮᱱᱟᱜᱼᱟ</string>
@@ -381,7 +381,7 @@
   <string name="ai_controls_voice_search_description">Google ᱟᱹᱲᱟᱝ ᱥᱮᱵᱟ ᱦᱚᱛᱮᱛᱮ ᱨᱚᱲᱠᱚᱫᱚ ᱚᱞ ᱨᱮ ᱵᱚᱫᱚᱞᱚᱜᱼᱟ ᱾</string>
   <!-- Title for the block AI enhancements confirmation dialog -->
   <string name="ai_controls_block_dialog_title">AI ᱥᱩᱫᱷᱟᱨ ᱠᱚ ᱟᱠᱚᱴ ᱢᱮ ?</string>
-  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Body text for the block AI enhancements confirmation dialog. %1$s is the name of the app (for example "Aion"). -->
   <string name="ai_controls_block_dialog_body">ᱟᱢ %1$s ᱨᱮ ᱱᱟᱶᱟ ᱟᱨ ᱵᱟᱝ ᱱᱤᱛᱚᱜ AI ᱵᱚᱰᱷᱟᱣ ᱵᱟᱝ ᱧᱮᱞ ᱧᱟᱢᱟ, ᱟᱨ ᱵᱟᱝ ᱚᱱᱟ ᱵᱟᱨᱮᱛᱮ ᱯᱚᱯ-ᱟᱯᱥ ᱵᱟᱝ ᱧᱮᱞᱚᱜᱼᱟ ᱾ ᱚᱱᱟ ᱛᱟᱭᱚᱢ, ᱟᱢ ᱡᱟᱦᱟᱸᱱᱟᱜ ᱜᱮ ᱵᱮᱵᱷᱟᱨ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ ᱚᱱᱟᱢ ᱟᱱᱵᱽᱞᱚᱠ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ ᱟᱠᱚᱴ ᱦᱚᱸ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱨᱮ ᱯᱨᱚᱵᱷᱟᱣ ᱮᱢᱟᱭᱟ ᱡᱟᱦᱟᱸ ᱫᱚ %1$s ᱦᱚᱛᱮᱛᱮ ᱮᱢ ᱟᱠᱟᱱ AI ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟᱭ ᱾</string>
   <!-- Label shown above the list of features that will be blocked in the block AI dialog -->
   <string name="ai_controls_block_dialog_what_will_be_blocked">ᱪᱮᱫ ᱟᱠᱚᱴ ᱦᱩᱭᱩᱜᱼᱟ:</string>
@@ -411,7 +411,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">ᱟᱞᱚ ᱢᱟᱸᱡᱩᱨᱮᱭᱟᱢ</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">ᱥᱮᱸᱫᱽᱨᱟ ᱥᱚᱞᱦᱟ ᱱᱤᱡᱮᱨᱟᱜ ᱚᱠᱛᱚ ᱨᱮ ᱵᱟᱛᱟᱣ ᱮᱢᱟᱢ ᱥᱮ?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Aion"). -->
   <string name="search_suggestions_onboarding_text">ᱟᱢᱟᱜ ᱢᱩᱞ ᱥᱟᱸᱽᱨᱟ ᱤᱧᱡᱤᱱ ᱨᱮᱭᱟᱜ ᱴᱷᱤᱠᱬᱟ ᱵᱟᱨ ᱨᱮ ᱡᱟᱦᱟᱸ ᱜᱮ ᱚᱞᱟᱢ ᱚᱱᱟ ᱠᱚ %s ᱡᱷᱚᱛᱚ ᱦᱟᱹᱴᱤᱧᱟᱭ ᱾</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ</string>
@@ -436,7 +436,7 @@
   <string name="search_suggestions_delete_history_item_snackbar">ᱟᱢᱟᱜ ᱱᱟᱜᱟᱢ ᱠᱷᱚᱱ %1$s ᱢᱮᱴᱟᱣ ᱮᱱᱟ</string>
   <!-- Content description (not visible, for screen readers etc.): Button shown near a history search result allowing to delete it from browsing history. -->
   <string name="mozac_browser_awesomebar_remove_suggestion" tools:ignore="UnusedResources">ᱱᱚᱣᱟ ᱱᱟᱜᱟᱢ ᱵᱚᱞᱚᱱ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
-  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button in the app links prompt that keeps the user in the browser instead of opening the external app. %1$s is the name of the app (for example "Aion"). -->
   <string name="applinks_prompt_negative_button">%1$s ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱢᱮ</string>
   <!--
     Home onboarding
@@ -444,7 +444,7 @@
     Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog
   -->
   <string name="onboarding_home_content_description_close_button">ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Aion" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">ᱯᱷᱟᱭᱟᱨᱯᱷᱚᱠᱥ ᱵᱮᱥ ᱵᱮᱱᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮ ᱜᱚᱲᱚ ᱞᱮᱢ</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">ᱟᱡ ᱛᱮ ᱰᱤᱜᱟᱹᱣ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱭᱟ</string>
@@ -452,34 +452,34 @@
   <string name="onboarding_preferences_dialog_crash_reporting_description">ᱠᱨᱟᱥ ᱨᱤᱯᱚᱨᱴ ᱟᱞᱮ ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱨᱮᱭᱟᱜ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱵᱤᱰᱟᱹᱣ ᱟᱨ ᱥᱟᱹᱛ ᱨᱮᱭᱟᱜ ᱫᱟᱣ ᱮ ᱮᱢᱟ ᱞᱮᱭᱟ ᱾ ᱠᱷᱚᱵᱚᱨ ᱨᱮ ᱯᱚᱨᱥᱚᱱᱟᱞ ᱵᱟᱝᱠᱷᱟᱱ ᱥᱮᱱᱥᱮᱴᱤᱵᱷ ᱰᱟᱴᱟ ᱥᱮᱞᱮᱫ ᱛᱟᱦᱮᱸ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_title">%s ᱫᱚ ᱫᱩᱦᱲᱟᱹ ᱮᱛᱵᱟᱦ ᱛᱮ ᱦᱩᱭ ᱟᱭᱟ</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_body">%s \nᱡᱷᱤᱡᱽ ᱨᱮ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱛᱟᱦᱮᱸ ᱠᱟᱱᱟ \nᱠᱨᱟᱥ ᱨᱤᱯᱚᱨᱴ ᱵᱷᱮᱡᱟ ᱠᱟᱛᱮ ᱟᱞᱮ ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱨᱮᱭᱟᱜ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱧᱮᱞ ᱟᱨ ᱥᱚᱡᱷᱮ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮ ᱧᱟᱢᱟ ᱾ ᱨᱤᱯᱳᱨᱴ ᱨᱮ ᱯᱚᱨᱥᱚᱱᱟᱞ ᱵᱟᱝᱠᱷᱟᱱ ᱥᱮᱱᱥᱮᱴᱤᱵᱷ ᱰᱟᱴᱟ ᱥᱮᱞᱮᱫ ᱛᱟᱦᱮᱸ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">ᱰᱤᱜᱟᱹᱣ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱭ ᱢᱮ</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">ᱵᱟᱝᱟ ᱥᱟᱨᱦᱟᱣ</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Aion") -->
   <string name="startup_crash_restart">%s ᱫᱚᱦᱲᱟ ᱡᱷᱤᱡᱽ ᱢᱮ</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title" tools:ignore="BrandUsage">Mozilla ᱨᱮ ᱴᱮᱠᱱᱤᱠᱟᱞ ᱟᱨ ᱤᱱᱴᱟᱨᱮᱠᱥᱚᱱ ᱰᱟᱴᱟ ᱵᱷᱮᱡᱟᱭ ᱢᱮ</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱰᱤᱵᱷᱟᱭᱤᱥ ᱵᱟᱵᱚᱛ ᱰᱟᱴᱟ, ᱦᱟᱰᱣᱮᱨ ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ, ᱟᱨ ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨᱮᱫᱟ ᱚᱱᱟ ᱫᱚ ᱡᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱤᱪᱟᱨ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱥᱩᱫᱷᱟᱹᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱭᱟ ᱾</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱰᱤᱵᱷᱟᱭᱤᱥ ᱵᱟᱵᱚᱛ ᱰᱟᱴᱟ, ᱦᱟᱰᱣᱮᱨ ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ, ᱟᱨ ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨᱮᱫᱟ ᱚᱱᱟ ᱫᱚ ᱡᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱤᱪᱟᱨ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱥᱩᱫᱷᱟᱹᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱭᱟ ᱾</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">ᱦᱩᱭᱮᱱᱟ</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Firefox ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Terms of service onboarding title card label. 'Aion' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Aion ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ</string>
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Aion Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">ᱞᱟᱦᱟᱜ ᱠᱟᱛᱮ, ᱟᱢ %1$s ᱨᱮᱢ ᱦᱮᱸᱥᱮᱨᱤᱭᱟᱹ ᱮᱫᱟ ᱾</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Firefox ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Aion ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
+  <!-- Line two of the terms of service onboarding page. 'Aion' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Aion ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">ᱫᱟᱱᱟᱝ ᱠᱷᱚᱵᱚᱨ</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Firefox ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Aion' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Aion ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">ᱢᱮᱱᱮᱡᱽ ᱢᱮ</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -492,23 +492,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">ᱦᱟᱡᱟᱨ ᱜᱟᱱ ᱠᱟᱥᱴᱚᱢᱟᱭᱡᱮᱥᱚᱱ</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Aion Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">ᱞᱟᱦᱟᱜ ᱠᱟᱛᱮ, ᱟᱢ %1$s ᱨᱮᱢ ᱦᱮᱸᱥᱮᱨᱤᱭᱟᱹ ᱮᱫᱟ ᱾</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Firefox ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Aion ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Aion ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">ᱫᱟᱱᱟᱝ ᱠᱷᱚᱵᱚᱨ</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Firefox ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Aion ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">ᱥᱟᱡᱟᱣ ᱠᱚ ᱢᱮᱱᱮᱡᱽ ᱢᱮ</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -517,10 +517,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">ᱟᱢᱟᱜ ᱴᱷᱤᱠᱟᱹᱱᱟ ᱵᱟᱨ ᱚᱠᱟᱨᱮᱢ ᱠᱷᱚᱡᱚᱜ ᱠᱟᱱᱟ ?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">ᱞᱮᱛᱟᱲ</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Firefox ᱵᱟᱵᱚᱛ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱰᱟᱭ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ</string>
+  <!-- Marketing onboarding page title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage">Aion ᱵᱟᱵᱚᱛ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱰᱟᱭ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">ᱟᱵᱚ ᱰᱟᱴᱟ ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱚᱱ ᱵᱮᱵᱷᱟᱨᱮᱫᱟ</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -529,8 +529,8 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">ᱢᱩᱞ ᱞᱮᱠᱟᱛᱮ ᱟᱡ ᱛᱮ ᱪᱟᱞᱟᱜ ᱴᱨᱮᱠᱤᱝ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱧᱟᱢ ᱢᱮ</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">ᱢᱤᱫ ᱴᱮᱯ ᱠᱚᱢᱯᱟᱱᱤ ᱠᱚ ᱟᱢᱟᱜ ᱚᱛᱟ ᱨᱮ ᱡᱟᱹᱥᱩᱲᱤ ᱠᱚ ᱵᱚᱱᱫᱚ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟᱭᱟ ᱾</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱡᱟᱸᱦᱟ ᱨᱮᱜᱮ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱰᱮ ᱥᱤᱱᱠ ᱢᱮ</string>
+  <!-- Sync onboarding redesign title. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱡᱟᱸᱦᱟ ᱨᱮᱜᱮ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱰᱮ ᱥᱤᱱᱠ ᱢᱮ</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">ᱡᱟᱦᱟᱱ ᱰᱤᱵᱷᱟᱭᱤᱥ ᱨᱮ ᱵᱩᱠᱢᱟᱨᱠ, ᱴᱮᱵᱽ ᱟᱨ ᱯᱟᱥᱣᱟᱨᱰ ᱧᱟᱢ ᱢᱮ᱾ ᱮᱱᱠᱨᱤᱯᱥᱚᱱ ᱛᱮ ᱥᱟᱱᱟᱢ ᱠᱚ ᱨᱟᱠᱷᱟ ᱢᱮᱱᱟᱜᱼᱟ ᱾</string>
   <!-- Sync onboarding redesign positive button text. -->
@@ -539,8 +539,8 @@
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">ᱱᱤᱛᱚᱜ ᱫᱚ ᱵᱟᱝᱟ</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">ᱢᱤᱫ ᱢᱩᱪᱟᱹᱫ ᱠᱟᱛᱷᱟ</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
+  <!-- Marketing onboarding page body variant. 'Aion' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">ᱨᱮᱵᱮᱱ ᱢᱮ ᱟᱨ ᱵᱽᱨᱟᱣᱩᱡᱽ ᱮᱦᱚᱵ ᱢᱮ</string>
   <!-- "Continue" onboarding button. -->
@@ -557,23 +557,23 @@
   <string name="nova_onboarding_tou_subtitle">ᱞᱚᱜᱚᱱ, ᱨᱚᱯᱟ ᱨᱮ, ᱟᱨ ᱟᱢ ᱵᱟᱦᱨᱮ ᱵᱟᱝ ᱟᱠᱨᱤᱧ ᱢᱮᱭᱟᱭ ᱾\nᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱫᱚ ᱱᱤᱛ ᱜᱮ ᱵᱮᱥ ᱮᱱᱟ ᱾</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Aion Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">ᱞᱟᱦᱟᱜ ᱠᱟᱛᱮ, ᱟᱢ %1$s ᱨᱮᱢ ᱦᱮᱸᱥᱮᱨᱤᱭᱟᱹ ᱮᱫᱟ ᱾</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Firefox ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Aion ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Aion ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱵᱟᱵᱚᱛ ᱡᱚᱛᱚᱱ ᱤᱫᱤᱭᱟᱭ ᱾ ᱟᱞᱮᱭᱟᱜ %1$s ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ ᱾</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">ᱫᱟᱱᱟᱝ ᱠᱷᱚᱵᱚᱨ</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Firefox ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ, Aion ᱫᱚ Mozilla ᱴᱷᱮᱱ ᱰᱟᱭᱜᱽᱱᱚᱥᱴᱤᱠ ᱟᱨ ᱜᱟᱯᱟᱞᱢᱟᱨᱟᱣ ᱰᱟᱴᱟ ᱠᱩᱞᱟ ᱾ %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">ᱥᱟᱡᱟᱣ ᱠᱚ ᱢᱮᱱᱮᱡᱽ ᱢᱮ</string>
   <!-- "Set to default" onboarding title. -->
@@ -607,73 +607,73 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">ᱟᱞᱮ ᱵᱮᱥ ᱤᱱᱴᱟᱨᱱᱮᱴ ᱵᱮᱱᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮᱢ</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾%1$s</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
-  <!-- Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱞᱮ Firefox ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱟᱱᱟᱢ ᱚᱱᱟ ᱪᱮᱱᱮᱞ ᱠᱚ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱱᱩᱢᱟᱛ ᱮᱢ ᱠᱟᱛᱮ ᱟᱢ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾%1$s</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_2" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ, ᱟᱨ ᱚᱱᱟ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ, Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱦᱟᱹᱴᱤᱧ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱟᱠᱷᱨᱤᱧ ᱟᱠᱟᱱᱟ ᱾</string>
+  <!-- Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_3" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱞᱮ Aion ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱟᱱᱟᱢ ᱚᱱᱟ ᱪᱮᱱᱮᱞ ᱠᱚ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱱᱩᱢᱟᱛ ᱮᱢ ᱠᱟᱛᱮ ᱟᱢ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
+  <string name="nova_onboarding_marketing_body_4" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
   -->
-  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
+  <string name="nova_onboarding_marketing_body_5" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ %1$s</string>
+  <string name="nova_onboarding_marketing_body_6" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱟᱢ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ %1$s</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
-    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Firefox.
+    Marketing onboarding body. 'Aion' and 'Mozilla' are intentionally hardcoded.
+    “Platform you came from” refers to the external app, website, store, campaign, or other source that directed the user to Aion.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text_1 as text (“Learn More”).
   -->
-  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">ᱟᱢ ᱟᱢ Firefox ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ %1$s</string>
-  <!-- Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Firefox ᱫᱚ ᱜᱚᱨᱚᱵ ᱥᱟᱶᱛᱮ ᱯᱷᱩᱨᱜᱟᱹᱞ ᱟᱨ ᱛᱟᱠᱱᱤᱠᱤ ᱢᱚᱱᱚᱯᱚᱞᱤ ᱠᱚ ᱵᱤᱨᱩᱫᱷ ᱨᱮ ᱠᱷᱩᱞᱟᱹ ᱣᱮᱵᱽ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱯᱨᱩᱛ ᱢᱮᱱᱟᱜ-ᱟ ᱾</string>
+  <string name="nova_onboarding_marketing_body_7" tools:ignore="BrandUsage">ᱟᱢ ᱟᱢ Aion ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱟᱰᱟᱭ ᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱟᱹᱭᱫᱟᱹᱨ ᱮᱢ ᱠᱟᱛᱮ ᱟᱞᱮ ᱵᱟᱹᱲᱛᱤ ᱦᱚᱲ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ %1$s</string>
+  <!-- Marketing onboarding additional body text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_body_line_two" tools:ignore="BrandUsage">Aion ᱫᱚ ᱜᱚᱨᱚᱵ ᱥᱟᱶᱛᱮ ᱯᱷᱩᱨᱜᱟᱹᱞ ᱟᱨ ᱛᱟᱠᱱᱤᱠᱤ ᱢᱚᱱᱚᱯᱚᱞᱤ ᱠᱚ ᱵᱤᱨᱩᱫᱷ ᱨᱮ ᱠᱷᱩᱞᱟᱹ ᱣᱮᱵᱽ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱯᱨᱩᱛ ᱢᱮᱱᱟᱜ-ᱟ ᱾</string>
   <!--
-    Marketing onboarding additional body text. 'Firefox' is intentionally hardcoded.
+    Marketing onboarding additional body text. 'Aion' is intentionally hardcoded.
     “Allowing” refers to the main button “Allow and Continue”; the ask for the user is to allow communicating back to the platform.
   -->
-  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">ᱫᱟᱭᱟ ᱠᱟᱛᱮ Firefox ᱡᱤᱛᱠᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱵᱤᱪᱟᱹᱨ ᱢᱮ ᱾</string>
+  <string name="nova_onboarding_marketing_body_line_three" tools:ignore="BrandUsage">ᱫᱟᱭᱟ ᱠᱟᱛᱮ Aion ᱡᱤᱛᱠᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱵᱤᱪᱟᱹᱨ ᱢᱮ ᱾</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">ᱟᱵᱚ ᱰᱟᱴᱟ ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱚᱱ ᱵᱮᱵᱷᱟᱨᱮᱫᱟ</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text_1">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
-  <!-- Marketing onboarding primary button text. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Firefox ᱜᱮᱲᱚ ᱮᱢᱟᱭ ᱯᱮ</string>
+  <!-- Marketing onboarding primary button text. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_marketing_primary_button_text" tools:ignore="BrandUsage,UnusedResources">Aion ᱜᱮᱲᱚ ᱮᱢᱟᱭ ᱯᱮ</string>
   <!-- Marketing onboarding primary button text. -->
   <string name="nova_onboarding_marketing_primary_button_text_3">ᱦᱚᱭ</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text" tools:ignore="UnusedResources">ᱵᱟᱝᱟ ᱥᱟᱨᱦᱟᱣ</string>
   <!-- Marketing onboarding secondary button text. -->
   <string name="nova_onboarding_marketing_secondary_button_text_2">ᱵᱟᱝ</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱮᱛᱞᱟᱤᱭᱟᱹ ᱥᱟᱞᱟᱜ ᱟᱢ ᱴᱷᱤᱠ ᱨᱮ ᱫᱚᱦᱚᱢᱮ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱚᱜᱼᱟᱭ</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱱᱟᱶᱟ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱯᱟᱱᱛᱮ ᱢᱮ ᱡᱮᱢᱚᱱ ᱟᱢ ᱥᱟᱨᱟ ᱜᱷᱟᱹᱲᱤᱡ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱛᱟᱦᱮᱱ ᱞᱟᱹᱜᱤᱫ ᱱᱟᱦᱟᱜ ᱛᱮ ᱛᱟᱦᱮᱱ ᱢᱮ᱾</string>
+  <!-- Notifications onboarding title. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱮᱛᱞᱟᱤᱭᱟᱹ ᱥᱟᱞᱟᱜ ᱟᱢ ᱴᱷᱤᱠ ᱨᱮ ᱫᱚᱦᱚᱢᱮ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱚᱜᱼᱟᱭ</string>
+  <!-- Notifications onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱱᱟᱶᱟ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱯᱟᱱᱛᱮ ᱢᱮ ᱡᱮᱢᱚᱱ ᱟᱢ ᱥᱟᱨᱟ ᱜᱷᱟᱹᱲᱤᱡ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱛᱟᱦᱮᱱ ᱞᱟᱹᱜᱤᱫ ᱱᱟᱦᱟᱜ ᱛᱮ ᱛᱟᱦᱮᱱ ᱢᱮ᱾</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">ᱠᱷᱚᱵᱚᱨ ᱠᱚ ᱦᱮᱡ ᱪᱷᱚᱭ ᱢᱮ</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">ᱥᱟᱱᱟᱢ ᱥᱮᱸᱫᱽᱨᱟ ᱟᱨᱦᱚᱸ ᱯᱨᱟᱭᱣᱮᱴ ᱢᱮ</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱚᱢ ᱥᱠᱨᱤᱱ ᱠᱷᱚᱱ ᱥᱟᱱᱟᱢ ᱥᱮᱸᱫᱽᱨᱟ ᱮᱦᱚᱵ ᱢᱮ ᱟᱨ ᱵᱟᱲᱟᱭ ᱢᱮ Firefox ᱨᱮᱭᱟᱜ ᱟᱡ ᱛᱮ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱟᱢᱟᱜ ᱫᱮᱭᱟ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Firefox ᱣᱤᱡᱮᱴ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+  <!-- "Add search widget" onboarding subtitle. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱚᱢ ᱥᱠᱨᱤᱱ ᱠᱷᱚᱱ ᱥᱟᱱᱟᱢ ᱥᱮᱸᱫᱽᱨᱟ ᱮᱦᱚᱵ ᱢᱮ ᱟᱨ ᱵᱟᱲᱟᱭ ᱢᱮ Aion ᱨᱮᱭᱟᱜ ᱟᱡ ᱛᱮ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱟᱢᱟᱜ ᱫᱮᱭᱟ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾</string>
+  <!-- "Add search widget" onboarding button. 'Aion' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Aion ᱣᱤᱡᱮᱴ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
   <!-- Customize prompt onboarding title. -->
   <string name="nova_onboarding_customize_prompt_title" tools:ignore="UnusedResources">ᱥᱟᱱᱟᱢ ᱴᱮᱯ ᱥᱟᱶ ᱠᱟᱥᱴᱚᱢᱟᱭᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱜᱟ ᱟᱨ ᱵᱟᱹᱲᱛᱤ ᱯᱨᱟᱭᱣᱮᱴ</string>
   <plurals name="nova_onboarding_customize_prompt_body" tools:ignore="UnusedResources">
     <!--
       Customize prompt onboarding body.
-      %1$s is replaced by the product name (for example "Firefox"),
+      %1$s is replaced by the product name (for example "Aion"),
       %2$,d is replaced by the number of trackers blocked. The comma represents the thousand
       separator (e.g. 1,000 in English), and it will automatically use the correct character
       for your locale (don't change or remove it).
@@ -697,7 +697,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Aion").
   -->
   <string name="search_widget_content_description_2">ᱱᱟᱶᱟ ᱴᱮᱵᱽ %1$s ᱡᱷᱤᱡᱽ ᱢᱮ</string>
   <!-- Text preview for smaller sized widgets -->
@@ -740,15 +740,15 @@
   <string name="preferences_search_engines_suggestions">ᱥᱮᱸᱫᱽᱨᱟ ᱤᱧᱡᱤᱱ ᱠᱷᱚᱱ ᱵᱟᱛᱟᱣᱟᱜᱠᱚ</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">ᱴᱷᱤᱠᱬᱟᱹ ᱵᱟᱨ ᱠᱩᱥᱤᱭᱟᱜ</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ᱴᱷᱤᱠᱬᱟᱹ ᱵᱟᱨ - Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Firefox Suggest ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
+  <!-- Preference Category for settings to Aion Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">ᱴᱷᱤᱠᱬᱟᱹ ᱵᱟᱨ - Aion Suggest</string>
+  <!-- Preference link to Learn more about Aion Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Aion Suggest ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">ᱜᱩᱜᱚᱞ ᱯᱞᱮ ᱨᱮ ᱫᱚᱨ ᱢᱮ</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_about">%1$s ᱵᱟᱵᱚᱛ</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -861,27 +861,27 @@
   <string name="preferences_account_settings">ᱠᱷᱟᱛᱟ ᱨᱮᱭᱟᱜ ᱥᱟᱡᱟᱣ ᱠᱚ</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">URLs ᱟᱡ ᱛᱮ ᱯᱩᱨᱟᱹᱣᱼᱜ ᱢᱟ</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Aion Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">ᱰᱷᱟᱶᱨᱟ ᱠᱚᱣᱟᱜ ᱵᱟᱛᱟᱣᱠᱚ</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Aion Suggest search suggestions.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">ᱚᱠᱛᱚ-ᱠᱟᱹᱣᱰᱤ ᱥᱚᱯᱚᱱᱥᱟᱨ ᱥᱟᱠᱟᱢ ᱛᱮ %1$s ᱠᱚ ᱥᱚᱦᱚᱫ ᱢᱮ</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Aion Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="preferences_show_nonsponsored_suggestions">%1$s ᱠᱷᱚᱱ ᱵᱟᱛᱟᱣᱟᱜ</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Aion Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">ᱣᱮᱵᱽ ᱠᱷᱚᱱ ᱟᱢᱟᱜ ᱥᱮᱸᱫᱽᱨᱟ ᱵᱟᱵᱚᱛ ᱵᱟᱛᱟᱣᱠᱚ ᱧᱟᱢ ᱢᱮ</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards" tools:ignore="BrandUsage">ᱟᱢ ᱴᱟᱭᱤᱯ ᱞᱮᱠᱟ Mozilla ᱠᱷᱚᱱ ᱥᱚᱞᱦᱟ ᱫᱚᱦᱲᱟ ᱧᱟᱢ ᱢᱮ</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">ᱞᱤᱝᱠ ᱦᱟᱹᱴᱤᱧ</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_title">%1$s ᱰᱟᱣᱩᱱᱞᱳᱰ ᱞᱤᱝᱠ ᱫᱚ WhatsApp ᱦᱟᱹᱴᱤᱧ ᱠᱚ ᱨᱮ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="link_sharing_toggle_body">ᱟᱢ ᱨᱮᱱ ᱜᱟᱛᱮ ᱠᱚ ᱱᱮᱣᱛᱟ ᱠᱚᱢ ᱞᱚᱜᱚᱱ, ᱨᱚᱯᱟ ᱛᱮ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱞᱟᱹᱜᱤᱫ %1$s ᱥᱟᱶ ᱡᱟᱦᱟᱸ ᱛᱤᱱ ᱨᱮ ᱟᱢ WhatsApp ᱨᱮ ᱞᱤᱝᱠ ᱮᱢ ᱦᱟᱹᱴᱤᱧᱟ ᱾</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">ᱞᱤᱝᱠ ᱦᱟᱹᱴᱤᱧ ᱟᱠᱟᱱᱟ</string>
@@ -1014,7 +1014,7 @@
   <string name="wallpaper_select_error_snackbar_message">ᱠᱟᱱᱛᱷᱪᱤᱛᱟᱹᱨ ᱵᱚᱫᱚᱞ ᱵᱟᱭ ᱜᱟᱱ ᱞᱮᱱᱟ</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Aion"). -->
   <string name="wallpaper_classic_title">ᱠᱞᱟᱥᱤᱠ %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">ᱟᱴᱤᱥᱴ ᱥᱤᱨᱤᱡᱽ</string>
@@ -1062,11 +1062,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">ᱟᱫᱷᱟ ᱧᱤᱫᱟᱹ</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">ᱩᱛᱟᱹᱨ ᱱᱟᱠᱷᱟ ᱨᱮᱭᱟᱜ ᱢᱟᱨᱥᱟᱞ</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Aion logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Pixelated</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Aion logo. -->
   <string name="alternative_app_icon_option_minimal">ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">ᱜᱚᱨᱚᱵ</string>
@@ -1076,9 +1076,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">\u0040heyheymomodraws ᱦᱚᱛᱮᱛᱮ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱᱟ</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">ᱠᱚᱰᱞᱤᱝ</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Aion logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">ᱯᱷᱞᱮᱢᱤᱝ</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Aion logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">ᱠᱩᱞ</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">ᱠᱮᱴᱮᱡ ᱨᱚᱝ</string>
@@ -1088,9 +1088,9 @@
   <string name="alternative_app_icon_group_featured">ᱥᱚᱫᱚᱨ ᱟᱠᱟᱱ</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">ᱮᱯ ᱪᱤᱱᱦᱟᱹ ᱵᱚᱫᱚᱞ ᱢᱮ?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_warning_dialog_body_2">ᱮᱯ ᱫᱚ ᱵᱚᱱᱫᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ %1$s ᱫᱚᱦᱲᱟ ᱡᱷᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱡᱷᱟᱞᱠᱟᱣᱜ ᱱᱟᱶᱟ ᱟᱭᱠᱚᱱ ᱨᱮ ᱞᱤᱱ ᱢᱮ ᱾</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Aion). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">ᱟᱭᱤᱠᱚᱱ ᱵᱚᱫᱚᱞ ᱞᱮᱠᱷᱟᱱ ᱟᱢᱟᱜ ᱦᱳᱢ ᱥᱠᱨᱤᱱ ᱨᱮᱢ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱟᱠᱟᱫ ᱡᱟᱦᱟᱸᱱ ᱥᱟᱭᱤᱴ ᱟᱨ ᱥᱚᱨᱴᱼᱠᱳᱴ ᱠᱚ ᱚᱪᱚᱜᱚᱜᱼᱟ᱾ %1$s ᱵᱚᱸᱫᱽ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ ᱫᱚᱲᱦᱟ ᱡᱷᱤᱡ ᱞᱟᱹᱜᱤᱫ ᱱᱟᱶᱟ ᱟᱭᱤᱠᱚᱱ ᱨᱮ ᱞᱤᱱ ᱢᱮ᱾</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">ᱟᱭᱠᱚᱱ ᱵᱚᱫᱚᱞ ᱢᱮ</string>
@@ -1104,8 +1104,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">ᱱᱟᱶᱟ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱱᱤᱛᱚᱜ ᱢᱮᱱᱟᱜᱼᱟ</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">100+ ᱱᱟᱣᱟ ᱮᱠᱥᱴᱮᱱᱥᱟᱱ ᱠᱚ ᱧᱮᱞ ᱢᱮ ᱡᱟᱦᱟᱸ ᱫᱚ ᱟᱢᱟᱜ Firefox ᱵᱮᱱᱟᱣ ᱮᱫᱟ ᱾</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Aion' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">100+ ᱱᱟᱣᱟ ᱮᱠᱥᱴᱮᱱᱥᱟᱱ ᱠᱚ ᱧᱮᱞ ᱢᱮ ᱡᱟᱦᱟᱸ ᱫᱚ ᱟᱢᱟᱜ Aion ᱵᱮᱱᱟᱣ ᱮᱫᱟ ᱾</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">ᱮᱠᱥᱴᱮᱱᱥᱚᱱᱠᱚ ᱯᱟᱧᱡᱟᱭ ᱢᱮ</string>
   <!--
@@ -1117,7 +1117,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Aion").
   -->
   <string name="extension_process_crash_dialog_message">ᱢᱤᱫ ᱟᱨᱵᱟᱝ ᱵᱟᱹᱲᱛᱤ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱠᱚ ᱠᱟᱹᱢᱤ ᱵᱚᱫᱚ ᱠᱮᱫᱟ, ᱡᱟᱦᱟᱸ ᱠᱷᱟᱹᱛᱤᱨ ᱟᱢᱟᱜ ᱥᱤᱥᱛᱚᱢ ᱴᱷᱤᱠ ᱥᱮ ᱵᱟᱭ ᱠᱟᱹᱢᱤᱭᱟᱭ ᱾ %1$s ᱫᱚ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱫᱩᱦᱲᱟᱹ ᱮᱦᱚᱵ ᱵᱟᱭ ᱜᱟᱱ ᱪᱷᱚ ᱞᱮᱫᱟᱭ ᱾\n\nᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱨᱮ ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜᱟᱜ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱫᱚ ᱫᱩᱦᱲᱟᱹ ᱵᱟᱝ ᱮᱦᱚᱵᱚᱜᱼᱟ ᱾\n\nᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱠᱚ ᱚᱪᱚᱜ ᱥᱮ ᱵᱚᱸᱫ ᱞᱮᱠᱷᱟᱱ ᱱᱚᱶᱟ ᱢᱩᱫᱟᱹ ᱴᱷᱤᱠᱚᱜᱼᱟ ᱾</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1164,7 +1164,7 @@
   <string name="sync_never_synced_summary">ᱢᱟᱲᱟᱝ ᱥᱭᱝᱠ ᱠᱚᱺ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝᱟ</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Aion"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s on %2$s %3$s</string>
@@ -1179,7 +1179,7 @@
   -->
   <string name="fxa_received_tab_channel_name">ᱧᱟᱢᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">ᱚᱞᱜᱟ Firefox ᱥᱟᱫᱷᱚᱱ ᱠᱷᱚᱱ ᱴᱮᱵᱽ ᱠᱚ ᱨᱮᱭᱟᱜ ᱠᱷᱚᱵᱚᱨ ᱧᱟᱢᱮᱱᱟ ᱾</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">ᱚᱞᱜᱟ Aion ᱥᱟᱫᱷᱚᱱ ᱠᱷᱚᱱ ᱴᱮᱵᱽ ᱠᱚ ᱨᱮᱭᱟᱜ ᱠᱷᱚᱵᱚᱨ ᱧᱟᱢᱮᱱᱟ ᱾</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">ᱴᱮᱵᱽ ᱧᱟᱢᱮᱱᱟ</string>
   <!-- %s is the device name -->
@@ -1210,8 +1210,8 @@
   <string name="preference_usage_data_2">ᱴᱮᱠᱱᱤᱠᱟᱞ ᱟᱨ ᱤᱱᱴᱟᱨᱮᱠᱥᱚᱱ ᱰᱟᱴᱟ ᱵᱷᱮᱡᱟᱭ ᱢᱮ</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">ᱴᱮᱠᱱᱤᱠᱟᱞ ᱰᱟᱴᱟ ᱵᱟᱵᱚᱛ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱥᱟᱫᱷᱚᱱ, ᱦᱟᱨᱰᱣᱮᱭᱟᱨ ᱥᱟᱡᱟᱣ ᱟᱨ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱵᱚᱛ ᱰᱟᱴᱟ ᱟᱞᱮ Firefox ᱨᱮᱭᱟᱜ ᱜᱩᱱᱠᱚ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱥᱩᱫᱷᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮ ᱮᱢᱟᱭᱟ ᱾</string>
+  <!-- Preference description for marketing data collection. Note: The words "Aion" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">ᱟᱢᱟᱜ ᱥᱟᱫᱷᱚᱱ, ᱦᱟᱨᱰᱣᱮᱭᱟᱨ ᱥᱟᱡᱟᱣ ᱟᱨ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱵᱚᱛ ᱰᱟᱴᱟ ᱟᱞᱮ Aion ᱨᱮᱭᱟᱜ ᱜᱩᱱᱠᱚ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱥᱩᱫᱷᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮ ᱮᱢᱟᱭᱟ ᱾</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">ᱫᱤᱱᱟᱹᱢ ᱵᱮᱵᱷᱟᱨ ping</string>
   <string name="preferences_daily_usage_ping_description" tools:ignore="BrandUsage">ᱱᱚᱣᱟ ᱫᱚ Mozilla ᱮᱠᱴᱤᱵᱷ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱟᱱᱩᱢᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱠᱚᱣᱟᱭ ᱾</string>
@@ -1232,9 +1232,9 @@
   <string name="preferences_marketing_data_2">ᱠᱮᱢᱯᱮᱭᱱ ᱡᱚᱠᱷᱟ ᱰᱟᱴᱟ</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Aion" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Aion after installing it; not that Aion is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Firefox \u0020ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ ᱟᱨ ᱚᱱᱟ Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ Aion \u0020ᱮᱢ ᱧᱟᱢ ᱠᱮᱫᱟ ᱟᱨ ᱚᱱᱟ Mozilla ᱨᱮᱱ ᱢᱟᱨᱠᱮᱴᱤᱝ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱵᱷᱟᱜᱫᱟᱨ ᱠᱚ ᱥᱟᱶ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱚᱱᱟ ᱞᱟᱹᱭ ᱢᱮ ᱾</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">ᱢᱟᱨᱠᱮᱴᱤᱝ ᱰᱟᱴᱟ ᱵᱟᱵᱚᱛ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱲᱟᱭ ᱢᱮ</string>
   <!-- Title for studies preferences -->
@@ -1476,8 +1476,8 @@
   <string name="studies_remove">ᱚᱪᱚᱜ ᱢᱮ</string>
   <!-- Title of the active section on the studies list -->
   <string name="studies_active">ᱩᱥᱨᱟᱹᱣ</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Firefox ᱡᱟᱸᱦᱟᱸᱴᱟᱜᱜᱮ ᱛᱮ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱜᱩᱱ ᱠᱚ ᱵᱤᱱᱤᱰ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱪᱷᱟᱣ ᱠᱚᱣᱟᱭ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱜᱩᱱ ᱨᱮ ᱥᱩᱫᱷᱟᱹᱨ ᱮᱢᱚᱜ ᱠᱟᱱᱟ ᱾</string>
+  <!-- Description for studies. Note: The word "Aion" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Aion ᱡᱟᱸᱦᱟᱸᱴᱟᱜᱜᱮ ᱛᱮ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱜᱩᱱ ᱠᱚ ᱵᱤᱱᱤᱰ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱪᱷᱟᱣ ᱠᱚᱣᱟᱭ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱜᱩᱱ ᱨᱮ ᱥᱩᱫᱷᱟᱹᱨ ᱮᱢᱚᱜ ᱠᱟᱱᱟ ᱾</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title_2">ᱯᱷᱤᱪᱟᱨ ᱯᱟᱲᱦᱟᱣ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱹᱲ ᱮᱢᱚᱜ ᱢᱮ</string>
   <!-- Learn more link for studies, links to an article for more information about studies. -->
@@ -1488,8 +1488,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">ᱨᱤᱢᱚᱴ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱨᱮᱭᱟᱜ ᱫᱟᱣ ᱮᱢᱚᱜ ᱢᱮ</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox ᱫᱚ ᱟᱯᱰᱮᱴ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱜᱩᱱᱠᱚ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱨᱮ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱟᱭ ᱾ ᱵᱚᱫᱚᱞ ᱠᱚ ᱫᱚ ᱥᱟᱝᱜᱤᱧ ᱠᱷᱚᱱ ᱞᱟᱹᱜᱩ ᱟᱠᱟᱱᱟ ᱾</string>
+  <!-- Description for remote improvements. Note: The word "Aion" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Aion ᱫᱚ ᱟᱯᱰᱮᱴ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱜᱩᱱᱠᱚ, ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱟᱨ ᱥᱴᱮᱵᱤᱞᱤᱴᱤ ᱨᱮ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱟᱭ ᱾ ᱵᱚᱫᱚᱞ ᱠᱚ ᱫᱚ ᱥᱟᱝᱜᱤᱧ ᱠᱷᱚᱱ ᱞᱟᱹᱜᱩ ᱟᱠᱟᱱᱟ ᱾</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1590,7 +1590,7 @@
   <string name="remove_top_site">ᱚᱪᱚᱜ ᱢᱮ</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">ᱱᱟᱜᱟᱢ ᱠᱷᱚᱱ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Aion"). -->
   <string name="pwa_site_controls_title_private">%1$s (ᱯᱨᱭᱣᱮᱴ ᱢᱳᱰ)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">ᱴᱮᱵᱽ ᱥᱮᱸᱫᱽᱨᱟ ᱡᱷᱤᱡᱽ ᱢᱮ</string>
@@ -1955,7 +1955,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">ᱨᱟᱹᱯᱩᱫ ᱥᱟᱭᱤᱴ ᱠᱷᱚᱵᱚᱨ ᱢᱮ</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Aion") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">ᱟᱢᱟᱜ ᱨᱤᱯᱚᱨᱴ ᱟᱞᱮ ᱵᱩᱡᱷᱟᱹᱣ ᱟᱨ ᱥᱟᱹᱛ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱭᱟ %1$s ᱨᱮ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱵᱮᱥ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱜᱤᱫ ᱾ %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
@@ -2020,7 +2020,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Aion").
   -->
   <string name="tab_crash_title_2">ᱤᱠᱟ. %1$s ᱚᱱᱟ ᱥᱟᱦᱴᱟ ᱵᱟᱭ ᱞᱟᱫᱮ ᱫᱟᱲᱮᱼᱜ ᱠᱟᱱᱟ ᱾</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -2029,11 +2029,11 @@
   <string name="tab_crash_close">ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">ᱴᱮᱵᱽ ᱫᱩᱦᱲᱟᱹ ᱡᱚᱜᱟᱣ ᱢᱮ</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s ᱠᱨᱮᱥ ᱮᱱᱟ ᱾ ᱢᱤᱫ ᱨᱤᱯᱚᱨᱴ ᱵᱷᱮᱡᱟᱭ ᱟ ᱥᱮ ?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">ᱟᱢ ᱴᱷᱮᱱ ᱵᱟᱝ ᱠᱩᱞ ᱟᱠᱟᱱ ᱠᱨᱮᱥ ᱨᱤᱯᱚᱨᱴ ᱢᱮᱱᱟᱜᱼᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱠᱨᱮᱥ ᱠᱚ ᱛᱚᱞᱟᱥ ᱠᱟᱱᱟ ᱾ ᱱᱚᱣᱟ ᱵᱷᱮᱡᱟ ᱠᱷᱟᱱ ᱟᱞᱮ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮ ᱧᱟᱢᱟ %1$s ᱾ ᱱᱚᱣᱟ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱚᱱᱫᱚ ᱠᱷᱟᱱ ᱱᱚᱣᱟ ᱨᱤᱯᱚᱨᱴ ᱵᱟᱝ ᱵᱩᱡᱷᱟᱹᱣᱜᱼᱟ ᱾</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Aion"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">ᱟᱢ ᱴᱷᱮᱱ ᱵᱟᱝ ᱠᱩᱞ ᱟᱠᱟᱱ ᱠᱨᱟᱥ ᱨᱤᱯᱚᱨᱴ (%1$d) ᱫᱚ ᱠᱨᱟᱥ ᱥᱟᱶ ᱡᱚᱲᱟᱣ ᱠᱟᱛᱮ ᱛᱚᱞᱟᱥ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾ ᱩᱱᱠᱩ ᱵᱷᱮᱡᱟ ᱠᱚ ᱠᱷᱟᱱ ᱟᱞᱮ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮ ᱧᱟᱢᱟ %2$s ᱾ ᱱᱚᱣᱟ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱚᱱᱫᱚ ᱠᱷᱟᱱ ᱱᱚᱣᱟ ᱨᱤᱯᱳᱨᱴ ᱵᱟᱝ ᱵᱩᱡᱷᱟᱹᱣᱜᱼᱟ ᱾</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">ᱟᱡ ᱛᱮ ᱰᱤᱜᱟᱹᱣ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱭᱟ</string>
@@ -2382,7 +2382,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">ᱚᱞᱜᱟ ᱥᱟᱫᱷᱚᱱ ᱡᱩᱰᱟᱹᱣ ᱢᱮ</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">ᱴᱮᱵᱽ ᱵᱷᱮᱡᱟ ᱞᱟᱹᱜᱤᱫ, ᱢᱤᱫ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱥᱟᱫᱷᱚᱱ ᱛᱮ Firefox ᱨᱮ ᱵᱚᱞᱚᱱ ᱢᱮ ᱾</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">ᱴᱮᱵᱽ ᱵᱷᱮᱡᱟ ᱞᱟᱹᱜᱤᱫ, ᱢᱤᱫ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱥᱟᱫᱷᱚᱱ ᱛᱮ Aion ᱨᱮ ᱵᱚᱞᱚᱱ ᱢᱮ ᱾</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">ᱵᱩᱡᱷᱟᱹᱣ ᱠᱮᱫᱟ</string>
   <!-- Share error message -->
@@ -2395,9 +2395,9 @@
   <string name="sync_add_new_device_learn_button">ᱴᱮᱵᱽ ᱠᱚ ᱮᱢᱟᱱ ᱵᱷᱮᱡᱟ ᱵᱟᱵᱚᱛ ᱵᱟᱰᱟᱭ ᱢᱮ…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">ᱚᱞᱜᱟ ᱥᱟᱫᱷᱚᱱ ᱡᱩᱰᱟᱹᱣ ᱢᱮ…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\n%2$s ᱠᱷᱚᱱ ᱠᱩᱞ ᱟᱠᱟᱱᱟ 🦊 ᱢᱚᱵᱟᱭᱤᱞ ᱵᱽᱨᱟᱣᱡᱚᱨ ᱪᱮᱥᱴᱟᱭ ᱢᱮ: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Aion) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\nᱠᱷᱚᱱ ᱵᱷᱮᱡᱟ ᱠᱟᱱᱟ %2$s 🦊 %3$s</string>
   <!-- Send tab to synced devices: Authentication error title - Message asking the user to re-authenticate -->
   <string name="sync_send_tab_error_auth_title">ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱴᱮᱵᱽ ᱵᱷᱮᱡᱟ ᱞᱟᱹᱜᱤᱫ ᱫᱚᱦᱲᱟᱹ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ</string>
@@ -2416,19 +2416,19 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱫᱚ ᱛᱮᱡᱽ ᱟᱨ ᱱᱤᱡᱮᱨᱟᱜ ᱜᱮ</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱫᱚ ᱛᱮᱡᱽ ᱟᱨ ᱱᱤᱡᱮᱨᱟᱜ ᱜᱮ</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Firefox ᱟᱢᱟᱜ ᱢᱩᱞ ᱵᱽᱨᱟᱣᱡᱚᱨ ᱞᱮᱠᱷᱟ ᱫᱚᱦᱚᱭ ᱢᱮ</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Aion ᱟᱢᱟᱜ ᱢᱩᱞ ᱵᱽᱨᱟᱣᱡᱚᱨ ᱞᱮᱠᱷᱟ ᱫᱚᱦᱚᱭ ᱢᱮ</string>
   <!--
     Survey
 
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">ᱠᱷᱟᱴᱚ ᱥᱚᱨᱵᱷᱮ ᱞᱮᱠᱷᱟᱛᱮ Firefox ᱥᱩᱫᱷᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱢᱮ ᱾</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">ᱠᱷᱟᱴᱚ ᱥᱚᱨᱵᱷᱮ ᱞᱮᱠᱷᱟᱛᱮ Aion ᱥᱩᱫᱷᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱢᱮ ᱾</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">ᱥᱚᱨᱵᱷᱮ ᱤᱫᱤ ᱢᱮ</string>
   <!-- Preference for not taking the short survey. -->
@@ -2453,7 +2453,7 @@
   <string name="snackbar_deleted_undo">ᱚᱱᱰᱩ</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Aion"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%1$s ᱵᱟᱛᱟᱣ ᱮᱢᱟᱭ ᱢᱮ %2$s ᱡᱷᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱛᱮ</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2521,7 +2521,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">ᱛᱮᱦᱮᱸᱧ ᱟᱨ ᱦᱚᱞᱟ</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">ᱡᱷᱚᱛᱚᱣᱟᱜ</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Aion"). -->
   <string name="delete_browsing_data_prompt_message_3">%s ᱵᱟᱪᱷᱟᱣᱟᱜ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱰᱟᱴᱟ ᱢᱮᱴᱟᱣ ᱟᱭ ᱾</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">ᱵᱟᱹᱰᱨᱟᱹ</string>
@@ -2560,16 +2560,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">ᱠᱳᱰ ᱥᱠᱟᱱ ᱢᱮ</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[ᱟᱢᱟᱜ ᱠᱚᱢᱯᱤᱭᱩᱴᱟᱨ ᱨᱮ Firefox ᱡᱷᱤᱡᱽ ᱢᱮ ᱟᱨ <b>https://firefox.com/pair</b> ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[ᱟᱢᱟᱜ ᱠᱚᱢᱯᱤᱭᱩᱴᱟᱨ ᱨᱮ Aion ᱡᱷᱤᱡᱽ ᱢᱮ ᱟᱨ <b>https://firefox.com/pair</b> ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">ᱥᱠᱟᱱ ᱞᱚᱜᱤᱫᱛᱮ ᱛᱮᱭᱟᱨ ᱢᱮᱱᱟᱢᱼᱟ</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">ᱟᱢᱟᱜ ᱠᱮᱢᱮᱨᱟ ᱛᱮ ᱵᱚᱞᱚᱱ ᱥᱩᱦᱤ ᱢᱮ</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">ᱵᱟᱹᱫᱟᱹᱞ ᱛᱮ ᱮᱢᱮᱞ ᱵᱮᱵᱷᱟᱨ ᱢᱮ</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[ᱠᱷᱟᱛᱟ ᱵᱟᱹᱱᱩᱜᱼᱟ? <u>ᱢᱤᱫᱴᱟᱝ ᱛᱮᱭᱟᱨ ᱢᱮ</u> ᱰᱥᱫᱷᱚᱱ ᱠᱚ ᱵᱷᱤᱛᱨᱤ ᱨᱮ Firefox ᱥᱭᱝᱠ ᱞᱟᱹᱜᱤᱫ ᱾]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Aion' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[ᱠᱷᱟᱛᱟ ᱵᱟᱹᱱᱩᱜᱼᱟ? <u>ᱢᱤᱫᱴᱟᱝ ᱛᱮᱭᱟᱨ ᱢᱮ</u> ᱰᱥᱫᱷᱚᱱ ᱠᱚ ᱵᱷᱤᱛᱨᱤ ᱨᱮ Aion ᱥᱭᱝᱠ ᱞᱟᱹᱜᱤᱫ ᱾]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Aion"). -->
   <string name="sign_out_confirmation_message_2">%s ᱫᱚ ᱟᱢᱟᱜ ᱠᱷᱟᱛᱟ ᱥᱟᱞᱟᱜ ᱥᱭᱝᱠ ᱵᱚᱸᱫᱽᱚᱭ ᱟ , ᱦᱮᱞᱮ ᱟᱢᱟᱜ ᱚᱠᱟ ᱵᱽᱨᱟᱣᱩᱡᱤᱸᱝ ᱰᱟᱴᱟ ᱦᱚᱸ ᱟᱢᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱨᱮ ᱵᱟᱭ ᱢᱮᱴᱟᱣᱜᱼᱟ ᱾</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">ᱡᱚᱱᱚᱲᱟᱣ ᱚᱪᱚᱜ</string>
@@ -2585,7 +2585,7 @@
   <string name="preference_enhanced_tracking_protection">ᱵᱟᱲᱦᱟᱣᱟᱠᱟᱱ ᱯᱟᱸᱡᱟ ᱨᱚᱯᱷᱟ</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">ᱱᱤᱛᱚᱜ ᱢᱩᱴ ᱜᱚᱴᱟ ᱥᱟᱦᱴᱟ ᱠᱩᱠᱤ ᱦᱮᱡ ᱥᱮᱴᱮᱨ ᱮᱱᱟ, ᱱᱚᱣᱟ ᱫᱚ ᱠᱨᱚᱥ-ᱥᱟᱭᱤᱴ ᱴᱨᱮᱠᱚᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱱᱤᱛ ᱦᱟᱹᱵᱤᱡ ᱡᱚᱛᱚ ᱠᱷᱚᱱ ᱢᱟᱨᱟᱝ ᱟᱠᱚᱴ ᱥᱟᱫᱷᱚᱱ ᱠᱟᱱᱟ ᱾</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Aion"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">​%s​ ᱫᱚ ᱟᱭᱢᱟ ᱥᱚᱢᱟᱱ ᱯᱟᱧᱡᱟ ᱫᱟᱱᱟᱲ ᱠᱚ ᱴᱷᱮᱱ ᱠᱷᱚᱱ ᱚᱱᱞᱟᱭᱤᱱ ᱨᱩᱠᱷᱤᱭᱟᱹᱭ ᱢᱮᱟᱭ ᱾</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
@@ -2702,11 +2702,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">ᱯᱟᱹᱪᱷᱞᱟᱹᱥᱮᱱ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Aion"). -->
   <string name="about_whats_new">%s ᱨᱮ ᱪᱮᱫ ᱱᱟᱶᱟ ᱢᱮᱱᱟᱜᱼᱟ</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Aion")
   -->
   <string name="open_source_licenses_title">%s | OSS ᱯᱩᱛᱷᱤ ᱚᱲᱟᱜ</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2796,7 +2796,7 @@
   <string name="preference_doh_provider_custom_dialog_add">ᱥᱮᱞᱮᱫᱽ ᱢᱮ</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">ᱪᱷᱟᱰᱟ ᱠᱚ</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Aion"). -->
   <string name="preference_doh_exceptions_summary">%1$s ᱫᱚ ᱨᱩᱠᱷᱤᱭᱟᱹ DNS ᱚᱱᱟ ᱥᱟᱭᱤᱴ ᱨᱮ ᱟᱨ ᱟᱠᱚᱣᱟᱜ ᱥᱚᱵᱽᱰᱚᱢᱮᱱ ᱨᱮ ᱵᱟᱭ ᱵᱮᱵᱷᱟᱨ ᱟᱭ ᱾</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">ᱥᱟᱭᱤᱴ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
@@ -2858,9 +2858,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">ᱥᱟᱺᱪᱟᱣ ᱞᱟᱹᱜᱤᱫᱛᱮ ᱠᱩᱠᱞᱤ</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">ᱛᱤᱥ ᱦᱚᱸ ᱟᱞᱳᱢ ᱥᱟᱺᱪᱟᱣᱼᱟ</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">%1$s ᱨᱮ ᱟᱡ ᱛᱮ ᱯᱩᱨᱟᱹᱣ</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Aion (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$s ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱨᱮ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱟᱨ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱯᱩᱨᱟᱹᱣ ᱟᱨ ᱥᱟᱺᱪᱟᱣ ᱢᱮ ᱾</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">ᱮᱴᱟᱜ ᱮᱯᱥ ᱨᱮ ᱟᱡ ᱛᱮ ᱯᱩᱨᱟᱹᱣ</string>
@@ -2874,15 +2874,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">ᱡᱷᱚᱛᱚ ᱥᱟᱫᱷᱚᱱ ᱵᱷᱤᱛᱨᱤ ᱨᱮ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱟᱹᱭᱩᱨ ᱢᱤᱫ ᱢᱮ</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">ᱥᱟᱧᱪᱟᱣ ᱠᱟᱱ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱠᱚ</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">ᱟᱢ %s ᱨᱮ ᱚᱞ ᱟᱠᱟᱱ ᱥᱮ ᱟᱹᱭᱩᱨ ᱢᱤᱫ ᱟᱠᱟᱱ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱠᱚ ᱱᱚᱸᱰᱮ ᱞᱤᱥᱴᱤ ᱟ ᱾ ᱟᱢ ᱡᱟᱦᱟᱸᱱ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱮᱢ ᱥᱟᱧᱪᱟᱣ ᱟ ᱚᱱᱟ ᱠᱚᱫᱚ ᱫᱟᱱᱟᱝᱟᱜᱼᱟ ᱾</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">ᱥᱭᱝᱠ ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱵᱟᱰᱟᱭ ᱢᱮ</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">ᱪᱷᱟᱰᱟ ᱠᱚ</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s ᱫᱚ ᱱᱚᱰᱮ ᱞᱤᱥᱴᱤ ᱠᱟᱱ ᱥᱟᱭᱤᱴᱠᱚᱨᱮ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱵᱟᱭ ᱥᱟᱧᱪᱟᱣ ᱟ ᱾</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_passwords_exceptions_description_2">%s ᱫᱚ ᱱᱚᱰᱮ ᱢᱮᱱᱟᱜ ᱞᱤᱥᱴᱤ ᱠᱟᱱ ᱥᱟᱭᱤᱴᱠᱚᱨᱮ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱵᱟᱭ ᱥᱟᱧᱪᱟᱣ ᱟ ᱾</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">ᱡᱷᱚᱛᱚ ᱪᱷᱟᱰᱟᱠᱚ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
@@ -2976,14 +2976,14 @@
   <string name="preferences_email_masks_suggest_summary">ᱟᱢᱟᱜ ᱤᱱᱵᱚᱠᱥ ᱥᱯᱟᱢ ᱠᱷᱚᱱ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱥᱟᱹᱨᱤ ᱤᱢᱮᱞ ᱩᱠᱩᱭ ᱢᱮ ᱾ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱥᱟᱭᱤᱴ ᱤᱢᱮᱞ ᱢᱟᱥᱠ ᱵᱟᱠᱚ ᱥᱟᱯᱚᱨᱴ ᱮᱫᱟ ᱾</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Aion Relay dashboard -->
   <string name="preferences_email_masks_manage_title">ᱤᱢᱮᱞ ᱢᱟᱥᱠ ᱠᱚ ᱥᱟᱸᱵᱽᱲᱟᱣ ᱢᱮ</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">ᱟᱢ ᱟᱢᱟᱜ 5 ᱯᱷᱨᱤ ᱤᱢᱮᱞ ᱢᱟᱥᱠ ᱮᱢ ᱵᱮᱵᱷᱟᱨ ᱟᱠᱟᱫᱟ, ᱚᱱᱟᱛᱮ ᱟᱞᱮ ᱟᱢ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱹᱝ ᱞᱮ ᱵᱟᱪᱷᱟᱣ ᱠᱮᱫᱟ ᱫᱚᱦᱲᱟ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱾</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Aion Account services. -->
   <string name="email_masks_error_retrieving_masks">ᱤᱢᱮᱞ ᱢᱟᱥᱠ ᱫᱚ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜ ᱠᱟᱱᱟ ᱾ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱴᱤᱯᱤᱡ ᱛᱟᱭᱚᱢ ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾</string>
   <!--
-    Firefox browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
+    Aion browser VPN (a browser-only proxy, distinct from the Mozilla VPN service)
 
     Title for the browser VPN entry in the settings list
   -->
@@ -2994,7 +2994,7 @@
   <string name="ip_protection_toggle_label">VPN</string>
   <!-- Content description for the browser VPN settings screen top bar back button -->
   <string name="ip_protection_navigate_back_button_content_description">ᱯᱟᱹᱪᱷᱞᱟᱹᱥᱮᱱ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
-  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN promo card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_promo_headline">%s ᱨᱮᱭᱟᱜ ᱵᱤᱞᱴ-ᱤᱱ VPN</string>
   <!-- Body text for the browser VPN settings header, shown when no promo is running. %s is a learn more link using ip_protection_learn_more as text. -->
   <string name="ip_protection_promo_body_2">ᱟᱢᱟᱜ ᱴᱷᱟᱶ ᱩᱠᱩ ᱠᱟᱛᱮ ᱵᱟᱹᱲᱛᱤ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱥᱟᱶ ᱵᱽᱨᱟᱣᱩᱡᱽ ᱢᱮ, ᱥᱟᱱᱟᱢ ᱦᱚᱲᱟᱜ Wi-Fi ᱨᱮᱦᱚᱸ ᱾ %s</string>
@@ -3051,11 +3051,11 @@
   <string name="ip_protection_get_started">ᱫᱮᱞᱟ ᱮᱛᱦᱚᱵ ᱞᱮᱜᱮ ᱵᱚᱱ</string>
   <!-- Label for the "connecting" state of the button that starts the browser VPN authentication or authorization flow on the settings screen -->
   <string name="ip_protection_connecting">ᱡᱚᱲᱟᱣᱚᱜ ᱠᱟᱱᱟ…</string>
-  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Firefox"). -->
+  <!-- Headline for the browser VPN onboarding card. %s is the name of the app (for example "Aion"). -->
   <string name="ip_protection_onboarding_card_headline">%s ᱨᱮᱭᱟᱜ ᱛᱮᱭᱟᱨ ᱴᱷᱤᱠ VPN ᱪᱮᱥᱴᱟᱭ ᱢᱮ</string>
   <!--
     The body of the VPN onboarding card.
-    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Firefox.
+    %1$s is a link using ip_protection_onboarding_body_link (“Browse with extra protection”) as text. It links to a support article about VPN on Aion.
     %2$d is the total monthly allowance in GB (for example "50").
   -->
   <string name="ip_protection_onboarding_body">%1$s ᱟᱢᱟᱜ ᱴᱷᱟᱶ ᱩᱠᱩ ᱠᱟᱛᱮ, ᱥᱟᱱᱟᱢ ᱦᱚᱲ Wi-Fi ᱨᱮᱦᱚᱸ ᱾ ᱥᱟᱱᱟᱢ ᱪᱟᱸᱫᱚ ᱨᱮ %2$d GB ᱯᱷᱨᱤ ᱧᱟᱢ ᱢᱮ ᱾</string>
@@ -3064,7 +3064,7 @@
   <!--
     The body of the VPN onboarding card for a promotion that provides unlimited data bandwidth for a certain time.
     %1$s is a localized date (for example "Jun 9") indicating the end of the promotional period.
-    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Firefox.
+    %2$s is a link using ip_protection_onboarding_body_link_promo (“Learn more”) as text. It links to a support article about VPN on Aion.
   -->
   <string name="ip_protection_onboarding_body_promo">ᱟᱢᱟᱜ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱟᱨᱦᱚᱸ ᱯᱨᱟᱭᱣᱮᱴ ᱟᱨ ᱴᱨᱮᱥ ᱞᱟᱹᱜᱤᱫ ᱟᱸᱴ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱣᱟ ᱪᱟᱹᱞᱩᱭ ᱢᱮ ᱾ %1$s ᱦᱚᱛᱮᱛᱮ ᱟᱱᱞᱤᱢᱤᱴᱮᱰ ᱵᱮᱱᱰᱣᱤᱰᱛᱷ ᱧᱟᱢ ᱞᱟᱹᱜᱤᱫ ᱱᱤᱛᱚᱜ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾ %2$s</string>
   <!-- Used as text for a link in ip_protection_onboarding_body. Make sure to adapt capitalization if the link is in the middle of the sentence. -->
@@ -3093,7 +3093,7 @@
   <!-- Title for the browser VPN location picker screen. -->
   <string name="ip_protection_location_picker_title" tools:ignore="UnusedResources">VPN ᱴᱷᱟᱶ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
   <!-- Description for what it means to use the Recommended setting and let the app automatically pick the best server location. -->
-  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Firefox ᱫᱚ ᱡᱷᱚᱛᱚ ᱠᱷᱚᱱ ᱩᱥᱟᱹᱨᱟ ᱴᱷᱟᱶ ᱧᱟᱢᱟᱭ</string>
+  <string name="ip_protection_location_fastest_description" tools:ignore="BrandUsage">Aion ᱫᱚ ᱡᱷᱚᱛᱚ ᱠᱷᱚᱱ ᱩᱥᱟᱹᱨᱟ ᱴᱷᱟᱶ ᱧᱟᱢᱟᱭ</string>
   <!-- Description for an unavailable VPN location in the location list. -->
   <string name="ip_protection_location_unavailable_description">ᱵᱟᱹᱱᱩᱜ ᱠᱟᱫᱟ</string>
   <!-- Error message shown when the selected browser VPN location is unavailable. -->
@@ -3120,7 +3120,7 @@
   <string name="preferences_credit_cards_2">ᱜᱚᱱᱚᱝ ᱦᱚᱨᱟᱠᱚ</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">ᱯᱮᱢᱮᱱᱴ ᱦᱚᱨᱟ ᱥᱟᱧᱪᱟᱣ ᱢᱮ ᱟᱨ ᱯᱮᱨᱮᱪ ᱢᱮ</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Aion"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s ᱫᱚ ᱟᱢ ᱡᱟᱦᱟᱸ ᱥᱟᱧᱪᱟᱣ ᱮᱫ ᱡᱷᱚᱛᱚ ᱛᱚᱨᱠᱟᱠᱚ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱟ</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">ᱡᱷᱚᱛᱚ ᱥᱟᱫᱷᱚᱱ ᱵᱷᱤᱛᱨᱤ ᱨᱮ ᱠᱟᱰ ᱥᱭᱝᱠ ᱢᱮ</string>
@@ -3366,13 +3366,13 @@
   <string name="synced_tabs_connect_another_device">ᱮᱴᱟᱜᱟᱼᱜ ᱥᱟᱫᱷᱚᱱ ᱡᱩᱰᱟᱹᱣ ᱢᱮ ᱾</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">ᱫᱚᱭᱟᱠᱟᱛᱮ ᱨᱤᱼᱚᱛᱷᱮᱱᱴᱤᱠᱮᱴ ᱢᱮ ᱾</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Aion Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">ᱫᱚᱭᱟᱠᱟᱛᱮ ᱴᱮᱵᱽ ᱥᱭᱝᱠᱤᱝ ᱮᱢ ᱪᱷᱚᱭ ᱢᱮ ᱾</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">ᱟᱢ ᱴᱷᱮᱱ ᱚᱠᱟ ᱦᱚᱸ ᱴᱮᱵᱽ ᱠᱚ ᱚᱞᱜᱟ Firefox ᱢᱮᱱᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱨᱮ ᱵᱟᱝ ᱠᱷᱩᱞᱟᱹ ᱟᱠᱟᱱᱟ ᱾</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">ᱟᱢ ᱴᱷᱮᱱ ᱚᱠᱟ ᱦᱚᱸ ᱴᱮᱵᱽ ᱠᱚ ᱚᱞᱜᱟ Aion ᱢᱮᱱᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱨᱮ ᱵᱟᱝ ᱠᱷᱩᱞᱟᱹ ᱟᱠᱟᱱᱟ ᱾</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Aion Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">ᱟᱢᱟᱜ ᱮᱴᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱠᱷᱚᱱ ᱴᱮᱵᱽ ᱞᱤᱥᱴᱤ ᱫᱮᱠᱷᱟᱣ ᱢᱮ ᱾</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Aion Sync -->
   <string name="synced_tabs_sign_in_button">ᱥᱭᱝᱠ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱞᱚᱱ ᱥᱩᱦᱤ ᱢᱮ</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">ᱠᱷᱩᱞᱟᱹᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
@@ -3467,7 +3467,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">ᱢᱤᱫ ᱪᱟᱸᱫᱚ ᱛᱟᱭᱚᱢ ᱟᱡ ᱛᱮ ᱵᱚᱸᱫᱽ ᱟᱢ ᱥᱮ?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱪᱟᱸᱫᱚ ᱨᱮ ᱵᱟᱝ ᱠᱷᱩᱞᱟᱹ ᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ Firefox ᱵᱚᱸᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ᱾</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱪᱟᱸᱫᱚ ᱨᱮ ᱵᱟᱝ ᱠᱷᱩᱞᱟᱹ ᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ Aion ᱵᱚᱸᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ᱾</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ᱟᱡ ᱛᱮ ᱵᱚᱸᱫ ᱮᱢ ᱪᱷᱚᱭ ᱢᱮ</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3475,9 +3475,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Aion Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox ᱵᱟᱛᱟᱣ</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Aion ᱵᱟᱛᱟᱣ</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3496,7 +3496,7 @@
   -->
   <string name="default_browser_experiment_card_title">ᱟᱢᱟᱜ ᱢᱩᱞ ᱵᱽᱨᱟᱣᱡᱚᱨ ᱛᱮ ᱩᱪᱟᱹᱲᱚᱜ ᱢᱮ</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Firefox ᱟᱡ ᱛᱮ ᱠᱷᱩᱞᱟᱹ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱣᱮᱵᱥᱟᱭᱤᱴ, ᱤᱢᱮᱞ, ᱟᱨ ᱢᱮᱥᱮᱡᱽ ᱨᱮᱭᱟᱜ ᱞᱤᱝᱠ ᱥᱮᱴ ᱢᱮ ᱾</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Aion ᱟᱡ ᱛᱮ ᱠᱷᱩᱞᱟᱹ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱣᱮᱵᱥᱟᱭᱤᱴ, ᱤᱢᱮᱞ, ᱟᱨ ᱢᱮᱥᱮᱡᱽ ᱨᱮᱭᱟᱜ ᱞᱤᱝᱠ ᱥᱮᱴ ᱢᱮ ᱾</string>
   <!-- Content description radio buttons with a link to more information -->
   <string name="radio_preference_info_content_description">ᱟᱨᱦᱚᱸ ᱵᱤᱵᱨᱚᱬ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱰᱮ ᱚᱛᱟᱭ ᱢᱮ</string>
   <!-- Content description for the action bar "up" button -->
@@ -3544,11 +3544,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">ᱥᱟᱦᱴᱟ %1$s ᱠᱷᱚᱱ %2$s ᱛᱚᱨᱡᱚᱢᱟ ᱟᱠᱟᱱᱟ</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Aion"). -->
   <string name="translations_bottom_sheet_title_first_time">%1$s ᱨᱮ ᱯᱨᱟᱭᱣᱮᱴ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱤᱲᱟᱹᱣ ᱢᱮ</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">ᱟᱢᱟᱜ ᱯᱨᱟᱭᱣᱮᱥᱤ ᱞᱟᱹᱜᱤᱫ, ᱟᱢᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱠᱷᱚᱱ ᱛᱚᱨᱡᱚᱢᱟ ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱪᱟᱞᱟᱜᱼᱟ ᱾ ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱟᱨ ᱥᱩᱫᱷᱟᱹᱨ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱟᱹᱡᱩᱜ ᱞᱟᱹᱜᱤᱫ!%1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Aion translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">ᱠᱷᱚᱱ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ</string>
@@ -3609,7 +3609,7 @@
   <string name="translation_option_bottom_sheet_switch_description">ᱡᱷᱚᱛᱚ ᱮᱴᱟᱜ ᱥᱟᱡᱟᱣᱠᱚ ᱞᱟᱫᱮ ᱪᱮᱛᱟᱱ ᱞᱟᱫᱮ ᱦᱚᱦᱚᱪᱷᱚᱭᱟ</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">ᱛᱚᱨᱡᱚᱢᱟ ᱥᱟᱡᱟᱣᱠᱚ</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Aion"). -->
   <string name="translation_option_bottom_sheet_about_translations">%1$s ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱵᱚᱛ</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">ᱛᱚᱨᱡᱚᱢᱟ ᱥᱟᱦᱴᱟ ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
@@ -3655,15 +3655,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">ᱛᱚᱨᱡᱚᱢᱟ ᱦᱚᱪᱷᱚ (ᱢᱩᱞ)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱛᱮ %1$s ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ ᱪᱷᱚᱭᱟ ᱾</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">ᱡᱟᱣᱜᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">ᱥᱟᱦᱴᱟ ᱞᱟᱫᱮ ᱡᱷᱚᱜ %1$s ᱫᱚ ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱟᱡᱛᱮ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱟ ᱾</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">%S ᱛᱤᱥ ᱦᱚᱸ ᱟᱞᱚᱢ ᱛᱚᱨᱡᱚᱢᱟᱭᱟ</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Aion"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱛᱮ %1$s ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ ᱵᱟᱭ ᱛᱚᱨᱡᱚᱢᱟ ᱪᱷᱚᱭᱟ ᱾</string>
   <!--
     Never translate site preference screen
@@ -3745,7 +3745,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) ᱢᱮᱴᱟᱣᱟ ᱥᱮ?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_file_dialog_message">ᱟᱢ ᱡᱚᱫᱤ ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱫᱚ ᱜᱮᱫᱜᱤᱰᱤᱭᱟ, ᱮᱱᱠᱷᱟᱱ ᱛᱚᱨᱡᱚᱢᱟ ᱡᱷᱚᱜ %1$s ᱟᱢᱟᱜ ᱠᱮᱪ ᱨᱮ ᱦᱟᱹᱴᱤᱧ ᱯᱟᱹᱨᱥᱤ ᱰᱟᱣᱩᱱᱞᱳᱰ ᱠᱚᱨᱟᱣ ᱟ ᱾</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3753,7 +3753,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">ᱡᱷᱚᱛᱚ ᱯᱟᱹᱨᱥᱠᱚ ᱜᱮᱫᱜᱤᱰᱤ ᱢᱮ (%1$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Aion"). -->
   <string name="delete_language_all_languages_file_dialog_message">ᱟᱢ ᱡᱚᱫᱤ ᱡᱷᱚᱛᱚ ᱯᱟᱹᱨᱥᱤ ᱜᱮᱫᱜᱤᱰᱤᱭᱟ, ᱮᱱᱠᱷᱟᱱ ᱛᱚᱨᱡᱚᱢᱟ ᱡᱷᱚᱜ %1$s ᱟᱢᱟᱜ ᱠᱮᱪ ᱨᱮ ᱦᱟᱹᱴᱤᱧ ᱯᱟᱹᱨᱥᱤ ᱰᱟᱣᱩᱱᱞᱳᱰ ᱠᱚᱨᱟᱣ ᱟ ᱾</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">ᱢᱮᱴᱟᱣ ᱢᱮ</string>
@@ -3788,12 +3788,12 @@
   <string name="protection_panel_banner_not_protected_title">ᱟᱢ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱠᱚ ᱵᱚᱱᱫᱚ ᱠᱮᱫᱟᱢ</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_not_protected_description">%s ᱫᱚ ᱵᱟᱭ ᱠᱟᱹᱢᱤ ᱠᱟᱱᱟᱭ ᱾ \u0020ᱟᱞᱮ ᱫᱚ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱠᱚ ᱫᱚᱦᱲᱟ ᱪᱟᱹᱞᱩ ᱞᱟᱹᱜᱤᱫ ᱞᱮ ᱥᱚᱞᱦᱟ ᱮᱫᱟ᱾</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Aion").
   -->
   <string name="protection_panel_banner_protected_title">%s ᱨᱩᱠᱷᱤᱭᱟᱹ ᱨᱮ ᱢᱮᱱᱟᱜ ᱠᱟᱹᱫᱮᱭᱟ</string>
   <plurals name="protection_panel_banner_protected_blocked_trackers_description">
@@ -3978,9 +3978,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Aion" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱵᱮᱥ ᱛᱮᱭᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱵᱮᱥ ᱛᱮᱭᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">ᱞᱮᱛᱟᱲ</string>
   <!--
@@ -4009,8 +4009,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">ᱟᱹᱰᱤ ᱵᱟᱱᱴᱷᱤᱠ</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">ᱤᱧ ᱚᱱᱟ ᱵᱟᱹᱧ ᱵᱮᱣᱦᱟᱨ ᱮᱫᱟ</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱤᱧ ᱥᱮᱸᱫᱽᱨᱟ ᱵᱟᱹᱧ ᱵᱮᱵᱷᱟᱨ ᱟ</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱤᱧ ᱥᱮᱸᱫᱽᱨᱟ ᱵᱟᱹᱧ ᱵᱮᱵᱷᱟᱨ ᱟ</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">ᱤᱧ ᱥᱤᱝᱠ ᱵᱟᱹᱧ ᱵᱮᱵᱷᱟᱨ ᱟ</string>
   <!-- Option for likert scale -->
@@ -4021,24 +4021,24 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">ᱱᱚᱣᱟ ᱫᱚ ᱩᱞᱡᱷᱟᱹᱣ ᱥᱮ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱟᱸᱴ ᱜᱮᱭᱟ</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">ᱱᱚᱣᱟ ᱫᱚ ᱴᱷᱤᱠ ᱜᱮᱭᱟ, ᱢᱮᱱᱠᱷᱟᱱ ᱮᱴᱟᱜ ᱵᱽᱨᱟᱣᱩᱡᱟᱨ ᱠᱷᱚᱱ ᱵᱟᱝ ᱵᱮᱥ ᱜᱮᱭᱟ</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">ᱤᱧ Firefox ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱢᱚᱱᱮ ᱮᱫᱟᱹᱧ</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱪᱷᱟᱯᱟ ᱜᱟᱱᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫ ᱴᱤᱡ ᱜᱟᱱ ᱚᱠᱛᱚ ᱤᱫᱤᱭᱟᱭ</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱵᱮᱥ ᱵᱮᱱᱟᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱥᱤᱝᱠ ᱵᱮᱥ ᱵᱮᱱᱟᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱪᱷᱟᱯᱟ ᱠᱟᱹᱢᱤᱦᱟᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Firefox ᱨᱮᱭᱟᱜ ᱚᱲᱟᱜᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱢ ᱛᱤᱱᱟᱹᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱥᱚᱦᱢᱚᱛ ᱜᱮᱭᱟᱢ ?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱨᱮ ᱥᱤᱝᱠ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Firefox ᱥᱩᱫᱷᱨᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮ ᱜᱚᱲᱚ ᱞᱮᱢ ᱾ ᱱᱤᱛ ᱦᱟᱵᱤᱡ ᱟᱢᱟᱜ ᱟᱹᱱᱟᱹᱭᱠᱟᱹᱣ ᱚᱠᱟᱴᱟᱜ ᱵᱮᱥ ᱛᱮ ᱵᱚᱨᱱᱚᱱ ᱮᱢᱟᱭᱟ ?</string>
+  <!-- Option for likert scale. Note: The word "Aion" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">ᱤᱧ Aion ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱢᱚᱱᱮ ᱮᱫᱟᱹᱧ</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱪᱷᱟᱯᱟ ᱜᱟᱱᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱢᱮ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫ ᱴᱤᱡ ᱜᱟᱱ ᱚᱠᱛᱚ ᱤᱫᱤᱭᱟᱭ</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱵᱮᱥ ᱵᱮᱱᱟᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱥᱤᱝᱠ ᱵᱮᱥ ᱵᱮᱱᱟᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱞᱚᱜᱚᱱ ᱜᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱪᱷᱟᱯᱟ ᱠᱟᱹᱢᱤᱦᱟᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Aion ᱨᱮᱭᱟᱜ ᱚᱲᱟᱜᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱢ ᱛᱤᱱᱟᱹᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱥᱚᱦᱢᱚᱛ ᱜᱮᱭᱟᱢ ?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱨᱮ ᱥᱤᱝᱠ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱥᱟᱞᱟᱜ ᱛᱤᱱᱟᱹᱜ ᱨᱟᱹᱥᱠᱟᱹ ᱢᱮᱱᱟᱢᱟᱸ ?</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Aion" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Aion ᱥᱩᱫᱷᱨᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮ ᱜᱚᱲᱚ ᱞᱮᱢ ᱾ ᱱᱤᱛ ᱦᱟᱵᱤᱡ ᱟᱢᱟᱜ ᱟᱹᱱᱟᱹᱭᱠᱟᱹᱣ ᱚᱠᱟᱴᱟᱜ ᱵᱮᱥ ᱛᱮ ᱵᱚᱨᱱᱚᱱ ᱮᱢᱟᱭᱟ ?</string>
   <!--
     Uninstall Survey
 
@@ -4062,9 +4062,9 @@
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Aion" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox ᱞᱚᱜᱚ</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Aion ᱞᱚᱜᱚ</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">ᱥᱚᱨᱵᱷᱮ ᱯᱷᱤᱪᱚᱨ ᱪᱤᱱᱦᱟᱹ</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -4176,43 +4176,43 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Aion. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Aion's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">ᱱᱤᱛᱚᱜ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱢᱮ</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Firefox ᱵᱽᱨᱟᱣᱡᱚᱨ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱛᱟᱢ</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Aion ᱵᱽᱨᱟᱣᱡᱚᱨ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱛᱟᱢ</string>
+  <!-- Homepage card message about old Aion version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱢᱩᱪᱟᱹᱫᱚᱜᱼᱟ, ᱚᱱᱟ ᱠᱷᱟᱹᱛᱤᱨ ᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱑᱔ ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟᱭ ᱾</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">14 ᱢᱟᱨᱪ ᱢᱟᱲᱟᱝ ᱨᱮ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱢᱮ</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱢᱩᱪᱟᱹᱫᱚᱜᱼᱟ, ᱚᱱᱟ ᱠᱷᱟᱹᱛᱤᱨ ᱟᱢᱟᱜ Firefox ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱵᱮᱥ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱾</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱢᱩᱪᱟᱹᱫᱚᱜᱼᱟ, ᱚᱱᱟ ᱠᱷᱟᱹᱛᱤᱨ ᱟᱢᱟᱜ Aion ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱵᱮᱥ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱾</string>
+  <!-- Homepage card title about old Aion version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">ᱟᱯᱰᱮᱴ ᱞᱟᱹᱜᱤᱫ 7 ᱠᱷᱚᱱ ᱠᱚᱢ ᱢᱟᱦᱟᱸ ᱵᱟᱠᱤ ᱢᱮᱱᱟᱜᱼᱟ</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">14 ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ, ᱮᱰ-ᱚᱱ ᱟᱨ ᱮᱴᱟᱜ Firefox ᱨᱮᱭᱟᱜ ᱜᱩᱱ ᱠᱚ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱪᱮᱫᱟᱜ ᱥᱮ ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱢᱩᱪᱟᱹᱫᱚᱜ ᱠᱟᱱᱟ ᱾</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Firefox ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱩᱪᱟᱹᱫ ᱫᱟᱣ</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Firefox ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ 14 ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ ᱵᱮᱥ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱪᱮᱫᱟᱜ ᱥᱮ ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱢᱩᱪᱟᱹᱫᱚᱜ ᱠᱟᱱᱟ ᱾</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">14 ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ, ᱮᱰ-ᱚᱱ ᱟᱨ ᱮᱴᱟᱜ Aion ᱨᱮᱭᱟᱜ ᱜᱩᱱ ᱠᱚ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱪᱮᱫᱟᱜ ᱥᱮ ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱢᱩᱪᱟᱹᱫᱚᱜ ᱠᱟᱱᱟ ᱾</string>
+  <!-- Homepage card title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Aion ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱩᱪᱟᱹᱫ ᱫᱟᱣ</string>
+  <!-- Homepage card message about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">ᱟᱢᱟᱜ Aion ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ 14 ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ ᱵᱮᱥ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱪᱮᱫᱟᱜ ᱥᱮ ᱢᱤᱫ ᱨᱩᱴ ᱥᱮᱨᱴᱤᱯᱷᱤᱠᱮᱴ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱢᱩᱪᱟᱹᱫᱚᱜ ᱠᱟᱱᱟ ᱾</string>
+  <!-- Push notification title about old Aion version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">ᱟᱯᱰᱮᱴ ᱞᱟᱹᱜᱤᱫ ᱥᱚᱞᱦᱟ ᱦᱩᱭ ᱟᱠᱟᱱᱟ</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">ᱮᱰ-ᱚᱱᱥ ᱟᱨ ᱠᱤᱪᱷᱩ ᱯᱷᱤᱪᱟᱨ ᱠᱚ 14 ᱢᱟᱨᱪ ᱦᱤᱞᱚᱜ ᱠᱟᱹᱢᱤ ᱵᱚᱸᱫᱚᱜᱼᱟ ᱾</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱫᱚ Firefox ᱨᱮᱭᱟᱜ ᱢᱟᱨᱮ ᱵᱷᱟᱨᱥᱚᱱ ᱨᱮ ᱢᱮᱱᱟᱢᱟ</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Aion version. Note: The word "Aion" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">ᱟᱢ ᱫᱚ Aion ᱨᱮᱭᱟᱜ ᱢᱟᱨᱮ ᱵᱷᱟᱨᱥᱚᱱ ᱨᱮ ᱢᱮᱱᱟᱢᱟ</string>
+  <!-- Push notification message about old Aion version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">ᱮᱰ-ᱚᱱᱥ ᱟᱨ ᱮᱴᱟᱜ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ 14 ᱢᱟᱨᱪ ᱢᱟᱲᱟᱝ ᱨᱮ ᱟᱯᱰᱮᱴ ᱢᱮ ᱾</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Aion version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱜᱟᱯᱟ ᱠᱟᱹᱢᱤ ᱵᱚᱱᱫᱚᱭᱟ ᱾</string>
   <!--
     Setup checklist feature
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_title_state_incomplete">ᱥᱮᱴᱤᱝ ᱪᱟᱵᱟᱭ ᱢᱮ %1$s</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -4220,19 +4220,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">ᱥᱚᱨᱮᱥ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱟᱹᱱᱟᱹᱭᱠᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ %1$s ᱥᱮᱴ ᱟᱯ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱱᱟᱢ 3 ᱯᱟᱹᱣᱰᱤ ᱯᱩᱨᱟᱹᱣ ᱢᱮ ᱾</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ ᱮᱦᱚᱵ! ᱟᱢ 3 ᱠᱷᱚᱱ 1 ᱯᱟᱹᱣᱰᱤ ᱮᱢ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟ ᱾</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">ᱯᱨᱟᱭ ᱚᱱᱰᱮ ᱜᱮ! ᱵᱟᱨ ᱛᱟᱲᱟᱢ ᱪᱟᱵᱟ ᱮᱱᱟ ᱟᱨ 1 ᱪᱟᱞᱟᱜ ᱞᱟᱹᱜᱤᱫ ᱾</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">ᱟᱢ ᱥᱟᱱᱟᱢ 3 ᱯᱟᱹᱣᱰᱤ ᱮᱢ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟ ᱾ %1$s ᱨᱮᱭᱟᱜ ᱥᱯᱤᱰ, ᱯᱨᱟᱭᱣᱮᱥᱤ ᱟᱨ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱨᱮᱭᱟᱜ ᱨᱟᱹᱥᱠᱟᱹᱡᱚᱝ ᱢᱮ ᱾</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">ᱥᱚᱨᱮᱥ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱟᱹᱱᱟᱹᱭᱠᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ %1$s ᱥᱮᱴ ᱟᱯ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱱᱟᱢ 6 ᱯᱟᱣᱰᱤ ᱯᱩᱨᱟᱹᱣ ᱢᱮ᱾</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4245,12 +4245,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">ᱟᱢ ᱔ ᱛᱟᱲᱟᱢ ᱵᱷᱤᱛᱨᱤ ᱨᱮ ᱢᱮᱱᱟᱢᱟ ᱾ ᱥᱩᱢᱩᱝ ᱵᱟᱨ ᱜᱚᱴᱟᱝ ᱪᱟᱞᱟᱜ ᱞᱟᱹᱜᱤᱫ!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">ᱯᱨᱟᱭ ᱚᱱᱰᱮ ᱜᱮ! ᱟᱢ ᱫᱚ ᱢᱩᱪᱟᱹᱫ ᱞᱟᱭᱤᱱ ᱠᱷᱚᱱ ᱑ ᱛᱟᱲᱟᱢ ᱥᱟᱦᱟᱨ ᱨᱮ ᱢᱮᱱᱟᱢᱟ ᱾</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">ᱟᱢ ᱥᱟᱱᱟᱢ 6 ᱥᱮᱴᱟᱯ ᱥᱴᱮᱯ ᱮᱢ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟ ᱾ %1$s ᱨᱮᱭᱟᱜ ᱥᱯᱤᱰ, ᱯᱨᱟᱭᱣᱮᱥᱤ ᱟᱨ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱨᱮᱭᱟᱜ ᱨᱟᱹᱥᱠᱟᱹᱡᱚᱝ ᱢᱮ ᱾</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">ᱥᱚᱨᱮᱥ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱟᱹᱱᱟᱹᱭᱠᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ %1$s ᱥᱮᱴ ᱟᱯ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱱᱟᱢ 5 ᱫᱷᱟᱯ ᱯᱩᱨᱟᱹᱣ ᱢᱮ᱾</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4261,7 +4261,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">ᱟᱢ ᱚᱱᱰᱮ ᱟᱫᱷᱟ ᱦᱚᱨ ᱨᱮ ᱢᱮᱱᱟᱢᱟ! ᱯᱮ ᱛᱟᱲᱟᱢ ᱪᱟᱵᱟ ᱮᱱᱟ ᱟᱨ 2 ᱪᱟᱞᱟᱜ ᱞᱟᱹᱜᱤᱫ ᱾</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">ᱯᱨᱟᱭ ᱚᱱᱰᱮ ᱜᱮ! ᱟᱢ ᱫᱚ ᱢᱩᱪᱟᱹᱫ ᱞᱟᱭᱤᱱ ᱠᱷᱚᱱ 1 ᱛᱟᱲᱟᱢ ᱥᱟᱦᱟᱨ ᱨᱮ ᱢᱮᱱᱟᱢᱟ ᱾</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">ᱟᱢ ᱥᱟᱱᱟᱢ 6 ᱥᱮᱴᱟᱯ ᱥᱴᱮᱯ ᱮᱢ ᱯᱩᱨᱟᱹᱣ ᱠᱮᱫᱟ ᱾ %1$s ᱨᱮᱭᱟᱜ ᱥᱯᱤᱰ, ᱯᱨᱟᱭᱣᱮᱥᱤ ᱟᱨ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱨᱮᱭᱟᱜ ᱨᱟᱹᱥᱠᱟᱹᱡᱚᱝ ᱢᱮ ᱾</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4282,10 +4282,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Aion").
   -->
   <string name="setup_checklist_group_essentials">%1$s ᱞᱟᱹᱠᱛᱤᱭᱟᱱ</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Aion"). -->
   <string name="setup_checklist_group_customize">ᱟᱢᱟᱜ %1$s ᱠᱟᱥᱴᱚᱢᱟᱭᱤᱡᱽ ᱢᱮ</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">ᱜᱚᱲᱚ ᱥᱟᱯᱟᱵ ᱠᱚ</string>
@@ -4328,18 +4328,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Aion").
   -->
   <string name="review_prompt_pre_prompt_header">ᱟᱢ %1$s ᱵᱟᱨᱮᱛᱮ ᱪᱮᱫ ᱮᱢ ᱢᱚᱱᱮᱭᱮᱫᱟ?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">ᱤᱧ ᱴᱷᱮᱱ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">ᱱᱚᱣᱟ ᱫᱚ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭᱟ!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_header">%1$s ᱫᱩᱞᱟᱹᱲ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱨᱦᱟᱣ ᱾ ᱨᱮᱴᱤᱝ ᱥᱟᱶ ᱫᱩᱞᱟᱹᱲ ᱯᱟᱥᱱᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱴᱤᱯᱤᱡ ᱧᱟᱢ ᱮᱱᱟ ᱥᱮ?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_rate_button">Play Store ᱨᱮ %1$s ᱫᱚᱨ ᱢᱮ</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Aion"). -->
   <string name="review_prompt_feedback_header">ᱟᱞᱮ ᱤᱠᱟᱹ ᱞᱮ ᱠᱷᱚᱡᱚᱜ ᱠᱟᱱᱟ ᱟᱢ ᱴᱷᱮᱱ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾ ᱟᱞᱮ ᱵᱟᱲᱟᱭ ᱚᱪᱚ ᱞᱮᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱟᱞᱮ %1$s ᱞᱮ ᱥᱩᱫᱷᱨᱟᱹᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">ᱟᱢᱟᱜ ᱦᱩᱫᱤᱥ</string>
@@ -4369,7 +4369,7 @@
   <string name="terms_of_use_prompt_title">ᱟᱞᱮ ᱢᱤᱫ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱞᱮ ᱧᱟᱢ ᱠᱮᱫᱟ</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4393,7 +4393,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Aion"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">%1$s ᱠᱷᱚᱱ ᱢᱤᱫ ᱱᱚᱴ</string>
   <!--
@@ -4406,7 +4406,7 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Aion' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
@@ -4470,48 +4470,48 @@
   <!-- Button in the first-run Google Lens bottom sheet that leaves Google Lens without using it -->
   <string name="lens_opt_out_not_now_button">ᱱᱤᱛᱚᱜ ᱫᱚ ᱵᱟᱝᱟ</string>
   <!--
-    Firefox Labs
+    Aion Labs
 
-    Firefox Labs is the name of a screen in Settings to allow users to learn about
+    Aion Labs is the name of a screen in Settings to allow users to learn about
     experimental and in-development features, and turn those features on and off.
-    The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+    The "Labs" portion can be localized, "Aion" must be treated as a brand and kept
     in English.
   -->
-  <string name="firefox_labs_title" tools:ignore="BrandUsage">Firefox Labs</string>
-  <!-- Banner title text on the Firefox Labs screen. -->
+  <string name="firefox_labs_title" tools:ignore="BrandUsage">Aion Labs</string>
+  <!-- Banner title text on the Aion Labs screen. -->
   <string name="firefox_labs_banner_title_2">ᱟᱞᱮᱭᱟᱜ ᱮᱠᱥᱯᱮᱨᱤᱢᱮᱱᱴᱟᱞ ᱯᱷᱤᱪᱟᱨ ᱠᱚ ᱵᱤᱰᱟᱹᱣ ᱢᱮ!</string>
   <!--
-    Banner description text on the Firefox Labs screen. Provides information on what Firefox Labs does. %s is the name of the app (for example "Firefox Nightly").
-    Text will appear under the Firefox Labs banner title.
+    Banner description text on the Aion Labs screen. Provides information on what Aion Labs does. %s is the name of the app (for example "Aion Nightly").
+    Text will appear under the Aion Labs banner title.
   -->
   <string name="firefox_labs_experimental_description">ᱩᱱᱠᱩ ᱫᱚ ᱩᱛᱱᱟᱹᱣ ᱟᱨ ᱩᱛᱱᱟᱹᱣ ᱨᱮ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ ᱡᱟᱦᱟᱸ ᱫᱚ %s ᱪᱮᱫ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤᱭᱟ ᱚᱱᱟ ᱨᱮ ᱮᱥᱮᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
-  <!-- The link text shown when a feedback URL for a Firefox Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
+  <!-- The link text shown when a feedback URL for a Aion Labs feature is available. The feedback URL page will allow users to provide opinions and suggestions. -->
   <string name="firefox_labs_share_feedback">ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ</string>
-  <!-- Content description for the share feedback link on a Firefox Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Firefox Labs feature. -->
+  <!-- Content description for the share feedback link on a Aion Labs feature. This text will be used by screen readers to provide more context on the feedback link. %s is the name of the Aion Labs feature. -->
   <string name="firefox_labs_share_feedback_content_description">%s ᱞᱟᱹᱜᱤᱫ ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ᱾</string>
-  <!-- Button text on the Firefox Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
+  <!-- Button text on the Aion Labs screen for restoring all toggles back to the default settings. The button will turn off any experimental features. -->
   <string name="firefox_labs_restore_default_button_text">ᱦᱩᱲᱟᱹᱜ ᱠᱚ ᱡᱚᱜᱟᱣ ᱫᱚᱦᱲᱟᱹ</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when toggling "on" or "off" an experimental feature that requires a restart. -->
   <string name="firefox_labs_feature_dialog_title">ᱫᱚᱦᱚᱲᱟ ᱮᱛᱦᱚᱵ ᱢᱮ</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
+  <!-- The text on the dialog on the Aion Labs screen for the positive button when toggling "on" and "off" experimental features. This prompts the user to confirm that they want to restart the app. -->
   <string name="firefox_labs_dialog_restart_button">ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ</string>
-  <!-- The text on the dialog on the Firefox Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
+  <!-- The text on the dialog on the Aion Labs screen for the negative button when toggling "on" and "off" experimental features. This is used to cancel the action and return to the previous screen. -->
   <string name="firefox_labs_dialog_cancel_button">ᱵᱟᱹᱰᱨᱟᱹ</string>
-  <!-- The title used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
+  <!-- The title used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. -->
   <string name="firefox_labs_restore_defaults_dialog_title">ᱫᱚᱦᱚᱲᱟ ᱮᱛᱦᱚᱵ ᱢᱮ</string>
-  <!-- The description used in a confirmation dialog on the Firefox Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description used in a confirmation dialog on the Aion Labs screen when restoring the application to its defaults by turning "off" any experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_restore_defaults_dialog_message">ᱢᱩᱞ ᱛᱮ ᱨᱩᱣᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ, ᱫᱚᱦᱲᱟ ᱪᱟᱹᱞᱩᱭ ᱢᱮ %s ᱾</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "on" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_enable_dialog_message">ᱱᱚᱣᱟ ᱜᱩᱱ ᱪᱟᱹᱞᱩ ᱞᱟᱹᱜᱤᱫ, %s ᱫᱚᱦᱲᱟ ᱪᱟᱹᱞᱩᱭ ᱢᱮ ᱾</string>
-  <!-- The description text that is displayed in the confirmation dialog on the Firefox Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Firefox Nightly") -->
+  <!-- The description text that is displayed in the confirmation dialog on the Aion Labs screen for toggling "off" experimental features. %s is the name of the app (for example "Aion Nightly") -->
   <string name="firefox_labs_feature_disable_dialog_message">ᱱᱚᱣᱟ ᱜᱩᱱ ᱵᱚᱱᱫᱚ ᱞᱟᱹᱜᱤᱫ, %s ᱫᱚᱦᱲᱟ ᱪᱟᱹᱞᱩᱭ ᱢᱮ ᱾</string>
-  <!-- Helper text shown beneath a Firefox Labs item when it is blocked from being turned on. -->
+  <!-- Helper text shown beneath a Aion Labs item when it is blocked from being turned on. -->
   <string name="firefox_labs_feature_conflict">ᱯᱷᱤᱪᱟᱨ ᱫᱚ ᱪᱮᱥᱴᱟ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱝ ᱧᱟᱢᱚᱜ ᱠᱟᱱᱟ ᱾</string>
-  <!-- Text displayed on the Firefox Labs screen when there are no Labs experimental features present. -->
+  <!-- Text displayed on the Aion Labs screen when there are no Labs experimental features present. -->
   <string name="firefox_labs_no_labs_available_description">ᱱᱤᱛᱚᱜ ᱫᱚ ᱪᱮᱥᱴᱟ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱮᱠᱥᱯᱮᱨᱤᱢᱮᱱᱴᱟᱞ ᱯᱷᱤᱪᱟᱨ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
-  <!-- Title of the Firefox Labs Sandboxing experiment. -->
+  <!-- Title of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_title" tools:ignore="UnusedResources">ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱟᱭᱥᱚᱞᱮᱥᱚᱱ</string>
-  <!-- Description of the Firefox Labs Sandboxing experiment. -->
+  <!-- Description of the Aion Labs Sandboxing experiment. -->
   <string name="firefox_labs_website_isolation_description" tools:ignore="UnusedResources">ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱢᱤᱫ ᱵᱟᱹᱲᱛᱤ ᱛᱟᱲᱟᱢ ᱡᱟᱦᱟᱸ ᱫᱚ ᱴᱮᱵᱽ ᱠᱚ ᱨᱮ ᱟᱢᱟᱜ ᱰᱟᱴᱟ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱭᱟ ᱾ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ, ᱥᱛᱷᱤᱨ, ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱵᱮᱥ ᱠᱟᱹᱢᱤᱦᱚᱪᱚ ᱟᱨ ᱵᱽᱨᱟᱣᱩᱡᱤᱝ ᱱᱟᱜᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱨᱩᱟᱠᱷᱤᱭᱟᱹᱟᱜ-ᱟ ᱚᱱᱟ ᱨᱮ ᱯᱨᱚᱵᱷᱟᱣ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱭ ᱾</string>
   <!--
     PDF viewer toolbar and buttons

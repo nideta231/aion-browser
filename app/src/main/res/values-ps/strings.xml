@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_5">شخصي %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Aion"). -->
   <string name="app_name_private_4">%s (شخصي)</string>
   <!--
     Home Fragment
@@ -33,7 +33,7 @@
   <string name="application_search_hint">د پلټلو اصطلاحات دننه کړئ</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">شخصي پلټنه کول</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Aion") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s به ستاسو هېڅ د پلټلو تاريخچه يا کوکيز په ياد و نه ساتي، خو نوي نښه‌ليکونه به خوندي شي.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">د پلټنې پیل کولو لپاره یو نوی ټب جوړ کړئ</string>
@@ -67,7 +67,7 @@
   <string name="home_bookmarks_show_all_content_description">ټولې يادنښې وښایاست</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">لېرې کړئ</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- About content. %1$s is the name of the app (for example "Aion"). -->
   <string name="about_content" tools:ignore="BrandUsage">%1$s د موزیلا لخوا تولید شوی.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">د شخصي پلټنې په اړه عامې افسانې</string>
