@@ -32,6 +32,13 @@ public final class Engine {
     /** Listeners told when the extension list changes. */
     static final List<Runnable> listeners = new ArrayList<>();
 
+    /** The site window currently on screen; extension popups are shown inside it. */
+    interface PopupHost {
+        GeckoResult<GeckoSession> showPopup(String title);
+    }
+
+    static PopupHost host;
+
     private Engine() {}
 
     static synchronized GeckoRuntime get(Context context) {
@@ -113,12 +120,12 @@ public final class Engine {
 
             @Override
             public GeckoResult<GeckoSession> onTogglePopup(WebExtension ext, WebExtension.Action action) {
-                return openPanel(app, ext.metaData != null ? ext.metaData.name : "Extension", null);
+                return popup(app, ext);
             }
 
             @Override
             public GeckoResult<GeckoSession> onOpenPopup(WebExtension ext, WebExtension.Action action) {
-                return openPanel(app, ext.metaData != null ? ext.metaData.name : "Extension", null);
+                return popup(app, ext);
             }
         });
         extension.setTabDelegate(new WebExtension.TabDelegate() {
@@ -134,6 +141,12 @@ public final class Engine {
                 }
             }
         });
+    }
+
+    private static GeckoResult<GeckoSession> popup(Context context, WebExtension ext) {
+        String title = ext.metaData != null ? ext.metaData.name : "Extension";
+        if (host != null) return host.showPopup(title);
+        return openPanel(context, title, null);
     }
 
     /** Shows a popup, options page or extension tab in [PanelActivity]. */

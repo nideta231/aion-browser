@@ -48,7 +48,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
             android:exported="false"
             android:taskAffinity=""
-            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:theme="@android:style/Theme.DeviceDefault"
             android:windowSoftInputMode="adjustResize" />
 
         <service

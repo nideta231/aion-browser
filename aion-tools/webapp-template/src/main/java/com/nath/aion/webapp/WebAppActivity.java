@@ -35,13 +35,18 @@ import org.mozilla.geckoview.WebResponse;
  * live in this app's own profile. Links that leave the site open in Aion; pop-ups opened without a
  * tap are blocked.
  */
-public class WebAppActivity extends Activity {
+public class WebAppActivity extends Activity implements Engine.PopupHost {
+    static final String EXTRA_OPEN_ACTION = "aion.open_action";
     private static final String AION_PACKAGE = "com.nath.aion";
     private static final int FILE_REQUEST = 1;
 
     private GeckoRuntime runtime;
 
     private GeckoView view;
+    private android.widget.FrameLayout root;
+    private android.widget.LinearLayout popupCard;
+    private GeckoSession popupSession;
+    private String pendingAction;
     private GeckoSession session;
     private String startUrl;
     private String siteHost;
@@ -57,7 +62,10 @@ public class WebAppActivity extends Activity {
         siteHost = baseDomain(Uri.parse(startUrl).getHost());
 
         view = new GeckoView(this);
-        setContentView(view);
+        root = new android.widget.FrameLayout(this);
+        root.addView(view);
+        setContentView(root);
+        pendingAction = getIntent().getStringExtra(EXTRA_OPEN_ACTION);
 
         runtime = Engine.get(this);
         publishShortcuts();
@@ -74,6 +82,7 @@ public class WebAppActivity extends Activity {
         session.setMediaSessionDelegate(new Media());
         session.open(runtime);
         view.setSession(session);
+        runtime.getWebExtensionController().setTabActive(session, true);
         session.loadUri(startUrl);
     }
 
@@ -82,11 +91,133 @@ public class WebAppActivity extends Activity {
         super.onNewIntent(intent);
         Uri data = intent.getData();
         if (data != null && session != null) session.loadUri(data.toString());
+        String action = intent.getStringExtra(EXTRA_OPEN_ACTION);
+        if (action != null) pendingAction = action;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Engine.host = this;
+        if (session != null) {
+            session.setActive(true);
+            session.setFocused(true);
+            // Extensions ask "which tab is active?" (popups, Dark Reader's site toggle). Tell them.
+            runtime.getWebExtensionController().setTabActive(session, true);
+        }
+        if (pendingAction != null) {
+            String id = pendingAction;
+            pendingAction = null;
+            // Give Gecko a moment to mark this page as the active tab before the popup asks for it.
+            view.postDelayed(() -> clickAction(id), 400);
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        if (Engine.host == this) Engine.host = null;
+        super.onPause();
+    }
+
+    private void clickAction(String id) {
+        WebExtension.Action action = Engine.actions.get(id);
+        if (action != null) action.click();
+        else Toast.makeText(this, "This extension has no popup", Toast.LENGTH_SHORT).show();
+    }
+
+    /** Ctrl+Shift+X: pick an extension and open its popup over the page. */
+    private void chooseExtension() {
+        java.util.List<String> ids = new java.util.ArrayList<>(Engine.actions.keySet());
+        if (ids.isEmpty()) {
+            startActivity(new Intent(this, ExtensionsActivity.class));
+            return;
+        }
+        runtime.getWebExtensionController().list().accept(list -> runOnUiThread(() -> {
+            java.util.List<String> names = new java.util.ArrayList<>();
+            java.util.List<String> keep = new java.util.ArrayList<>();
+            if (list != null) for (WebExtension ext : list) {
+                if (ids.contains(ext.id) && ext.metaData != null && ext.metaData.enabled) {
+                    keep.add(ext.id);
+                    names.add(ext.metaData.name);
+                }
+            }
+            names.add("Manage extensions…");
+            new AlertDialog.Builder(this)
+                    .setTitle("Extensions")
+                    .setItems(names.toArray(new String[0]), (d, which) -> {
+                        if (which < keep.size()) clickAction(keep.get(which));
+                        else startActivity(new Intent(this, ExtensionsActivity.class));
+                    })
+                    .show();
+        }));
+    }
+
+    /** Extension popup shown as a panel in the top-right of the site window. */
+    @Override
+    public GeckoResult<GeckoSession> showPopup(String title) {
+        closePopup();
+        float d = getResources().getDisplayMetrics().density;
+        popupCard = new android.widget.LinearLayout(this);
+        popupCard.setOrientation(android.widget.LinearLayout.VERTICAL);
+        android.graphics.drawable.GradientDrawable bg = new android.graphics.drawable.GradientDrawable();
+        bg.setColor(0xFF202124);
+        bg.setCornerRadius(14 * d);
+        bg.setStroke(Math.round(d), 0xFF5F6368);
+        popupCard.setBackground(bg);
+        popupCard.setElevation(16 * d);
+        popupCard.setClipToOutline(true);
+
+        android.widget.LinearLayout bar = new android.widget.LinearLayout(this);
+        bar.setGravity(android.view.Gravity.CENTER_VERTICAL);
+        bar.setPadding(Math.round(14 * d), Math.round(4 * d), Math.round(4 * d), Math.round(4 * d));
+        android.widget.TextView name = new android.widget.TextView(this);
+        name.setText(title);
+        name.setTextColor(0xFFE8EAED);
+        bar.addView(name, new android.widget.LinearLayout.LayoutParams(0, -2, 1f));
+        android.widget.Button close = new android.widget.Button(this, null, android.R.attr.borderlessButtonStyle);
+        close.setText("✕");
+        close.setTextColor(0xFFE8EAED);
+        close.setOnClickListener(v -> closePopup());
+        bar.addView(close);
+        popupCard.addView(bar);
+
+        GeckoView popupView = new GeckoView(this);
+        popupCard.addView(popupView, new android.widget.LinearLayout.LayoutParams(-1, 0, 1f));
+
+        int width = Math.min(Math.round(400 * d), root.getWidth() - Math.round(16 * d));
+        int height = Math.min(Math.round(600 * d), root.getHeight() - Math.round(16 * d));
+        android.widget.FrameLayout.LayoutParams lp = new android.widget.FrameLayout.LayoutParams(width, height,
+                android.view.Gravity.TOP | android.view.Gravity.END);
+        lp.setMargins(0, Math.round(8 * d), Math.round(8 * d), 0);
+        root.addView(popupCard, lp);
+
+        popupSession = new GeckoSession();
+        popupSession.setContentDelegate(new GeckoSession.ContentDelegate() {
+            @Override
+            public void onCloseRequest(GeckoSession s) {
+                closePopup();
+            }
+        });
+        popupSession.open(runtime);
+        popupView.setSession(popupSession);
+        return GeckoResult.fromValue(popupSession);
+    }
+
+    private boolean closePopup() {
+        if (popupCard == null) return false;
+        root.removeView(popupCard);
+        popupCard = null;
+        if (popupSession != null) popupSession.close();
+        popupSession = null;
+        if (session != null) session.setActive(true);
+        return true;
     }
 
     @Override
     public void onBackPressed() {
-        if (fullScreen) {
+        if (closePopup()) {
+            return;
+        } else if (fullScreen) {
             session.exitFullScreen();
         } else if (canGoBack) {
             session.goBack();
@@ -155,6 +286,10 @@ public class WebAppActivity extends Activity {
     /** Ctrl+Shift+E opens Extensions; F5 / Ctrl+R reloads. */
     @Override
     public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {
+        if (event.isCtrlPressed() && event.isShiftPressed() && keyCode == android.view.KeyEvent.KEYCODE_X) {
+            chooseExtension();
+            return true;
+        }
         if (event.isCtrlPressed() && event.isShiftPressed() && keyCode == android.view.KeyEvent.KEYCODE_E) {
             startActivity(new Intent(this, ExtensionsActivity.class));
             return true;

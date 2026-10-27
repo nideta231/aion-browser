@@ -227,7 +227,12 @@ public class ExtensionsActivity extends Activity {
         LinearLayout buttons = new LinearLayout(this);
         WebExtension.Action action = Engine.actions.get(extension.id);
         if (action != null && meta != null && meta.enabled) {
-            buttons.addView(smallButton("Open", v -> action.click()));
+            buttons.addView(smallButton("Open", v -> {
+                startActivity(new Intent(this, WebAppActivity.class)
+                        .putExtra(WebAppActivity.EXTRA_OPEN_ACTION, extension.id)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
+                finish();
+            }));
         }
         if (meta != null && meta.optionsPageUrl != null && meta.enabled) {
             buttons.addView(smallButton("Settings", v -> Engine.openPanel(this, name, meta.optionsPageUrl)));
