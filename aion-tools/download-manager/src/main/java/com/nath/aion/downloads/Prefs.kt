@@ -19,6 +19,7 @@ class Prefs(context: Context) {
         get() = str("dir", File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "Aion").absolutePath)
         set(v) = sp.edit().putString("dir", v).apply()
     var smartClipboard by BoolPref("smart_clipboard", false)
+    var lastClipboardOffer by StrPref("last_clip_offer", "")
     var captureAllUrls by BoolPref("capture_all_urls", false)
     var excludeExtensions by StrPref("exclude_ext", "")
     var skipEditor by BoolPref("skip_editor", false)

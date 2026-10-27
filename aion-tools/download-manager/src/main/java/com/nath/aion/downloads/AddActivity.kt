@@ -1,5 +1,7 @@
 package com.nath.aion.downloads
 
+import androidx.compose.foundation.clickable
+
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -236,7 +238,10 @@ class AddActivity : ComponentActivity() {
 
 @Composable
 fun LabeledSwitch(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+    Row(
+        Modifier.fillMaxWidth().clickable { onChange(!checked) }.padding(vertical = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
         Text(label, Modifier.weight(1f))
         Switch(checked, onChange)
     }

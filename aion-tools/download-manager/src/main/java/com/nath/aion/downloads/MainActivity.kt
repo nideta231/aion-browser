@@ -90,7 +90,32 @@ class MainActivity : ComponentActivity() {
             runCatching { startActivity(Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, Uri.parse("package:$packageName"))) }
         }
         if (Repository.get(this).all().any { it.state == State.QUEUED }) DownloadService.kick(this)
+        if (Prefs(this).smartClipboard) runCatching { ClipboardService.start(this) }
         setContent { AionTheme { DownloadsScreen() } }
+    }
+
+    private var lastOfferedClip: String? = null
+
+    /**
+     * Android 10+ only lets the focused app read the clipboard, so like 1DM we also check it when
+     * the window gains focus and offer any new download link found there.
+     */
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+        if (!hasFocus) return
+        val prefs = Prefs(this)
+        if (!prefs.smartClipboard) return
+        val text = runCatching {
+            getSystemService(ClipboardManager::class.java).primaryClip?.takeIf { it.itemCount > 0 }
+                ?.getItemAt(0)?.coerceToText(this)?.toString()?.trim()
+        }.getOrNull() ?: return
+        if (text == lastOfferedClip || text == prefs.lastClipboardOffer) return
+        val url = Links.extract(text).firstOrNull() ?: return
+        if (!prefs.captureAllUrls && !Links.looksDownloadable(url)) return
+        if (Repository.get(this).all().any { it.url == url }) return
+        lastOfferedClip = text
+        prefs.lastClipboardOffer = text
+        startActivity(Intent(this, AddActivity::class.java).setData(Uri.parse(url)))
     }
 }
 
