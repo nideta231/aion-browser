@@ -1,0 +1,3 @@
+-keep class org.libtorrent4j.** { *; }
+-keep class com.nath.aion.downloads.** { *; }
+-dontwarn **
