@@ -209,7 +209,7 @@ class AddActivity : ComponentActivity() {
             if (isTorrent) {
                 LabeledSwitch("Sequential download (play while downloading)", sequential) { sequential = it }
                 LabeledSwitch("Seed when finished", seed) { seed = it }
-            } else {
+            } else if (!(single && (first.substringBefore('?').endsWith(".m3u8", true) || request.mime?.contains("mpegurl", true) == true))) {
                 Text("Parts: ${parts.toInt()}")
                 Slider(parts, { parts = it }, valueRange = 1f..32f, steps = 30)
             }
