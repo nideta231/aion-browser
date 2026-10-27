@@ -795,6 +795,16 @@
                 android:resource="@xml/search_widget_info" />
         </receiver>
 
+        <activity
+            android:name=".webapp.InstallWebAppActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Material3.DayNight.Dialog" />
+
+        <receiver
+            android:name=".webapp.WebAppInstallReceiver"
+            android:exported="false" />
+
         <receiver
             android:name=".onboarding.WidgetPinnedReceiver"
             android:exported="false" />

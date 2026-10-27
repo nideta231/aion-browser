@@ -28,3 +28,7 @@
 
 # Keep code generated from Glean Metrics
 -keep class org.mozilla.fenix.GleanMetrics.** {  *; }
+
+# Aion: apksig signs site apps on device
+-keep class com.android.apksig.** { *; }
+-dontwarn com.android.apksig.**

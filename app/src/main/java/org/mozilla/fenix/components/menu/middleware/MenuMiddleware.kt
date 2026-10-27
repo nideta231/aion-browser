@@ -363,23 +363,12 @@ class MenuMiddleware(
     }
 
     private fun addToHomeScreen() {
+        // Aion: "Install as app" builds a real per-site app; the dialog keeps a shortcut-only option.
         settings.installPwaOpened = true
-
-        // A page offering a web app manifest is installed as a PWA right away. Any other is added as a simple shortcut,
-        // for which the user is first asked to confirm the name it will have on the home screen.
-        when (useCases.webAppUseCases.isInstallable()) {
-            true ->
-                scope.launch {
-                    useCases.webAppUseCases.addToHomescreen()
-                    dismissMenu()
-                }
-            else ->
-                navController.nav(
-                    R.id.menuFragment,
-                    MenuFragmentDirections.actionMenuFragmentToCreateShortcutFragment(),
-                    navOptions = NavOptions.Builder().setPopUpTo(R.id.browserFragment, false).build(),
-                )
-        }
+        navController.context.startActivity(
+            android.content.Intent(navController.context, org.mozilla.fenix.webapp.InstallWebAppActivity::class.java),
+        )
+        dismissMenu()
     }
 
     private fun navigateToEditBookmark(guidToEdit: String?) {

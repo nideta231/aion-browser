@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        maven { url = "https://maven.mozilla.org/maven2" }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "aion-webapp-template"

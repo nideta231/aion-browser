@@ -1,0 +1,51 @@
+// Template for Aion's "Install as app". Aion copies this APK, rewrites the placeholder package
+// name, label and start URL, swaps the icon, adds the Gecko engine files from its own APK, then signs it.
+plugins {
+    id "com.android.application" version "9.4.0"
+}
+
+android {
+    namespace = "com.nath.aion.webapp"
+    compileSdk { version = release(37) { minorApiLevel = 2 } }
+
+    defaultConfig {
+        // Long placeholder; Aion replaces every occurrence with the per-site package name.
+        applicationId = "com.nath.aion.webapp.template0000"
+        minSdk = 26
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = true
+            proguardFiles = [getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"]
+            signingConfig = signingConfigs.debug
+        }
+    }
+
+    packaging {
+        jniLibs {
+            useLegacyPackaging = false
+            // The Gecko engine is not shipped in the template; Aion adds its own copy at install time.
+            excludes += ["**/*.so"]
+        }
+        resources {
+            excludes += ["assets/omni.ja"]
+        }
+    }
+
+    androidResources {
+        ignoreAssetsPattern = "omni.ja"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation "org.mozilla.geckoview:geckoview-omni:158.0.20261007201254"
+}

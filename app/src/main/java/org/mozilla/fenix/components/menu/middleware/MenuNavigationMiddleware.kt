@@ -176,17 +176,12 @@ class MenuNavigationMiddleware(
                 }
 
                 is MenuAction.Navigate.AddToHomeScreen -> {
+                    // Aion: "Install as app" builds a real per-site app; the dialog keeps a shortcut-only option.
                     settings.installPwaOpened = true
-                    if (webAppUseCases.isInstallable()) {
-                        webAppUseCases.addToHomescreen()
-                        store.emitEvent(NavigationEvent.Dismiss)
-                    } else {
-                        navController.nav(
-                            R.id.menuDialogFragment,
-                            MenuDialogFragmentDirections.actionMenuDialogFragmentToCreateShortcutFragment(),
-                            navOptions = NavOptions.Builder().setPopUpTo(R.id.browserFragment, false).build(),
+                    navController.context.startActivity(
+                            android.content.Intent(navController.context, org.mozilla.fenix.webapp.InstallWebAppActivity::class.java),
                         )
-                    }
+                    store.emitEvent(NavigationEvent.Dismiss)
                 }
 
                 is MenuAction.Navigate.OpenTabGroupFlow -> {

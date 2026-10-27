@@ -1,0 +1,2 @@
+-keep class com.nath.aion.webapp.** { *; }
+-dontwarn **

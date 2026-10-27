@@ -119,6 +119,7 @@ sentry = "8.55.0"
 zxing = "3.5.4"
 
 [libraries]
+apksig = { module = "com.android.tools.build:apksig", version = "9.4.0" }
 # AGP
 android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
 

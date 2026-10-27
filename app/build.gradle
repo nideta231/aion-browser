@@ -481,6 +481,7 @@ nimbus {
 }
 
 dependencies {
+    implementation libs.apksig
     implementation project('longfox')
     implementation project(':components:browser-engine-gecko')
     implementation project(':components:compose-awesomebar')
