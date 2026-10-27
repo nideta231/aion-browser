@@ -415,6 +415,16 @@ class SettingsFragment : PreferenceFragmentCompat(), SystemInsetsPaddedFragment 
                     SettingsFragmentDirections.actionSettingsFragmentToAccessibilityFragment()
                 }
 
+                resources.getString(R.string.pref_key_aion_keyboard_shortcuts) -> {
+                    startActivity(
+                        android.content.Intent(
+                            requireContext(),
+                            org.mozilla.fenix.shortcuts.KeyboardShortcutsActivity::class.java,
+                        ),
+                    )
+                    null
+                }
+
                 resources.getString(R.string.pref_key_language) -> {
                     SettingsFragmentDirections.actionSettingsFragmentToLocaleSettingsFragment()
                 }

@@ -4,7 +4,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.preference.Preference
         android:key="@string/pref_key_sign_in"
@@ -77,6 +78,12 @@
             android:key="@string/pref_key_accessibility"
             app:iconSpaceReserved="false"
             android:title="@string/preferences_accessibility" />
+
+        <androidx.preference.Preference
+            android:key="@string/pref_key_aion_keyboard_shortcuts"
+            app:iconSpaceReserved="false"
+            android:title="Keyboard shortcuts"
+            tools:ignore="HardcodedText" />
 
         <androidx.preference.Preference
             android:key="@string/pref_key_language"

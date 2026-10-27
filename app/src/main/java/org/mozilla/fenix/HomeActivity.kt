@@ -1334,7 +1334,22 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity, Crash
         return super.dispatchTouchEvent(ev)
     }
 
+    private val keyboardShortcuts by lazy {
+        org.mozilla.fenix.shortcuts.KeyboardShortcutHandler(this) { navHost.navController }
+    }
+
+    override fun onProvideKeyboardShortcuts(
+        data: MutableList<android.view.KeyboardShortcutGroup>,
+        menu: android.view.Menu?,
+        deviceId: Int,
+    ) {
+        super.onProvideKeyboardShortcuts(data, menu, deviceId)
+        if (this !is ExternalAppBrowserActivity) data.add(keyboardShortcuts.provideShortcutGroup())
+    }
+
     override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+        // Aion: hardware keyboard shortcuts (customizable in Settings > Keyboard shortcuts).
+        if (this !is ExternalAppBrowserActivity && keyboardShortcuts.onKeyDown(event)) return true
         // The KEYCODE_MENU event is handled here instead of onKeyDown or onKeyUp because
         // after navigating to another fragment like Settings or Bookmarks, and then back this
         // key event is somehow getting consumed before it reaches onKeyDown or onKeyUp.

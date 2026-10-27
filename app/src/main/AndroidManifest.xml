@@ -801,6 +801,11 @@
             android:excludeFromRecents="true"
             android:theme="@style/Theme.Material3.DayNight.Dialog" />
 
+        <activity
+            android:name=".shortcuts.KeyboardShortcutsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.DayNight" />
+
         <receiver
             android:name=".webapp.WebAppInstallReceiver"
             android:exported="false" />
