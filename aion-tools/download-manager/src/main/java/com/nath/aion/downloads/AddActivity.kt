@@ -158,6 +158,9 @@ class AddActivity : ComponentActivity() {
                 } else if (isMagnet) {
                     status = "Couldn't fetch the file list yet; it will be fetched when the download starts."
                 }
+            } else if (single && (first.substringBefore('?').endsWith(".m3u8", true) || request.mime?.contains("mpegurl", true) == true)) {
+                sizeText = "HLS video stream · saved as .mp4"
+                if (request.fileName == null) name = name.substringBeforeLast(".m3u8") + ".mp4"
             } else if (single) {
                 val probe = DownloadItem(0, first, name, dir, Kind.HTTP, referer = request.referer, userAgent = request.userAgent, cookies = request.cookies, headers = request.headers)
                 runCatching { HttpEngine(prefs, SpeedLimiter { 0 }).probe(probe) }
