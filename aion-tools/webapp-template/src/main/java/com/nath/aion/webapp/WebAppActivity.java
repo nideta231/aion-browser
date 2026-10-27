@@ -37,12 +37,9 @@ import org.mozilla.geckoview.WebResponse;
  */
 public class WebAppActivity extends Activity {
     private static final String AION_PACKAGE = "com.nath.aion";
-    private static final String UBLOCK_URL =
-            "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
-    private static final String UBLOCK_ID = "uBlock0@raymondhill.net";
     private static final int FILE_REQUEST = 1;
 
-    private static GeckoRuntime runtime;
+    private GeckoRuntime runtime;
 
     private GeckoView view;
     private GeckoSession session;
@@ -62,19 +59,8 @@ public class WebAppActivity extends Activity {
         view = new GeckoView(this);
         setContentView(view);
 
-        if (runtime == null) {
-            GeckoRuntimeSettings settings = new GeckoRuntimeSettings.Builder()
-                    .contentBlocking(new ContentBlocking.Settings.Builder()
-                            .antiTracking(ContentBlocking.AntiTracking.STRICT)
-                            .enhancedTrackingProtectionLevel(ContentBlocking.EtpLevel.STRICT)
-                            .cookieBehavior(ContentBlocking.CookieBehavior.ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS)
-                            .build())
-                    .aboutConfigEnabled(false)
-                    .consoleOutput(false)
-                    .build();
-            runtime = GeckoRuntime.create(getApplicationContext(), settings);
-            installAdBlocker();
-        }
+        runtime = Engine.get(this);
+        publishShortcuts();
 
         session = new GeckoSession(new GeckoSessionSettings.Builder()
                 .usePrivateMode(false)
@@ -148,22 +134,37 @@ public class WebAppActivity extends Activity {
         return "about:blank";
     }
 
-    private void installAdBlocker() {
-        runtime.getWebExtensionController().setPromptDelegate(new org.mozilla.geckoview.WebExtensionController.PromptDelegate() {
-            @Override
-            public GeckoResult<WebExtension.PermissionPromptResponse> onInstallPromptRequest(
-                    WebExtension extension, String[] permissions, String[] origins, String[] dataCollection) {
-                return GeckoResult.fromValue(new WebExtension.PermissionPromptResponse(true, false, false));
-            }
-        });
-        runtime.getWebExtensionController().list().accept(extensions -> {
-            if (extensions != null) {
-                for (WebExtension extension : extensions) {
-                    if (UBLOCK_ID.equals(extension.id)) return;
-                }
-            }
-            runtime.getWebExtensionController().install(UBLOCK_URL);
-        });
+    /** Long-press the app icon -> "Extensions" (the site window has no toolbar to hold a menu). */
+    private void publishShortcuts() {
+        if (Build.VERSION.SDK_INT < 25) return;
+        android.content.pm.ShortcutManager manager = getSystemService(android.content.pm.ShortcutManager.class);
+        if (manager == null) return;
+        Intent intent = new Intent(this, ExtensionsActivity.class).setAction(Intent.ACTION_VIEW);
+        android.content.pm.ShortcutInfo info = new android.content.pm.ShortcutInfo.Builder(this, "extensions")
+                .setShortLabel("Extensions")
+                .setLongLabel("Extensions")
+                .setIcon(android.graphics.drawable.Icon.createWithResource(this, android.R.drawable.ic_menu_manage))
+                .setIntent(intent)
+                .build();
+        try {
+            manager.setDynamicShortcuts(java.util.Collections.singletonList(info));
+        } catch (RuntimeException ignored) {
+        }
+    }
+
+    /** Ctrl+Shift+E opens Extensions; F5 / Ctrl+R reloads. */
+    @Override
+    public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {
+        if (event.isCtrlPressed() && event.isShiftPressed() && keyCode == android.view.KeyEvent.KEYCODE_E) {
+            startActivity(new Intent(this, ExtensionsActivity.class));
+            return true;
+        }
+        if (keyCode == android.view.KeyEvent.KEYCODE_F5
+                || event.isCtrlPressed() && keyCode == android.view.KeyEvent.KEYCODE_R) {
+            session.reload();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     /** example.co.uk -> example.co.uk, music.youtube.com -> youtube.com. Good enough for "same site". */

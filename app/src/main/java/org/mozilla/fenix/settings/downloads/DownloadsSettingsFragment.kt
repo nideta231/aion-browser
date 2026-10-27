@@ -17,6 +17,8 @@ import androidx.navigation.fragment.navArgs
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 import mozilla.components.support.base.log.logger.Logger
 import mozilla.components.support.ktx.kotlin.ifNullOrEmpty
 import org.mozilla.fenix.R
@@ -88,10 +90,39 @@ class DownloadsSettingsFragment : PreferenceFragmentCompat(), SystemInsetsPadded
         }
 
         setUpDeleteBehaviorPreference()
+        setUpSeparateAppPreference()
 
         val fileStorageCategory =
             findPreference<PreferenceCategory>(getString(R.string.pref_key_downloads_storage_category))
         fileStorageCategory?.isVisible = FxNimbus.features.downloadsCustomLocation.value().enabled
+    }
+
+    /** Switch on = install the bundled Aion Downloads app; off = ask the system to uninstall it. */
+    private fun setUpSeparateAppPreference() {
+        findPreference<androidx.preference.SwitchPreferenceCompat>(SEPARATE_APP_KEY)?.apply {
+            onPreferenceChangeListener = Preference.OnPreferenceChangeListener { _, value ->
+                val context = requireContext().applicationContext
+                if (value == true) {
+                    Toast.makeText(context, "Installing Aion Downloads…", Toast.LENGTH_SHORT).show()
+                    viewLifecycleOwner.lifecycleScope.launch {
+                        runCatching { org.mozilla.fenix.downloads.AionDownloadsInstaller.install(context) }
+                            .onFailure {
+                                Toast.makeText(context, "Couldn't install Aion Downloads: ${it.message}", Toast.LENGTH_LONG).show()
+                            }
+                    }
+                } else {
+                    org.mozilla.fenix.downloads.AionDownloadsInstaller.uninstall(requireContext())
+                }
+                false // the switch follows the real install state, refreshed in onResume
+            }
+        }
+        updateSeparateAppPreference()
+    }
+
+    private fun updateSeparateAppPreference() {
+        val installed = org.mozilla.fenix.downloads.AionDownloadsBridge.isInstalled(requireContext())
+        findPreference<androidx.preference.SwitchPreferenceCompat>(SEPARATE_APP_KEY)?.isChecked = installed
+        findPreference<Preference>(org.mozilla.fenix.downloads.AionDownloadsBridge.PREF_KEY)?.isEnabled = installed
     }
 
     private fun setUpDeleteBehaviorPreference() {
@@ -106,6 +137,7 @@ class DownloadsSettingsFragment : PreferenceFragmentCompat(), SystemInsetsPadded
         super.onResume()
         showToolbar(getString(R.string.preferences_downloads_2))
         updateDownloadsLocationSummary()
+        updateSeparateAppPreference()
         args.preferenceToScrollTo?.let {
             scrollToPreferenceWithHighlight(it)
         }
@@ -126,5 +158,9 @@ class DownloadsSettingsFragment : PreferenceFragmentCompat(), SystemInsetsPadded
                 requireComponents.settings.downloadsDefaultLocation = defaultLocation
                 downloadLocationFormatter.getFriendlyPath(defaultLocation)
             }
+    }
+
+    companion object {
+        private const val SEPARATE_APP_KEY = "pref_key_aion_downloads_separate_app"
     }
 }

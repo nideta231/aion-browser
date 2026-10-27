@@ -33,12 +33,20 @@
     </androidx.preference.PreferenceCategory>
 
     <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="pref_key_aion_downloads_separate_app"
+        android:persistent="false"
+        android:title="Add Aion Download Manager as separate app"
+        android:summary="Installs Aion Downloads: multipart downloads, resume, scheduler, clipboard links, HLS video and torrents"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true" />
+
+    <SwitchPreferenceCompat
         android:defaultValue="true"
         android:key="pref_key_aion_downloads_app"
         android:title="Use Aion Downloads"
-        android:summary="Send downloads to the Aion Downloads app (multipart, resume, scheduler, torrents) when it is installed"
-        app:iconSpaceReserved="false"
-        app:allowDividerAbove="true" />
+        android:summary="Send downloads from Aion to the Aion Downloads app"
+        app:iconSpaceReserved="false" />
 
     <SwitchPreferenceCompat
         android:defaultValue="false"

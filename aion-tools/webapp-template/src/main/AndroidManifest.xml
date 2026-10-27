@@ -35,6 +35,22 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ExtensionsActivity"
+            android:exported="false"
+            android:label="Extensions"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.DeviceDefault"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".PanelActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:exported="false"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:windowSoftInputMode="adjustResize" />
+
         <service
             android:name=".MediaPlaybackService"
             android:exported="false"
