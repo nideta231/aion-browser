@@ -79,6 +79,17 @@ internal fun MoreSettingsSubmenu(
             isPinned = isPinned,
             onShortcutsMenuClick = onShortcutsMenuClick,
         )
+        // Aion: 1DM-style media grabber.
+        val grabberContext = androidx.compose.ui.platform.LocalContext.current
+        MenuItem(
+            label = "Download video/audio",
+            beforeIconPainter = painterResource(id = iconsR.drawable.mozac_ic_download_24),
+            onClick = {
+                var c: android.content.Context? = grabberContext
+                while (c is android.content.ContextWrapper && c !is android.app.Activity) c = c.baseContext
+                (c as? android.app.Activity)?.let { org.mozilla.fenix.downloads.MediaGrabber.show(it) }
+            },
+        )
         AddToHomeScreenMenuItem(
             isAddToHomeScreenSupported = isAddToHomeScreenSupported,
             isInstallable = isInstallable,

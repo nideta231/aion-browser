@@ -491,6 +491,9 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity, Crash
         // the `setContent` starts attaching fragments.
         EdgeToEdgeFragmentLifecycleCallbacks.register(supportFragmentManager, window)
 
+        // Aion: built-in extension that spots video/audio streams for the media grabber.
+        org.mozilla.fenix.downloads.MediaGrabber.install(components.core.engine)
+
         // Checks if Activity is currently in PiP mode if launched from external intents, then exits it
         checkAndExitPiP()
 
