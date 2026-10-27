@@ -125,13 +125,12 @@ abstract class AddonPopupBaseFragment :
                     downloadFileUtils = downloadFileUtils,
                     fragmentManager = childFragmentManager,
                     tabId = it.id,
-                    downloadManager =
-                        FetchDownloadManager(
+                    downloadManager = org.mozilla.fenix.downloads.AionDownloadsBridge(requireContext().applicationContext, FetchDownloadManager(
                             requireContext().applicationContext,
                             provideBrowserStore(),
                             DownloadService::class,
                             notificationsDelegate = requireContext().components.notificationsDelegate,
-                        ),
+                        )),
                     shouldForwardToThirdParties = {
                         PreferenceManager.getDefaultSharedPreferences(requireContext())
                             .getBoolean(

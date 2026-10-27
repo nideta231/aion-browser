@@ -33,6 +33,14 @@
     </androidx.preference.PreferenceCategory>
 
     <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="pref_key_aion_downloads_app"
+        android:title="Use Aion Downloads"
+        android:summary="Send downloads to the Aion Downloads app (multipart, resume, scheduler, torrents) when it is installed"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true" />
+
+    <SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="@string/pref_key_external_download_manager"
         android:title="@string/preferences_choose_app_for_downloads"

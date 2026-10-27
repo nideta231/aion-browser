@@ -724,13 +724,12 @@ abstract class BaseBrowserFragment :
                 fragmentManager = childFragmentManager,
                 tabId = customTabSessionId,
                 downloadFileUtils = downloadFileUtils,
-                downloadManager =
-                    FetchDownloadManager(
+                downloadManager = org.mozilla.fenix.downloads.AionDownloadsBridge(context.applicationContext, FetchDownloadManager(
                         context.applicationContext,
                         store,
                         DownloadService::class,
                         notificationsDelegate = context.components.notificationsDelegate,
-                    ),
+                    )),
                 shouldForwardToThirdParties = {
                     PreferenceManager.getDefaultSharedPreferences(context)
                         .getBoolean(
