@@ -98,13 +98,23 @@ object MediaGrabber {
     }
 
     /** (videos, audio-only) choice counts, for the floating button text. */
-    fun choiceCount(found: Found): Pair<Int, Int> {
-        val list = choices(found.items)
+    fun choiceCount(found: Found, pageUrl: String? = null): Pair<Int, Int> {
+        val list = choices(found.items, pageUrl)
         val audio = list.count { it.audio == null && it.video.kind == "Audio" }
         return (list.size - audio) to audio
     }
 
-    private fun choices(items: List<Media>): List<Choice> {
+    private val youtubePage = Regex("^https?://(m\\.|www\\.|music\\.)?(youtube\\.com/(watch|shorts/|live/)|youtu\\.be/)", RegexOption.IGNORE_CASE)
+
+    /** YouTube watch pages: Aion Downloads reads the real file links from the page itself. */
+    fun isYouTubePage(url: String?) = url != null && youtubePage.containsMatchIn(url)
+
+    private fun choices(items: List<Media>, pageUrl: String? = null): List<Choice> {
+        if (isYouTubePage(pageUrl)) {
+            val page = Media(pageUrl!!, "Video", "", -1, pageUrl, youtube = false)
+            return listOf(Choice("YouTube video · choose quality in Aion Downloads", page, null)) +
+                items.filter { !it.youtube }.map { Choice(label(it), it, null) }
+        }
         val normal = items.filter { !it.youtube }.map { Choice(label(it), it, null) }
         val yt = items.filter { it.youtube }
         val audios = yt.filter { it.kind == "Audio" }
@@ -130,7 +140,7 @@ object MediaGrabber {
         }
         find(tab.content.url) { found ->
             if (activity.isFinishing || activity.isDestroyed) return@find
-            val list = choices(found.items)
+            val list = choices(found.items, tab.content.url)
             val builder = AlertDialog.Builder(activity)
             if (list.isEmpty()) {
                 builder.setTitle("No media found yet").setMessage(
@@ -143,7 +153,12 @@ object MediaGrabber {
             } else {
                 builder.setTitle("Media on this page (${list.size})")
                     .setItems(list.map { it.label }.toTypedArray()) { _, which ->
-                        chooseAction(activity, list[which], tab.content.title)
+                        val choice = list[which]
+                        if (isYouTubePage(choice.video.url)) {
+                            download(activity, choice, tab.content.title)
+                        } else {
+                            chooseAction(activity, choice, tab.content.title)
+                        }
                     }
                     .setNegativeButton(android.R.string.cancel, null)
             }

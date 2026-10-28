@@ -60,7 +60,9 @@ class AddActivity : ComponentActivity() {
         }
         val prefs = Prefs(this)
         // "Skip download editor": add straight away like 1DM.
-        if (prefs.skipEditor && request.urls.size == 1 && request.torrentBytes == null && !request.urls[0].startsWith("magnet:")) {
+        if (prefs.skipEditor && request.urls.size == 1 && request.torrentBytes == null && !request.urls[0].startsWith("magnet:") &&
+            !YouTube.isYouTube(request.urls[0])
+        ) {
             Adder.add(this, request.urls[0], request.fileName, prefs.downloadDir, prefs.parts, request, scheduled = false, start = prefs.autoStart)
             finish()
             return
@@ -138,6 +140,9 @@ class AddActivity : ComponentActivity() {
         var sequential by remember { mutableStateOf(prefs.sequentialDefault) }
         var seed by remember { mutableStateOf(prefs.seedFinished) }
         var status by remember { mutableStateOf<String?>(null) }
+        val isYouTube = single && YouTube.isYouTube(first)
+        var ytOptions by remember { mutableStateOf<List<YouTube.Option>?>(null) }
+        var ytChoice by remember { mutableStateOf(0) }
 
         LaunchedEffect(Unit) {
             if (isTorrent) {
@@ -165,6 +170,21 @@ class AddActivity : ComponentActivity() {
             } else if (single && (first.substringBefore('?').endsWith(".m3u8", true) || request.mime?.contains("mpegurl", true) == true)) {
                 sizeText = "HLS video stream · saved as .mp4"
                 if (request.fileName == null) name = name.substringBeforeLast(".m3u8") + ".mp4"
+            } else if (isYouTube) {
+                status = "Getting YouTube qualities…"
+                runCatching { YouTube.resolve(first) }
+                    .onSuccess { result ->
+                        if (request.fileName == null || name.isBlank() || name.startsWith("watch")) {
+                            name = HttpEngine.sanitize(result.title)
+                        }
+                        ytOptions = result.options
+                        // Default: the smallest MP4 that has 720p or less, to keep data low.
+                        ytChoice = result.options.indexOfFirst { it.label.startsWith("720p") && it.ext == "mp4" }
+                            .takeIf { it >= 0 } ?: 0
+                        sizeText = if (result.options.isEmpty()) "No downloadable formats" else "YouTube · pick a quality"
+                    }
+                    .onFailure { sizeText = "Couldn't read this YouTube video (${it.message ?: it.javaClass.simpleName})" }
+                status = null
             } else if (single) {
                 val probe = DownloadItem(0, first, name, dir, Kind.HTTP, referer = request.referer, userAgent = request.userAgent, cookies = request.cookies, headers = request.headers)
                 runCatching { HttpEngine(prefs, SpeedLimiter { 0 }).probe(probe) }
@@ -210,6 +230,19 @@ class AddActivity : ComponentActivity() {
                     }
                 }
             }
+            ytOptions?.let { options ->
+                LazyColumn(Modifier.heightIn(max = 300.dp)) {
+                    items(options.size) { i ->
+                        Row(
+                            Modifier.fillMaxWidth().clickable { ytChoice = i }.padding(vertical = 2.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            androidx.compose.material3.RadioButton(ytChoice == i, { ytChoice = i })
+                            Text(options[i].label)
+                        }
+                    }
+                }
+            }
             if (isTorrent) {
                 LabeledSwitch("Sequential download (play while downloading)", sequential) { sequential = it }
                 LabeledSwitch("Seed when finished", seed) { seed = it }
@@ -223,7 +256,15 @@ class AddActivity : ComponentActivity() {
                 TextButton({ finish() }) { Text("Cancel") }
                 Button({
                     val links = url.lines().map { it.trim() }.filter { it.isNotEmpty() }.flatMap { Links.expandBatch(it) }
-                    if (isTorrent) {
+                    val yt = ytOptions?.getOrNull(ytChoice)
+                    if (isYouTube && yt == null) return@Button
+                    if (yt != null) {
+                        val base = name.ifBlank { "YouTube video" }.substringBeforeLast(".mp4").substringBeforeLast(".webm")
+                        Adder.add(
+                            this@AddActivity, yt.videoUrl, "$base.${yt.ext}", dir, parts.toInt(),
+                            request.copy(referer = first, audioUrl = yt.audioUrl, mime = null), scheduled, start,
+                        )
+                    } else if (isTorrent) {
                         Adder.addTorrent(this@AddActivity, first, torrentBytes, name, dir, selected.toList().takeIf { torrentFiles != null }, sequential, seed, scheduled, start)
                     } else {
                         links.forEach { link ->

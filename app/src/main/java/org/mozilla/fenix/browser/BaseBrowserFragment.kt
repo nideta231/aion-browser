@@ -479,7 +479,7 @@ abstract class BaseBrowserFragment :
                             if (_binding == null) return@find
                             lastUrl = url
                             lastGeneration = found.generation
-                            val (video, audio) = org.mozilla.fenix.downloads.MediaGrabber.choiceCount(found)
+                            val (video, audio) = org.mozilla.fenix.downloads.MediaGrabber.choiceCount(found, url)
                             val hidden = url == hiddenUrl && found.generation == hiddenGeneration
                             if (video + audio == 0 || hidden) {
                                 button.visibility = View.GONE

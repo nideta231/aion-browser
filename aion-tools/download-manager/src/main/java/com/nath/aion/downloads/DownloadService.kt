@@ -393,6 +393,8 @@ class DownloadService : Service() {
 }
 
 object Format {
+    fun sizeSuffix(bytes: Long) = if (bytes > 0) " · " + size(bytes) else ""
+
     fun size(bytes: Long): String {
         if (bytes < 0) return "?"
         val units = arrayOf("B", "KB", "MB", "GB", "TB")
