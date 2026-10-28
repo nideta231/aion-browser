@@ -884,6 +884,8 @@ open class FenixApplication : Application(), Provider, ThemeProvider {
                     components.useCases.tabsUseCases.selectTab(sessionId)
                 },
                 onExtensionsLoaded = { extensions ->
+                    // Aion: built-in ad blocker (uBlock Origin) on first run, like Brave's shields.
+                    org.mozilla.fenix.shields.Shields.applyAdBlocker(this, components.core.engine)
                     components.addonUpdater.registerForFutureUpdates(extensions)
                     subscribeForNewAddonsIfNeeded(components.supportedAddonsChecker, extensions)
                 },

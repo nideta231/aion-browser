@@ -148,6 +148,16 @@
             android:title="@string/preference_doh_title" />
 
         <androidx.preference.Preference
+            android:key="pref_key_aion_shields"
+            app:iconSpaceReserved="false"
+            android:title="Ad &amp; pop-up blocking"
+            android:summary="Built-in ad blocker and pop-up blocker with allowed sites">
+            <intent
+                android:targetPackage="com.nath.aion"
+                android:targetClass="org.mozilla.fenix.shields.ShieldsSettingsActivity" />
+        </androidx.preference.Preference>
+
+        <androidx.preference.Preference
             android:key="@string/pref_key_tracking_protection_settings"
             app:iconSpaceReserved="false"
             android:title="@string/preference_enhanced_tracking_protection" />

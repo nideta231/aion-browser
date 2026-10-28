@@ -371,6 +371,7 @@ class Core(
                     searchEngineSelectorConfig = getSearchEngineSelectorConfig(),
                 ),
                 RecordingDevicesMiddleware(context, context.components.notificationsDelegate),
+                org.mozilla.fenix.shields.ShieldsMiddleware(context),
                 PromptMiddleware(),
                 AdsTelemetryMiddleware(adsTelemetry),
                 LastMediaAccessMiddleware(),

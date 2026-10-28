@@ -1,0 +1,135 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+package org.mozilla.fenix.shields
+
+import android.content.Context
+import android.net.Uri
+import android.os.Handler
+import android.os.Looper
+import android.widget.Toast
+import mozilla.components.browser.state.action.BrowserAction
+import mozilla.components.browser.state.action.ContentAction
+import mozilla.components.browser.state.action.WebExtensionAction
+import mozilla.components.browser.state.selector.findTabOrCustomTab
+import mozilla.components.browser.state.state.BrowserState
+import mozilla.components.browser.state.state.extension.WebExtensionPromptRequest
+import mozilla.components.concept.engine.Engine
+import mozilla.components.concept.engine.prompt.PromptRequest
+import mozilla.components.concept.engine.webextension.InstallationMethod
+import mozilla.components.concept.engine.webextension.PermissionPromptResponse
+import mozilla.components.lib.state.Middleware
+import mozilla.components.lib.state.Store
+
+/**
+ * Aion "Shields", like Brave's: a popup blocker with a per-site allow list and a built-in ad blocker
+ * (uBlock Origin, installed and enabled automatically on first run).
+ */
+object Shields {
+    const val UBLOCK_ID = "uBlock0@raymondhill.net"
+    private const val UBLOCK_URL = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+    private const val PREFS = "aion_shields"
+    private const val KEY_POPUPS = "block_popups"
+    private const val KEY_ADS = "block_ads"
+    private const val KEY_ALLOWED = "popup_allowed_sites"
+    private const val KEY_BLOCKED_COUNT = "popups_blocked"
+
+    /** True while Aion itself is installing uBlock, so its permission prompt is approved silently. */
+    @Volatile var installingAdBlocker = false
+
+    private fun prefs(context: Context) = context.applicationContext.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+
+    fun blockPopups(context: Context) = prefs(context).getBoolean(KEY_POPUPS, true)
+    fun setBlockPopups(context: Context, value: Boolean) = prefs(context).edit().putBoolean(KEY_POPUPS, value).apply()
+
+    fun blockAds(context: Context) = prefs(context).getBoolean(KEY_ADS, true)
+
+    fun popupsBlocked(context: Context) = prefs(context).getInt(KEY_BLOCKED_COUNT, 0)
+
+    fun allowedSites(context: Context): Set<String> = prefs(context).getStringSet(KEY_ALLOWED, emptySet()) ?: emptySet()
+
+    fun setAllowed(context: Context, host: String, allowed: Boolean) {
+        val set = allowedSites(context).toMutableSet()
+        if (allowed) set.add(host) else set.remove(host)
+        prefs(context).edit().putStringSet(KEY_ALLOWED, set).apply()
+    }
+
+    fun hostOf(url: String?): String? = url?.let { Uri.parse(it).host?.lowercase()?.removePrefix("www.") }
+
+    /** Installs uBlock Origin if missing (first run) or re-enables it when the switch is turned on. */
+    fun applyAdBlocker(context: Context, engine: Engine) {
+        val on = blockAds(context)
+        engine.listInstalledWebExtensions(onSuccess = { list ->
+            val ublock = list.firstOrNull { it.id == UBLOCK_ID }
+            when {
+                ublock == null && on -> {
+                    installingAdBlocker = true
+                    engine.installWebExtension(
+                        UBLOCK_URL,
+                        InstallationMethod.MANAGER,
+                        onSuccess = { installingAdBlocker = false },
+                        onError = { installingAdBlocker = false },
+                    )
+                }
+                ublock != null && on && !ublock.isEnabled() -> engine.enableWebExtension(ublock)
+                ublock != null && !on && ublock.isEnabled() -> engine.disableWebExtension(ublock, onSuccess = {})
+            }
+        })
+    }
+
+    fun setBlockAds(context: Context, engine: Engine, value: Boolean) {
+        prefs(context).edit().putBoolean(KEY_ADS, value).apply()
+        applyAdBlocker(context, engine)
+    }
+
+    internal fun countBlocked(context: Context) =
+        prefs(context).edit().putInt(KEY_BLOCKED_COUNT, popupsBlocked(context) + 1).apply()
+}
+
+/**
+ * Denies pop-up windows the page opened without the user's tap (Gecko only asks Aion about those),
+ * unless the site is on the allow list, and approves the built-in ad blocker's install prompt.
+ */
+class ShieldsMiddleware(private val context: Context) : Middleware<BrowserState, BrowserAction> {
+    private val main = Handler(Looper.getMainLooper())
+    private var lastToast = 0L
+
+    override fun invoke(store: Store<BrowserState, BrowserAction>, next: (BrowserAction) -> Unit, action: BrowserAction) {
+        if (action is ContentAction.UpdatePromptRequestAction) {
+            val request = action.promptRequest
+            if (request is PromptRequest.Popup && Shields.blockPopups(context)) {
+                val host = Shields.hostOf(store.state.findTabOrCustomTab(action.sessionId)?.content?.url)
+                if (host == null || host !in Shields.allowedSites(context)) {
+                    Shields.countBlocked(context)
+                    main.post { request.onDeny() }
+                    val now = System.currentTimeMillis()
+                    if (now - lastToast > 4000) {
+                        lastToast = now
+                        main.post {
+                            Toast.makeText(context, "Pop-up blocked · allow it in Settings → Ad & pop-up blocking", Toast.LENGTH_SHORT).show()
+                        }
+                    }
+                    return
+                }
+            }
+        }
+        if (action is WebExtensionAction.UpdatePromptRequestWebExtensionAction) {
+            val request = action.promptRequest
+            if (Shields.installingAdBlocker &&
+                request is WebExtensionPromptRequest.AfterInstallation.Permissions.Required &&
+                request.extension.id == Shields.UBLOCK_ID
+            ) {
+                main.post { request.onConfirm(PermissionPromptResponse(isPermissionsGranted = true, isPrivateModeGranted = true)) }
+                return
+            }
+            if (request is WebExtensionPromptRequest.AfterInstallation.PostInstallation &&
+                request.extension.id == Shields.UBLOCK_ID && Shields.installingAdBlocker
+            ) {
+                Shields.installingAdBlocker = false
+                return
+            }
+        }
+        next(action)
+    }
+}

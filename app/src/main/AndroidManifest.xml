@@ -796,6 +796,12 @@
         </receiver>
 
         <activity
+            android:name=".shields.ShieldsSettingsActivity"
+            android:exported="false"
+            android:label="Ad &amp; pop-up blocking"
+            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
+
+        <activity
             android:name=".webapp.InstallWebAppActivity"
             android:exported="false"
             android:excludeFromRecents="true"
