@@ -108,6 +108,7 @@ enum class ShortcutAction(val label: String, vararg val defaults: KeyCombo) {
     HOME("Home page", KeyCombo(KeyEvent.KEYCODE_MOVE_HOME, alt = true)),
     PRINT("Print / save as PDF", KeyCombo(KeyEvent.KEYCODE_P, ctrl = true)),
     INSTALL_AS_APP("Install site as app", KeyCombo(KeyEvent.KEYCODE_I, ctrl = true, shift = true)),
+    SHIELDS("Shields for this site", KeyCombo(KeyEvent.KEYCODE_S, ctrl = true, shift = true)),
     GRAB_MEDIA("Download video/audio on this page", KeyCombo(KeyEvent.KEYCODE_M, ctrl = true, shift = true)),
     ;
 

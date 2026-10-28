@@ -21,7 +21,7 @@ function kindOf(url, type) {
 function tabEntry(tabId) {
   let entry = tabs.get(tabId);
   if (!entry) {
-    entry = { page: "", generation: 0, items: new Map(), ytBlocked: false };
+    entry = { page: "", generation: 0, items: new Map(), ytBlocked: false, drm: "" };
     tabs.set(tabId, entry);
   }
   return entry;
@@ -40,6 +40,7 @@ browser.webRequest.onHeadersReceived.addListener(details => {
     entry.generation++;
     entry.items.clear();
     entry.ytBlocked = false;
+    entry.drm = "";
     return;
   }
   if (/\.googlevideo\.com$/i.test(new URL(details.url).hostname)) {
@@ -115,10 +116,25 @@ function youtube(details) {
   });
 }
 
+let shields = { enabled: true, allowed: [] };
+
+browser.runtime.onMessage.addListener((message, sender) => {
+  if (!message) return;
+  if (message.type === "drm" && sender.tab) tabEntry(sender.tab.id).drm = message.keySystem || "DRM";
+  if (message.type === "shieldsConfig") return Promise.resolve(shields);
+  if (message.type === "popupBlocked") {
+    try { port.postMessage({ type: "popupBlocked", url: message.url, page: message.page }); } catch (e) {}
+  }
+});
+
 browser.tabs.onRemoved.addListener(tabId => tabs.delete(tabId));
 
 const port = browser.runtime.connectNative("aionMedia");
 port.onMessage.addListener(async message => {
+  if (message && message.type === "shields") {
+    shields = { enabled: !!message.enabled, allowed: message.allowed || [] };
+    return;
+  }
   if (!message || message.type !== "list") return;
   let tabId = -1;
   try {
@@ -137,5 +153,6 @@ port.onMessage.addListener(async message => {
     items,
     generation: entry ? entry.generation : 0,
     ytBlocked: entry ? entry.ytBlocked : false,
+    drm: entry ? entry.drm : "",
   });
 });

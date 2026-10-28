@@ -85,6 +85,7 @@ class KeyboardShortcutHandler(private val activity: HomeActivity, private val na
             ShortcutAction.INSTALL_AS_APP -> if (tab != null) {
                 activity.startActivity(Intent(activity, InstallWebAppActivity::class.java))
             }
+            ShortcutAction.SHIELDS -> org.mozilla.fenix.shields.ShieldsPanel.show(activity)
             ShortcutAction.GRAB_MEDIA -> org.mozilla.fenix.downloads.MediaGrabber.show(activity)
         }
     }

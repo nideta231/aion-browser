@@ -49,7 +49,7 @@ object MediaGrabber {
     )
 
     /** What the extension found on a tab. [generation] changes each time the page (re)loads. */
-    data class Found(val items: List<Media>, val generation: Int, val youtubeBlocked: Boolean)
+    data class Found(val items: List<Media>, val generation: Int, val youtubeBlocked: Boolean, val drm: String = "")
 
     /** A downloadable choice shown to the user (YouTube video + audio are paired here). */
     private data class Choice(val label: String, val video: Media, val audio: Media?)
@@ -63,11 +63,34 @@ object MediaGrabber {
     fun autoDetect(context: Context) =
         PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_AUTO_DETECT, true)
 
-    fun install(runtime: WebExtensionRuntime) {
+    private var appContext: Context? = null
+
+    /** Sends the pop-up blocker switch and allowed sites to the page scripts. */
+    fun pushShields(context: Context) {
+        val allowed = org.json.JSONArray(org.mozilla.fenix.shields.Shields.allowedSites(context).toList())
+        controller.sendBackgroundMessage(
+            JSONObject().put("type", "shields")
+                .put("enabled", org.mozilla.fenix.shields.Shields.blockPopups(context))
+                .put("allowed", allowed),
+        )
+    }
+
+    fun install(context: Context, runtime: WebExtensionRuntime) {
+        appContext = context.applicationContext
         controller.registerBackgroundMessageHandler(
             object : MessageHandler {
+                override fun onPortConnected(port: Port) {
+                    appContext?.let { pushShields(it) }
+                }
+
                 override fun onPortMessage(message: Any, port: Port) {
                     val json = message as? JSONObject ?: return
+                    if (json.optString("type") == "popupBlocked") {
+                        appContext?.let { ctx ->
+                            main.post { org.mozilla.fenix.shields.Shields.onPopupBlocked(ctx, json.optString("page")) }
+                        }
+                        return
+                    }
                     if (json.optString("type") != "media") return
                     val callback = pending.remove(json.optInt("id")) ?: return
                     val array = json.optJSONArray("items")
@@ -80,7 +103,7 @@ object MediaGrabber {
                             )
                         }
                     }
-                    val found = Found(items, json.optInt("generation"), json.optBoolean("ytBlocked"))
+                    val found = Found(items, json.optInt("generation"), json.optBoolean("ytBlocked"), json.optString("drm"))
                     main.post { callback(found) }
                 }
             },
@@ -99,7 +122,7 @@ object MediaGrabber {
 
     /** (videos, audio-only) choice counts, for the floating button text. */
     fun choiceCount(found: Found, pageUrl: String? = null): Pair<Int, Int> {
-        val list = choices(found.items, pageUrl)
+        val list = choices(found.items, pageUrl, found.drm)
         val audio = list.count { it.audio == null && it.video.kind == "Audio" }
         return (list.size - audio) to audio
     }
@@ -109,7 +132,19 @@ object MediaGrabber {
     /** YouTube watch pages: Aion Downloads reads the real file links from the page itself. */
     fun isYouTubePage(url: String?) = url != null && youtubePage.containsMatchIn(url)
 
-    private fun choices(items: List<Media>, pageUrl: String? = null): List<Choice> {
+    private fun drmName(keySystem: String) = when {
+        "widevine" in keySystem -> "Widevine"
+        "playready" in keySystem -> "PlayReady"
+        "clearkey" in keySystem -> "ClearKey"
+        else -> "DRM"
+    }
+
+    private fun choices(items: List<Media>, pageUrl: String? = null, drm: String = ""): List<Choice> {
+        if (drm.isNotEmpty()) {
+            // Protected stream: the licence key never leaves the site's player, so no download/copy.
+            val locked = Media(pageUrl ?: "", "DRM", drm, -1, pageUrl ?: "")
+            return listOf(Choice("🔒 Protected stream (${drmName(drm)}) · watch only", locked, null))
+        }
         if (isYouTubePage(pageUrl)) {
             val page = Media(pageUrl!!, "Video", "", -1, pageUrl, youtube = false)
             return listOf(Choice("YouTube video · choose quality in Aion Downloads", page, null)) +
@@ -140,7 +175,7 @@ object MediaGrabber {
         }
         find(tab.content.url) { found ->
             if (activity.isFinishing || activity.isDestroyed) return@find
-            val list = choices(found.items, tab.content.url)
+            val list = choices(found.items, tab.content.url, found.drm)
             val builder = AlertDialog.Builder(activity)
             if (list.isEmpty()) {
                 builder.setTitle("No media found yet").setMessage(
@@ -154,7 +189,9 @@ object MediaGrabber {
                 builder.setTitle("Media on this page (${list.size})")
                     .setItems(list.map { it.label }.toTypedArray()) { _, which ->
                         val choice = list[which]
-                        if (isYouTubePage(choice.video.url)) {
+                        if (choice.video.kind == "DRM") {
+                            watchOnly(activity, choice.video.mime)
+                        } else if (isYouTubePage(choice.video.url)) {
                             download(activity, choice, tab.content.title)
                         } else {
                             chooseAction(activity, choice, tab.content.title)
@@ -165,6 +202,39 @@ object MediaGrabber {
             if (onHide != null) builder.setNeutralButton("Hide icon") { _, _ -> onHide() }
             builder.show()
         }
+    }
+
+    /** Protected streams: control the site's own player only (no download, no link). */
+    private fun watchOnly(activity: Activity, keySystem: String) {
+        val tab = activity.components.core.store.state.selectedTab
+        val media = tab?.mediaSessionState
+        AlertDialog.Builder(activity)
+            .setTitle("🔒 Protected stream · watch only")
+            .setMessage(
+                "This site protects its video with ${drmName(keySystem)}. It plays here in the site's player, " +
+                    "but it can't be downloaded or opened elsewhere. Use the site's own offline download if it has one.\n\n" +
+                    "Picture-in-picture: put the video in fullscreen, then tap the button below or leave Aion.",
+            )
+            .setPositiveButton(
+                if (media?.playbackState == mozilla.components.concept.engine.mediasession.MediaSession.PlaybackState.PLAYING) "Pause" else "Play",
+            ) { _, _ ->
+                val controller = media?.controller ?: return@setPositiveButton
+                if (media.playbackState == mozilla.components.concept.engine.mediasession.MediaSession.PlaybackState.PLAYING) {
+                    controller.pause()
+                } else {
+                    controller.play()
+                }
+            }
+            .setNeutralButton("Picture-in-picture") { _, _ ->
+                if (media?.fullscreen == true && android.os.Build.VERSION.SDK_INT >= 26) {
+                    runCatching { activity.enterPictureInPictureMode(android.app.PictureInPictureParams.Builder().build()) }
+                        .onFailure { Toast.makeText(activity, "This site doesn't allow picture-in-picture", Toast.LENGTH_SHORT).show() }
+                } else {
+                    Toast.makeText(activity, "Put the video in fullscreen first", Toast.LENGTH_SHORT).show()
+                }
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
     }
 
     private fun chooseAction(activity: Activity, choice: Choice, title: String) {

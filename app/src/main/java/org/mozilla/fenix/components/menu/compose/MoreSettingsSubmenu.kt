@@ -79,6 +79,17 @@ internal fun MoreSettingsSubmenu(
             isPinned = isPinned,
             onShortcutsMenuClick = onShortcutsMenuClick,
         )
+        // Aion: Brave-style Shields for the current site.
+        val shieldsContext = androidx.compose.ui.platform.LocalContext.current
+        MenuItem(
+            label = "Shields for this site",
+            beforeIconPainter = painterResource(id = iconsR.drawable.mozac_ic_shield_24),
+            onClick = {
+                var c: android.content.Context? = shieldsContext
+                while (c is android.content.ContextWrapper && c !is android.app.Activity) c = c.baseContext
+                (c as? android.app.Activity)?.let { org.mozilla.fenix.shields.ShieldsPanel.show(it) }
+            },
+        )
         // Aion: 1DM-style media grabber.
         val grabberContext = androidx.compose.ui.platform.LocalContext.current
         MenuItem(

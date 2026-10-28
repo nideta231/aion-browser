@@ -41,7 +41,26 @@ object Shields {
     private fun prefs(context: Context) = context.applicationContext.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
 
     fun blockPopups(context: Context) = prefs(context).getBoolean(KEY_POPUPS, true)
-    fun setBlockPopups(context: Context, value: Boolean) = prefs(context).edit().putBoolean(KEY_POPUPS, value).apply()
+    fun setBlockPopups(context: Context, value: Boolean) {
+        prefs(context).edit().putBoolean(KEY_POPUPS, value).apply()
+        org.mozilla.fenix.downloads.MediaGrabber.pushShields(context)
+    }
+
+    /** Pop-ups blocked on each page since it loaded, for the Shields panel. */
+    private val blockedOnPage = HashMap<String, Int>()
+    private var lastToastAt = 0L
+
+    fun blockedOn(pageUrl: String?) = pageUrl?.let { blockedOnPage[it] } ?: 0
+
+    fun onPopupBlocked(context: Context, pageUrl: String) {
+        countBlocked(context)
+        blockedOnPage[pageUrl] = (blockedOnPage[pageUrl] ?: 0) + 1
+        val now = System.currentTimeMillis()
+        if (now - lastToastAt > 4000) {
+            lastToastAt = now
+            Toast.makeText(context, "Pop-up blocked · Shields: menu → Shields for this site", Toast.LENGTH_SHORT).show()
+        }
+    }
 
     fun blockAds(context: Context) = prefs(context).getBoolean(KEY_ADS, true)
 
@@ -53,6 +72,7 @@ object Shields {
         val set = allowedSites(context).toMutableSet()
         if (allowed) set.add(host) else set.remove(host)
         prefs(context).edit().putStringSet(KEY_ALLOWED, set).apply()
+        org.mozilla.fenix.downloads.MediaGrabber.pushShields(context)
     }
 
     fun hostOf(url: String?): String? = url?.let { Uri.parse(it).host?.lowercase()?.removePrefix("www.") }
@@ -93,7 +113,6 @@ object Shields {
  */
 class ShieldsMiddleware(private val context: Context) : Middleware<BrowserState, BrowserAction> {
     private val main = Handler(Looper.getMainLooper())
-    private var lastToast = 0L
 
     override fun invoke(store: Store<BrowserState, BrowserAction>, next: (BrowserAction) -> Unit, action: BrowserAction) {
         if (action is ContentAction.UpdatePromptRequestAction) {
@@ -101,14 +120,10 @@ class ShieldsMiddleware(private val context: Context) : Middleware<BrowserState,
             if (request is PromptRequest.Popup && Shields.blockPopups(context)) {
                 val host = Shields.hostOf(store.state.findTabOrCustomTab(action.sessionId)?.content?.url)
                 if (host == null || host !in Shields.allowedSites(context)) {
-                    Shields.countBlocked(context)
-                    main.post { request.onDeny() }
-                    val now = System.currentTimeMillis()
-                    if (now - lastToast > 4000) {
-                        lastToast = now
-                        main.post {
-                            Toast.makeText(context, "Pop-up blocked · allow it in Settings → Ad & pop-up blocking", Toast.LENGTH_SHORT).show()
-                        }
+                    val page = store.state.findTabOrCustomTab(action.sessionId)?.content?.url ?: ""
+                    main.post {
+                        request.onDeny()
+                        Shields.onPopupBlocked(context, page)
                     }
                     return
                 }
