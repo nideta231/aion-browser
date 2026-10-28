@@ -3,7 +3,7 @@ package com.nath.aion.downloads
 import org.json.JSONArray
 import org.json.JSONObject
 
-enum class Kind { HTTP, HLS, TORRENT }
+enum class Kind { HTTP, HLS, DASH, TORRENT }
 
 enum class State { QUEUED, CONNECTING, DOWNLOADING, PAUSED, MERGING, FINISHED, SEEDING, ERROR }
 
@@ -76,7 +76,7 @@ data class DownloadItem(
     val progress: Float
         get() = when {
             state == State.FINISHED || state == State.SEEDING -> 1f
-            kind == Kind.HLS && segmentsTotal > 0 -> segmentsDone.toFloat() / segmentsTotal
+            (kind == Kind.HLS || kind == Kind.DASH) && segmentsTotal > 0 -> segmentsDone.toFloat() / segmentsTotal
             totalBytes > 0 -> (doneBytes.toFloat() / totalBytes).coerceIn(0f, 1f)
             else -> 0f
         }

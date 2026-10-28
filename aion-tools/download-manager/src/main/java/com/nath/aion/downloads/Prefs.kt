@@ -39,6 +39,8 @@ class Prefs(context: Context) {
     var wakeLock by BoolPref("wake_lock", true)
     var wifiLock by BoolPref("wifi_lock", true)
     var convertTs by BoolPref("convert_ts", true)
+    /** When a video/audio link is opened: "ask", "play" or "download". */
+    var videoLinkAction by StrPref("video_link_action", "ask")
     var autoRestartNonResumable by BoolPref("auto_restart_nonresumable", false)
     var domainPartLimits by StrPref("domain_part_limits", "")    // "host=parts" per line
     var domainConcurrentLimits by StrPref("domain_concurrent", "") // "host=n" per line

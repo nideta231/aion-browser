@@ -67,6 +67,23 @@ class AddActivity : ComponentActivity() {
             finish()
             return
         }
+        if (prefs.videoLinkAction == "play" && request.urls.size == 1 && request.torrentBytes == null &&
+            PlayerActivity.looksPlayable(request.urls[0], request.mime)
+        ) {
+            val first = request.urls[0]
+            startActivity(
+                if (YouTube.isYouTube(first)) {
+                    Intent(this, PlayerActivity::class.java).putExtra(PlayerActivity.EXTRA_YOUTUBE_PAGE, first)
+                } else {
+                    PlayerActivity.intentFor(this, first, request.audioUrl, request.referer, request.fileName)
+                        .putExtra(PlayerActivity.EXTRA_USER_AGENT, request.userAgent)
+                        .putExtra(PlayerActivity.EXTRA_COOKIES, request.cookies)
+                        .putExtra(PlayerActivity.EXTRA_MIME, request.mime)
+                },
+            )
+            finish()
+            return
+        }
         setContent { AionTheme { Surface { Editor(request, prefs) } } }
     }
 
@@ -167,6 +184,9 @@ class AddActivity : ComponentActivity() {
                 } else if (isMagnet) {
                     status = "Couldn't fetch the file list yet; it will be fetched when the download starts."
                 }
+            } else if (single && (first.substringBefore('?').endsWith(".mpd", true) || request.mime?.contains("dash+xml", true) == true)) {
+                sizeText = "DASH video stream · saved as .mp4"
+                if (request.fileName == null) name = name.substringBeforeLast(".mpd") + ".mp4"
             } else if (single && (first.substringBefore('?').endsWith(".m3u8", true) || request.mime?.contains("mpegurl", true) == true)) {
                 sizeText = "HLS video stream · saved as .mp4"
                 if (request.fileName == null) name = name.substringBeforeLast(".m3u8") + ".mp4"
@@ -246,7 +266,7 @@ class AddActivity : ComponentActivity() {
             if (isTorrent) {
                 LabeledSwitch("Sequential download (play while downloading)", sequential) { sequential = it }
                 LabeledSwitch("Seed when finished", seed) { seed = it }
-            } else if (!(single && (first.substringBefore('?').endsWith(".m3u8", true) || request.mime?.contains("mpegurl", true) == true))) {
+            } else if (!isYouTube && !(single && Regex("\\.(m3u8|mpd)$", RegexOption.IGNORE_CASE).containsMatchIn(first.substringBefore('?')))) {
                 Text("Parts: ${parts.toInt()}")
                 Slider(parts, { parts = it }, valueRange = 1f..32f, steps = 30)
             }
@@ -254,6 +274,23 @@ class AddActivity : ComponentActivity() {
             LabeledSwitch("Start now", start) { start = it }
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 TextButton({ finish() }) { Text("Cancel") }
+                if (single && !isTorrent && PlayerActivity.looksPlayable(first, request.mime)) {
+                    TextButton({
+                        val yt = ytOptions?.getOrNull(ytChoice)
+                        val intent = if (yt != null) {
+                            PlayerActivity.intentFor(this@AddActivity, yt.videoUrl, yt.audioUrl, first, name)
+                        } else if (isYouTube) {
+                            Intent(this@AddActivity, PlayerActivity::class.java).putExtra(PlayerActivity.EXTRA_YOUTUBE_PAGE, first)
+                        } else {
+                            PlayerActivity.intentFor(this@AddActivity, url.trim(), request.audioUrl, request.referer, name)
+                                .putExtra(PlayerActivity.EXTRA_USER_AGENT, request.userAgent)
+                                .putExtra(PlayerActivity.EXTRA_COOKIES, request.cookies)
+                                .putExtra(PlayerActivity.EXTRA_MIME, request.mime)
+                        }
+                        startActivity(intent)
+                        finish()
+                    }) { Text("Play") }
+                }
                 Button({
                     val links = url.lines().map { it.trim() }.filter { it.isNotEmpty() }.flatMap { Links.expandBatch(it) }
                     val yt = ytOptions?.getOrNull(ytChoice)
@@ -306,11 +343,12 @@ object Adder {
         val repo = Repository.get(context)
         val isHls = url.substringBefore('?').endsWith(".m3u8", true) ||
             request?.mime?.contains("mpegurl", true) == true
+        val isDash = url.substringBefore('?').endsWith(".mpd", true) || request?.mime?.contains("dash+xml", true) == true
         var fileName = HttpEngine.sanitize(name ?: Http.nameFromUrl(url) ?: "download")
-        if (isHls && !fileName.endsWith(".mp4")) fileName = fileName.substringBeforeLast(".m3u8") + ".mp4"
+        if ((isHls || isDash) && !fileName.endsWith(".mp4")) fileName = fileName.substringBeforeLast(".m3u8").substringBeforeLast(".mpd") + ".mp4"
         if (prefs.autoRename) fileName = unique(dir, fileName, repo)
         val item = DownloadItem(
-            id = prefs.nextId, url = url, fileName = fileName, dir = dir, kind = if (isHls) Kind.HLS else Kind.HTTP,
+            id = prefs.nextId, url = url, fileName = fileName, dir = dir, kind = if (isHls) Kind.HLS else if (isDash) Kind.DASH else Kind.HTTP,
             state = if (start && !scheduled) State.QUEUED else State.PAUSED, threads = parts,
             referer = request?.referer, userAgent = request?.userAgent, cookies = request?.cookies,
             headers = request?.headers ?: emptyMap(), mime = request?.mime, scheduled = scheduled,

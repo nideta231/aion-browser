@@ -118,6 +118,12 @@ fun SettingsScreen(onBack: () -> Unit) {
             SwitchPref("Add new links to the scheduled list", prefs.scheduleNewLinks) { prefs.scheduleNewLinks = it }
 
             Section("Video")
+            Text("When a video or audio link is opened")
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf("ask" to "Ask (editor with Play)", "play" to "Play", "download" to "Download").forEach { (key, label) ->
+                    FilterChip(prefs.videoLinkAction == key, { prefs.videoLinkAction = key; refresh++ }, { Text(label) })
+                }
+            }
             SwitchPref("Convert HLS (.ts) to .mp4 after download", prefs.convertTs) { prefs.convertTs = it }
 
             Section("Automation")

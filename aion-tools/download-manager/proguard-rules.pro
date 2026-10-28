@@ -9,3 +9,4 @@
 -keep class com.grack.nanojson.** { *; }
 -keep class org.jsoup.** { *; }
 -keep class com.google.protobuf.** { *; }
+-keep class androidx.media3.** { *; }

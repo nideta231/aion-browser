@@ -46,6 +46,7 @@ class DownloadService : Service() {
     private lateinit var prefs: Prefs
     private lateinit var http: HttpEngine
     private lateinit var hls: HlsEngine
+    private lateinit var dash: DashEngine
     private var loop: Job? = null
     private var wakeLock: PowerManager.WakeLock? = null
     private var wifiLock: WifiManager.WifiLock? = null
@@ -59,6 +60,7 @@ class DownloadService : Service() {
         prefs = Prefs(this)
         http = HttpEngine(prefs, globalLimiter)
         hls = HlsEngine(prefs, globalLimiter)
+        dash = DashEngine(this, prefs)
         createChannels(this)
     }
 
@@ -140,6 +142,10 @@ class DownloadService : Service() {
                 Kind.HLS -> {
                     item.state = State.DOWNLOADING
                     hls.run(item) { repo.changed() }
+                }
+                Kind.DASH -> {
+                    item.state = State.DOWNLOADING
+                    dash.run(item) { repo.changed() }
                 }
                 Kind.TORRENT -> runTorrent(item)
             }

@@ -334,6 +334,13 @@ private fun ItemMenu(item: DownloadItem, repo: Repository, expanded: Boolean, re
             DropdownMenuItem({ Text("Open") }, { dismiss(); open(context, item) })
             DropdownMenuItem({ Text("Share") }, { dismiss(); share(context, item) })
         }
+        if (item.kind != Kind.TORRENT && (item.state == State.FINISHED || PlayerActivity.looksPlayable(item.url, item.mime) ||
+                PlayerActivity.looksPlayable(item.fileName, item.mime))
+        ) {
+            DropdownMenuItem({ Text(if (item.state == State.FINISHED) "Play in Aion player" else "Preview (stream)") }, {
+                dismiss(); context.startActivity(PlayerActivity.forItem(context, item))
+            })
+        }
         DropdownMenuItem({ Text("Details") }, { dismiss(); onDetails() })
         if (item.state != State.FINISHED) {
             DropdownMenuItem({ Text(if (item.scheduled) "Remove from scheduler" else "Add to scheduler") }, {

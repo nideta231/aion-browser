@@ -34,6 +34,12 @@ object YouTube {
     fun isYouTube(url: String) = hostPattern.containsMatchIn(url) &&
         (url.contains("watch") || url.contains("youtu.be/") || url.contains("/shorts/") || url.contains("/live/") || url.contains("/embed/"))
 
+    /** 720p MP4 if offered, else the best one; used by the player. */
+    fun defaultOption(options: List<Option>): Option? =
+        options.firstOrNull { it.label.startsWith("720p") && it.ext == "mp4" }
+            ?: options.firstOrNull { it.ext == "mp4" && !it.label.startsWith("Audio") }
+            ?: options.firstOrNull()
+
     @Volatile private var ready = false
 
     private fun init() {
