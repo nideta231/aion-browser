@@ -135,6 +135,7 @@ class DownloadService : Service() {
                 Kind.HTTP -> {
                     item.state = State.DOWNLOADING
                     http.run(item) { repo.changed() }
+                    item.audioUrl?.let { mergeAudio(item, it) }
                 }
                 Kind.HLS -> {
                     item.state = State.DOWNLOADING
@@ -170,6 +171,47 @@ class DownloadService : Service() {
             running.remove(item.id)
             repo.changed(force = true)
         }
+    }
+
+    /**
+     * YouTube serves video and audio separately. After the video part is done, fetch the audio
+     * stream and merge both into the final file without re-encoding. If the formats can't be
+     * merged, the audio is kept next to the video as its own file.
+     */
+    private suspend fun mergeAudio(item: DownloadItem, audioUrl: String) {
+        item.state = State.MERGING
+        item.error = "Downloading audio…"
+        repo.changed(force = true)
+        val work = File(cacheDir, "merge").apply { mkdirs() }
+        val audio = DownloadItem(
+            id = -item.id, url = audioUrl, fileName = "audio-${item.id}", dir = work.absolutePath, kind = Kind.HTTP,
+            threads = item.threads, referer = item.referer, userAgent = item.userAgent, cookies = item.cookies,
+            headers = item.headers,
+        )
+        audio.file.delete()
+        http.run(audio) {}
+        item.error = "Merging video and audio…"
+        repo.changed(force = true)
+        val webm = item.fileName.endsWith(".webm", true)
+        val merged = File(work, "merged-${item.id}")
+        if (HlsEngine.merge(item.file, audio.file, merged, webm)) {
+            item.file.delete()
+            if (!merged.renameTo(item.file)) {
+                merged.copyTo(item.file, overwrite = true)
+                merged.delete()
+            }
+            audio.file.delete()
+        } else {
+            val ext = if (webm) "webm" else "m4a"
+            val target = File(item.dir, item.fileName.substringBeforeLast('.') + " (audio).$ext")
+            audio.file.copyTo(target, overwrite = true)
+            audio.file.delete()
+            MediaScannerConnection.scanFile(this, arrayOf(target.absolutePath), null, null)
+        }
+        item.totalBytes = item.file.length()
+        item.doneBytes = item.totalBytes
+        item.audioUrl = null
+        item.error = null
     }
 
     private suspend fun runTorrent(item: DownloadItem) {

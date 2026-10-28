@@ -2,7 +2,7 @@
 "use strict";
 
 const MAX_PER_TAB = 60;
-const tabs = new Map(); // tabId -> { page: string, items: Map<url, item> }
+const tabs = new Map(); // tabId -> { page, generation, items: Map<key, item>, ytBlocked }
 
 const MEDIA_EXT = /\.(m3u8|mpd|mp4|m4v|webm|mkv|mov|avi|flv|3gp|mp3|m4a|aac|ogg|oga|opus|flac|wav)(\?|#|$)/i;
 const SEGMENT = /\.(ts|m4s|cmfv|cmfa|vtt|webvtt|key)(\?|#|$)|[?&](range|rn|rbuf)=|\/seg-?\d+|\/segment|\/chunk|\/frag/i;
@@ -21,7 +21,7 @@ function kindOf(url, type) {
 function tabEntry(tabId) {
   let entry = tabs.get(tabId);
   if (!entry) {
-    entry = { page: "", items: new Map() };
+    entry = { page: "", generation: 0, items: new Map(), ytBlocked: false };
     tabs.set(tabId, entry);
   }
   return entry;
@@ -37,7 +37,13 @@ browser.webRequest.onHeadersReceived.addListener(details => {
   if (details.type === "main_frame") {
     const entry = tabEntry(details.tabId);
     entry.page = details.url;
+    entry.generation++;
     entry.items.clear();
+    entry.ytBlocked = false;
+    return;
+  }
+  if (/\.googlevideo\.com$/i.test(new URL(details.url).hostname)) {
+    youtube(details);
     return;
   }
   if (details.statusCode >= 400 || !/^https?:/i.test(details.url)) return;
@@ -65,6 +71,50 @@ browser.webRequest.onHeadersReceived.addListener(details => {
   while (entry.items.size > MAX_PER_TAB) entry.items.delete(entry.items.keys().next().value);
 }, { urls: ["<all_urls>"] }, ["responseHeaders"]);
 
+/*
+ * YouTube streams video and audio separately from *.googlevideo.com/videoplayback, fetched in
+ * ranges. Dropping the range parameters gives the whole stream; one entry per format (itag).
+ */
+const YT_QUALITY = {
+  "18": "360p", "22": "720p", "133": "240p", "134": "360p", "135": "480p", "136": "720p",
+  "137": "1080p", "160": "144p", "242": "240p", "243": "360p", "244": "480p", "247": "720p",
+  "248": "1080p", "271": "1440p", "313": "2160p", "278": "144p", "298": "720p60", "299": "1080p60",
+  "302": "720p60", "303": "1080p60", "308": "1440p60", "315": "2160p60", "394": "144p", "395": "240p",
+  "396": "360p", "397": "480p", "398": "720p", "399": "1080p", "400": "1440p", "401": "2160p",
+  "139": "48k", "140": "128k", "141": "256k", "249": "50k", "250": "70k", "251": "160k",
+};
+
+function youtube(details) {
+  if (details.statusCode >= 400) return;
+  const entry = tabEntry(details.tabId);
+  const type = header(details.responseHeaders, "content-type").split(";")[0].trim();
+  const url = new URL(details.url);
+  const params = url.searchParams;
+  if (details.method === "POST" || /ump/i.test(type) || params.get("sabr") === "1") {
+    // Newer YouTube player format: the stream URL alone can't be downloaded.
+    entry.ytBlocked = true;
+    return;
+  }
+  const itag = params.get("itag");
+  const mime = decodeURIComponent(params.get("mime") || type || "");
+  if (!itag || !/^(video|audio)\//.test(mime)) return;
+  for (const p of ["range", "rn", "rbuf", "ump", "srfvp", "alr", "cpn"]) params.delete(p);
+  const key = "yt:" + itag;
+  if (entry.items.has(key)) return;
+  const audio = mime.startsWith("audio/");
+  entry.items.set(key, {
+    url: url.toString(),
+    kind: audio ? "Audio" : "Video",
+    mime,
+    size: parseInt(params.get("clen") || "-1", 10),
+    page: entry.page,
+    time: Date.now(),
+    youtube: true,
+    quality: YT_QUALITY[itag] || ("itag " + itag),
+    container: /webm/.test(mime) ? "webm" : "mp4",
+  });
+}
+
 browser.tabs.onRemoved.addListener(tabId => tabs.delete(tabId));
 
 const port = browser.runtime.connectNative("aionMedia");
@@ -81,5 +131,11 @@ port.onMessage.addListener(async message => {
     for (const [, e] of tabs) if (message.url && e.page === message.url) entry = e;
   }
   const items = entry ? Array.from(entry.items.values()).sort((a, b) => b.time - a.time) : [];
-  port.postMessage({ type: "media", id: message.id, items });
+  port.postMessage({
+    type: "media",
+    id: message.id,
+    items,
+    generation: entry ? entry.generation : 0,
+    ytBlocked: entry ? entry.ytBlocked : false,
+  });
 });

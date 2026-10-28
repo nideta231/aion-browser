@@ -447,7 +447,6 @@ abstract class BaseBrowserFragment :
             elevation = 8 * density
             visibility = View.GONE
             contentDescription = "Download video or audio on this page"
-            setOnClickListener { org.mozilla.fenix.downloads.MediaGrabber.show(requireActivity()) }
         }
         val params = androidx.coordinatorlayout.widget.CoordinatorLayout.LayoutParams(
             ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -457,18 +456,34 @@ abstract class BaseBrowserFragment :
             setMargins(0, 0, (16 * density).toInt(), (96 * density).toInt())
         }
         binding.browserLayout.addView(button, params)
+        // "Hide icon" hides it until this page reloads (the extension's generation changes).
+        var hiddenUrl: String? = null
+        var hiddenGeneration = -1
+        var lastUrl: String? = null
+        var lastGeneration = -1
+        button.setOnClickListener {
+            org.mozilla.fenix.downloads.MediaGrabber.show(requireActivity()) {
+                hiddenUrl = lastUrl
+                hiddenGeneration = lastGeneration
+                button.visibility = View.GONE
+            }
+        }
         viewLifecycleOwner.lifecycleScope.launch {
             viewLifecycleOwner.repeatOnLifecycle(androidx.lifecycle.Lifecycle.State.STARTED) {
                 while (true) {
                     val url = requireComponents.core.store.state.selectedTab?.content?.url
-                    if (url != null && url.startsWith("http")) {
-                        org.mozilla.fenix.downloads.MediaGrabber.find(url) { items ->
+                    if (url != null && url.startsWith("http") &&
+                        org.mozilla.fenix.downloads.MediaGrabber.autoDetect(context)
+                    ) {
+                        org.mozilla.fenix.downloads.MediaGrabber.find(url) { found ->
                             if (_binding == null) return@find
-                            if (items.isEmpty()) {
+                            lastUrl = url
+                            lastGeneration = found.generation
+                            val (video, audio) = org.mozilla.fenix.downloads.MediaGrabber.choiceCount(found)
+                            val hidden = url == hiddenUrl && found.generation == hiddenGeneration
+                            if (video + audio == 0 || hidden) {
                                 button.visibility = View.GONE
                             } else {
-                                val video = items.count { it.kind != "Audio" }
-                                val audio = items.size - video
                                 button.text = "⬇  " + listOfNotNull(
                                     video.takeIf { it > 0 }?.let { if (it == 1) "1 video" else "$it videos" },
                                     audio.takeIf { it > 0 }?.let { if (it == 1) "1 audio" else "$it audio" },

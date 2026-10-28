@@ -170,6 +170,41 @@ class HlsEngine(private val prefs: Prefs, private val limiter: SpeedLimiter) {
     }
 
     companion object {
+        /** Joins a video-only and an audio-only file into one MP4/WebM without re-encoding. */
+        fun merge(video: File, audio: File, output: File, webm: Boolean): Boolean = runCatching {
+            val format = if (webm) MediaMuxer.OutputFormat.MUXER_OUTPUT_WEBM else MediaMuxer.OutputFormat.MUXER_OUTPUT_MPEG_4
+            val muxer = MediaMuxer(output.absolutePath, format)
+            val sources = listOf(video to "video/", audio to "audio/").map { (file, prefix) ->
+                val extractor = MediaExtractor()
+                extractor.setDataSource(file.absolutePath)
+                val index = (0 until extractor.trackCount).firstOrNull {
+                    extractor.getTrackFormat(it).getString(android.media.MediaFormat.KEY_MIME)?.startsWith(prefix) == true
+                } ?: throw IOException("No $prefix track in ${file.name}")
+                extractor.selectTrack(index)
+                extractor to muxer.addTrack(extractor.getTrackFormat(index))
+            }
+            muxer.start()
+            val buffer = ByteBuffer.allocate(4 * 1024 * 1024)
+            val info = MediaCodec.BufferInfo()
+            for ((extractor, track) in sources) {
+                while (true) {
+                    val size = extractor.readSampleData(buffer, 0)
+                    if (size < 0) break
+                    info.set(0, size, extractor.sampleTime.coerceAtLeast(0), extractor.sampleFlags and MediaCodec.BUFFER_FLAG_KEY_FRAME)
+                    muxer.writeSampleData(track, buffer, info)
+                    extractor.advance()
+                }
+                extractor.release()
+            }
+            muxer.stop()
+            muxer.release()
+            true
+        }.getOrElse {
+            android.util.Log.w("AionDL", "merge failed", it)
+            output.delete()
+            false
+        }
+
         /** Remuxes an MPEG-TS file into MP4 without re-encoding. Returns false if Android can't read it. */
         fun remux(input: File, output: File): Boolean = runCatching {
             val extractor = MediaExtractor()

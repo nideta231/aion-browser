@@ -33,6 +33,14 @@
     </androidx.preference.PreferenceCategory>
 
     <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="pref_key_aion_media_auto_detect"
+        android:title="Detect video and audio automatically"
+        android:summary="Shows a download button on pages that play video or audio. Off: use the menu or Ctrl+Shift+M"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true" />
+
+    <SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="pref_key_aion_downloads_separate_app"
         android:persistent="false"

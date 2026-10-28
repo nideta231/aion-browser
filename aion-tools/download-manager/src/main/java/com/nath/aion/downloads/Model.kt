@@ -64,6 +64,8 @@ data class DownloadItem(
     var seeds: Int = 0,
     var uploaded: Long = 0,
     var order: Long = id,
+    /** YouTube-style separate audio stream; downloaded after the video and merged into one file. */
+    var audioUrl: String? = null,
 ) {
     /** Live values, not persisted. */
     @Transient var speed: Long = 0
@@ -91,6 +93,7 @@ data class DownloadItem(
         put("torrentHash", torrentHash)
         put("selectedFiles", selectedFiles?.let { JSONArray(it) }); put("sequential", sequential); put("seed", seed)
         put("segmentsDone", segmentsDone); put("segmentsTotal", segmentsTotal); put("uploaded", uploaded); put("order", order)
+        put("audioUrl", audioUrl)
     }
 
     companion object {
@@ -115,7 +118,7 @@ data class DownloadItem(
                 addedAt = o.optLong("addedAt"), finishedAt = o.optLong("finishedAt"), scheduled = o.optBoolean("scheduled"),
                 speedLimit = o.optLong("speedLimit"), torrentHash = str("torrentHash"), selectedFiles = selected,
                 sequential = o.optBoolean("sequential"), seed = o.optBoolean("seed"), segmentsDone = o.optInt("segmentsDone"),
-                segmentsTotal = o.optInt("segmentsTotal"), uploaded = o.optLong("uploaded"), order = o.optLong("order", o.getLong("id")),
+                segmentsTotal = o.optInt("segmentsTotal"), uploaded = o.optLong("uploaded"), order = o.optLong("order", o.getLong("id")), audioUrl = str("audioUrl"),
             )
         }
     }

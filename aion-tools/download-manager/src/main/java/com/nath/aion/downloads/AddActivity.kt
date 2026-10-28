@@ -77,6 +77,7 @@ class AddActivity : ComponentActivity() {
         val mime: String?,
         val headers: Map<String, String>,
         val torrentBytes: ByteArray? = null,
+        val audioUrl: String? = null,
     )
 
     private fun parse(intent: Intent): Request? {
@@ -114,6 +115,7 @@ class AddActivity : ComponentActivity() {
             mime = extras?.getString("mime") ?: intent.type,
             headers = headers,
             torrentBytes = torrent,
+            audioUrl = extras?.getString("audio_url"),
         )
     }
 
@@ -271,6 +273,7 @@ object Adder {
             state = if (start && !scheduled) State.QUEUED else State.PAUSED, threads = parts,
             referer = request?.referer, userAgent = request?.userAgent, cookies = request?.cookies,
             headers = request?.headers ?: emptyMap(), mime = request?.mime, scheduled = scheduled,
+            audioUrl = request?.audioUrl,
         )
         repo.add(item)
         if (item.state == State.QUEUED || scheduled) DownloadService.kick(context)
