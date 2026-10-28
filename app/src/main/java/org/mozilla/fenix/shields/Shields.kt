@@ -103,6 +103,36 @@ object Shields {
         applyAdBlocker(context, engine)
     }
 
+    private fun siteOf(host: String?): String? {
+        val parts = host?.lowercase()?.removePrefix("www.")?.split('.') ?: return null
+        return if (parts.size > 2) parts.takeLast(2).joinToString(".") else parts.joinToString(".")
+    }
+
+    /**
+     * True for a top-frame jump to a different site that the user didn't ask for: no tap, not typed
+     * in the address bar, not a server redirect of a link the user tapped.
+     */
+    fun isForcedRedirect(
+        context: Context,
+        uri: String,
+        lastUri: String?,
+        hasUserGesture: Boolean,
+        isSameDomain: Boolean,
+        isRedirect: Boolean,
+        isDirectNavigation: Boolean,
+        isSubframeRequest: Boolean,
+    ): Boolean {
+        if (!blockPopups(context) || isSubframeRequest || isDirectNavigation || isSameDomain || hasUserGesture) return false
+        if (lastUri.isNullOrBlank() || !lastUri.startsWith("http") || !uri.startsWith("http")) return false
+        if (isRedirect) return false // server-side redirects (logins, short links) stay allowed
+        val from = siteOf(Uri.parse(lastUri).host) ?: return false
+        val to = siteOf(Uri.parse(uri).host) ?: return false
+        if (from == to) return false
+        if (hostOf(lastUri) in allowedSites(context)) return false
+        Handler(Looper.getMainLooper()).post { onPopupBlocked(context, lastUri) }
+        return true
+    }
+
     internal fun countBlocked(context: Context) =
         prefs(context).edit().putInt(KEY_BLOCKED_COUNT, popupsBlocked(context) + 1).apply()
 }

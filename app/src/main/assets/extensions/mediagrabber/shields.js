@@ -35,8 +35,15 @@
     if (!a) return false;
     try { return new URL(a.href, location.href).href === new URL(url, location.href).href; } catch (e) { return false; }
   }
+  function isBlank(url) {
+    const u = String(url || "").trim().toLowerCase();
+    return u === "" || u === "about:blank" || u.startsWith("javascript:") || u.startsWith("data:");
+  }
   function shouldBlock(url) {
-    return enabled && !isAllowedHere() && crossSite(url) && !tappedLinkTo(url);
+    if (!enabled || isAllowedHere()) return false;
+    // window.open("") / "about:blank" then filled with an ad URL: never a real link.
+    if (isBlank(url)) return true;
+    return crossSite(url) && !tappedLinkTo(url);
   }
   function report(url) {
     try { browser.runtime.sendMessage({ type: "popupBlocked", url: String(url), page: location.href }); } catch (e) {}
@@ -45,7 +52,7 @@
   const win = window.wrappedJSObject;
   const originalOpen = win.open;
   exportFunction(function (url, target, features) {
-    if (url && shouldBlock(String(url))) {
+    if (shouldBlock(url === undefined ? "" : String(url))) {
       report(url);
       return null;
     }
@@ -64,6 +71,27 @@
     }
     return originalClick.call(a);
   }, anchorProto, { defineAs: "click" });
+
+  // Forced redirects: a tap that makes the page itself jump to another site (tab-under).
+  let lastTapAt = 0;
+  document.addEventListener("pointerdown", () => { lastTapAt = Date.now(); }, true);
+  function guardNavigation(url) {
+    if (!enabled || isAllowedHere()) return false;
+    if (!crossSite(String(url)) || tappedLinkTo(String(url))) return false;
+    if (Date.now() - lastTapAt > 3000) return false; // not triggered by a tap; Aion's native guard handles it
+    report(url);
+    return true;
+  }
+  try {
+    const loc = win.location;
+    for (const name of ["assign", "replace"]) {
+      const original = loc[name];
+      exportFunction(function (url) {
+        if (guardNavigation(url)) return;
+        return original.call(loc, url);
+      }, loc, { defineAs: name });
+    }
+  } catch (e) {}
 
   // Overlay ads: a tap on the page that opens a cross-site link which isn't what the user tapped.
   document.addEventListener("click", e => {

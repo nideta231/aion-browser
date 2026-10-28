@@ -53,6 +53,14 @@ class AppRequestInterceptor(
             return it
         }
 
+        // Aion Shields: block forced redirects to another site the page did on its own.
+        if (org.mozilla.fenix.shields.Shields.isForcedRedirect(
+                context, uri, lastUri, hasUserGesture, isSameDomain, isRedirect, isDirectNavigation, isSubframeRequest,
+            )
+        ) {
+            return RequestInterceptor.InterceptionResponse.Deny
+        }
+
         if (interceptAboutHomeRequest(uri)) {
             // Let the original request proceed.
             return null
