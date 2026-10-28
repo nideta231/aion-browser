@@ -74,7 +74,9 @@ class KeyboardShortcutHandler(private val activity: HomeActivity, private val na
             }
             ShortcutAction.BOOKMARKS -> navigate(NavGraphDirections.actionGlobalBookmarkFragment(BookmarkRoot.Mobile.id))
             ShortcutAction.HISTORY -> navigate(NavGraphDirections.actionGlobalHistoryFragment())
-            ShortcutAction.DOWNLOADS -> navigate(NavGraphDirections.actionGlobalDownloadsFragment())
+            ShortcutAction.DOWNLOADS -> if (!org.mozilla.fenix.downloads.AionDownloadsBridge.openApp(activity)) {
+                navigate(NavGraphDirections.actionGlobalDownloadsFragment())
+            }
             ShortcutAction.TABS_OVERVIEW -> navigate(NavGraphDirections.actionGlobalTabManagementFragment())
             ShortcutAction.ADD_ONS -> navigate(NavGraphDirections.actionGlobalAddonsManagementFragment())
             ShortcutAction.SETTINGS -> navigate(NavGraphDirections.actionGlobalSettingsFragment())

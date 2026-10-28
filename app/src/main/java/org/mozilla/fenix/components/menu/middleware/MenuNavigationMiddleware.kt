@@ -152,10 +152,15 @@ class MenuNavigationMiddleware(
                     )
 
                 is MenuAction.Navigate.Downloads ->
-                    navController.nav(
-                        R.id.menuDialogFragment,
-                        MenuDialogFragmentDirections.actionGlobalDownloadsFragment(),
-                    )
+                    // Aion: open the Aion Downloads app when it's installed; otherwise the built-in list.
+                    if (org.mozilla.fenix.downloads.AionDownloadsBridge.openApp(navController.context)) {
+                        store.emitEvent(NavigationEvent.Dismiss)
+                    } else {
+                        navController.nav(
+                            R.id.menuDialogFragment,
+                            MenuDialogFragmentDirections.actionGlobalDownloadsFragment(),
+                        )
+                    }
 
                 is MenuAction.Navigate.Passwords ->
                     navController.nav(

@@ -39,6 +39,7 @@ import androidx.core.view.OnApplyWindowInsetsListener
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
@@ -426,11 +427,70 @@ abstract class BaseBrowserFragment :
         return binding.root
     }
 
+    /**
+     * Aion: 1DM-style floating button. Appears over the page when the media grabber has spotted a
+     * video or audio stream on the current tab; tapping it lists them for download.
+     */
+    private fun setUpMediaButton() {
+        if (customTabSessionId != null) return
+        val context = requireContext()
+        val density = resources.displayMetrics.density
+        val button = android.widget.TextView(context).apply {
+            setTextColor(android.graphics.Color.WHITE)
+            textSize = 14f
+            setTypeface(typeface, android.graphics.Typeface.BOLD)
+            setPadding((16 * density).toInt(), (10 * density).toInt(), (18 * density).toInt(), (10 * density).toInt())
+            background = android.graphics.drawable.GradientDrawable().apply {
+                setColor(0xFF00A152.toInt())
+                cornerRadius = 24 * density
+            }
+            elevation = 8 * density
+            visibility = View.GONE
+            contentDescription = "Download video or audio on this page"
+            setOnClickListener { org.mozilla.fenix.downloads.MediaGrabber.show(requireActivity()) }
+        }
+        val params = androidx.coordinatorlayout.widget.CoordinatorLayout.LayoutParams(
+            ViewGroup.LayoutParams.WRAP_CONTENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT,
+        ).apply {
+            gravity = Gravity.BOTTOM or Gravity.END
+            setMargins(0, 0, (16 * density).toInt(), (96 * density).toInt())
+        }
+        binding.browserLayout.addView(button, params)
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewLifecycleOwner.repeatOnLifecycle(androidx.lifecycle.Lifecycle.State.STARTED) {
+                while (true) {
+                    val url = requireComponents.core.store.state.selectedTab?.content?.url
+                    if (url != null && url.startsWith("http")) {
+                        org.mozilla.fenix.downloads.MediaGrabber.find(url) { items ->
+                            if (_binding == null) return@find
+                            if (items.isEmpty()) {
+                                button.visibility = View.GONE
+                            } else {
+                                val video = items.count { it.kind != "Audio" }
+                                val audio = items.size - video
+                                button.text = "⬇  " + listOfNotNull(
+                                    video.takeIf { it > 0 }?.let { if (it == 1) "1 video" else "$it videos" },
+                                    audio.takeIf { it > 0 }?.let { if (it == 1) "1 audio" else "$it audio" },
+                                ).joinToString(" · ")
+                                button.visibility = View.VISIBLE
+                            }
+                        }
+                    } else {
+                        button.visibility = View.GONE
+                    }
+                    kotlinx.coroutines.delay(2000)
+                }
+            }
+        }
+    }
+
     final override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // DO NOT ADD ANYTHING ABOVE THIS getProfilerTime CALL!
         val profilerStartTime = requireComponents.core.engine.profiler?.getProfilerTime()
 
         initializeUI(view)
+        setUpMediaButton()
 
         appLinksFeature.set(
             feature =

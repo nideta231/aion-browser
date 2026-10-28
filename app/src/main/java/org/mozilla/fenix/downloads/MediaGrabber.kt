@@ -63,6 +63,9 @@ object MediaGrabber {
         controller.install(runtime)
     }
 
+    /** Media found so far on the page with [pageUrl] (the selected tab). */
+    fun find(pageUrl: String?, callback: (List<Media>) -> Unit) = request(pageUrl, callback)
+
     private fun request(pageUrl: String?, callback: (List<Media>) -> Unit) {
         val id = nextId.incrementAndGet()
         pending[id] = callback

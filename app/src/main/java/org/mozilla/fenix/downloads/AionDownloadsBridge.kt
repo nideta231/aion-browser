@@ -49,6 +49,16 @@ class AionDownloadsBridge(
         fun isEnabled(context: Context) =
             PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_KEY, true)
 
+        /** Opens the Aion Downloads app if installed and enabled. Returns false to fall back to Aion's list. */
+        fun openApp(context: Context): Boolean {
+            if (!isEnabled(context) || !isInstalled(context)) return false
+            val intent = context.packageManager.getLaunchIntentForPackage(PACKAGE) ?: return false
+            return runCatching {
+                context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+                true
+            }.getOrDefault(false)
+        }
+
         fun shouldForward(context: Context, download: DownloadState): Boolean {
             val scheme = Uri.parse(download.url).scheme?.lowercase()
             return (scheme == "http" || scheme == "https") && !download.private &&
