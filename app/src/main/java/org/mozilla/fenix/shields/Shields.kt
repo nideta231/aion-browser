@@ -77,30 +77,12 @@ object Shields {
 
     fun hostOf(url: String?): String? = url?.let { Uri.parse(it).host?.lowercase()?.removePrefix("www.") }
 
-    /** Installs uBlock Origin if missing (first run) or re-enables it when the switch is turned on. */
-    fun applyAdBlocker(context: Context, engine: Engine) {
-        val on = blockAds(context)
-        engine.listInstalledWebExtensions(onSuccess = { list ->
-            val ublock = list.firstOrNull { it.id == UBLOCK_ID }
-            when {
-                ublock == null && on -> {
-                    installingAdBlocker = true
-                    engine.installWebExtension(
-                        UBLOCK_URL,
-                        InstallationMethod.MANAGER,
-                        onSuccess = { installingAdBlocker = false },
-                        onError = { installingAdBlocker = false },
-                    )
-                }
-                ublock != null && on && !ublock.isEnabled() -> engine.enableWebExtension(ublock)
-                ublock != null && !on && ublock.isEnabled() -> engine.disableWebExtension(ublock, onSuccess = {})
-            }
-        })
-    }
+    /** Installs the bundled uBlock Origin (Aion's built-in ad blocker) and applies the switch. */
+    fun applyAdBlocker(context: Context, engine: Engine) = AdBlocker.install(context, engine)
 
     fun setBlockAds(context: Context, engine: Engine, value: Boolean) {
         prefs(context).edit().putBoolean(KEY_ADS, value).apply()
-        applyAdBlocker(context, engine)
+        AdBlocker.setEnabled(context, engine, value)
     }
 
     private fun siteOf(host: String?): String? {

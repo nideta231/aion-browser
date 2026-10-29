@@ -10,6 +10,7 @@ import android.graphics.Typeface
 import android.os.Bundle
 import android.util.TypedValue
 import android.view.Gravity
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.LinearLayout
@@ -37,8 +38,36 @@ class ShieldsSettingsActivity : Activity() {
         })
         root.addView(note("Aion's shields, like Brave. They work on every site in Aion."))
 
-        root.addView(switchRow("Block ads and trackers", "Built-in blocker (uBlock Origin). Its filters update by themselves.", Shields.blockAds(this)) {
+        root.addView(switchRow("Block ads and trackers", "Built in, like Brave Shields: ads (including YouTube), trackers, malware. Filters update by themselves.", Shields.blockAds(this)) {
             Shields.setBlockAds(this, components.core.engine, it)
+        })
+        root.addView(TextView(this).apply {
+            text = "Ad blocking level"
+            setTypeface(typeface, Typeface.BOLD)
+            setPadding(0, dp(8), 0, dp(4))
+        })
+        val group = android.widget.RadioGroup(this)
+        val currentLevel = AdBlocker.level(this)
+        AdBlocker.Level.entries.forEach { level ->
+            group.addView(android.widget.RadioButton(this).apply {
+                id = View.generateViewId()
+                text = "${level.label}\n${level.summary}"
+                isChecked = level == currentLevel
+                setPadding(dp(8), dp(8), 0, dp(8))
+                setOnClickListener {
+                    AdBlocker.setLevel(this@ShieldsSettingsActivity, level)
+                    android.widget.Toast.makeText(this@ShieldsSettingsActivity, "${level.label} · filters updating", android.widget.Toast.LENGTH_SHORT).show()
+                }
+            })
+        }
+        root.addView(group)
+        root.addView(Button(this, null, android.R.attr.borderlessButtonStyle).apply {
+            text = "Update filter lists now"
+            isAllCaps = false
+            setOnClickListener {
+                AdBlocker.updateFilters()
+                android.widget.Toast.makeText(this@ShieldsSettingsActivity, "Updating filter lists…", android.widget.Toast.LENGTH_SHORT).show()
+            }
         })
         root.addView(switchRow(
             "Block pop-ups",

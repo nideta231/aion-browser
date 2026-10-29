@@ -72,8 +72,15 @@ object ShieldsPanel {
             }
         }
 
+        if (Shields.blockAds(activity)) {
+            AdBlocker.isSiteEnabled(host) { on ->
+                row("Block ads on $host", "Level: ${AdBlocker.level(activity).label} · change in Shields settings", on) { block ->
+                    AdBlocker.setSiteEnabled(host, block)
+                }
+            }
+        }
         root.addView(Button(activity, null, android.R.attr.borderlessButtonStyle).apply {
-            text = "Ad blocker for this site (uBlock Origin panel)"
+            text = "Advanced: uBlock Origin panel for this site"
             isAllCaps = false
             setOnClickListener { openUblockPanel(activity) }
         })

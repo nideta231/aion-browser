@@ -106,3 +106,4 @@ test_artifacts/
 # Web extensions: manifest.json files are generated
 manifest.json
 dist/
+.kotlin/

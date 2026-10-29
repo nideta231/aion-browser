@@ -174,8 +174,9 @@ class Settings(
 
     private val logger = Logger("Settings")
 
+    // Aion: no crash reports or telemetry are sent to Mozilla.
     val isCrashReportingEnabled: Boolean
-        get() = isCrashReportEnabledInBuild && crashReportOption() != CrashReportOption.Never
+        get() = false
 
     override val preferences: SharedPreferences = appContext.getSharedPreferences(FENIX_PREFERENCES, MODE_PRIVATE)
 
@@ -715,17 +716,13 @@ class Settings(
             default = false,
         )
 
-    var isTelemetryEnabled by
-        booleanPreference(
-            appContext.getPreferenceKey(R.string.pref_key_telemetry),
-            default = false,
-        )
+    var isTelemetryEnabled: Boolean
+        get() = false
+        set(@Suppress("UNUSED_PARAMETER") value) {}
 
-    var isMarketingTelemetryEnabled by
-        booleanPreference(
-            appContext.getPreferenceKey(R.string.pref_key_marketing_telemetry),
-            default = false,
-        )
+    var isMarketingTelemetryEnabled: Boolean
+        get() = false
+        set(@Suppress("UNUSED_PARAMETER") value) {}
 
     var hasMadeMarketingTelemetrySelection by
         booleanPreference(
@@ -844,18 +841,13 @@ class Settings(
      * because this setting was added in early 2025 and we want to make sure that users who upgrade and had telemetry
      * disabled don't start sending the daily usage ping telemetry.
      */
-    var isDailyUsagePingEnabled by
-        booleanPreference(
-            appContext.getPreferenceKey(R.string.pref_key_daily_usage_ping),
-            default = isTelemetryEnabled,
-            persistDefaultIfNotExists = true,
-        )
+    var isDailyUsagePingEnabled: Boolean
+        get() = false
+        set(@Suppress("UNUSED_PARAMETER") value) {}
 
-    var isExperimentationEnabled by
-        booleanPreference(
-            appContext.getPreferenceKey(R.string.pref_key_experimentation_v2),
-            default = isTelemetryEnabled,
-        )
+    var isExperimentationEnabled: Boolean
+        get() = false
+        set(@Suppress("UNUSED_PARAMETER") value) {}
 
     /**
      * This lets us know if the user has disabled experimentation manually so that we know if we should re-enable

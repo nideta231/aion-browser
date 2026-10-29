@@ -67,6 +67,8 @@ public final class Engine {
                 return GeckoResult.fromValue(new WebExtension.PermissionPromptResponse(allowed, false, false));
             }
         });
+        // Same pop-up blocker as Aion (about:blank pop-ups, tap hijacks, forced redirects).
+        controller.ensureBuiltIn("resource://android/assets/extensions/shields/", "shields@aion.nath.com");
         controller.list().accept(extensions -> {
             boolean hasUblock = false;
             if (extensions != null) {

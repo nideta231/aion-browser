@@ -58,11 +58,6 @@ object YouTube {
         val progressive = info.videoStreams.filter { it.isUrl && it.deliveryMethod == DeliveryMethod.PROGRESSIVE_HTTP }
         val videoOnly = info.videoOnlyStreams.filter { it.isUrl && it.deliveryMethod == DeliveryMethod.PROGRESSIVE_HTTP }
         val audios = info.audioStreams.filter { it.isUrl && it.deliveryMethod == DeliveryMethod.PROGRESSIVE_HTTP }
-        android.util.Log.i(
-            "AionYT",
-            "streams: video=${info.videoStreams.size} videoOnly=${info.videoOnlyStreams.size} audio=${info.audioStreams.size} " +
-                "usable videoOnly=${videoOnly.size} audio=${audios.size} errors=${info.errors.map { it.message }}",
-        )
         fun len(s: org.schabi.newpipe.extractor.stream.Stream) =
             ((s as? org.schabi.newpipe.extractor.stream.VideoStream)?.itagItem
                 ?: (s as? org.schabi.newpipe.extractor.stream.AudioStream)?.itagItem)?.contentLength ?: -1L

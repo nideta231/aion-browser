@@ -13,6 +13,7 @@ import android.provider.Settings
 import android.webkit.MimeTypeMap
 import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -20,6 +21,11 @@ import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.only
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -91,7 +97,15 @@ class MainActivity : ComponentActivity() {
         }
         if (Repository.get(this).all().any { it.state == State.QUEUED }) DownloadService.kick(this)
         if (Prefs(this).smartClipboard) runCatching { ClipboardService.start(this) }
-        setContent { AionTheme { DownloadsScreen() } }
+        enableEdgeToEdge()
+        setContent {
+            AionTheme {
+                // Keep everything inside the visible screen area (no buttons under bars or off the edge).
+                Box(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Horizontal))) {
+                    DownloadsScreen()
+                }
+            }
+        }
     }
 
     private var lastOfferedClip: String? = null

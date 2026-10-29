@@ -162,7 +162,6 @@ class HttpEngine(private val prefs: Prefs, private val globalLimiter: SpeedLimit
             throw e
         } catch (e: IOException) {
             if (item.userAgent == Prefs.PLAIN_UA) throw e
-            android.util.Log.i("AionDL", "probe failed with browser UA, retrying plain: ${e.message}")
             val previous = item.userAgent
             item.userAgent = Prefs.PLAIN_UA
             try {
@@ -175,7 +174,6 @@ class HttpEngine(private val prefs: Prefs, private val globalLimiter: SpeedLimit
     }
 
     private fun probeOnce(item: DownloadItem) {
-        android.util.Log.i("AionDL", "probe ${item.url} ua=${item.userAgent ?: prefs.userAgent}")
         val client = Http.client(prefs).newBuilder().connectTimeout(15, java.util.concurrent.TimeUnit.SECONDS)
             .readTimeout(20, java.util.concurrent.TimeUnit.SECONDS).build()
         val response = client.newCall(Http.request(item, prefs).header("Range", "bytes=0-").get().build()).execute()
@@ -190,7 +188,6 @@ class HttpEngine(private val prefs: Prefs, private val globalLimiter: SpeedLimit
                 Http.fileNameFrom(it, item.url)?.let { name -> item.fileName = sanitize(name) }
             }
             item.url = it.request.url.toString()
-            android.util.Log.i("AionDL", "probe ok code=${it.code} total=${item.totalBytes} resumable=${item.resumable}")
         }
     }
 
@@ -282,7 +279,6 @@ class HttpEngine(private val prefs: Prefs, private val globalLimiter: SpeedLimit
             gate.throttle()
             item.error = "Server limits connections, using ${gate.limit} part(s)"
             val wait = if (throttled.retryAfterMs > 0) throttled.retryAfterMs else minOf(1000L shl minOf(attempt, 5), 30_000L)
-            android.util.Log.i("AionDL", "part ${part.start} throttled, limit=${gate.limit}, wait=$wait")
             delay(wait)
         }
     }

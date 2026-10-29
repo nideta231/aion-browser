@@ -384,6 +384,7 @@ public class WebAppActivity extends Activity implements Engine.PopupHost {
             if (request.target == TARGET_WINDOW_NEW) {
                 // Pop-up or target=_blank. Without a tap it is a pop-up ad: drop it.
                 if (!request.hasUserGesture) return GeckoResult.deny();
+                if (uri == null || uri.isEmpty() || uri.startsWith("about:")) return GeckoResult.deny();
                 if (isSameSite(uri)) {
                     s.loadUri(uri);
                 } else {
