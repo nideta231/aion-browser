@@ -1,3 +1,31 @@
+diff --git a/components/browser/icons/src/main/assets/extensions/browser-icons/manifest.json b/components/browser/icons/src/main/assets/extensions/browser-icons/manifest.json
+new file mode 100644
+index 00000000..5e73557d
+--- /dev/null
++++ b/components/browser/icons/src/main/assets/extensions/browser-icons/manifest.json
+@@ -0,0 +1,22 @@
++{
++  "manifest_version": 2,
++  "browser_specific_settings": {
++    "gecko": {
++      "id": "icons@mozac.org"
++    }
++  },
++  "name": "Mozilla Android Components - Browser Icons",
++  "version": "158.0.20261007.201254",
++  "content_scripts": [
++    {
++      "matches": ["*://*/*"],
++      "js": ["icons.js"],
++      "run_at": "document_end"
++    }
++  ],
++  "permissions": [
++    "geckoViewAddons",
++    "nativeMessaging",
++    "nativeMessagingFromContent"
++  ]
++}
 diff --git a/components/browser/toolbar/src/main/res/layout/mozac_browser_toolbar_displaytoolbar.xml b/components/browser/toolbar/src/main/res/layout/mozac_browser_toolbar_displaytoolbar.xml
 index 95d6411a..fe05ebb8 100644
 --- a/components/browser/toolbar/src/main/res/layout/mozac_browser_toolbar_displaytoolbar.xml
@@ -14,6 +42,535 @@ index 95d6411a..fe05ebb8 100644
          android:background="?android:attr/selectableItemBackgroundBorderless"
          app:layout_constraintEnd_toEndOf="parent"
          app:layout_constraintTop_toTopOf="parent" />
+diff --git a/components/feature/accounts/src/main/assets/extensions/fxawebchannel/manifest.json b/components/feature/accounts/src/main/assets/extensions/fxawebchannel/manifest.json
+new file mode 100644
+index 00000000..d2834c23
+--- /dev/null
++++ b/components/feature/accounts/src/main/assets/extensions/fxawebchannel/manifest.json
+@@ -0,0 +1,33 @@
++{
++  "manifest_version": 2,
++  "browser_specific_settings": {
++    "gecko": {
++      "id": "fxa@mozac.org"
++    }
++  },
++  "name": "Mozilla Android Components - Firefox Accounts WebChannel",
++  "version": "158.0.20261007.201254",
++  "content_scripts": [
++    {
++      "matches": [
++        "https://accounts.firefox.com/*",
++        "https://stable.dev.lcip.org/*",
++        "https://accounts.stage.mozaws.net/*",
++        "https://latest.dev.lcip.org/*",
++        "https://accounts.firefox.com.cn/*"
++      ],
++      "js": ["fxawebchannel.js"],
++      "run_at": "document_start"
++    }
++  ],
++  "background": {
++    "scripts": ["background.js"]
++  },
++  "permissions": [
++    "mozillaAddons",
++    "geckoViewAddons",
++    "nativeMessaging",
++    "nativeMessagingFromContent",
++    "<all_urls>"
++  ]
++}
+diff --git a/components/feature/readerview/src/main/assets/extensions/readerview/manifest.json b/components/feature/readerview/src/main/assets/extensions/readerview/manifest.json
+new file mode 100644
+index 00000000..00cc6895
+--- /dev/null
++++ b/components/feature/readerview/src/main/assets/extensions/readerview/manifest.json
+@@ -0,0 +1,33 @@
++{
++  "manifest_version": 2,
++  "browser_specific_settings": {
++    "gecko": {
++      "id": "readerview@mozac.org"
++    }
++  },
++  "name": "Mozilla Android Components - ReaderView",
++  "version": "158.0.20261007.201254",
++  "content_scripts": [
++    {
++      "matches": ["<all_urls>"],
++      "js": [
++        "readability/readability-readerable-0.4.2.js",
++        "readerview-content.js"
++      ],
++      "run_at": "document_idle"
++    }
++  ],
++  "background": {
++    "scripts": ["readerview-background.js"],
++    "persistent": false
++  },
++  "permissions": [
++    "mozillaAddons",
++    "geckoViewAddons",
++    "nativeMessaging",
++    "nativeMessagingFromContent",
++    "storage",
++    "tabs",
++    "<all_urls>"
++  ]
++}
+diff --git a/components/feature/search/src/main/assets/extensions/ads/manifest.json b/components/feature/search/src/main/assets/extensions/ads/manifest.json
+new file mode 100644
+index 00000000..bc26a2a6
+--- /dev/null
++++ b/components/feature/search/src/main/assets/extensions/ads/manifest.json
+@@ -0,0 +1,219 @@
++{
++  "manifest_version": 2,
++  "browser_specific_settings": {
++    "gecko": {
++      "id": "ads@mozac.org"
++    }
++  },
++  "name": "Mozilla Android Components - Ads Telemetry",
++  "version": "158.0.20261007.201254",
++  "content_scripts": [
++    {
++      "matches": ["https://*/*"],
++      "include_globs": [
++        "https://www.google.com/search*",
++        "https://www.google.ad/search*",
++        "https://www.google.ae/search*",
++        "https://www.google.com.af/search*",
++        "https://www.google.com.ag/search*",
++        "https://www.google.com.ai/search*",
++        "https://www.google.al/search*",
++        "https://www.google.am/search*",
++        "https://www.google.co.ao/search*",
++        "https://www.google.com.ar/search*",
++        "https://www.google.as/search*",
++        "https://www.google.at/search*",
++        "https://www.google.com.au/search*",
++        "https://www.google.az/search*",
++        "https://www.google.ba/search*",
++        "https://www.google.com.bd/search*",
++        "https://www.google.be/search*",
++        "https://www.google.bf/search*",
++        "https://www.google.bg/search*",
++        "https://www.google.com.bh/search*",
++        "https://www.google.bi/search*",
++        "https://www.google.bj/search*",
++        "https://www.google.com.bn/search*",
++        "https://www.google.com.bo/search*",
++        "https://www.google.com.br/search*",
++        "https://www.google.bs/search*",
++        "https://www.google.bt/search*",
++        "https://www.google.co.bw/search*",
++        "https://www.google.by/search*",
++        "https://www.google.com.bz/search*",
++        "https://www.google.ca/search*",
++        "https://www.google.cd/search*",
++        "https://www.google.cf/search*",
++        "https://www.google.cg/search*",
++        "https://www.google.ch/search*",
++        "https://www.google.ci/search*",
++        "https://www.google.co.ck/search*",
++        "https://www.google.cl/search*",
++        "https://www.google.cm/search*",
++        "https://www.google.cn/search*",
++        "https://www.google.com.co/search*",
++        "https://www.google.co.cr/search*",
++        "https://www.google.com.cu/search*",
++        "https://www.google.cv/search*",
++        "https://www.google.com.cy/search*",
++        "https://www.google.cz/search*",
++        "https://www.google.de/search*",
++        "https://www.google.dj/search*",
++        "https://www.google.dk/search*",
++        "https://www.google.dm/search*",
++        "https://www.google.com.do/search*",
++        "https://www.google.dz/search*",
++        "https://www.google.com.ec/search*",
++        "https://www.google.ee/search*",
++        "https://www.google.com.eg/search*",
++        "https://www.google.es/search*",
++        "https://www.google.com.et/search*",
++        "https://www.google.fi/search*",
++        "https://www.google.com.fj/search*",
++        "https://www.google.fm/search*",
++        "https://www.google.fr/search*",
++        "https://www.google.ga/search*",
++        "https://www.google.ge/search*",
++        "https://www.google.gg/search*",
++        "https://www.google.com.gh/search*",
++        "https://www.google.com.gi/search*",
++        "https://www.google.gl/search*",
++        "https://www.google.gm/search*",
++        "https://www.google.gr/search*",
++        "https://www.google.com.gt/search*",
++        "https://www.google.gy/search*",
++        "https://www.google.com.hk/search*",
++        "https://www.google.hn/search*",
++        "https://www.google.hr/search*",
++        "https://www.google.ht/search*",
++        "https://www.google.hu/search*",
++        "https://www.google.co.id/search*",
++        "https://www.google.ie/search*",
++        "https://www.google.co.il/search*",
++        "https://www.google.im/search*",
++        "https://www.google.co.in/search*",
++        "https://www.google.iq/search*",
++        "https://www.google.is/search*",
++        "https://www.google.it/search*",
++        "https://www.google.je/search*",
++        "https://www.google.com.jm/search*",
++        "https://www.google.jo/search*",
++        "https://www.google.co.jp/search*",
++        "https://www.google.co.ke/search*",
++        "https://www.google.com.kh/search*",
++        "https://www.google.ki/search*",
++        "https://www.google.kg/search*",
++        "https://www.google.co.kr/search*",
++        "https://www.google.com.kw/search*",
++        "https://www.google.kz/search*",
++        "https://www.google.la/search*",
++        "https://www.google.com.lb/search*",
++        "https://www.google.li/search*",
++        "https://www.google.lk/search*",
++        "https://www.google.co.ls/search*",
++        "https://www.google.lt/search*",
++        "https://www.google.lu/search*",
++        "https://www.google.lv/search*",
++        "https://www.google.com.ly/search*",
++        "https://www.google.co.ma/search*",
++        "https://www.google.md/search*",
++        "https://www.google.me/search*",
++        "https://www.google.mg/search*",
++        "https://www.google.mk/search*",
++        "https://www.google.ml/search*",
++        "https://www.google.com.mm/search*",
++        "https://www.google.mn/search*",
++        "https://www.google.ms/search*",
++        "https://www.google.com.mt/search*",
++        "https://www.google.mu/search*",
++        "https://www.google.mv/search*",
++        "https://www.google.mw/search*",
++        "https://www.google.com.mx/search*",
++        "https://www.google.com.my/search*",
++        "https://www.google.co.mz/search*",
++        "https://www.google.com.na/search*",
++        "https://www.google.com.ng/search*",
++        "https://www.google.com.ni/search*",
++        "https://www.google.ne/search*",
++        "https://www.google.nl/search*",
++        "https://www.google.no/search*",
++        "https://www.google.com.np/search*",
++        "https://www.google.nr/search*",
++        "https://www.google.nu/search*",
++        "https://www.google.co.nz/search*",
++        "https://www.google.com.om/search*",
++        "https://www.google.com.pa/search*",
++        "https://www.google.com.pe/search*",
++        "https://www.google.com.pg/search*",
++        "https://www.google.com.ph/search*",
++        "https://www.google.com.pk/search*",
++        "https://www.google.pl/search*",
++        "https://www.google.pn/search*",
++        "https://www.google.com.pr/search*",
++        "https://www.google.ps/search*",
++        "https://www.google.pt/search*",
++        "https://www.google.com.py/search*",
++        "https://www.google.com.qa/search*",
++        "https://www.google.ro/search*",
++        "https://www.google.ru/search*",
++        "https://www.google.rw/search*",
++        "https://www.google.com.sa/search*",
++        "https://www.google.com.sb/search*",
++        "https://www.google.sc/search*",
++        "https://www.google.se/search*",
++        "https://www.google.com.sg/search*",
++        "https://www.google.sh/search*",
++        "https://www.google.si/search*",
++        "https://www.google.sk/search*",
++        "https://www.google.com.sl/search*",
++        "https://www.google.sn/search*",
++        "https://www.google.so/search*",
++        "https://www.google.sm/search*",
++        "https://www.google.sr/search*",
++        "https://www.google.st/search*",
++        "https://www.google.com.sv/search*",
++        "https://www.google.td/search*",
++        "https://www.google.tg/search*",
++        "https://www.google.co.th/search*",
++        "https://www.google.com.tj/search*",
++        "https://www.google.tl/search*",
++        "https://www.google.tm/search*",
++        "https://www.google.tn/search*",
++        "https://www.google.to/search*",
++        "https://www.google.com.tr/search*",
++        "https://www.google.tt/search*",
++        "https://www.google.com.tw/search*",
++        "https://www.google.co.tz/search*",
++        "https://www.google.com.ua/search*",
++        "https://www.google.co.ug/search*",
++        "https://www.google.co.uk/search*",
++        "https://www.google.com.uy/search*",
++        "https://www.google.co.uz/search*",
++        "https://www.google.com.vc/search*",
++        "https://www.google.co.ve/search*",
++        "https://www.google.vg/search*",
++        "https://www.google.co.vi/search*",
++        "https://www.google.com.vn/search*",
++        "https://www.google.vu/search*",
++        "https://www.google.ws/search*",
++        "https://www.google.rs/search*",
++        "https://www.google.co.za/search*",
++        "https://www.google.co.zm/search*",
++        "https://www.google.co.zw/search*",
++        "https://www.google.cat/search*",
++        "https://www.bing.com/search*",
++        "https://www.baidu.com/*",
++        "https://m.baidu.com/*",
++        "https://duckduckgo.com/*",
++        "https://www.ecosia.org/*"
++      ],
++      "js": ["adsTelemetry.js"],
++      "run_at": "document_end"
++    }
++  ],
++  "permissions": [
++    "geckoViewAddons",
++    "nativeMessaging",
++    "nativeMessagingFromContent"
++  ]
++}
+diff --git a/components/feature/search/src/main/assets/extensions/search/manifest.json b/components/feature/search/src/main/assets/extensions/search/manifest.json
+new file mode 100644
+index 00000000..70cc3593
+--- /dev/null
++++ b/components/feature/search/src/main/assets/extensions/search/manifest.json
+@@ -0,0 +1,220 @@
++{
++  "manifest_version": 2,
++  "browser_specific_settings": {
++    "gecko": {
++      "id": "cookies@mozac.org"
++    }
++  },
++  "name": "Mozilla Android Components - Search Telemetry",
++  "version": "158.0.20261007.201254",
++  "content_scripts": [
++    {
++      "matches": ["https://*/*"],
++      "include_globs": [
++        "https://www.google.com/search*",
++        "https://www.google.ad/search*",
++        "https://www.google.ae/search*",
++        "https://www.google.com.af/search*",
++        "https://www.google.com.ag/search*",
++        "https://www.google.com.ai/search*",
++        "https://www.google.al/search*",
++        "https://www.google.am/search*",
++        "https://www.google.co.ao/search*",
++        "https://www.google.com.ar/search*",
++        "https://www.google.as/search*",
++        "https://www.google.at/search*",
++        "https://www.google.com.au/search*",
++        "https://www.google.az/search*",
++        "https://www.google.ba/search*",
++        "https://www.google.com.bd/search*",
++        "https://www.google.be/search*",
++        "https://www.google.bf/search*",
++        "https://www.google.bg/search*",
++        "https://www.google.com.bh/search*",
++        "https://www.google.bi/search*",
++        "https://www.google.bj/search*",
++        "https://www.google.com.bn/search*",
++        "https://www.google.com.bo/search*",
++        "https://www.google.com.br/search*",
++        "https://www.google.bs/search*",
++        "https://www.google.bt/search*",
++        "https://www.google.co.bw/search*",
++        "https://www.google.by/search*",
++        "https://www.google.com.bz/search*",
++        "https://www.google.ca/search*",
++        "https://www.google.cd/search*",
++        "https://www.google.cf/search*",
++        "https://www.google.cg/search*",
++        "https://www.google.ch/search*",
++        "https://www.google.ci/search*",
++        "https://www.google.co.ck/search*",
++        "https://www.google.cl/search*",
++        "https://www.google.cm/search*",
++        "https://www.google.cn/search*",
++        "https://www.google.com.co/search*",
++        "https://www.google.co.cr/search*",
++        "https://www.google.com.cu/search*",
++        "https://www.google.cv/search*",
++        "https://www.google.com.cy/search*",
++        "https://www.google.cz/search*",
++        "https://www.google.de/search*",
++        "https://www.google.dj/search*",
++        "https://www.google.dk/search*",
++        "https://www.google.dm/search*",
++        "https://www.google.com.do/search*",
++        "https://www.google.dz/search*",
++        "https://www.google.com.ec/search*",
++        "https://www.google.ee/search*",
++        "https://www.google.com.eg/search*",
++        "https://www.google.es/search*",
++        "https://www.google.com.et/search*",
++        "https://www.google.fi/search*",
++        "https://www.google.com.fj/search*",
++        "https://www.google.fm/search*",
++        "https://www.google.fr/search*",
++        "https://www.google.ga/search*",
++        "https://www.google.ge/search*",
++        "https://www.google.gg/search*",
++        "https://www.google.com.gh/search*",
++        "https://www.google.com.gi/search*",
++        "https://www.google.gl/search*",
++        "https://www.google.gm/search*",
++        "https://www.google.gr/search*",
++        "https://www.google.com.gt/search*",
++        "https://www.google.gy/search*",
++        "https://www.google.com.hk/search*",
++        "https://www.google.hn/search*",
++        "https://www.google.hr/search*",
++        "https://www.google.ht/search*",
++        "https://www.google.hu/search*",
++        "https://www.google.co.id/search*",
++        "https://www.google.ie/search*",
++        "https://www.google.co.il/search*",
++        "https://www.google.im/search*",
++        "https://www.google.co.in/search*",
++        "https://www.google.iq/search*",
++        "https://www.google.is/search*",
++        "https://www.google.it/search*",
++        "https://www.google.je/search*",
++        "https://www.google.com.jm/search*",
++        "https://www.google.jo/search*",
++        "https://www.google.co.jp/search*",
++        "https://www.google.co.ke/search*",
++        "https://www.google.com.kh/search*",
++        "https://www.google.ki/search*",
++        "https://www.google.kg/search*",
++        "https://www.google.co.kr/search*",
++        "https://www.google.com.kw/search*",
++        "https://www.google.kz/search*",
++        "https://www.google.la/search*",
++        "https://www.google.com.lb/search*",
++        "https://www.google.li/search*",
++        "https://www.google.lk/search*",
++        "https://www.google.co.ls/search*",
++        "https://www.google.lt/search*",
++        "https://www.google.lu/search*",
++        "https://www.google.lv/search*",
++        "https://www.google.com.ly/search*",
++        "https://www.google.co.ma/search*",
++        "https://www.google.md/search*",
++        "https://www.google.me/search*",
++        "https://www.google.mg/search*",
++        "https://www.google.mk/search*",
++        "https://www.google.ml/search*",
++        "https://www.google.com.mm/search*",
++        "https://www.google.mn/search*",
++        "https://www.google.ms/search*",
++        "https://www.google.com.mt/search*",
++        "https://www.google.mu/search*",
++        "https://www.google.mv/search*",
++        "https://www.google.mw/search*",
++        "https://www.google.com.mx/search*",
++        "https://www.google.com.my/search*",
++        "https://www.google.co.mz/search*",
++        "https://www.google.com.na/search*",
++        "https://www.google.com.ng/search*",
++        "https://www.google.com.ni/search*",
++        "https://www.google.ne/search*",
++        "https://www.google.nl/search*",
++        "https://www.google.no/search*",
++        "https://www.google.com.np/search*",
++        "https://www.google.nr/search*",
++        "https://www.google.nu/search*",
++        "https://www.google.co.nz/search*",
++        "https://www.google.com.om/search*",
++        "https://www.google.com.pa/search*",
++        "https://www.google.com.pe/search*",
++        "https://www.google.com.pg/search*",
++        "https://www.google.com.ph/search*",
++        "https://www.google.com.pk/search*",
++        "https://www.google.pl/search*",
++        "https://www.google.pn/search*",
++        "https://www.google.com.pr/search*",
++        "https://www.google.ps/search*",
++        "https://www.google.pt/search*",
++        "https://www.google.com.py/search*",
++        "https://www.google.com.qa/search*",
++        "https://www.google.ro/search*",
++        "https://www.google.ru/search*",
++        "https://www.google.rw/search*",
++        "https://www.google.com.sa/search*",
++        "https://www.google.com.sb/search*",
++        "https://www.google.sc/search*",
++        "https://www.google.se/search*",
++        "https://www.google.com.sg/search*",
++        "https://www.google.sh/search*",
++        "https://www.google.si/search*",
++        "https://www.google.sk/search*",
++        "https://www.google.com.sl/search*",
++        "https://www.google.sn/search*",
++        "https://www.google.so/search*",
++        "https://www.google.sm/search*",
++        "https://www.google.sr/search*",
++        "https://www.google.st/search*",
++        "https://www.google.com.sv/search*",
++        "https://www.google.td/search*",
++        "https://www.google.tg/search*",
++        "https://www.google.co.th/search*",
++        "https://www.google.com.tj/search*",
++        "https://www.google.tl/search*",
++        "https://www.google.tm/search*",
++        "https://www.google.tn/search*",
++        "https://www.google.to/search*",
++        "https://www.google.com.tr/search*",
++        "https://www.google.tt/search*",
++        "https://www.google.com.tw/search*",
++        "https://www.google.co.tz/search*",
++        "https://www.google.com.ua/search*",
++        "https://www.google.co.ug/search*",
++        "https://www.google.co.uk/search*",
++        "https://www.google.com.uy/search*",
++        "https://www.google.co.uz/search*",
++        "https://www.google.com.vc/search*",
++        "https://www.google.co.ve/search*",
++        "https://www.google.vg/search*",
++        "https://www.google.co.vi/search*",
++        "https://www.google.com.vn/search*",
++        "https://www.google.vu/search*",
++        "https://www.google.ws/search*",
++        "https://www.google.rs/search*",
++        "https://www.google.co.za/search*",
++        "https://www.google.co.zm/search*",
++        "https://www.google.co.zw/search*",
++        "https://www.google.cat/search*",
++        "https://www.baidu.com/*",
++        "https://m.baidu.com/*",
++        "https://*search.yahoo.com/search*",
++        "https://www.bing.com/search*",
++        "https://duckduckgo.com/*",
++        "https://www.ecosia.org/*"
++      ],
++      "js": ["searchTelemetry.js"],
++      "run_at": "document_end"
++    }
++  ],
++  "permissions": [
++    "geckoViewAddons",
++    "nativeMessaging",
++    "nativeMessagingFromContent"
++  ]
++}
 diff --git a/components/feature/search/src/main/assets/search/list.json b/components/feature/search/src/main/assets/search/list.json
 index 505134ad..4a629ef5 100644
 --- a/components/feature/search/src/main/assets/search/list.json
@@ -3136,6 +3693,53 @@ index 505134ad..4a629ef5 100644
        }
      }
    }
+diff --git a/components/feature/search/src/main/assets/searchplugins/brave.xml b/components/feature/search/src/main/assets/searchplugins/brave.xml
+new file mode 100644
+index 00000000..be94c173
+--- /dev/null
++++ b/components/feature/search/src/main/assets/searchplugins/brave.xml
+@@ -0,0 +1,16 @@
++<!-- This Source Code Form is subject to the terms of the Mozilla Public
++   - License, v. 2.0. If a copy of the MPL was not distributed with this
++   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
++
++<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
++    <ShortName>Brave</ShortName>
++    <InputEncoding>UTF-8</InputEncoding>
++    <Image width="16" height="16">data:image/png;base64,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</Image>
++    <Url type="application/x-suggestions+json" method="GET" template="https://search.brave.com/api/suggest">
++        <Param name="q" value="{searchTerms}"/>
++    </Url>
++    <Url type="text/html" method="GET" template="https://search.brave.com/search">
++        <Param name="q" value="{searchTerms}"/>
++    </Url>
++    <SearchForm>https://search.brave.com/</SearchForm>
++</SearchPlugin>
+diff --git a/components/feature/search/src/main/assets/searchplugins/startpage.xml b/components/feature/search/src/main/assets/searchplugins/startpage.xml
+new file mode 100644
+index 00000000..0e5c853b
+--- /dev/null
++++ b/components/feature/search/src/main/assets/searchplugins/startpage.xml
+@@ -0,0 +1,19 @@
++<!-- This Source Code Form is subject to the terms of the Mozilla Public
++   - License, v. 2.0. If a copy of the MPL was not distributed with this
++   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
++
++<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
++    <ShortName>Startpage</ShortName>
++    <InputEncoding>UTF-8</InputEncoding>
++    <Image width="16" height="16">data:image/png;base64,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</Image>
++    <Url type="application/x-suggestions+json" method="GET" template="https://www.startpage.com/suggestions">
++        <Param name="query" value="{searchTerms}"/>
++        <Param name="format" value="opensearch"/>
++    </Url>
++    <Url type="text/html" method="GET" template="https://www.startpage.com/sp/search">
++        <Param name="query" value="{searchTerms}"/>
++        <Param name="cat" value="web"/>
++        <Param name="pl" value="opensearch"/>
++    </Url>
++    <SearchForm>https://www.startpage.com/</SearchForm>
++</SearchPlugin>
 diff --git a/components/feature/search/src/main/java/mozilla/components/feature/search/storage/SearchEngineReader.kt b/components/feature/search/src/main/java/mozilla/components/feature/search/storage/SearchEngineReader.kt
 index 966831a9..b1757b34 100644
 --- a/components/feature/search/src/main/java/mozilla/components/feature/search/storage/SearchEngineReader.kt
@@ -3219,6 +3823,634 @@ index b742e746..7aeb2495 100644
          )
      }
  }
+diff --git a/components/lib/crash/src/main/java/mozilla/components/lib/crash/service/CrashReport.kt b/components/lib/crash/src/main/java/mozilla/components/lib/crash/service/CrashReport.kt
+new file mode 100644
+index 00000000..28e3c7e9
+--- /dev/null
++++ b/components/lib/crash/src/main/java/mozilla/components/lib/crash/service/CrashReport.kt
+@@ -0,0 +1,621 @@
++/* This file was autogenerated by toolkit/crashreporter/generate_crash_reporter_sources.py. DO NOT EDIT */
++
++package mozilla.components.lib.crash.service
++
++import androidx.annotation.AnyThread
++
++/**
++ * Constants used by the crash reporter. These are generated so that they
++ * are kept in sync with the other C++ and JS users.
++ */
++internal class CrashReport {
++    /** Crash Annotations */
++    @AnyThread
++    enum class Annotation private constructor (private val s: String, private val scope: String) {
++        /** Message passed to NS_DebugBreak().
++ */
++AbortMessage("AbortMessage", "report"),
++/** Set to "Active" by the accessibility service when it is active.
++ */
++Accessibility("Accessibility", "report"),
++/** Accessibility client ID.
++ */
++AccessibilityClient("AccessibilityClient", "report"),
++/** Hexadecimal mask of in-process accessibility consumers, see accessible/windows/msaa/Compatibility.h for the mappings.
++ */
++AccessibilityInProcClient("AccessibilityInProcClient", "report"),
++/** Graphics adapter name.
++ */
++AdapterDeviceID("AdapterDeviceID", "report"),
++/** Graphics adapter driver vendor.
++ */
++AdapterDriverVendor("AdapterDriverVendor", "report"),
++/** Graphics adapter driver version.
++ */
++AdapterDriverVersion("AdapterDriverVersion", "report"),
++/** Graphics adapter subsystem ID.
++ */
++AdapterSubsysID("AdapterSubsysID", "report"),
++/** Graphics adapter vendor name.
++ */
++AdapterVendorID("AdapterVendorID", "report"),
++/** Comma separated list of additional minidumps for this crash, each element in the list represent the suffix used in the dump filename. E.g. the "browser" entry for crash fa909194-737b-4b93-b8da-da110ac785e0 implies the existence of the fa909194-737b-4b93-b8da-da110ac785e0-browser.dmp file.
++ */
++additional_minidumps("additional_minidumps", "report"),
++/** List of currently enabled add-ons.
++ */
++Addons("Addons", "report"),
++/** The name of the underlying board used by the Android device. e.g. "k68v1_64"
++ */
++Android_Board("Android_Board", "report"),
++/** The consumer-visible brand associated with this Android device. e.g. "vivo"
++ */
++Android_Brand("Android_Brand", "report"),
++/** The Android primary CPU ABI being used. e.g. "arm64-v8a"
++ */
++Android_CPU_ABI("Android_CPU_ABI", "report"),
++/** The Android secondary CPU ABI being used. e.g. "armeabi-v7a"
++ */
++Android_CPU_ABI2("Android_CPU_ABI2", "report"),
++/** Android device name. e.g. "1907"
++ */
++Android_Device("Android_Device", "report"),
++/** End-user visible display name of the build id for the Android build. e.g. "SP1A.210812.003 release-keys"
++ */
++Android_Display("Android_Display", "report"),
++/** A string that uniquely identifies the Android build. e.g. "vivo/1907/1907:12/SP1A.210812.003/compiler03091510:user/release-keys"
++ */
++Android_Fingerprint("Android_Fingerprint", "report"),
++/** The name of the Android hardware from "/proc". e.g. "mt6768"
++ */
++Android_Hardware("Android_Hardware", "report"),
++/** Android device manufacturer. e.g. "vivo"
++ */
++Android_Manufacturer("Android_Manufacturer", "report"),
++/** End-user visible Android device model name. e.g. "vivo 1907"
++ */
++Android_Model("Android_Model", "report"),
++/** The package name of an Android application that uniquely identifies the application on the device, Google Play Store, and third-party Android stores. e.g. "com.example.referencebrowser"
++ */
++Android_PackageName("Android_PackageName", "report"),
++/** The name of the process which sent the crash report in the Android application.
++ */
++Android_ProcessName("Android_ProcessName", "report"),
++/** The developer preview revision of a prerelease SDK plus The current development codename, or the string "REL" if this is a release build. e.g. "31 (REL)"
++ */
++Android_Version("Android_Version", "report"),
++/** The version of android-components in use.
++ */
++AndroidComponentVersion("AndroidComponentVersion", "report"),
++/** List of DLLs loaded when launching any application on Windows, this reflects the contents of the AppInit_DLLs registry key.
++ */
++AppInitDLLs("AppInitDLLs", "report"),
++/** The Android application's build ID.
++ */
++ApplicationBuildID("ApplicationBuildID", "ping"),
++/** The version of Application Services libraries. */
++ApplicationServicesVersion("ApplicationServicesVersion", "report"),
++/** This annotation is present if a shutdown blocker was not released in time and the browser was crashed instead of waiting for shutdown to finish. The condition that caused the hang is contained in the annotation.
++ */
++AsyncShutdownTimeout("AsyncShutdownTimeout", "ping"),
++/** Available commit-space in bytes. - Under Windows, computed from the PERFORMANCE_INFORMATION structure by substracting
++  the CommitTotal field from the CommitLimit field.
++- Under Linux, computed from /proc/meminfo's CommitLimit - Committed_AS. Note that
++  the kernel is not guaranteed to enforce that CommittedLimit &gt;= Committed_AS. If
++  Committed_AS &gt; CommittedLimit, this value is set to 0.
++- Not available on other platforms.
++ */
++AvailablePageFile("AvailablePageFile", "ping"),
++/** Amount of free physical memory in bytes. - Under Windows, populated with the contents of the MEMORYSTATUSEX's structure ullAvailPhys field. - Under macOS, populated with vm_statistics64_data_t::free_count. - Under Linux, populated with /proc/meminfo's MemFree. - Not available on other platforms.
++ */
++AvailablePhysicalMemory("AvailablePhysicalMemory", "ping"),
++/** Amount of free swap space in bytes. - Under macOS, populated with the contents of
++  sysctl "vm.swapusage" :: xsu_avail.
++- Under Linux, populated with /proc/meminfo's SwapFree. - Not available on other platforms.
++ */
++AvailableSwapMemory("AvailableSwapMemory", "ping"),
++/** Amount of free virtual memory in bytes - Under Windows, populated with the contents of the MEMORYSTATUSEX's structure ullAvailVirtual field. - Under Linux, populated with /proc/meminfo's MemAvailable. - Not available on other platforms. - For macOS, see AvailableSwapMemory, AvailablePhysicalMemory and PurgeablePhysicalMemory.
++ */
++AvailableVirtualMemory("AvailableVirtualMemory", "ping"),
++/** True if the app was invoked in background task mode via `--backgroundtask ...`, false otherwise.
++ */
++BackgroundTaskMode("BackgroundTaskMode", "report"),
++/** If the app was invoked in background task mode via `--backgroundtask &lt;task name&gt;`, the string "task name".
++ */
++BackgroundTaskName("BackgroundTaskName", "ping"),
++/** Semicolon-separated list of blocked DLLS, Windows-only
++ */
++BlockedDllList("BlockedDllList", "ping"),
++/** Set to 1 if the DLL blocklist could not be initialized.
++ */
++BlocklistInitFailed("BlocklistInitFailed", "ping"),
++/** Trail of events that occurred before a report. this will consist of multiple breadcrumbs with timestamp, message, category, level, type and data in JSON format.
++ */
++Breadcrumbs("Breadcrumbs", "report"),
++/** Application build ID, the format is YYYYMMDDHHMMSS.
++ */
++BuildID("BuildID", "ping"),
++/** A UUID for the crash event. */
++CrashEventID("CrashEventID", "ping"),
++/** The type of crash that occurred (Android-only). */
++CrashType("CrashType", "ping"),
++/** Holds a fixed crash signature that overrides the one test automation would otherwise derive from the crashing stack. When present, test automation reports the crash under this signature. This only affects test automation; production crash reporting (e.g. Socorro) ignores it.
++ */
++CrashSignatureOverrideForTesting("CrashSignatureOverrideForTesting", "report"),
++/** List of capabilities of the content process sandbox.
++ */
++ContentSandboxCapabilities("ContentSandboxCapabilities", "report"),
++/** Set to 1 when content process sandboxing is enabled.
++ */
++ContentSandboxEnabled("ContentSandboxEnabled", "report"),
++/** Set to 1 if the client is capable of content sandboxing.
++ */
++ContentSandboxCapable("ContentSandboxCapable", "report"),
++/** Content sandbox level.
++ */
++ContentSandboxLevel("ContentSandboxLevel", "report"),
++/** Content sandbox Win32k state
++ */
++ContentSandboxWin32kState("ContentSandboxWin32kState", "report"),
++/** GPU sandbox level.
++ */
++GpuSandboxLevel("GpuSandboxLevel", "report"),
++/** Architecture of the CPU. One of the values described in `system_info.cpu_arch` of https://github.com/rust-minidump/rust-minidump/blob/main/minidump-processor/json-schema.md: "x86", "amd64", "ppc", "ppc64", "sparc", "arm", "arm64", or "unknown".
++ */
++CPUArchitecture("CPUArchitecture", "ping"),
++/** Information about the CPU, as a string. This typically includes family, model, and stepping.
++ */
++CPUInfo("CPUInfo", "ping"),
++/** Version of the CPU microcode.
++ */
++CPUMicrocodeVersion("CPUMicrocodeVersion", "report"),
++/** The user comments for a crash, recorded by the crash reporter client.
++ */
++Comments("Comments", "report"),
++/** Crash time in seconds since the Epoch.
++ */
++CrashTime("CrashTime", "ping"),
++/** Reason why the cycle collector crashed.
++ */
++CycleCollector("CycleCollector", "report"),
++/** Desktop environment used on Linux, e.g. GNOME, KDE, XFCE, etc.
++ */
++DesktopEnvironment("DesktopEnvironment", "report"),
++/** Reason why a DirectX device has been reset, Windows only.
++ */
++DeviceResetReason("DeviceResetReason", "report"),
++/** The distribution ID of the application. */
++DistributionID("DistributionID", "report"),
++/** Set to 1 when DOM fission is enabled, and subframes are potentially loaded in a separate process.
++ */
++DOMFissionEnabled("DOMFissionEnabled", "ping"),
++/** Set to 1 when a tab is running in a content process
++ */
++DOMIPCEnabled("DOMIPCEnabled", "report"),
++/** Error message of the minidump writer, in case there was an error during dumping.
++ */
++DumperError("DumperError", "report"),
++/** Set to true if add-on compatibility checking is enabled. Technically this annotation should be a boolean, but historically it's been set by JavaScript code as a string, so keep it as such for the time being.
++ */
++EMCheckCompatibility("EMCheckCompatibility", "report"),
++/** Present only if higher than 0, indicates that we're running in a nested event loop and indicates the nesting level.
++ */
++EventLoopNestingLevel("EventLoopNestingLevel", "ping"),
++/** Set before attempting to load a font to help diagnose crashes during loading.
++ */
++FontName("FontName", "ping"),
++/** The version of geckoview in use. */
++GeckoViewVersion("GeckoViewVersion", "report"),
++/** The version of Glean in use. */
++GleanVersion("GleanVersion", "report"),
++/** Holds the path to the GMP plugin library.
++ */
++GMPLibraryPath("GMPLibraryPath", "report"),
++/** Set to 1 if the GMP plugin is enabled.
++ */
++GMPPlugin("GMPPlugin", "report"),
++/** Number of times the GPU process was launched.
++ */
++GPUProcessLaunchCount("GPUProcessLaunchCount", "ping"),
++/** Status of the GPU process, can be set to "Running" or "Destroyed"
++ */
++GPUProcessStatus("GPUProcessStatus", "report"),
++/** Name of the shader we are in the process of compiling, if applicable. See file names in gfx/wr/webrender/res/&#042; for the possible values.
++ */
++GraphicsCompileShader("GraphicsCompileShader", "report"),
++/** Information of a critical error that occurred within the graphics code.
++ */
++GraphicsCriticalError("GraphicsCriticalError", "report"),
++/** Name of the shader that is currently bound for a draw call, if applicable. See file names in gfx/wr/webrender/res/&#042; for the possible values.
++ */
++GraphicsDrawShader("GraphicsDrawShader", "report"),
++/** Error and path of the font file that has failed to load. The user's profile dir is removed from the front of the path if necessary.
++ */
++GraphicsFontFile("GraphicsFontFile", "report"),
++/** Number of webrender renderer instances that are not in a paused state.
++ */
++GraphicsNumActiveRenderers("GraphicsNumActiveRenderers", "report"),
++/** Total number of webrender renderer instances.
++ */
++GraphicsNumRenderers("GraphicsNumRenderers", "report"),
++/** Set to 1 by the graphics driver crash guard when it's activated.
++ */
++GraphicsStartupTest("GraphicsStartupTest", "report"),
++/** True if the app was invoked in headless mode via `--headless ...` or `--backgroundtask ...`, false otherwise.
++ */
++HeadlessMode("HeadlessMode", "ping"),
++/** The allocation kind, if the crash involved a bad access of a special PHC allocation.
++ */
++PHCKind("PHCKind", "report"),
++/** The allocation's base address, if the crash involved a bad access of a special PHC allocation. Encoded as a decimal address.
++ */
++PHCBaseAddress("PHCBaseAddress", "report"),
++/** The allocation's usable size, if the crash involved a bad access of a special PHC allocation.
++ */
++PHCUsableSize("PHCUsableSize", "report"),
++/** The allocation's allocation stack trace, if the crash involved a bad access of a special PHC allocation. Encoded as a comma-separated list of decimal addresses.
++ */
++PHCAllocStack("PHCAllocStack", "report"),
++/** The allocation's free stack trace, if the crash involved a bad access of a special PHC allocation. Encoded as a comma-separated list of decimal addresses.
++ */
++PHCFreeStack("PHCFreeStack", "report"),
++/** Set to 1 if the device had a touch-screen, this only applies to Firefox desktop as on mobile devices we assume a touch-screen is always present.
++ */
++HasDeviceTouchScreen("HasDeviceTouchScreen", "report"),
++/** The time when Firefox was installed expressed as seconds since the Epoch
++ */
++InstallTime("InstallTime", "ping"),
++/** Set by test automation when it deliberately crashes a process and expects that crash to happen. When present, mozcrash does not treat the crash as a test failure. This must only ever be set under test-specific configuration; production crashes must never carry it, otherwise real failures would be silently ignored.
++ */
++IntentionalCrashForTesting("IntentionalCrashForTesting", "report"),
++/** Set before a content process crashes because of an IPC channel error. Holds a description of the error.
++ */
++ipc_channel_error("ipc_channel_error", "ping"),
++/** errno value retrieved after failing to set the O_CLOEXEC flag on a pipe used for IPC.
++ */
++IpcCreatePipeCloExecErrno("IpcCreatePipeCloExecErrno", "report"),
++/** errno value retrieved after a call to fcntl() on a pipe used for IPC failed.
++ */
++IpcCreatePipeFcntlErrno("IpcCreatePipeFcntlErrno", "report"),
++/** errno value retrieved after a socketpair() call failed while creating an IPC transport object.
++ */
++IpcCreatePipeSocketPairErrno("IpcCreatePipeSocketPairErrno", "report"),
++/** Describes a fatal error that occurred during IPC operation.
++ */
++IPCFatalErrorMsg("IPCFatalErrorMsg", "report"),
++/** Name of the protocol used by IPC when a fatal error occurred.
++ */
++IPCFatalErrorProtocol("IPCFatalErrorProtocol", "report"),
++/** Size of failed shmem allocations which led to data being sent inline in the IPC message that caused a crash because it was too large.
++ */
++IPCMessageLargeBufferShmemFailureSize("IPCMessageLargeBufferShmemFailureSize", "report"),
++/** Name of the IPC message that caused a crash because it was too large.
++ */
++IPCMessageName("IPCMessageName", "report"),
++/** Size of the IPC message that caused a crash because it was too large.
++ */
++IPCMessageSize("IPCMessageSize", "report"),
++/** Reason why reading an object via IPC failed.
++ */
++IPCReadErrorReason("IPCReadErrorReason", "report"),
++/** IPC shutdown state, can be set to either "RecvShutdown" or "SendFinishShutdown" by a content process while it's shutting down.
++ */
++IPCShutdownState("IPCShutdownState", "ping"),
++/** Description of the last system error that occurred during IPC operation.
++ */
++IPCSystemError("IPCSystemError", "report"),
++/** Set if the crash was the result of a hang, with a value which describes the type of hang (e.g. "ui" or "shutdown").
++ */
++Hang("Hang", "ping"),
++/** If true then the JavaScript garbage collector was running when the crash occurred.
++ */
++IsGarbageCollecting("IsGarbageCollecting", "ping"),
++/** If true then the Wayland windowing system was in use.
++ */
++IsWayland("IsWayland", "report"),
++/** If true then the WebRender resources (i.e. shaders) are loaded from a user specified path.
++ */
++IsWebRenderResourcePathOverridden("IsWebRenderResourcePathOverridden", "report"),
++/** JSON structured Java stack trace, only present on Firefox for Android if we encounter an uncaught Java exception.
++ */
++JavaException("JavaException", "ping"),
++/** Java stack trace, only present on Firefox for Android if we encounter an uncaught Java exception.
++ */
++JavaStackTrace("JavaStackTrace", "report"),
++/** If an actor is currently treating a message, this is the name of the message. Otherwise, empty.
++ */
++JSActorMessage("JSActorMessage", "report"),
++/** If an actor is currently treating a message, this is the name of the actor. Otherwise, empty.
++ */
++JSActorName("JSActorName", "report"),
++/** A large allocation couldn't be satisfied, check the JSOutOfMemory description for the possible values of this annotation.
++ */
++JSLargeAllocationFailure("JSLargeAllocationFailure", "ping"),
++/** The error raised when attempting to import a critical JS module from C++
++ */
++JSModuleLoadError("JSModuleLoadError", "report"),
++/** A small allocation couldn't be satisfied, the annotation may contain the "Reporting", "Reported" or "Recovered" value. The first one means that we crashed while responding to the OOM condition (possibly while running a memory-pressure observers), the second that we crashed after having tried to free some memory, and the last that the GC had managed to free enough memory to satisfy the allocation.
++ */
++JSOutOfMemory("JSOutOfMemory", "ping"),
++/** How long the user had been inactive in seconds if the user was inactive at crash.  The value is not set if the user state was active.
++ */
++LastInteractionDuration("LastInteractionDuration", "ping"),
++/** True if the last startup was detected to have been a crash.
++ */
++LastStartupWasCrash("LastStartupWasCrash", "report"),
++/** The current memory pressure state as provided by the macOS memory pressure dispatch source. The annotation value is one of "Normal" for no memory pressure, "Unset" indicating a memory pressure event has not been received, "Warning" or "Critical" mapping to the system memory pressure levels, or "Unexpected" for an unexpected level. This is a Mac-specific annotation.
++ */
++MacMemoryPressure("MacMemoryPressure", "report"),
++/** The time when the memory pressure state last transitioned to 'Normal' expressed as seconds since the Epoch.
++ */
++MacMemoryPressureNormalTime("MacMemoryPressureNormalTime", "report"),
++/** The time when the memory pressure state last transitioned to 'Warning' expressed as seconds since the Epoch.
++ */
++MacMemoryPressureWarningTime("MacMemoryPressureWarningTime", "report"),
++/** The time when the memory pressure state last transitioned to 'Critical' expressed as seconds since the Epoch.
++ */
++MacMemoryPressureCriticalTime("MacMemoryPressureCriticalTime", "report"),
++/** The value of the memory pressure sysctl 'kern.memorystatus_vm_pressure_level'. Indicates which memory pressure level the system is in at the time of the crash. The expected values are one of 4 (Critical), 2 (Warning), or 1 (Normal).
++ */
++MacMemoryPressureSysctl("MacMemoryPressureSysctl", "report"),
++/** The value of the available memory sysctl 'kern.memorystatus_level'. Expected to be a percentage integer value.
++ */
++MacAvailableMemorySysctl("MacAvailableMemorySysctl", "report"),
++/** Set to 1 when Marionette (WebDriver Classic) is enabled.
++ */
++Marionette("Marionette", "report"),
++/** The output of memory tests done by the crash reporter client after a crash in a JSON format
++ */
++MemtestOutput("MemtestOutput", "report"),
++/** Launcher process enabled state. The integer value of this annotation must match with one of the values in the mozilla::LauncherRegistryInfo::EnableState enum
++ */
++LauncherProcessState("LauncherProcessState", "report"),
++/** Set to true if the memory pressure watcher was under memory pressure when the crash occurred.
++ */
++LinuxUnderMemoryPressure("LinuxUnderMemoryPressure", "report"),
++/** Memory PSI (Pressure Stall Information) values from /proc/pressure/memory as comma-separated list: some_avg10,some_avg60,some_avg300,some_total,full_avg10,full_avg60,full_avg300,full_total
++ */
++LinuxMemoryPSI("LinuxMemoryPSI", "ping"),
++/** The Linux lsb_release description. */
++LinuxLSBDescription("LinuxLSBDescription", "ping"),
++/** Number of times the available memory tracker has detected that free physical memory is running low. This is a Windows-specific annotation.
++ */
++LowPhysicalMemoryEvents("LowPhysicalMemoryEvents", "ping"),
++/** Name of the currently executing nsIRunnable on the main thread.
++ */
++MainThreadRunnableName("MainThreadRunnableName", "ping"),
++/** The sha256 hash of the minidump file, if available.
++ */
++MinidumpSha256Hash("MinidumpSha256Hash", "ping"),
++/** A string holding a JSON object describing which entity signed the modules present in the system. The format of this object is: { "Vendor1": [ "Module1", "Module2", ...], "Vendor2": [ "Module3", ... ] }
++ */
++ModuleSignatureInfo("ModuleSignatureInfo", "report"),
++/** Plaintext description of why Firefox crashed, this is usually set by assertions and the like.
++ */
++MozCrashReason("MozCrashReason", "ping"),
++/** A comma-separated string that specifies the active Nimbus experiments and rollouts, as well as their branches.
++ */
++NimbusEnrollments("NimbusEnrollments", "ping"),
++/** Miscellaneous notes that can be appended to a crash.
++ */
++Notes("Notes", "report"),
++/** Size of the allocation that caused an out-of-memory condition.
++ */
++OOMAllocationSize("OOMAllocationSize", "ping"),
++/** The operating system name. One of the values described in `system_info.os` of https://github.com/rust-minidump/rust-minidump/blob/main/minidump-processor/json-schema.md: "Windows NT", "Mac OS X", "iOS", "Linux", "Solaris", "Android", or "Unknown".
++ */
++OS("OS", "ping"),
++/** The operating system version number. */
++OSVersion("OSVersion", "ping"),
++/** Plugin filename, only the process holding the plugin has this annotation.
++ */
++PluginFilename("PluginFilename", "report"),
++/** Display name of a plugin, only the process holding the plugin has this annotation.
++ */
++PluginName("PluginName", "report"),
++/** Version of a plugin, only the process holding the plugin has this annotation.
++ */
++PluginVersion("PluginVersion", "report"),
++/** Type of the process that crashed, the possible values are defined in GeckoProcessTypes.h.
++ */
++ProcessType("ProcessType", "ping"),
++/** Application name (e.g. Firefox).
++ */
++ProductName("ProductName", "ping"),
++/** Application UUID (e.g. ec8030f7-c20a-464f-9b0e-13a3a9e97384).
++ */
++ProductID("ProductID", "ping"),
++/** The directory of the active profile, if any.
++ */
++ProfileDirectory("ProfileDirectory", "client"),
++/** When a child process shuts down, this describes if the profiler is running, and the point the profiler shutdown sequence has reached.
++ */
++ProfilerChildShutdownPhase("ProfilerChildShutdownPhase", "ping"),
++/** macOS only. Amount of physical memory currently allocated but which may be deallocated by the system in case of memory pressure. Populated from vm_statistics64_data_t::purgeable_count * vm_page_size.
++ */
++PurgeablePhysicalMemory("PurgeablePhysicalMemory", "ping"),
++/** This annotation is present if the quota manager shutdown (resp. the shutdown of the quota manager clients) was not finished in time and the browser was crashed instead of waiting for the shutdown to finish. The status of objects which were blocking completion of the shutdown when reaching the timeout is contained in the annotation.
++In the case of IndexedDB, objects are divided into three groups: FactoryOperations, LiveDatabases and DatabaseMaintenances.
++In the case of LocalStorage, objects are divided into three groups: PrepareDatastoreOperations, Datastores and LiveDatabases.
++In the case of Cache API, objects are in one group only: Managers.
++Each group is reported separately and contains the number of objects in the group and the status of individual objects in the group (duplicate entries are removed): "GroupName: N (objectStatus1, objectStatus2, ...)" where N is the number of objects in the group.
++The status of individual objects is constructed by taking selected object properties. Properties which contain origin strings are anonymized.
++In addition, intermediate steps are recorded for change events after shutdown started. These include the time difference and the type of object.
++ */
++QuotaManagerShutdownTimeout("QuotaManagerShutdownTimeout", "ping"),
++/** On Windows, this indicates if QM's base dir lives on a network resource. It is the direct result of the Win32 API function PathIsNetworkPath.
++ */
++QuotaManagerStorageIsNetworkResource("QuotaManagerStorageIsNetworkResource", "report"),
++/** Status of the RDD process, can be set to "Running" or "Destroyed"
++ */
++RDDProcessStatus("RDDProcessStatus", "report"),
++/** Application release channel (e.g. default, beta, ...)
++ */
++ReleaseChannel("ReleaseChannel", "ping"),
++/** Set to 1 when the Remote Agent (WebDriver BiDi) is enabled.
++ */
++RemoteAgent("RemoteAgent", "report"),
++/** Type of the content process, can be set to "web", "file" or "extension".
++ */
++RemoteType("RemoteType", "ping"),
++/** True if Rosetta translation is being used.
++ */
++RosettaStatus("RosettaStatus", "report"),
++/** Set to 1 if the browser was started in safe mode.
++ */
++SafeMode("SafeMode", "report"),
++/** Time in seconds since the last crash occurred.
++ */
++SecondsSinceLastCrash("SecondsSinceLastCrash", "ping"),
++/** URL used to post the crash report.
++ */
++ServerURL("ServerURL", "client"),
++/** Shutdown step at which the browser crashed, can be set to "quit-application", "profile-change-teardown", "profile-before-change", "xpcom-will-shutdown" or "xpcom-shutdown".
++ */
++ShutdownProgress("ShutdownProgress", "ping"),
++/** One out of "Unknown", "AppClose", "AppRestart", "OSForceClose", "OSSessionEnd" or "OSShutdown".
++ */
++ShutdownReason("ShutdownReason", "ping"),
++/** Process name of the source of the signal that caused the crash, if applicable. - On Linux, populated with the name of the process that sent a fatal signal to the crashing process, if it can be determined.
++ */
++SignalOrigin("SignalOrigin", "report"),
++/** Stack traces extracted from the crash minidump, if available. A serialized JSON object (with a structure matching the associated Glean object description).
++ */
++StackTraces("StackTraces", "ping"),
++/** True if the startup cache was deemed valid and usable. Will be false if the last session used a different browser version or had a startup cache.
++ */
++StartupCacheValid("StartupCacheValid", "report"),
++/** If set to 1 then this crash occurred during startup.
++ */
++StartupCrash("StartupCrash", "ping"),
++/** The time when Firefox was launched expressed in seconds since the Epoch.
++ */
++StartupTime("StartupTime", "ping"),
++/** This annotation is added when a mozStorage connection has not been properly closed during shutdown. The annotation holds the filename of the database associated with the connection.
++ */
++StorageConnectionNotClosed("StorageConnectionNotClosed", "report"),
++/** This annotation can hold one of the following five values depending on how this crash was submitted by the user: * Auto: the user had opted-in to auto-submission * Infobar: the user clicked on the infobar to submit the crash * AboutCrashes: the user sent the crash from the about:crashes page * CrashedTab: the user sent the crash from a crashed tab page * Client: the user sent the crash using the crash reporter client
++ */
++SubmittedFrom("SubmittedFrom", "report"),
++/** Windows-only, percentage of physical memory in use. This annotation is populated with the contents of the MEMORYSTATUSEX's structure dwMemoryLoad field.
++ */
++SystemMemoryUsePercentage("SystemMemoryUsePercentage", "ping"),
++/** Telemetry client ID.
++ */
++TelemetryClientId("TelemetryClientId", "client"),
++/** Telemetry profile group ID.
++ */
++TelemetryProfileGroupId("TelemetryProfileGroupId", "client"),
++/** The telemetry environment in JSON format.
++ */
++TelemetryEnvironment("TelemetryEnvironment", "report"),
++/** Telemetry server URL. Used to send main process crash pings directly from the crashreporter client.
++ */
++TelemetryServerURL("TelemetryServerURL", "client"),
++/** Telemetry session ID.
++ */
++TelemetrySessionId("TelemetrySessionId", "client"),
++/** Annotation used in tests.
++ */
++TestKey("TestKey", "report"),
++/** Annotation used in tests.
++ */
++TestUnicode("TestUnicode", "report"),
++/** Annotation used in tests.
++ */
++TestBoolean("TestBoolean", "report"),
++/** Annotation used in tests.
++ */
++TestInteger("TestInteger", "report"),
++/** Diagnostic info recorded when PR_CreateThread fails. Contains the thread name, NSPR error code, and OS error code. Never cleared, so it reflects the last failure if there were multiple.
++ */
++ThreadLastCreateError("ThreadLastCreateError", "report"),
++/** Amount of memory in bytes consumed by textures.
++ */
++TextureUsage("TextureUsage", "ping"),
++/** Whether Socorro can selectively discard this crash report or not. If set to "0" the crash report will always be processed by Socorro. Do not set this annotation within Gecko code, it's only supposed to be used by the crash reporting machinery.
++ */
++Throttleable("Throttleable", "report"),
++/** Maximum amount of memory that can be committed without extending the swap/page file. - Under Windows, populated with the contents of the PERFORMANCE_INFORMATION's
++  structure CommitLimit field.
++- Under Linux, populated with /proc/meminfo MemTotal + SwapTotal. The swap file
++  typically cannot be extended, so that's a hard limit.
++- Not available on other systems.
++ */
++TotalPageFile("TotalPageFile", "ping"),
++/** Amount of physical memory in bytes. - Under Windows, populated with the contents of the MEMORYSTATUSEX's structure ullTotalPhys field. - Under macOS, populated with sysctl "hw.memsize". - Under Linux, populated with /proc/meminfo's "MemTotal". - Not available on other systems.
++ */
++TotalPhysicalMemory("TotalPhysicalMemory", "ping"),
++/** Size of the virtual address space. - Under Windows, populated with the contents of the MEMORYSTATUSEX's structure
++  ullTotalVirtual field.
++- Not available on other platforms.
++ */
++TotalVirtualMemory("TotalVirtualMemory", "ping"),
++/** An unknown network address family was requested to Necko. The value is the requested family number.
++ */
++UnknownNetAddrSocketFamily("UnknownNetAddrSocketFamily", "report"),
++/** ID of the leaked callbacks when we force crash in `UniFFI.sys.mjs`
++ */
++UniFFILeakedCallbackId("UniFFILeakedCallbackId", "report"),
++/** Uptime in seconds. This annotation uses a string instead of an integer because it has a fractional component.
++ */
++UptimeTS("UptimeTS", "ping"),
++/** URL being loaded.
++ */
++URL("URL", "report"),
++/** The offsets of the nsStandardURL segments that fail a sanity check
++ */
++URLSegments("URLSegments", "report"),
++/** Set to 1 if user32.dll was loaded before we could install the DLL blocklist.
++ */
++User32BeforeBlocklist("User32BeforeBlocklist", "ping"),
++/** User-agent locale.
++ */
++useragent_locale("useragent_locale", "ping"),
++/** Set to "inside" if rules exhausted while adding fonts inside the user's dir, set to "outside" if adding for fonts outside the user's dir.
++ */
++UserFontRulesExhausted("UserFontRulesExhausted", "report"),
++/** Status of the Utility process, can be set to "Running" or "Destroyed"
++ */
++UtilityProcessStatus("UtilityProcessStatus", "report"),
++/** Comma-separated list of IPC actors name running on this Utility process instance
++ */
++UtilityActorsName("UtilityActorsName", "ping"),
++/** Application vendor (e.g. Mozilla).
++ */
++Vendor("Vendor", "report"),
++/** Product version.
++ */
++Version("Version", "ping"),
++/** Status of the VR process, can be set to "Running" or "Destroyed"
++ */
++VRProcessStatus("VRProcessStatus", "report"),
++/** Set to 1 if a rlbox wasm library sandbox ran out of memory, causing a malloc inside the sandbox to fail.
++ */
++WasmLibrarySandboxMallocFailed("WasmLibrarySandboxMallocFailed", "report"),
++/** The HRESULT returned from a Win32 system call leading to termination of the file-dialog utility process. MozCrashReason is expected to provide context for the value.
++ */
++WindowsFileDialogErrorCode("WindowsFileDialogErrorCode", "ping"),
++/** If running in a Windows package context, the package family name, per https://docs.microsoft.com/en-us/windows/win32/api/appmodel/nf-appmodel-getcurrentpackagefamilyname.
++The package family name is only included when it is likely to have been produced by Mozilla: it starts "Mozilla." or "MozillaCorporation.".
++ */
++WindowsPackageFamilyName("WindowsPackageFamilyName", "ping"),
++/** Set to 1 if this crash was intercepted via the Windows Error Reporting runtime exception module.
++ */
++WindowsErrorReporting("WindowsErrorReporting", "ping"),
++/** Information on winsock LSPs injected in our networking stack.
++ */
++Winsock_LSP("Winsock_LSP", "report"),
++/** If we crash while some code is spinning manually the event loop on the main thread, we will see the stack of nested annotations here. If the crashing process was killed (e.g. due to an IPC error), this annotation may refer to the parent process that killed it, look out for the prefix ("default" means parent) and see bug 1741131 for details.
++ */
++XPCOMSpinEventLoopStack("XPCOMSpinEventLoopStack", "report");
++
++        public override fun toString() = s
++
++        /** @return Whether the annotation should be included in crash pings. */
++        public fun allowedInPing() = scope.equals("ping") || scope.equals("ping-only")
++
++        /** @return Whether the annotation should be included in crash reports. */
++        public fun allowedInReport() = scope.equals("ping") || scope.equals("report")
++    }
++}
+\ No newline at end of file
 diff --git a/components/lib/integrity-googleplay/build.gradle b/components/lib/integrity-googleplay/build.gradle
 index 94309dd2..6c282dae 100644
 --- a/components/lib/integrity-googleplay/build.gradle
@@ -3231,6 +4463,241 @@ index 94309dd2..6c282dae 100644
      id 'com.android.library'
      alias(libs.plugins.dependency.analysis)
  }
+diff --git a/plugins/config/.gradle/9.7.1/executionHistory/executionHistory.bin b/plugins/config/.gradle/9.7.1/executionHistory/executionHistory.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..596db8345e85716dc23ae2cd377fe12863d22e81
+GIT binary patch
+literal 65536
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/config/.gradle/9.7.1/executionHistory/executionHistory.lock b/plugins/config/.gradle/9.7.1/executionHistory/executionHistory.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..4c7761c597a2c096cc1ba75a6a95a9486b8aa77f
+GIT binary patch
+literal 41
+scmZRMUdGQGnftGi0RsG(85kB^nwu5R$K=<M%D`@DYGP?(VZ^`y0Me=nQUCw|
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/config/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/plugins/config/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..37aa5d54e716faf9677f919bc670c5d0044f8606
+GIT binary patch
+literal 41
+tcmZQ>dNV_>?1qUB0|Y!_W?)!wY0=M^tjY)X|1hu{nwnUeSQs%d001JE4NL$4
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/config/.gradle/buildOutputCleanup/cache.properties b/plugins/config/.gradle/buildOutputCleanup/cache.properties
+new file mode 100644
+index 00000000..b6e049f5
+--- /dev/null
++++ b/plugins/config/.gradle/buildOutputCleanup/cache.properties
+@@ -0,0 +1,2 @@
++#Mon Oct 26 08:47:13 UTC 2026
++gradle.version=9.7.1
+diff --git a/plugins/config/.gradle/buildOutputCleanup/outputFiles.bin b/plugins/config/.gradle/buildOutputCleanup/outputFiles.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..b87204a81fd0ba9b4d8139f73624d010d81c32f4
+GIT binary patch
+literal 65536
+zcmeI&U1*L`0KoC*-35kxZfu6)LWIIHS4d55i6!}%vT-4#`G~g5m2Ve>e1sap#cEs$
+z<3jRrMQz$-wc2b_E(jqMv-O@slDKdoey85|IsM=BoI1bv@_7oABxg`p7|FMh{cUPS
+zfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF{3`;ByARSgeVCj{89kGMRY@|XfA=JJPu-zg
+zhjULaPybxBH$Fc&_i^Ny$EiEJL+_0JLfw!Fvj>(xO84Sdv0uJhc4KvOsxI`Mv0rN&
+zcYDT?!dYRTw_khv)$+Ham){EOb7OCAN)6B2nb$A$lGq=9+Vr$xK}CD$Gh=Vf&8)e2
+z_I*z1_hWy)>t3(C(kTU@uZsOe^~OFWOQ#p7d(ooUUsV_9&wJO<6?#?dua9)xoO|*^
+zedss7_M=sos!t6a7W&E9KQ$D+tbA~MLFjX0|2+6ivZk!zbh;O}#hz;U*jZUq+7Wtf
+z>{*4`S9Y{+tqpxk?89qY)=%5L|9t4jVjsWlXj9jS#>wek)EImI!C40umX6&Q`s&zM
+z=8bx@{lNUGp<jr-V%dq!YwPQ4!v5D|->{~$v0(O!%+PzszWLep#;Z?i;{P=<_IOQ_
+zjCJXId=nr*fB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBly
+zK!CuX63Fk~sOJUmRQMzVzAHWX|0vxD{pCr2XU&gdf9kHE?9-DC0t5&UAV7cs0RjXF
+z5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk
+z1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs
+z0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZ
+pfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72>f*dUjWj0Tay3)
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/config/.gradle/file-system.probe b/plugins/config/.gradle/file-system.probe
+new file mode 100644
+index 0000000000000000000000000000000000000000..a1dc3939b47facf97ce01433f8a2feff09a7b8ec
+GIT binary patch
+literal 8
+PcmZQzU|iTXcMmH72%iFn
+
+literal 0
+HcmV?d00001
+
 diff --git a/plugins/config/settings.gradle.kts b/plugins/config/settings.gradle.kts
 index e93cae1f..c716fe7d 100644
 --- a/plugins/config/settings.gradle.kts
@@ -3257,6 +4724,267 @@ index f82613fd..e8b21121 100644
          return project.file(versionPath).useLines { it.firstOrNull() ?: "" }
      }
  
+diff --git a/plugins/dependencies/.gradle/9.7.1/executionHistory/executionHistory.bin b/plugins/dependencies/.gradle/9.7.1/executionHistory/executionHistory.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..3a488a81ac3baac5aa5c592057a2ff67b5a187bf
+GIT binary patch
+literal 65536
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/dependencies/.gradle/9.7.1/executionHistory/executionHistory.lock b/plugins/dependencies/.gradle/9.7.1/executionHistory/executionHistory.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..0fa7f5548536c6b8c54e782fd7b395f9365fb731
+GIT binary patch
+literal 41
+scmZQhnIr0OkD+xP0|fXpGcYW;^ocX%)$bE>bqwr=rY4pq7DfyV0P+6|J^%m!
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/dependencies/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/plugins/dependencies/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..eeabc0916b3ee52dea1a51c18957c2054db6ef10
+GIT binary patch
+literal 41
+scmZS1kZRj(_3P^i1_*f0%)qeVQpqKzg<`H8VGQhsrY4pq7DfyV01v1OCIA2c
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/dependencies/.gradle/buildOutputCleanup/cache.properties b/plugins/dependencies/.gradle/buildOutputCleanup/cache.properties
+new file mode 100644
+index 00000000..690a79d2
+--- /dev/null
++++ b/plugins/dependencies/.gradle/buildOutputCleanup/cache.properties
+@@ -0,0 +1,2 @@
++#Mon Oct 26 08:47:12 UTC 2026
++gradle.version=9.7.1
+diff --git a/plugins/dependencies/.gradle/buildOutputCleanup/outputFiles.bin b/plugins/dependencies/.gradle/buildOutputCleanup/outputFiles.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..964a72917af1544ec585f8afa3797408dc5dc25a
+GIT binary patch
+literal 65536
+zcmeI&TWHQ<9Ki8+yC8>VZO9y!Q&OX_M#Lmj))EqB2(gw6a-IvdkQ_42Vw6IXB1)1R
+zV%A75#6(fbVY?C1<a}Ya-sjnp#Dxp-dFp-Nr|<vwKJ|QV-?t!<=#}0aR-%3NXy4iq
+zAV7cs0RjXF5FkK+009C72oNAZfB*pk|BArumWy;wUZ&Tu)YeV6vP5D;*OpDz_ES}L
+zd$W!dCm&DU5r03Z&RAViapuGBWG|c^`+=&)1L+GcmWMte_G4fA4tSPwV_P_<A@)m8
+zhFl*rryxJ{_ig>@g@y04i|fKUS+PHQm{axU*0LR8epc+SGV-oodU>r&m~V=`sk|_^
+z=)>LSFkcq?+kMY#ryTrzG4z_YUR`#s{BUN^&=1D`b?&J3ORkLj6wcotdrEoHgYkog
+z+zI`5?5Q7b-rJVhr8M-#v1cxwfA@TCO?K#8V;{QY^_03V**imj($+Uu-*4_+KRnr|
+z*2g~V=(>45CU;*M=1;_)yC=VL=G=i5VZJ2x8JkWHE?#@5f9R89U(~1HyDgQ|MuvVm
+z_7$ZK^`j>)=#=b*9b;eh;&T0k#zWCLC-#lq)^5m4TfQsIUvBGT&vrOo^6qiyYhsU|
+ziA3tM<TLLC2oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk
+z1PBly@TUZFTMladLwHJfCDOhtt@-~bEf@XeO@C+RN3lQkt)HCJnk@nZ2oNAZfB*pk
+z1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs
+z0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZ
+zfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&U
+rAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5*Bbpqc2*t=Pq
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/dependencies/.gradle/file-system.probe b/plugins/dependencies/.gradle/file-system.probe
+new file mode 100644
+index 0000000000000000000000000000000000000000..a1dc3939b47facf97ce01433f8a2feff09a7b8ec
+GIT binary patch
+literal 8
+PcmZQzU|iTXcMmH72%iFn
+
+literal 0
+HcmV?d00001
+
 diff --git a/plugins/dependencies/settings.gradle.kts b/plugins/dependencies/settings.gradle.kts
 index e93cae1f..c716fe7d 100644
 --- a/plugins/dependencies/settings.gradle.kts
@@ -3270,6 +4998,280 @@ index e93cae1f..c716fe7d 100644
          }
      }
  }
+diff --git a/plugins/publicsuffixlist/.gradle/9.7.1/executionHistory/executionHistory.bin b/plugins/publicsuffixlist/.gradle/9.7.1/executionHistory/executionHistory.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..7d2fc225d27f6068f54b995d0da2a8b352d60513
+GIT binary patch
+literal 65536
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/publicsuffixlist/.gradle/9.7.1/executionHistory/executionHistory.lock b/plugins/publicsuffixlist/.gradle/9.7.1/executionHistory/executionHistory.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..55a68e2d8b643e0472eba107d5d2fcdd6cab82db
+GIT binary patch
+literal 41
+scmZQ>Jta7q?bW3M1_<zDW?)!w>8?y!%$6m>*BRIiO-(FKEQ}Z!00adKaR2}S
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/publicsuffixlist/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/plugins/publicsuffixlist/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+new file mode 100644
+index 0000000000000000000000000000000000000000..34ce77f9a900451c623c5fc94651f05f3da7825e
+GIT binary patch
+literal 41
+tcmZSPzW&=|qR}=@1_*e<%)qeV(%GdCdkRx$EMj0cG&Qj_u`ps_000(q42u8&
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/publicsuffixlist/.gradle/buildOutputCleanup/cache.properties b/plugins/publicsuffixlist/.gradle/buildOutputCleanup/cache.properties
+new file mode 100644
+index 00000000..b2488f8f
+--- /dev/null
++++ b/plugins/publicsuffixlist/.gradle/buildOutputCleanup/cache.properties
+@@ -0,0 +1,2 @@
++#Mon Oct 26 08:46:56 UTC 2026
++gradle.version=9.7.1
+diff --git a/plugins/publicsuffixlist/.gradle/buildOutputCleanup/outputFiles.bin b/plugins/publicsuffixlist/.gradle/buildOutputCleanup/outputFiles.bin
+new file mode 100644
+index 0000000000000000000000000000000000000000..c15bcd58c9241a6e2a8df2f4372afd73cd9e6cf0
+GIT binary patch
+literal 65536
+zcmeI&UuX?b9Ki9rNt(Yyv>C#K6bs$*Crk=i(i*WWYm*lCphQ+)mW_~<zaxaigPKzI
+zFqZroB_Tt3kc>%rBxL?{ZS9;%62*h~oVxd(zV~;}?R;MEot;QzWv0SPd|iXSZtVyV
+zAV7cs0RjXF5FkK+009C72oNAZfB=DiMPPCJMS6B#CTm=J$EIIpA~B(N`zCwSimbY+
+zO$WDizCCYN{QY2C-JYg>*~g1R-yZwP4?{;jO}oA|^w!wV<rh8tcw|6fXU|_A`-LZ?
+zuT5SuJ1@+??dmNJrEiB9H--7^*e~X`&FYh}<6-DqV!zsyIb}@An`z;kMX}#`RJ*=l
+zd-80Ue--=v>BsJEyg6`L=<8yCRh6Hd|L$%ooKqS5>;2EJ%sJe4KJ-gny|%Kx>e#@+
+zp&yPtHMger^sUXS!}(8Q@0MD1r0=28^`W1Rz5j-y-7nss3U2u`V$VsIj=yu`aYLBD
+z9s8K-+6Sp2&AH)wn`0mQ>GQhsy%{gVd}Hj%-FdqTmyX&Q=F4L*%Nh2jX4is=p`VGp
+zqWg(%3(GE#2<H^UzGh`>^Q4(28KL*+>J=?H)gNx02>n3pYhN}tH#|SuEA+9k$Jaz6
+zJs5RPcqTxA009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZ
+zfB=Et7f7}r(ecOcwD3su{ibx}|D&{D^rtudm6`9w{?w;_a85_I2oNAZfB*pk1PBly
+zK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF
+z5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk
+z1PBlyK!5-N0t5&UAV7cs0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAV7cs
+p0RjXF5FkK+009C72oNAZfB*pk1PBlyK!5-N0t5&UAn?}-d;x=BTo?cV
+
+literal 0
+HcmV?d00001
+
+diff --git a/plugins/publicsuffixlist/.gradle/file-system.probe b/plugins/publicsuffixlist/.gradle/file-system.probe
+new file mode 100644
+index 0000000000000000000000000000000000000000..a1dc3939b47facf97ce01433f8a2feff09a7b8ec
+GIT binary patch
+literal 8
+PcmZQzU|iTXcMmH72%iFn
+
+literal 0
+HcmV?d00001
+
 diff --git a/plugins/publicsuffixlist/settings.gradle.kts b/plugins/publicsuffixlist/settings.gradle.kts
 index aabf97df..36c127d9 100644
 --- a/plugins/publicsuffixlist/settings.gradle.kts
