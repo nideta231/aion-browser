@@ -105,5 +105,8 @@ test_artifacts/
 
 # Web extensions: manifest.json files are generated
 manifest.json
+# Aion: bundled extension manifests are real sources, not generated
+!app/src/main/assets/extensions/*/manifest.json
+!aion-tools/webapp-template/src/main/assets/extensions/*/manifest.json
 dist/
 .kotlin/

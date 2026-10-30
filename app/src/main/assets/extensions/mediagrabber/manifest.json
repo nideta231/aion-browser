@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mediagrabber@aion.nath.com"
+    }
+  },
+  "name": "Aion media grabber",
+  "version": "1.3",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "mozillaAddons",
+    "geckoViewAddons",
+    "nativeMessaging",
+    "webRequest",
+    "tabs",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "drm.js",
+        "shields.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://chromewebstore.google.com/detail/*"
+      ],
+      "js": [
+        "chromestore.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
