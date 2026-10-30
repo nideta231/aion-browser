@@ -102,7 +102,11 @@ jobs:
         run: |
           ./gradlew -p aion-tools/download-manager assembleRelease --build-cache --parallel
           ./gradlew -p aion-tools/webapp-template assembleRelease --build-cache --parallel
-          cp aion-tools/download-manager/build/outputs/apk/release/aion-download-manager-release.apk app/src/main/assets/aion-downloads.apk
+          # Re-sign with our key: AGP's debug signing on CI does not use ~/.android/debug.keystore
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" sign --ks ~/.android/debug.keystore --ks-pass pass:android \
+            --key-pass pass:android --ks-key-alias androiddebugkey --out app/src/main/assets/aion-downloads.apk \
+            aion-tools/download-manager/build/outputs/apk/release/aion-download-manager-release.apk
+          rm -f app/src/main/assets/*.idsig
           cp aion-tools/webapp-template/build/outputs/apk/release/aion-webapp-template-release.apk app/src/main/assets/webapp-template.apk
 
       - name: Build Aion (forkRelease, arm64)
