@@ -493,6 +493,8 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity, Crash
 
         // Aion: built-in extension that spots video/audio streams for the media grabber.
         org.mozilla.fenix.downloads.MediaGrabber.install(this, components.core.engine)
+        // Aion: full desktop YouTube Music with an Apple Music style skin and no "Open App".
+        org.mozilla.fenix.shields.YouTubeMusicSkin.install(components.core.engine)
 
         // Checks if Activity is currently in PiP mode if launched from external intents, then exits it
         checkAndExitPiP()

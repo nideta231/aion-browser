@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ytmusic@aion.nath.com"
+    }
+  },
+  "name": "Aion YouTube Music",
+  "version": "1.0",
+  "description": "Full desktop YouTube Music (queue, lyrics) on tablets, no app upsell, Apple Music style skin.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://music.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://music.youtube.com/*"],
+      "js": ["ua.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    },
+    {
+      "matches": ["*://music.youtube.com/*"],
+      "js": ["skin.js"],
+      "css": ["skin.css"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}

@@ -69,6 +69,8 @@ public final class Engine {
         });
         // Same pop-up blocker as Aion (about:blank pop-ups, tap hijacks, forced redirects).
         controller.ensureBuiltIn("resource://android/assets/extensions/shields/", "shields@aion.nath.com");
+        // Full desktop YouTube Music, Apple Music style skin, no "Open App" (only touches music.youtube.com).
+        controller.ensureBuiltIn("resource://android/assets/extensions/ytmusic/", "ytmusic@aion.nath.com");
         controller.list().accept(extensions -> {
             boolean hasUblock = false;
             if (extensions != null) {
