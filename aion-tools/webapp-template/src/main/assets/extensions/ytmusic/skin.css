@@ -174,3 +174,12 @@ ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #player {
   height: 100vh !important;
   border-radius: 0 !important;
 }
+
+/* Full cover: no queue/lyrics panel (the wide-panel rules above would otherwise keep it visible). */
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #side-panel,
+ytmusic-player-page[player-ui-state="FULLSCREEN"] #side-panel {
+  display: none !important;
+}
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #main-panel {
+  flex: 1 1 100% !important;
+}

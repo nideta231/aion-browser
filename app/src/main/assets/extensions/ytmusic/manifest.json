@@ -6,7 +6,7 @@
     }
   },
   "name": "Aion YouTube Music",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Full desktop YouTube Music (queue, lyrics) on tablets, no app upsell, Apple Music style skin.",
   "background": {
     "scripts": ["background.js"]
