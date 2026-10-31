@@ -122,3 +122,55 @@ ytmusic-player-bar .left-controls yt-icon-button {
   min-width: 44px; min-height: 44px;
 }
 ytmusic-player-bar #play-pause-button { transform: scale(1.15); }
+
+/* Wide queue/lyrics: the side panel takes the whole right half, artwork column shrinks. */
+ytmusic-player-page .content {
+  padding: 24px 24px 0 32px !important;
+}
+ytmusic-player-page #main-panel {
+  flex: 1 1 50% !important;
+  min-width: 0 !important;
+}
+ytmusic-player-page #side-panel {
+  flex: 1 1 50% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin-left: 24px !important;
+}
+ytmusic-player-page ytmusic-player-queue-item .song-title,
+ytmusic-player-page ytmusic-player-queue-item .title { font-size: 16px !important; }
+ytmusic-player-page ytmusic-player-queue-item .byline { font-size: 14px !important; }
+ytmusic-player-page ytmusic-player-queue-item { min-height: 64px; }
+ytmusic-player-page ytmusic-player-queue-item .thumbnail { width: 52px !important; height: 52px !important; }
+
+/* Full cover = real full screen: no top bar, no side guide, player bar fades out when idle. */
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-nav-bar,
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] #nav-bar-background,
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] #nav-bar-divider,
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] #guide-wrapper,
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] #mini-guide {
+  display: none !important;
+}
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-bar {
+  transition: opacity 0.4s ease;
+}
+html[aion-idle] ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-bar,
+html[aion-idle] ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player .song-media-controls,
+html[aion-idle] ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player #top-player-bar {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+html[aion-idle] ytmusic-app-layout[player-ui-state="FULLSCREEN"] { cursor: none; }
+
+/* Full cover fills the whole screen (YouTube Music leaves room for its hidden 64px top bar). */
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page {
+  top: 0 !important;
+  height: 100vh !important;
+}
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #player {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  border-radius: 0 !important;
+}

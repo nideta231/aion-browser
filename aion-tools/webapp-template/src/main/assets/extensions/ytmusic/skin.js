@@ -41,6 +41,39 @@
     page.setAttribute("aion-art", "");
   }
 
+
+  /* Full cover button: YouTube Music only restyles the page, so also ask the browser for real full
+   * screen (hides Aion's toolbar and Android's bars). Leaving it either way exits both. */
+  const layoutState = () => document.querySelector("ytmusic-app-layout")?.getAttribute("player-ui-state");
+  document.addEventListener("click", event => {
+    const target = event.target instanceof Element ? event.target : null;
+    if (!target) return;
+    if (target.closest("ytmusic-player .fullscreen-button")) {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {});
+    } else if (target.closest(".exit-fullscreen-button")) {
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    }
+  }, true);
+  document.addEventListener("fullscreenchange", () => {
+    if (!document.fullscreenElement && layoutState() === "FULLSCREEN") {
+      document.querySelector("ytmusic-player-bar .exit-fullscreen-button")?.click();
+    }
+  });
+
+  /* Hide the player controls after 3 s without touch while in full cover. */
+  let idleTimer = 0;
+  const wake = () => {
+    document.documentElement.removeAttribute("aion-idle");
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+      if (layoutState() === "FULLSCREEN") document.documentElement.setAttribute("aion-idle", "");
+    }, 3000);
+  };
+  for (const type of ["pointerdown", "pointermove", "keydown", "touchstart"]) {
+    document.addEventListener(type, wake, { capture: true, passive: true });
+  }
+  wake();
+
   let queued = false;
   function tick() {
     queued = false;
@@ -55,7 +88,7 @@
     }
   });
   const start = () => {
-    observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ["src", "opened"] });
+    observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ["src", "opened", "player-ui-state"] });
     tick();
   };
   if (document.documentElement) start();
