@@ -183,3 +183,16 @@ ytmusic-player-page[player-ui-state="FULLSCREEN"] #side-panel {
 ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #main-panel {
   flex: 1 1 100% !important;
 }
+
+/* Full cover: YT scales the player (0.8) and offsets it inside a page that starts after the side menu.
+ * Pin both to the whole window so the video is centred and fills it. */
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page {
+  left: 0 !important;
+  width: 100vw !important;
+  transform: none !important;
+}
+ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #player {
+  transform: none !important;
+  translate: none !important;
+  scale: none !important;
+}
