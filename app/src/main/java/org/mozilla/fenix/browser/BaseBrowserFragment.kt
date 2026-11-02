@@ -431,6 +431,10 @@ abstract class BaseBrowserFragment :
      * Aion: 1DM-style floating button. Appears over the page when the media grabber has spotted a
      * video or audio stream on the current tab; tapping it lists them for download.
      */
+    private var aionMediaButton: View? = null
+    private var aionWindowFullScreen = false
+    private var aionInFullScreen = false
+
     private fun setUpMediaButton() {
         if (customTabSessionId != null) return
         val context = requireContext()
@@ -456,6 +460,7 @@ abstract class BaseBrowserFragment :
             setMargins(0, 0, (16 * density).toInt(), (96 * density).toInt())
         }
         binding.browserLayout.addView(button, params)
+        aionMediaButton = button
         // "Hide icon" hides it until this page reloads (the extension's generation changes).
         var hiddenUrl: String? = null
         var hiddenGeneration = -1
@@ -481,7 +486,7 @@ abstract class BaseBrowserFragment :
                             lastGeneration = found.generation
                             val (video, audio) = org.mozilla.fenix.downloads.MediaGrabber.choiceCount(found, url)
                             val hidden = url == hiddenUrl && found.generation == hiddenGeneration
-                            if (video + audio == 0 || hidden) {
+                            if (video + audio == 0 || hidden || aionInFullScreen) {
                                 button.visibility = View.GONE
                             } else {
                                 button.text = "⬇  " + listOfNotNull(
@@ -2356,6 +2361,7 @@ abstract class BaseBrowserFragment :
     @VisibleForTesting
     internal fun fullScreenChanged(inFullScreen: Boolean) {
         val activity = activity ?: return
+        aionInFullScreen = inFullScreen
         if (inFullScreen) {
             // Close find in page bar if opened
             findInPageIntegration.onBackPressed()
@@ -2376,6 +2382,12 @@ abstract class BaseBrowserFragment :
             )
             (view as? SwipeGestureLayout)?.isSwipeEnabled = false
             expandBrowserView()
+            aionMediaButton?.visibility = View.GONE
+            // Aion: in a floating/freeform window (HyperOS Workstation), also make the window itself full screen.
+            if (android.os.Build.VERSION.SDK_INT >= 35 && activity.isInMultiWindowMode) {
+                aionWindowFullScreen = true
+                activity.requestFullscreenMode(android.app.Activity.FULLSCREEN_MODE_REQUEST_ENTER, null)
+            }
 
             MediaState.fullscreen.record(NoExtras())
         } else {
@@ -2384,6 +2396,10 @@ abstract class BaseBrowserFragment :
             )
 
             (view as? SwipeGestureLayout)?.isSwipeEnabled = true
+            if (android.os.Build.VERSION.SDK_INT >= 35 && aionWindowFullScreen) {
+                aionWindowFullScreen = false
+                activity.requestFullscreenMode(android.app.Activity.FULLSCREEN_MODE_REQUEST_EXIT, null)
+            }
             (activity as? HomeActivity)?.let { homeActivity ->
                 // ExternalAppBrowserActivity exclusively handles it's own theming unless in private mode.
                 if (homeActivity !is ExternalAppBrowserActivity || homeActivity.browsingModeManager.mode.isPrivate) {

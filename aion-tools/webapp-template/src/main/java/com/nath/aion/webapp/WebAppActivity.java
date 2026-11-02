@@ -52,6 +52,7 @@ public class WebAppActivity extends Activity implements Engine.PopupHost {
     private String siteHost;
     private boolean canGoBack;
     private boolean fullScreen;
+    private boolean windowFullScreen;
     private PromptDelegate.FilePrompt pendingFilePrompt;
     private GeckoResult<PromptDelegate.PromptResponse> pendingFileResult;
 
@@ -411,6 +412,11 @@ public class WebAppActivity extends Activity implements Engine.PopupHost {
         public void onFullScreen(GeckoSession s, boolean enabled) {
             fullScreen = enabled;
             setSystemBarsHidden(enabled);
+            // Floating window (HyperOS Workstation): make the window itself full screen too.
+            if (android.os.Build.VERSION.SDK_INT >= 35 && (enabled ? isInMultiWindowMode() : windowFullScreen)) {
+                windowFullScreen = enabled;
+                requestFullscreenMode(enabled ? FULLSCREEN_MODE_REQUEST_ENTER : FULLSCREEN_MODE_REQUEST_EXIT, null);
+            }
         }
 
         @Override
