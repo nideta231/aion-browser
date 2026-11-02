@@ -461,16 +461,9 @@ abstract class BaseBrowserFragment :
         }
         binding.browserLayout.addView(button, params)
         aionMediaButton = button
-        // "Hide icon" hides it until this page reloads (the extension's generation changes).
-        var hiddenUrl: String? = null
-        var hiddenGeneration = -1
-        var lastUrl: String? = null
-        var lastGeneration = -1
         button.setOnClickListener {
             org.mozilla.fenix.downloads.MediaGrabber.show(requireActivity()) {
-                hiddenUrl = lastUrl
-                hiddenGeneration = lastGeneration
-                button.visibility = View.GONE
+                findNavController().navigate(R.id.openDownloadsSettingsFragment)
             }
         }
         viewLifecycleOwner.lifecycleScope.launch {
@@ -482,11 +475,10 @@ abstract class BaseBrowserFragment :
                     ) {
                         org.mozilla.fenix.downloads.MediaGrabber.find(url) { found ->
                             if (_binding == null) return@find
-                            lastUrl = url
-                            lastGeneration = found.generation
                             val (video, audio) = org.mozilla.fenix.downloads.MediaGrabber.choiceCount(found, url)
-                            val hidden = url == hiddenUrl && found.generation == hiddenGeneration
-                            if (video + audio == 0 || hidden || aionInFullScreen) {
+                            if (video + audio == 0 || aionInFullScreen ||
+                                org.mozilla.fenix.downloads.MediaGrabber.isHiddenOn(context, url)
+                            ) {
                                 button.visibility = View.GONE
                             } else {
                                 button.text = "⬇  " + listOfNotNull(

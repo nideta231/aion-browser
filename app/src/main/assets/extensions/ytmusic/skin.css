@@ -196,3 +196,31 @@ ytmusic-app-layout[player-ui-state="FULLSCREEN"] ytmusic-player-page #player {
   translate: none !important;
   scale: none !important;
 }
+
+/* Player page open (not minimized): no side menu, no top bar; video + queue get the whole window.
+ * Minimized (Home, Explore, Library) keeps both as normal. */
+ytmusic-app-layout[player-page-open] ytmusic-nav-bar,
+ytmusic-app-layout[player-page-open] #nav-bar-background,
+ytmusic-app-layout[player-page-open] #nav-bar-divider,
+ytmusic-app-layout[player-page-open] #guide-wrapper,
+ytmusic-app-layout[player-page-open] #mini-guide,
+ytmusic-app-layout[player-page-open] #mini-guide-background,
+ytmusic-app-layout[player-page-open] tp-yt-app-drawer,
+ytmusic-app-layout[player-page-open] #guide {
+  display: none !important;
+}
+ytmusic-app-layout[player-page-open]:not([player-ui-state="FULLSCREEN"]) ytmusic-player-page {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: calc(100vh - var(--ytmusic-player-bar-height, 72px)) !important;
+}
+ytmusic-app-layout[player-page-open]:not([player-ui-state="FULLSCREEN"]) ytmusic-player-page .content {
+  padding: 16px 16px 0 24px !important;
+  height: 100% !important;
+  box-sizing: border-box;
+}
+ytmusic-app-layout[player-page-open]:not([player-ui-state="FULLSCREEN"]) ytmusic-player-page #side-panel {
+  height: 100% !important;
+  max-height: none !important;
+}

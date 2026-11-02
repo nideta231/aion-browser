@@ -59,6 +59,21 @@ object MediaGrabber {
     private val nextId = AtomicInteger()
     private val main = Handler(Looper.getMainLooper())
 
+    private const val PREF_HIDDEN_SITES = "pref_key_aion_media_hidden_sites"
+
+    /** Sites where the floating download button is never shown (set from Settings > Downloads). */
+    fun hiddenSites(context: Context): Set<String> =
+        PreferenceManager.getDefaultSharedPreferences(context).getStringSet(PREF_HIDDEN_SITES, emptySet()) ?: emptySet()
+
+    fun setHiddenOnSite(context: Context, host: String, hidden: Boolean) {
+        val set = hiddenSites(context).toMutableSet()
+        if (hidden) set.add(host) else set.remove(host)
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putStringSet(PREF_HIDDEN_SITES, set).apply()
+    }
+
+    fun isHiddenOn(context: Context, url: String?): Boolean =
+        org.mozilla.fenix.shields.Shields.hostOf(url)?.let { it in hiddenSites(context) } == true
+
     /** "Detect video/audio automatically": shows the floating button. On by default. */
     fun autoDetect(context: Context) =
         PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_AUTO_DETECT, true)
@@ -166,8 +181,8 @@ object MediaGrabber {
         return ytChoices + normal
     }
 
-    /** Shows the media found on the selected tab. [onHide] adds a "Hide icon" button. */
-    fun show(activity: Activity, onHide: (() -> Unit)? = null) {
+    /** Shows the media found on the selected tab. [openDownloadSettings] adds a "Settings" button. */
+    fun show(activity: Activity, openDownloadSettings: (() -> Unit)? = null) {
         val tab = activity.components.core.store.state.selectedTab
         if (tab == null) {
             Toast.makeText(activity, "Open a page with a video first", Toast.LENGTH_SHORT).show()
@@ -199,12 +214,36 @@ object MediaGrabber {
                     }
                     .setNegativeButton(android.R.string.cancel, null)
             }
-            if (onHide != null) builder.setNeutralButton("Hide icon") { _, _ -> onHide() }
+            if (openDownloadSettings != null) {
+                builder.setNeutralButton("Settings") { _, _ ->
+                    openSettings(activity, tab.content.url, openDownloadSettings)
+                }
+            }
             builder.show()
         }
     }
 
     /** Protected streams: control the site's own player only (no download, no link). */
+    /** Download button settings for the current site: hide it here only, or open Settings > Downloads. */
+    private fun openSettings(activity: Activity, pageUrl: String?, openDownloadSettings: () -> Unit) {
+        val host = org.mozilla.fenix.shields.Shields.hostOf(pageUrl) ?: return
+        val hidden = host in hiddenSites(activity)
+        AlertDialog.Builder(activity)
+            .setTitle("Download button")
+            .setMultiChoiceItems(arrayOf("Hide on $host"), booleanArrayOf(hidden)) { dialog, _, checked ->
+                setHiddenOnSite(activity, host, checked)
+                Toast.makeText(
+                    activity,
+                    if (checked) "Hidden on $host · Settings > Downloads to undo" else "Shown on $host",
+                    Toast.LENGTH_SHORT,
+                ).show()
+                dialog.dismiss()
+            }
+            .setNeutralButton("All download settings") { _, _ -> openDownloadSettings() }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
     private fun watchOnly(activity: Activity, keySystem: String) {
         val tab = activity.components.core.store.state.selectedTab
         val media = tab?.mediaSessionState

@@ -123,6 +123,30 @@ class DownloadsSettingsFragment : PreferenceFragmentCompat(), SystemInsetsPadded
         val installed = org.mozilla.fenix.downloads.AionDownloadsBridge.isInstalled(requireContext())
         findPreference<androidx.preference.SwitchPreferenceCompat>(SEPARATE_APP_KEY)?.isChecked = installed
         findPreference<Preference>(org.mozilla.fenix.downloads.AionDownloadsBridge.PREF_KEY)?.isEnabled = installed
+        refreshHiddenSites()
+    }
+
+    /** Aion: sites where the floating download button is hidden. Tap to show it there again. */
+    private fun refreshHiddenSites() {
+        val pref = findPreference<Preference>(HIDDEN_SITES_KEY) ?: return
+        val sites = org.mozilla.fenix.downloads.MediaGrabber.hiddenSites(requireContext()).sorted()
+        pref.summary = if (sites.isEmpty()) "None. Hide it per site from the button's Settings" else sites.joinToString(", ")
+        pref.isEnabled = sites.isNotEmpty()
+        pref.onPreferenceClickListener = Preference.OnPreferenceClickListener {
+            val checked = BooleanArray(sites.size) { true }
+            android.app.AlertDialog.Builder(requireContext())
+                .setTitle("Hide download button on")
+                .setMultiChoiceItems(sites.toTypedArray(), checked) { _, which, isChecked -> checked[which] = isChecked }
+                .setPositiveButton(android.R.string.ok) { _, _ ->
+                    sites.forEachIndexed { i, host ->
+                        if (!checked[i]) org.mozilla.fenix.downloads.MediaGrabber.setHiddenOnSite(requireContext(), host, false)
+                    }
+                    refreshHiddenSites()
+                }
+                .setNegativeButton(android.R.string.cancel, null)
+                .show()
+            true
+        }
     }
 
     private fun setUpDeleteBehaviorPreference() {
@@ -162,5 +186,6 @@ class DownloadsSettingsFragment : PreferenceFragmentCompat(), SystemInsetsPadded
 
     companion object {
         private const val SEPARATE_APP_KEY = "pref_key_aion_downloads_separate_app"
+        private const val HIDDEN_SITES_KEY = "pref_key_aion_media_hidden_sites_list"
     }
 }

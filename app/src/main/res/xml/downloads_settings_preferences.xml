@@ -40,6 +40,12 @@
         app:iconSpaceReserved="false"
         app:allowDividerAbove="true" />
 
+    <Preference
+        android:key="pref_key_aion_media_hidden_sites_list"
+        android:title="Download button hidden on these sites"
+        android:summary="None"
+        app:iconSpaceReserved="false" />
+
     <SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="pref_key_aion_downloads_separate_app"
